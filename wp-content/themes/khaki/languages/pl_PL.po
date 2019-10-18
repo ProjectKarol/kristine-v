@@ -1,0 +1,4643 @@
+# Copyright (C) 2019 Khaki
+# This file is distributed under the same license as the Khaki package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Khaki\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: nK <https://nkdev.info>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: Karol\n"
+"Language: pl_PL\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: dist/khaki/404.php:26, dist/khaki/inc/extras.php:74
+msgid "Error 404"
+msgstr ""
+
+#: dist/khaki/404.php:27
+msgid "Page Not Found"
+msgstr ""
+
+#: dist/khaki/404.php:36
+msgid ""
+"The page you are looking for no longer exists. Perhaps you can return back "
+"to the site’s homepage and see if you can find what you are looking for."
+msgstr ""
+
+#: dist/khaki/404.php:42
+msgid "Go to Homepage"
+msgstr ""
+
+#: dist/khaki/archive-playlist.php:76
+msgid "See More"
+msgstr ""
+
+#: dist/khaki/archive-portfolio.php:183, dist/khaki/archive-portfolio.php:187,
+#: dist/khaki/admin/theme-options.php:4990,
+#: dist/khaki/admin/theme-options.php:9111,
+#: dist/khaki/woocommerce/functions.php:76,
+#: dist/khaki/woocommerce/functions.php:331
+msgid "No Image"
+msgstr ""
+
+#: dist/khaki/archive-portfolio.php:199
+msgid "F j, Y"
+msgstr ""
+
+#: dist/khaki/archive.php:80, dist/khaki/index.php:80,
+#: dist/khaki/search.php:68, dist/khaki/single-playlist.php:69,
+#: dist/khaki/inc/custom-posts.php:33, dist/khaki/inc/extras.php:241,
+#: dist/khaki/template-parts/content-post-list-meta.php:16,
+#: dist/khaki/template-parts/content.php:67,
+#: dist/khaki/template-parts/content.php:99,
+#: dist/khaki/template-parts/header/post.php:99,
+#: dist/khaki/template-parts/header/post.php:133,
+#: dist/khaki/template-parts/portfolio/portfolio-meta.php:11
+msgid "F j, Y "
+msgstr ""
+
+#: dist/khaki/archive.php:82, dist/khaki/index.php:82,
+#: dist/khaki/search.php:70,
+#: dist/khaki/template-parts/content-post-list-meta.php:16,
+#: dist/khaki/template-parts/content.php:71,
+#: dist/khaki/template-parts/content.php:103,
+#: dist/khaki/template-parts/header/post.php:104,
+#: dist/khaki/template-parts/header/post.php:138
+msgid "by"
+msgstr ""
+
+#: dist/khaki/archive.php:115, dist/khaki/archive.php:148,
+#: dist/khaki/index.php:116, dist/khaki/index.php:151,
+#: dist/khaki/search.php:100, dist/khaki/search.php:133
+msgid "Continue Reading"
+msgstr ""
+
+#: dist/khaki/comments.php:30
+msgid "Comments"
+msgstr ""
+
+#: dist/khaki/comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: dist/khaki/comments.php:84
+msgid "Post your comment"
+msgstr ""
+
+#: dist/khaki/comments.php:84
+msgid "Cancel reply"
+msgstr ""
+
+#: dist/khaki/comments.php:90, dist/khaki/bbpress/form-user-edit.php:118,
+#: dist/khaki/bbpress/form-user-register.php:25,
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:108
+msgid "Email"
+msgstr ""
+
+#: dist/khaki/comments.php:95, dist/khaki/bbpress/form-user-edit.php:19
+msgid "Name"
+msgstr ""
+
+#: dist/khaki/comments.php:99, dist/khaki/bbpress/form-user-edit.php:65
+msgid "Website"
+msgstr ""
+
+#: dist/khaki/comments.php:107
+msgid "Comment"
+msgstr ""
+
+#: dist/khaki/comments.php:112, dist/khaki/bbpress/form-reply.php:150,
+#: dist/khaki/bbpress/pagination-replies.php:27
+msgid "Reply"
+msgstr ""
+
+#: dist/khaki/footer.php:186
+msgid "Loop"
+msgstr ""
+
+#: dist/khaki/footer.php:189
+msgid "Shuffle"
+msgstr ""
+
+#: dist/khaki/footer.php:192
+msgid "Show/Hide Playlist"
+msgstr ""
+
+#: dist/khaki/footer.php:195
+msgid "Pin/Unpin Player"
+msgstr ""
+
+#: dist/khaki/footer.php:330
+msgid "Search..."
+msgstr ""
+
+#: dist/khaki/functions.php:53
+msgid "Top Menu"
+msgstr ""
+
+#: dist/khaki/functions.php:54
+msgid "Top Icons Menu"
+msgstr ""
+
+#: dist/khaki/functions.php:55
+msgid "Main Menu"
+msgstr ""
+
+#: dist/khaki/functions.php:56
+msgid "Fullscreen Navigation Menu"
+msgstr ""
+
+#: dist/khaki/functions.php:57
+msgid "Side Navigation Menu"
+msgstr ""
+
+#: dist/khaki/functions.php:169
+msgid "Pages Sidebar"
+msgstr ""
+
+#: dist/khaki/functions.php:171
+msgid "For single pages."
+msgstr ""
+
+#: dist/khaki/functions.php:178
+msgid "Posts Sidebar"
+msgstr ""
+
+#: dist/khaki/functions.php:180
+msgid "For posts pages."
+msgstr ""
+
+#: dist/khaki/functions.php:187
+msgid "First Column Footer"
+msgstr ""
+
+#: dist/khaki/functions.php:189
+msgid "For First Column Footer."
+msgstr ""
+
+#: dist/khaki/functions.php:196
+msgid "Second Column Footer"
+msgstr ""
+
+#: dist/khaki/functions.php:198
+msgid "For Second Column Footer."
+msgstr ""
+
+#: dist/khaki/functions.php:205
+msgid "Three Column Footer"
+msgstr ""
+
+#: dist/khaki/functions.php:207
+msgid "For Three Column Footer."
+msgstr ""
+
+#: dist/khaki/functions.php:214
+msgid "Four Column Footer"
+msgstr ""
+
+#: dist/khaki/functions.php:216
+msgid "For Four Column Footer."
+msgstr ""
+
+#: dist/khaki/functions.php:223
+msgid "Shop Sidebar"
+msgstr ""
+
+#: dist/khaki/functions.php:225
+msgid "For shop pages."
+msgstr ""
+
+#: dist/khaki/functions.php:390
+msgid "Back"
+msgstr ""
+
+#: dist/khaki/functions.php:391
+msgid "Liked!"
+msgstr ""
+
+#: dist/khaki/functions.php:392
+msgid "Disliked!"
+msgstr ""
+
+#: dist/khaki/functions.php:393
+msgid "Days"
+msgstr ""
+
+#: dist/khaki/functions.php:394
+msgid "Hours"
+msgstr ""
+
+#: dist/khaki/functions.php:395
+msgid "Minutes"
+msgstr ""
+
+#: dist/khaki/functions.php:396
+msgid "Seconds"
+msgstr ""
+
+#: dist/khaki/search.php:15, dist/khaki/inc/extras.php:71
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: dist/khaki/searchform.php:10
+msgid "Type something..."
+msgstr ""
+
+#: dist/khaki/single-playlist.php:89,
+#: dist/khaki/template-parts/event/event-status.php:27,
+#: dist/khaki/template-parts/event/event-status.php:44,
+#: dist/khaki/template-parts/header/custom.php:137,
+#: dist/khaki/template-parts/header/custom.php:151
+msgid "Buy"
+msgstr ""
+
+#: dist/khaki/admin/admin-init.php:30
+msgid "Main"
+msgstr ""
+
+#: dist/khaki/admin/admin-init.php:49
+msgid "Barber Shop"
+msgstr ""
+
+#: dist/khaki/admin/admin-init.php:65
+msgid "Quadrocopter"
+msgstr ""
+
+#: dist/khaki/admin/admin-init.php:83
+msgid "Music Label"
+msgstr ""
+
+#: dist/khaki/admin/admin-init.php:102
+msgid "Gaming"
+msgstr ""
+
+#: dist/khaki/admin/admin-init.php:120
+msgid "App Landing"
+msgstr ""
+
+#: dist/khaki/admin/admin-init.php:139
+msgid "Band"
+msgstr ""
+
+#: dist/khaki/admin/admin-init.php:152
+msgid "App Showcase"
+msgstr ""
+
+#: dist/khaki/admin/admin-init.php:165
+msgid "Gallery"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:91
+msgid "Single Page"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:95
+msgid "Single Post"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:103
+msgid "Portfolio"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:110
+msgid "bbPress"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:116,
+#: dist/khaki/admin/theme-options.php:361,
+#: dist/khaki/admin/theme-options.php:8281
+msgid "Archive"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:121
+msgid "Search"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:128
+msgid "Top Navigation"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:133
+msgid "Main Navigation"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:138
+msgid "Side Navigation"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:143
+msgid "Fullscreen Navigation"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:148
+msgid "Mobile Navigation"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:156
+msgid "404 Page"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:161,
+#: dist/khaki/admin/theme-options.php:891
+msgid "Navigation"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:168
+msgid "Styles"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:176,
+#: dist/khaki/admin/theme-options.php:194,
+#: dist/khaki/admin/theme-options.php:228,
+#: dist/khaki/admin/theme-options.php:313,
+#: dist/khaki/admin/theme-options.php:341,
+#: dist/khaki/admin/theme-options.php:389,
+#: dist/khaki/admin/theme-options.php:3361,
+#: dist/khaki/admin/theme-options.php:4915,
+#: dist/khaki/admin/theme-options.php:6389,
+#: dist/khaki/admin/theme-options.php:7085,
+#: dist/khaki/admin/theme-options.php:7694,
+#: dist/khaki/admin/theme-options.php:8261,
+#: dist/khaki/admin/theme-options.php:8813
+msgid "Content"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:181,
+#: dist/khaki/admin/theme-options.php:199,
+#: dist/khaki/admin/theme-options.php:223,
+#: dist/khaki/admin/theme-options.php:295,
+#: dist/khaki/admin/theme-options.php:318,
+#: dist/khaki/admin/theme-options.php:346,
+#: dist/khaki/admin/theme-options.php:379,
+#: dist/khaki/admin/theme-options.php:3429,
+#: dist/khaki/admin/theme-options.php:4352,
+#: dist/khaki/admin/theme-options.php:5428,
+#: dist/khaki/admin/theme-options.php:5635,
+#: dist/khaki/admin/theme-options.php:6457,
+#: dist/khaki/admin/theme-options.php:7153,
+#: dist/khaki/admin/theme-options.php:7762,
+#: dist/khaki/admin/theme-options.php:8266,
+#: dist/khaki/admin/theme-options.php:8881,
+#: dist/khaki/admin/theme-options.php:9196
+msgid "Header"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:186,
+#: dist/khaki/admin/theme-options.php:204,
+#: dist/khaki/admin/theme-options.php:300,
+#: dist/khaki/admin/theme-options.php:333,
+#: dist/khaki/admin/theme-options.php:351,
+#: dist/khaki/admin/theme-options.php:384,
+#: dist/khaki/admin/theme-options.php:8271
+msgid "Breadcrumbs"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:212,
+#: dist/khaki/admin/theme-options.php:3472,
+#: dist/khaki/admin/theme-options.php:4395,
+#: dist/khaki/admin/theme-options.php:5471,
+#: dist/khaki/admin/theme-options.php:6500,
+#: dist/khaki/admin/theme-options.php:7196,
+#: dist/khaki/admin/theme-options.php:7805,
+#: dist/khaki/admin/theme-options.php:8924
+msgid "Background"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:218
+msgid "Page Border"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:234
+msgid "Audio Player"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:242
+msgid "Cookie-Alert"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:251
+msgid "Shortcuts"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:260
+msgid "Sharing Block"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:269
+msgid "Side Buttons"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:278
+msgid "Typography"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:287
+msgid "Footer"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:305,
+#: dist/khaki/admin/theme-options.php:328,
+#: dist/khaki/admin/theme-options.php:356,
+#: dist/khaki/admin/theme-options.php:8276
+msgid "Sidebar"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:323,
+#: dist/khaki/admin/theme-options.php:371,
+#: dist/khaki/admin/theme-options.php:8291
+msgid "Meta"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:366,
+#: dist/khaki/admin/theme-options.php:8286
+msgid "Single"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:400
+msgid "Boxed Overall"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:408
+msgid "Search Autofocus"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:416
+msgid "Posts Like Animation"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:424
+msgid "Scroll To Anchor Speed"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:436
+msgid "Plain Video Icon"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:440,
+#: dist/khaki/admin/theme-options.php:449,
+#: dist/khaki/admin/theme-options.php:1376,
+#: dist/khaki/admin/theme-options.php:1548
+msgid ""
+"Enter icon class. You can use <a href=\"%s\" target=\"_blank\">\"ioicons\"</"
+"a> and <a href=\"%2s\" target=\"_blank\">\"Font Awesome\"</a> icons."
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:445
+msgid "Gif Icon"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:460,
+#: dist/khaki/admin/theme-options.php:502,
+#: dist/khaki/admin/theme-options.php:1008,
+#: dist/khaki/admin/theme-options.php:1175,
+#: dist/khaki/admin/theme-options.php:1450,
+#: dist/khaki/admin/theme-options.php:2536,
+#: dist/khaki/admin/theme-options.php:2903,
+#: dist/khaki/admin/theme-options.php:3422,
+#: dist/khaki/admin/theme-options.php:3489,
+#: dist/khaki/admin/theme-options.php:4211,
+#: dist/khaki/admin/theme-options.php:4345,
+#: dist/khaki/admin/theme-options.php:4412,
+#: dist/khaki/admin/theme-options.php:5421,
+#: dist/khaki/admin/theme-options.php:5488,
+#: dist/khaki/admin/theme-options.php:5947,
+#: dist/khaki/admin/theme-options.php:6450,
+#: dist/khaki/admin/theme-options.php:6643,
+#: dist/khaki/admin/theme-options.php:7146,
+#: dist/khaki/admin/theme-options.php:7216,
+#: dist/khaki/admin/theme-options.php:7755,
+#: dist/khaki/admin/theme-options.php:8301,
+#: dist/khaki/admin/theme-options.php:8874,
+#: dist/khaki/admin/theme-options.php:8946
+msgid "Show"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:468,
+#: dist/khaki/admin/theme-options.php:689,
+#: dist/khaki/admin/theme-options.php:1055,
+#: dist/khaki/admin/theme-options.php:1183,
+#: dist/khaki/admin/theme-options.php:1458
+msgid "Light Color"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:483,
+#: dist/khaki/admin/theme-options.php:709,
+#: dist/khaki/admin/theme-options.php:1085,
+#: dist/khaki/admin/theme-options.php:1244,
+#: dist/khaki/admin/theme-options.php:1489
+msgid "Blur Background"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:511
+msgid "On Left Side"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:526,
+#: dist/khaki/admin/theme-options.php:1115,
+#: dist/khaki/admin/theme-options.php:1229
+msgid "Large Size"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:541,
+#: dist/khaki/admin/theme-options.php:1131,
+#: dist/khaki/admin/theme-options.php:1279,
+#: dist/khaki/admin/theme-options.php:1504
+msgid "Navbar Align"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:547,
+#: dist/khaki/admin/theme-options.php:824,
+#: dist/khaki/admin/theme-options.php:1138,
+#: dist/khaki/admin/theme-options.php:1265,
+#: dist/khaki/admin/theme-options.php:1286,
+#: dist/khaki/admin/theme-options.php:1511,
+#: dist/khaki/admin/theme-options.php:3186,
+#: dist/khaki/admin/theme-options.php:3274,
+#: dist/khaki/admin/theme-options.php:3342,
+#: dist/khaki/admin/theme-options.php:3458,
+#: dist/khaki/admin/theme-options.php:3520,
+#: dist/khaki/admin/theme-options.php:3849,
+#: dist/khaki/admin/theme-options.php:4242,
+#: dist/khaki/admin/theme-options.php:4381,
+#: dist/khaki/admin/theme-options.php:4511,
+#: dist/khaki/admin/theme-options.php:4829,
+#: dist/khaki/admin/theme-options.php:4896,
+#: dist/khaki/admin/theme-options.php:5457,
+#: dist/khaki/admin/theme-options.php:5519,
+#: dist/khaki/admin/theme-options.php:6030,
+#: dist/khaki/admin/theme-options.php:6302,
+#: dist/khaki/admin/theme-options.php:6370,
+#: dist/khaki/admin/theme-options.php:6486,
+#: dist/khaki/admin/theme-options.php:6726,
+#: dist/khaki/admin/theme-options.php:6998,
+#: dist/khaki/admin/theme-options.php:7066,
+#: dist/khaki/admin/theme-options.php:7182,
+#: dist/khaki/admin/theme-options.php:7299,
+#: dist/khaki/admin/theme-options.php:7607,
+#: dist/khaki/admin/theme-options.php:7675,
+#: dist/khaki/admin/theme-options.php:7791,
+#: dist/khaki/admin/theme-options.php:8411,
+#: dist/khaki/admin/theme-options.php:8727,
+#: dist/khaki/admin/theme-options.php:8794,
+#: dist/khaki/admin/theme-options.php:8910,
+#: dist/khaki/admin/theme-options.php:8977
+msgid "Right"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:548,
+#: dist/khaki/admin/theme-options.php:568,
+#: dist/khaki/admin/theme-options.php:823,
+#: dist/khaki/admin/theme-options.php:1137,
+#: dist/khaki/admin/theme-options.php:1158,
+#: dist/khaki/admin/theme-options.php:1285,
+#: dist/khaki/admin/theme-options.php:1306,
+#: dist/khaki/admin/theme-options.php:1510,
+#: dist/khaki/admin/theme-options.php:1531,
+#: dist/khaki/admin/theme-options.php:3184,
+#: dist/khaki/admin/theme-options.php:3272,
+#: dist/khaki/admin/theme-options.php:3340,
+#: dist/khaki/admin/theme-options.php:3459,
+#: dist/khaki/admin/theme-options.php:3847,
+#: dist/khaki/admin/theme-options.php:4382,
+#: dist/khaki/admin/theme-options.php:4509,
+#: dist/khaki/admin/theme-options.php:4827,
+#: dist/khaki/admin/theme-options.php:4894,
+#: dist/khaki/admin/theme-options.php:5188,
+#: dist/khaki/admin/theme-options.php:5458,
+#: dist/khaki/admin/theme-options.php:6028,
+#: dist/khaki/admin/theme-options.php:6300,
+#: dist/khaki/admin/theme-options.php:6368,
+#: dist/khaki/admin/theme-options.php:6487,
+#: dist/khaki/admin/theme-options.php:6724,
+#: dist/khaki/admin/theme-options.php:6996,
+#: dist/khaki/admin/theme-options.php:7064,
+#: dist/khaki/admin/theme-options.php:7183,
+#: dist/khaki/admin/theme-options.php:7297,
+#: dist/khaki/admin/theme-options.php:7605,
+#: dist/khaki/admin/theme-options.php:7673,
+#: dist/khaki/admin/theme-options.php:7792,
+#: dist/khaki/admin/theme-options.php:8409,
+#: dist/khaki/admin/theme-options.php:8725,
+#: dist/khaki/admin/theme-options.php:8792,
+#: dist/khaki/admin/theme-options.php:8911
+msgid "Center"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:549,
+#: dist/khaki/admin/theme-options.php:825,
+#: dist/khaki/admin/theme-options.php:1139,
+#: dist/khaki/admin/theme-options.php:1266,
+#: dist/khaki/admin/theme-options.php:1287,
+#: dist/khaki/admin/theme-options.php:1512,
+#: dist/khaki/admin/theme-options.php:3185,
+#: dist/khaki/admin/theme-options.php:3273,
+#: dist/khaki/admin/theme-options.php:3341,
+#: dist/khaki/admin/theme-options.php:3457,
+#: dist/khaki/admin/theme-options.php:3521,
+#: dist/khaki/admin/theme-options.php:3848,
+#: dist/khaki/admin/theme-options.php:4243,
+#: dist/khaki/admin/theme-options.php:4380,
+#: dist/khaki/admin/theme-options.php:4510,
+#: dist/khaki/admin/theme-options.php:4828,
+#: dist/khaki/admin/theme-options.php:4895,
+#: dist/khaki/admin/theme-options.php:5456,
+#: dist/khaki/admin/theme-options.php:5520,
+#: dist/khaki/admin/theme-options.php:6029,
+#: dist/khaki/admin/theme-options.php:6301,
+#: dist/khaki/admin/theme-options.php:6369,
+#: dist/khaki/admin/theme-options.php:6485,
+#: dist/khaki/admin/theme-options.php:6725,
+#: dist/khaki/admin/theme-options.php:6997,
+#: dist/khaki/admin/theme-options.php:7065,
+#: dist/khaki/admin/theme-options.php:7181,
+#: dist/khaki/admin/theme-options.php:7298,
+#: dist/khaki/admin/theme-options.php:7606,
+#: dist/khaki/admin/theme-options.php:7674,
+#: dist/khaki/admin/theme-options.php:7790,
+#: dist/khaki/admin/theme-options.php:8410,
+#: dist/khaki/admin/theme-options.php:8726,
+#: dist/khaki/admin/theme-options.php:8793,
+#: dist/khaki/admin/theme-options.php:8909,
+#: dist/khaki/admin/theme-options.php:8978
+msgid "Left"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:562,
+#: dist/khaki/admin/theme-options.php:1152,
+#: dist/khaki/admin/theme-options.php:1300,
+#: dist/khaki/admin/theme-options.php:1525
+msgid "Vertical Align"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:567,
+#: dist/khaki/admin/theme-options.php:892,
+#: dist/khaki/admin/theme-options.php:1159,
+#: dist/khaki/admin/theme-options.php:1307,
+#: dist/khaki/admin/theme-options.php:1409,
+#: dist/khaki/admin/theme-options.php:1532,
+#: dist/khaki/admin/theme-options.php:1581,
+#: dist/khaki/admin/theme-options.php:5187
+msgid "Top"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:581
+msgid "Bottom Text"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:596
+msgid "Search Button"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:611
+msgid "Light Search Modal"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:631
+msgid "Sign In Icon"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:634
+msgid "required Login To Ajax plugin"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:647
+msgid "Account Url"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:673
+msgid "Share Button"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:674
+msgid "Required Sociality plugin"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:732
+msgid "Opaque"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:752
+msgid "Transparent"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:772,
+#: dist/khaki/admin/theme-options.php:3557,
+#: dist/khaki/admin/theme-options.php:4279,
+#: dist/khaki/admin/theme-options.php:5556,
+#: dist/khaki/admin/theme-options.php:9013
+msgid "Sticky"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:792
+msgid "Hide on Scroll"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:817
+msgid "Align"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:846,
+#: dist/khaki/admin/theme-options.php:1016,
+#: dist/khaki/admin/theme-options.php:1320,
+#: dist/khaki/admin/theme-options.php:2643
+msgid "Logo"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:861,
+#: dist/khaki/admin/theme-options.php:1031,
+#: dist/khaki/admin/theme-options.php:1335,
+#: dist/khaki/admin/theme-options.php:2664
+msgid "Logo width"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:885
+msgid "Logo Area"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:914
+msgid "Not Use"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:931
+msgid "Insert Logo After Menu Item"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:963
+msgid "Custom Content"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:978
+msgid "Content Position"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:984
+msgid "Before Icons"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:985
+msgid "After Icons"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:986
+msgid "Before Menu"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:987
+msgid "After Menu"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1070,
+#: dist/khaki/admin/theme-options.php:1198,
+#: dist/khaki/admin/theme-options.php:1473
+msgid "Light Icon"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1100,
+#: dist/khaki/admin/theme-options.php:1214
+msgid "Overlay Content"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1200,
+#: dist/khaki/admin/theme-options.php:1475
+msgid ""
+"Work if not set main navigation panel or if offset main navigation panel to "
+"left"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1259,
+#: dist/khaki/admin/theme-options.php:3451,
+#: dist/khaki/admin/theme-options.php:3514,
+#: dist/khaki/admin/theme-options.php:4236,
+#: dist/khaki/admin/theme-options.php:4374,
+#: dist/khaki/admin/theme-options.php:5450,
+#: dist/khaki/admin/theme-options.php:5513,
+#: dist/khaki/admin/theme-options.php:6479,
+#: dist/khaki/admin/theme-options.php:7175,
+#: dist/khaki/admin/theme-options.php:7784,
+#: dist/khaki/admin/theme-options.php:8903,
+#: dist/khaki/admin/theme-options.php:8971
+msgid "Side"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1359,
+#: dist/khaki/admin/theme-options.php:2614,
+#: dist/khaki/admin/theme-options.php:3033,
+#: dist/khaki/admin/theme-options.php:3981,
+#: dist/khaki/admin/theme-options.php:4643,
+#: dist/khaki/admin/theme-options.php:5795,
+#: dist/khaki/admin/theme-options.php:6136,
+#: dist/khaki/admin/theme-options.php:6832,
+#: dist/khaki/admin/theme-options.php:7431,
+#: dist/khaki/admin/theme-options.php:8543
+msgid "Background Image"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1372,
+#: dist/khaki/admin/theme-options.php:1544
+msgid "Social"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1402,
+#: dist/khaki/admin/theme-options.php:1574
+msgid "Target"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1406,
+#: dist/khaki/admin/theme-options.php:1578
+msgid "Blank"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1407,
+#: dist/khaki/admin/theme-options.php:1579
+msgid "Self"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1408,
+#: dist/khaki/admin/theme-options.php:1580
+msgid "Parent"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1414,
+#: dist/khaki/admin/theme-options.php:1586
+msgid "Link URL"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1418,
+#: dist/khaki/admin/theme-options.php:1590
+msgid "Icon"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1432,
+#: dist/khaki/admin/theme-options.php:1604
+msgid "Footer Text"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1623,
+#: dist/khaki/admin/theme-options.php:2544,
+#: dist/khaki/admin/theme-options.php:3572,
+#: dist/khaki/admin/theme-options.php:4294,
+#: dist/khaki/admin/theme-options.php:5571,
+#: dist/khaki/admin/theme-options.php:9028,
+#: dist/khaki/admin/theme-options.php:9127,
+#: dist/khaki/admin/theme-options.php:9222
+msgid "Background Color"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1643
+msgid "Show Border"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1648
+msgid "on"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1649
+msgid "off"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1655
+msgid "Size Border"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1661,
+#: dist/khaki/admin/theme-options.php:2925,
+#: dist/khaki/admin/theme-options.php:3478,
+#: dist/khaki/admin/theme-options.php:3873,
+#: dist/khaki/admin/theme-options.php:4401,
+#: dist/khaki/admin/theme-options.php:4535,
+#: dist/khaki/admin/theme-options.php:5477,
+#: dist/khaki/admin/theme-options.php:6054,
+#: dist/khaki/admin/theme-options.php:6506,
+#: dist/khaki/admin/theme-options.php:6750,
+#: dist/khaki/admin/theme-options.php:7202,
+#: dist/khaki/admin/theme-options.php:7323,
+#: dist/khaki/admin/theme-options.php:7811,
+#: dist/khaki/admin/theme-options.php:8435,
+#: dist/khaki/admin/theme-options.php:8930
+msgid "Default"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1662
+msgid "Mid Size"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1663
+msgid "Small Size"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1676
+msgid "Border color"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1719
+msgid "Enable Shortcuts"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1728
+msgid ""
+"All supported keys you can find here: <a href=\"https://github.com/madrobby/"
+"keymaster#supported-keys\">https://github.com/madrobby/keymaster#supported-"
+"keys</a>"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1739
+msgid "Toggle Share"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1754
+msgid "Show Share"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1769
+msgid "Close Share"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1784
+msgid "Toggle Search"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1799
+msgid "Show Search"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1814
+msgid "Close Search"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1829
+msgid "Close Fullscreen Video"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1844
+msgid "Post Like"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1859
+msgid "Post Dislike"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1874
+msgid "Post Scroll To Comments"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1889
+msgid "Toggle SideLeft Navbar"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1904
+msgid "Open Side Left Navbar"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1919
+msgid "Close Side Left Navbar"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1934
+msgid "Toggle Side Right Navbar"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1949
+msgid "Open Side Right Navbar"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1964
+msgid "Close Side Right Navbar"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1979
+msgid "Toggle Fullscreen Navbar"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:1994
+msgid "Open Fullscreen Navbar"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2009
+msgid "Close Fullscreen Navbar"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2024
+msgid "Close Quick View"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2039,
+#: dist/khaki/admin/theme-options.php:2069
+msgid "Audio Player Pause"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2054
+msgid "Audio Player Play"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2084
+msgid "Audio Player Forward"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2099
+msgid "Audio Player Backward"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2114
+msgid "Audio Player Volume Up"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2129
+msgid "Audio Player Volume Down"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2144
+msgid "Audio Player Mute"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2159
+msgid "Audio Player Loop"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2174
+msgid "Audio Player Snuffle"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2189
+msgid "Audio Player Playlist"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2204
+msgid "Audio Player Pin"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2222
+msgid "Buttons Visible"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2230
+msgid "Light Buttons"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2238
+msgid "Scroll Top Button"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2246,
+#: dist/khaki/admin/theme-options.php:2254
+msgid "Link Button"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2272
+msgid "Body"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2290
+msgid "HTML"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2306
+msgid "Main Titles"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2323
+msgid "H1 Titles"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2344
+msgid "H2 Titles"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2365
+msgid "H3 Titles"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2386
+msgid "H4 Titles"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2407
+msgid "H5 Titles"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2428
+msgid "H6 Titles"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2449
+msgid "Display 1 Titles"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2470
+msgid "Display 2 Titles"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2491
+msgid "Display 3 Titles"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2512
+msgid "Display 4 Titles"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2569
+msgid "Parallax"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2584
+msgid "Parallax Opacity"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2599,
+#: dist/khaki/admin/theme-options.php:2973,
+#: dist/khaki/admin/theme-options.php:3921,
+#: dist/khaki/admin/theme-options.php:4583,
+#: dist/khaki/admin/theme-options.php:6102,
+#: dist/khaki/admin/theme-options.php:6798,
+#: dist/khaki/admin/theme-options.php:7371,
+#: dist/khaki/admin/theme-options.php:8483
+msgid "Parallax Blur"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2628
+msgid "Show Logo"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2694
+msgid "Widget 1 Size"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2713
+msgid "Widget 2 Size"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2732
+msgid "Widget 3 Size"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2751
+msgid "Widget 4 Size"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2770
+msgid "Select Sidebar For 1 Col"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2792
+msgid "Select Sidebar For 2 Col"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2814
+msgid "Select Sidebar For 3 Col"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2836
+msgid "Select Sidebar For 4 Col"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2858
+msgid "Row Items Align Center"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2873
+msgid "Text"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2911,
+#: dist/khaki/admin/theme-options.php:3623,
+#: dist/khaki/admin/theme-options.php:3675,
+#: dist/khaki/admin/theme-options.php:3774,
+#: dist/khaki/admin/theme-options.php:4420,
+#: dist/khaki/admin/theme-options.php:5082,
+#: dist/khaki/admin/theme-options.php:5285,
+#: dist/khaki/admin/theme-options.php:5409,
+#: dist/khaki/admin/theme-options.php:5837,
+#: dist/khaki/admin/theme-options.php:5955,
+#: dist/khaki/admin/theme-options.php:6532,
+#: dist/khaki/admin/theme-options.php:6651,
+#: dist/khaki/admin/theme-options.php:7224,
+#: dist/khaki/admin/theme-options.php:7822,
+#: dist/khaki/admin/theme-options.php:8309,
+#: dist/khaki/admin/theme-options.php:9098,
+#: dist/khaki/admin/theme-options.php:9364
+msgid "Show Title"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2919,
+#: dist/khaki/admin/theme-options.php:3867,
+#: dist/khaki/admin/theme-options.php:4529,
+#: dist/khaki/admin/theme-options.php:6048,
+#: dist/khaki/admin/theme-options.php:6744,
+#: dist/khaki/admin/theme-options.php:7317,
+#: dist/khaki/admin/theme-options.php:8429
+msgid "Size"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2926,
+#: dist/khaki/admin/theme-options.php:3874,
+#: dist/khaki/admin/theme-options.php:4536,
+#: dist/khaki/admin/theme-options.php:6055,
+#: dist/khaki/admin/theme-options.php:6751,
+#: dist/khaki/admin/theme-options.php:7324,
+#: dist/khaki/admin/theme-options.php:8436
+msgid "Small"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2927,
+#: dist/khaki/admin/theme-options.php:3875,
+#: dist/khaki/admin/theme-options.php:4537,
+#: dist/khaki/admin/theme-options.php:6056,
+#: dist/khaki/admin/theme-options.php:6752,
+#: dist/khaki/admin/theme-options.php:7325,
+#: dist/khaki/admin/theme-options.php:8437
+msgid "Middle"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2928,
+#: dist/khaki/admin/theme-options.php:3876,
+#: dist/khaki/admin/theme-options.php:4538,
+#: dist/khaki/admin/theme-options.php:6057,
+#: dist/khaki/admin/theme-options.php:6753,
+#: dist/khaki/admin/theme-options.php:7326,
+#: dist/khaki/admin/theme-options.php:8438
+msgid "Large"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2929,
+#: dist/khaki/admin/theme-options.php:3877,
+#: dist/khaki/admin/theme-options.php:4539,
+#: dist/khaki/admin/theme-options.php:6058,
+#: dist/khaki/admin/theme-options.php:6754,
+#: dist/khaki/admin/theme-options.php:7327,
+#: dist/khaki/admin/theme-options.php:8439
+msgid "X-Large"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2930,
+#: dist/khaki/admin/theme-options.php:3878,
+#: dist/khaki/admin/theme-options.php:4540,
+#: dist/khaki/admin/theme-options.php:6059,
+#: dist/khaki/admin/theme-options.php:6755,
+#: dist/khaki/admin/theme-options.php:7328,
+#: dist/khaki/admin/theme-options.php:8440
+msgid "Full"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2943,
+#: dist/khaki/admin/theme-options.php:3891,
+#: dist/khaki/admin/theme-options.php:4553,
+#: dist/khaki/admin/theme-options.php:6072,
+#: dist/khaki/admin/theme-options.php:6768,
+#: dist/khaki/admin/theme-options.php:7341,
+#: dist/khaki/admin/theme-options.php:8453
+msgid "Parallax for Background Image"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2958,
+#: dist/khaki/admin/theme-options.php:3906,
+#: dist/khaki/admin/theme-options.php:4568,
+#: dist/khaki/admin/theme-options.php:6087,
+#: dist/khaki/admin/theme-options.php:6783,
+#: dist/khaki/admin/theme-options.php:7356,
+#: dist/khaki/admin/theme-options.php:8468
+msgid "Opacity Parallax Content"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2988,
+#: dist/khaki/admin/theme-options.php:3936,
+#: dist/khaki/admin/theme-options.php:4598,
+#: dist/khaki/admin/theme-options.php:6117,
+#: dist/khaki/admin/theme-options.php:6813,
+#: dist/khaki/admin/theme-options.php:7386,
+#: dist/khaki/admin/theme-options.php:8498
+msgid "Select Type of Background"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2993,
+#: dist/khaki/admin/theme-options.php:3941,
+#: dist/khaki/admin/theme-options.php:4603,
+#: dist/khaki/admin/theme-options.php:6122,
+#: dist/khaki/admin/theme-options.php:6818,
+#: dist/khaki/admin/theme-options.php:7391,
+#: dist/khaki/admin/theme-options.php:8503
+msgid "Image"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:2994,
+#: dist/khaki/admin/theme-options.php:3942,
+#: dist/khaki/admin/theme-options.php:4604,
+#: dist/khaki/admin/theme-options.php:6123,
+#: dist/khaki/admin/theme-options.php:6819,
+#: dist/khaki/admin/theme-options.php:7392,
+#: dist/khaki/admin/theme-options.php:8504
+msgid "Video"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3007,
+#: dist/khaki/admin/theme-options.php:3955,
+#: dist/khaki/admin/theme-options.php:4617,
+#: dist/khaki/admin/theme-options.php:7405,
+#: dist/khaki/admin/theme-options.php:8517
+msgid "Select Type of Background Image"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3013,
+#: dist/khaki/admin/theme-options.php:3961,
+#: dist/khaki/admin/theme-options.php:4623,
+#: dist/khaki/admin/theme-options.php:7411,
+#: dist/khaki/admin/theme-options.php:8523
+msgid "False"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3014,
+#: dist/khaki/admin/theme-options.php:3962,
+#: dist/khaki/admin/theme-options.php:4624,
+#: dist/khaki/admin/theme-options.php:7412,
+#: dist/khaki/admin/theme-options.php:8524
+msgid "Featured"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3015,
+#: dist/khaki/admin/theme-options.php:3720,
+#: dist/khaki/admin/theme-options.php:3963,
+#: dist/khaki/admin/theme-options.php:4625,
+#: dist/khaki/admin/theme-options.php:5366,
+#: dist/khaki/admin/theme-options.php:7413,
+#: dist/khaki/admin/theme-options.php:8525,
+#: dist/khaki/admin/theme-options.php:9320
+msgid "Custom"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3058,
+#: dist/khaki/admin/theme-options.php:4006,
+#: dist/khaki/admin/theme-options.php:4683,
+#: dist/khaki/admin/theme-options.php:6156,
+#: dist/khaki/admin/theme-options.php:6852,
+#: dist/khaki/admin/theme-options.php:7456,
+#: dist/khaki/admin/theme-options.php:8583
+msgid "Opacity"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3088,
+#: dist/khaki/admin/theme-options.php:4036,
+#: dist/khaki/admin/theme-options.php:4713,
+#: dist/khaki/admin/theme-options.php:6186,
+#: dist/khaki/admin/theme-options.php:6882,
+#: dist/khaki/admin/theme-options.php:7491,
+#: dist/khaki/admin/theme-options.php:8613
+msgid "Background Video Link"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3091,
+#: dist/khaki/admin/theme-options.php:3379,
+#: dist/khaki/admin/theme-options.php:4039,
+#: dist/khaki/admin/theme-options.php:4716,
+#: dist/khaki/admin/theme-options.php:4933,
+#: dist/khaki/admin/theme-options.php:6189,
+#: dist/khaki/admin/theme-options.php:6406,
+#: dist/khaki/admin/theme-options.php:6885,
+#: dist/khaki/admin/theme-options.php:7102,
+#: dist/khaki/admin/theme-options.php:7494,
+#: dist/khaki/admin/theme-options.php:7712,
+#: dist/khaki/admin/theme-options.php:8616,
+#: dist/khaki/admin/theme-options.php:8831
+msgid "Supported YouTube and Vimeo video link"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3109,
+#: dist/khaki/admin/theme-options.php:4057,
+#: dist/khaki/admin/theme-options.php:4734,
+#: dist/khaki/admin/theme-options.php:6207,
+#: dist/khaki/admin/theme-options.php:6903,
+#: dist/khaki/admin/theme-options.php:7512,
+#: dist/khaki/admin/theme-options.php:8634
+msgid "Background Video Poster"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3129,
+#: dist/khaki/admin/theme-options.php:3782,
+#: dist/khaki/admin/theme-options.php:4443,
+#: dist/khaki/admin/theme-options.php:5963,
+#: dist/khaki/admin/theme-options.php:6659,
+#: dist/khaki/admin/theme-options.php:7232,
+#: dist/khaki/admin/theme-options.php:8344
+msgid "Title Padding Bottom"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3149,
+#: dist/khaki/admin/theme-options.php:3807,
+#: dist/khaki/admin/theme-options.php:4469,
+#: dist/khaki/admin/theme-options.php:5988,
+#: dist/khaki/admin/theme-options.php:6684,
+#: dist/khaki/admin/theme-options.php:7257,
+#: dist/khaki/admin/theme-options.php:8369
+msgid "Title Looks Like"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3155,
+#: dist/khaki/admin/theme-options.php:3813,
+#: dist/khaki/admin/theme-options.php:4475,
+#: dist/khaki/admin/theme-options.php:5994,
+#: dist/khaki/admin/theme-options.php:6690,
+#: dist/khaki/admin/theme-options.php:7263,
+#: dist/khaki/admin/theme-options.php:8375
+msgid "disabled"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3156,
+#: dist/khaki/admin/theme-options.php:3814,
+#: dist/khaki/admin/theme-options.php:4476,
+#: dist/khaki/admin/theme-options.php:5995,
+#: dist/khaki/admin/theme-options.php:6691,
+#: dist/khaki/admin/theme-options.php:7264,
+#: dist/khaki/admin/theme-options.php:8376
+msgid "h1"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3157,
+#: dist/khaki/admin/theme-options.php:3815,
+#: dist/khaki/admin/theme-options.php:4477,
+#: dist/khaki/admin/theme-options.php:5996,
+#: dist/khaki/admin/theme-options.php:6692,
+#: dist/khaki/admin/theme-options.php:7265,
+#: dist/khaki/admin/theme-options.php:8377
+msgid "h2"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3158,
+#: dist/khaki/admin/theme-options.php:3816,
+#: dist/khaki/admin/theme-options.php:4478,
+#: dist/khaki/admin/theme-options.php:5997,
+#: dist/khaki/admin/theme-options.php:6693,
+#: dist/khaki/admin/theme-options.php:7266,
+#: dist/khaki/admin/theme-options.php:8378
+msgid "h3"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3159,
+#: dist/khaki/admin/theme-options.php:3817,
+#: dist/khaki/admin/theme-options.php:4479,
+#: dist/khaki/admin/theme-options.php:5998,
+#: dist/khaki/admin/theme-options.php:6694,
+#: dist/khaki/admin/theme-options.php:7267,
+#: dist/khaki/admin/theme-options.php:8379
+msgid "h4"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3160,
+#: dist/khaki/admin/theme-options.php:3818,
+#: dist/khaki/admin/theme-options.php:4480,
+#: dist/khaki/admin/theme-options.php:5999,
+#: dist/khaki/admin/theme-options.php:6695,
+#: dist/khaki/admin/theme-options.php:7268,
+#: dist/khaki/admin/theme-options.php:8380
+msgid "h5"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3161,
+#: dist/khaki/admin/theme-options.php:3819,
+#: dist/khaki/admin/theme-options.php:4481,
+#: dist/khaki/admin/theme-options.php:6000,
+#: dist/khaki/admin/theme-options.php:6696,
+#: dist/khaki/admin/theme-options.php:7269,
+#: dist/khaki/admin/theme-options.php:8381
+msgid "h6"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3162,
+#: dist/khaki/admin/theme-options.php:3820,
+#: dist/khaki/admin/theme-options.php:4482,
+#: dist/khaki/admin/theme-options.php:6001,
+#: dist/khaki/admin/theme-options.php:6697,
+#: dist/khaki/admin/theme-options.php:7270,
+#: dist/khaki/admin/theme-options.php:8382
+msgid "display-1"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3163,
+#: dist/khaki/admin/theme-options.php:3821,
+#: dist/khaki/admin/theme-options.php:4483,
+#: dist/khaki/admin/theme-options.php:6002,
+#: dist/khaki/admin/theme-options.php:6698,
+#: dist/khaki/admin/theme-options.php:7271,
+#: dist/khaki/admin/theme-options.php:8383
+msgid "display-2"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3164,
+#: dist/khaki/admin/theme-options.php:3822,
+#: dist/khaki/admin/theme-options.php:4484,
+#: dist/khaki/admin/theme-options.php:6003,
+#: dist/khaki/admin/theme-options.php:6699,
+#: dist/khaki/admin/theme-options.php:7272,
+#: dist/khaki/admin/theme-options.php:8384
+msgid "display-3"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3165,
+#: dist/khaki/admin/theme-options.php:3823,
+#: dist/khaki/admin/theme-options.php:4485,
+#: dist/khaki/admin/theme-options.php:6004,
+#: dist/khaki/admin/theme-options.php:6700,
+#: dist/khaki/admin/theme-options.php:7273,
+#: dist/khaki/admin/theme-options.php:8385
+msgid "display-4"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3178,
+#: dist/khaki/admin/theme-options.php:3841,
+#: dist/khaki/admin/theme-options.php:4503,
+#: dist/khaki/admin/theme-options.php:6022,
+#: dist/khaki/admin/theme-options.php:6718,
+#: dist/khaki/admin/theme-options.php:7291,
+#: dist/khaki/admin/theme-options.php:8403
+msgid "Title Align"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3199,
+#: dist/khaki/admin/theme-options.php:4754,
+#: dist/khaki/admin/theme-options.php:6227,
+#: dist/khaki/admin/theme-options.php:6923,
+#: dist/khaki/admin/theme-options.php:7532,
+#: dist/khaki/admin/theme-options.php:8654
+msgid "Back Title"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3214,
+#: dist/khaki/admin/theme-options.php:4769,
+#: dist/khaki/admin/theme-options.php:6242,
+#: dist/khaki/admin/theme-options.php:6938,
+#: dist/khaki/admin/theme-options.php:7547,
+#: dist/khaki/admin/theme-options.php:8669
+msgid "Back Title Opacity"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3240,
+#: dist/khaki/admin/theme-options.php:4795,
+#: dist/khaki/admin/theme-options.php:6268,
+#: dist/khaki/admin/theme-options.php:6964,
+#: dist/khaki/admin/theme-options.php:7573,
+#: dist/khaki/admin/theme-options.php:8694
+msgid "Back Title Padding Bottom"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3266,
+#: dist/khaki/admin/theme-options.php:4821,
+#: dist/khaki/admin/theme-options.php:6294,
+#: dist/khaki/admin/theme-options.php:6990,
+#: dist/khaki/admin/theme-options.php:7599,
+#: dist/khaki/admin/theme-options.php:8719
+msgid "Back Title Align"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3293,
+#: dist/khaki/admin/theme-options.php:4848,
+#: dist/khaki/admin/theme-options.php:6321,
+#: dist/khaki/admin/theme-options.php:7017,
+#: dist/khaki/admin/theme-options.php:7626,
+#: dist/khaki/admin/theme-options.php:8746
+msgid "Sub Title"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3308,
+#: dist/khaki/admin/theme-options.php:4863,
+#: dist/khaki/admin/theme-options.php:6336,
+#: dist/khaki/admin/theme-options.php:7032,
+#: dist/khaki/admin/theme-options.php:7641,
+#: dist/khaki/admin/theme-options.php:8761
+msgid "Sub Title Padding Bottom"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3334,
+#: dist/khaki/admin/theme-options.php:4888,
+#: dist/khaki/admin/theme-options.php:6362,
+#: dist/khaki/admin/theme-options.php:7058,
+#: dist/khaki/admin/theme-options.php:7667,
+#: dist/khaki/admin/theme-options.php:8786
+msgid "Sub Title Align"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3376,
+#: dist/khaki/admin/theme-options.php:4930,
+#: dist/khaki/admin/theme-options.php:6404,
+#: dist/khaki/admin/theme-options.php:7100,
+#: dist/khaki/admin/theme-options.php:7709,
+#: dist/khaki/admin/theme-options.php:8828
+msgid "Video Link"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3392,
+#: dist/khaki/admin/theme-options.php:4946,
+#: dist/khaki/admin/theme-options.php:6420,
+#: dist/khaki/admin/theme-options.php:7116,
+#: dist/khaki/admin/theme-options.php:7725,
+#: dist/khaki/admin/theme-options.php:8844
+msgid "Icon Video Style"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3398,
+#: dist/khaki/admin/theme-options.php:3479,
+#: dist/khaki/admin/theme-options.php:4402,
+#: dist/khaki/admin/theme-options.php:4952,
+#: dist/khaki/admin/theme-options.php:5478,
+#: dist/khaki/admin/theme-options.php:6426,
+#: dist/khaki/admin/theme-options.php:6507,
+#: dist/khaki/admin/theme-options.php:7122,
+#: dist/khaki/admin/theme-options.php:7203,
+#: dist/khaki/admin/theme-options.php:7731,
+#: dist/khaki/admin/theme-options.php:7812,
+#: dist/khaki/admin/theme-options.php:8850,
+#: dist/khaki/admin/theme-options.php:8931
+msgid "Black"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3399,
+#: dist/khaki/admin/theme-options.php:4953,
+#: dist/khaki/admin/theme-options.php:6427,
+#: dist/khaki/admin/theme-options.php:7123,
+#: dist/khaki/admin/theme-options.php:7732,
+#: dist/khaki/admin/theme-options.php:8851
+msgid "Black 2"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3400,
+#: dist/khaki/admin/theme-options.php:4954,
+#: dist/khaki/admin/theme-options.php:6428,
+#: dist/khaki/admin/theme-options.php:7124,
+#: dist/khaki/admin/theme-options.php:7733,
+#: dist/khaki/admin/theme-options.php:8852
+msgid "Light"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3401,
+#: dist/khaki/admin/theme-options.php:4955,
+#: dist/khaki/admin/theme-options.php:6429,
+#: dist/khaki/admin/theme-options.php:7125,
+#: dist/khaki/admin/theme-options.php:7734,
+#: dist/khaki/admin/theme-options.php:8853
+msgid "Light 2"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3428,
+#: dist/khaki/admin/theme-options.php:3667,
+#: dist/khaki/admin/theme-options.php:3718,
+#: dist/khaki/admin/theme-options.php:4351,
+#: dist/khaki/admin/theme-options.php:5019,
+#: dist/khaki/admin/theme-options.php:5364,
+#: dist/khaki/admin/theme-options.php:5427,
+#: dist/khaki/admin/theme-options.php:5893,
+#: dist/khaki/admin/theme-options.php:6456,
+#: dist/khaki/admin/theme-options.php:6588,
+#: dist/khaki/admin/theme-options.php:7152,
+#: dist/khaki/admin/theme-options.php:7761,
+#: dist/khaki/admin/theme-options.php:8880,
+#: dist/khaki/admin/theme-options.php:9318
+msgid "Disabled"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3430,
+#: dist/khaki/admin/theme-options.php:4353,
+#: dist/khaki/admin/theme-options.php:5429,
+#: dist/khaki/admin/theme-options.php:5636,
+#: dist/khaki/admin/theme-options.php:6458,
+#: dist/khaki/admin/theme-options.php:7154,
+#: dist/khaki/admin/theme-options.php:7763,
+#: dist/khaki/admin/theme-options.php:8882,
+#: dist/khaki/admin/theme-options.php:9197
+msgid "Under Header"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3436,
+#: dist/khaki/admin/theme-options.php:4359,
+#: dist/khaki/admin/theme-options.php:5435,
+#: dist/khaki/admin/theme-options.php:6464,
+#: dist/khaki/admin/theme-options.php:7160,
+#: dist/khaki/admin/theme-options.php:7769,
+#: dist/khaki/admin/theme-options.php:8888
+msgid "Homepage Title"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3480,
+#: dist/khaki/admin/theme-options.php:4403,
+#: dist/khaki/admin/theme-options.php:5479,
+#: dist/khaki/admin/theme-options.php:6508,
+#: dist/khaki/admin/theme-options.php:7204,
+#: dist/khaki/admin/theme-options.php:7813,
+#: dist/khaki/admin/theme-options.php:8932
+msgid "White"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3497,
+#: dist/khaki/admin/theme-options.php:4219,
+#: dist/khaki/admin/theme-options.php:5496,
+#: dist/khaki/admin/theme-options.php:8954,
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3522,
+#: dist/khaki/admin/theme-options.php:4244,
+#: dist/khaki/admin/theme-options.php:5521,
+#: dist/khaki/admin/theme-options.php:8979
+msgid "Both"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3535,
+#: dist/khaki/admin/theme-options.php:4257,
+#: dist/khaki/admin/theme-options.php:5534,
+#: dist/khaki/admin/theme-options.php:8992
+msgid "Type additional"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3596,
+#: dist/khaki/admin/theme-options.php:4318,
+#: dist/khaki/admin/theme-options.php:5595,
+#: dist/khaki/admin/theme-options.php:9052,
+#: dist/khaki/admin/theme-options.php:9144,
+#: dist/khaki/admin/theme-options.php:9239
+msgid "Text Color"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3633,
+#: dist/khaki/admin/theme-options.php:5293,
+#: dist/khaki/admin/theme-options.php:5845,
+#: dist/khaki/admin/theme-options.php:9090
+msgid "Boxed Content"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3641
+msgid "Top and Bottom paddings"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3660,
+#: dist/khaki/admin/theme-options.php:6540,
+#: dist/khaki/admin/theme-options.php:7830
+msgid "Boxed"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3666
+msgid "Enabled"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3668
+msgid "Narrow"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3683,
+#: dist/khaki/admin/theme-options.php:5304,
+#: dist/khaki/admin/theme-options.php:9258
+msgid "Adjacent Pagination"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3691,
+#: dist/khaki/admin/theme-options.php:5312,
+#: dist/khaki/admin/theme-options.php:9266
+msgid "Style Pagination"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3697,
+#: dist/khaki/admin/theme-options.php:5318,
+#: dist/khaki/admin/theme-options.php:9272
+msgid "Fixed"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3698,
+#: dist/khaki/admin/theme-options.php:5319,
+#: dist/khaki/admin/theme-options.php:9273
+msgid "Fixed 2"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3699,
+#: dist/khaki/admin/theme-options.php:5320,
+#: dist/khaki/admin/theme-options.php:9274
+msgid "Static"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3712,
+#: dist/khaki/admin/theme-options.php:5358,
+#: dist/khaki/admin/theme-options.php:9312
+msgid "Grid Link"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3719,
+#: dist/khaki/admin/theme-options.php:5365
+msgid "Posts List"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3738,
+#: dist/khaki/admin/theme-options.php:5384,
+#: dist/khaki/admin/theme-options.php:9338,
+#: dist/khaki/admin/menu/backend-walker.php:257
+msgid "URL"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3766
+msgid "Show header"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:4080,
+#: dist/khaki/admin/theme-options.php:5622,
+#: dist/khaki/admin/theme-options.php:9183
+msgid "Show Meta"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:4088
+msgid "Show Date, Author, Category block"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:4096
+msgid "Block Area"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:4102
+msgid "Header. Middle"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:4103
+msgid "Header. Bottom"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:4104
+msgid "Content. Top"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:4105
+msgid "After Format Content"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:4118
+msgid "Show Meta Published"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:4133
+msgid "Show Meta Categories"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:4148
+msgid "Show Meta Author"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:4163
+msgid "Show Meta Comments"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:4178
+msgid "Show Meta Like"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:4193
+msgid "Show Meta Views"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:4428,
+#: dist/khaki/admin/theme-options.php:8324
+msgid "Custom Archive Title"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:4668,
+#: dist/khaki/admin/theme-options.php:8568
+msgid "Background Archive Image"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:4976
+msgid "Select Portfolios List Style"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:4982,
+#: dist/khaki/admin/theme-options.php:5861,
+#: dist/khaki/admin/theme-options.php:6556
+msgid "List"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:4983
+msgid "List 2"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:4984
+msgid "Masonry"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:4998,
+#: dist/khaki/admin/theme-options.php:5822,
+#: dist/khaki/admin/theme-options.php:6517,
+#: dist/khaki/admin/theme-options.php:9163
+msgid "Pagination"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5004,
+#: dist/khaki/admin/theme-options.php:5828,
+#: dist/khaki/admin/theme-options.php:6523,
+#: dist/khaki/admin/theme-options.php:9169
+msgid "No Pagination"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5005,
+#: dist/khaki/admin/theme-options.php:5829,
+#: dist/khaki/admin/theme-options.php:6524,
+#: dist/khaki/admin/theme-options.php:9170
+msgid "Simple Pagination"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5006,
+#: dist/khaki/admin/theme-options.php:5830,
+#: dist/khaki/admin/theme-options.php:6525,
+#: dist/khaki/admin/theme-options.php:9171
+msgid "Load More button"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5007,
+#: dist/khaki/admin/theme-options.php:5831,
+#: dist/khaki/admin/theme-options.php:6526,
+#: dist/khaki/admin/theme-options.php:9172
+msgid "Infinite Scroll"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5013,
+#: dist/khaki/admin/theme-options.php:5887,
+#: dist/khaki/admin/theme-options.php:6582
+msgid "Preview Description Type"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5020,
+#: dist/khaki/admin/theme-options.php:5894,
+#: dist/khaki/admin/theme-options.php:6589
+msgid "Excerpt"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5021,
+#: dist/khaki/admin/theme-options.php:5895,
+#: dist/khaki/admin/theme-options.php:6590
+msgid "Use more tag"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5034
+msgid "Trim to a value"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5059
+msgid "Show Date"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5067
+msgid "Show Likes"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5097
+msgid "Show Comments Count"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5112
+msgid "Show Eye Icon"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5127
+msgid "Show Link Icon"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5142
+msgid "Use Global Link"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5157
+msgid "Effect Style"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5163
+msgid "Style 1"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5164
+msgid "Style 1-a"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5165
+msgid "Style 2"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5166
+msgid "Style 3"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5167
+msgid "Style 4"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5168
+msgid "Style 5"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5181
+msgid "Content Vertical Align"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5189
+msgid "Bottom"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5202
+msgid "No Hover Effect"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5217
+msgid "Hovered"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5232
+msgid "Use Filter"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5247
+msgid "Cross"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5262,
+#: dist/khaki/admin/theme-options.php:5867,
+#: dist/khaki/admin/theme-options.php:6562
+msgid "Number of Columns"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5333,
+#: dist/khaki/admin/theme-options.php:9287
+msgid "Pagination Position"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5339,
+#: dist/khaki/admin/theme-options.php:5637,
+#: dist/khaki/admin/theme-options.php:9198,
+#: dist/khaki/admin/theme-options.php:9293
+msgid "Before Content"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5340,
+#: dist/khaki/admin/theme-options.php:5638,
+#: dist/khaki/admin/theme-options.php:9199,
+#: dist/khaki/admin/theme-options.php:9294
+msgid "After Content"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5630,
+#: dist/khaki/admin/theme-options.php:9191
+msgid "Position"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5663, dist/khaki/inc/extras.php:384
+msgid "Instagram"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5672
+msgid "Get Access Token"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5680,
+#: dist/khaki/admin/theme-options.php:5760
+msgid "Access Token"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5688
+msgid "User ID"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5689
+msgid ""
+"Note that User ID corresponds to your Instagram <strong>account ID (eg: "
+"4385108)</strong>, not your username. <br><br> If you do not know your "
+"account ID, Google <a href=\"%s\" target=\"_blank\">\"What is my Instagram "
+"account ID?\"</a>. There are several free tools available online that will "
+"look it up for you."
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5697,
+#: dist/khaki/admin/theme-options.php:5776
+msgid "Cache Time [seconds]"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5728, dist/khaki/inc/extras.php:382,
+#: dist/khaki/inc/extras.php:410
+msgid "Twitter"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5736
+msgid ""
+"How to create Twitter API key you can read here (or use google): <a href=\"%s"
+"\" target=\"_blank\">%s</a>"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5744
+msgid "Consumer Key"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5752
+msgid "Consumer Secret"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5768
+msgid "Access Token Secret"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5784
+msgid "Show Replies"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5803
+msgid "Show Text"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5811
+msgid "Show Home Button"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5854,
+#: dist/khaki/admin/theme-options.php:6549
+msgid "Blog List Style"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5860,
+#: dist/khaki/admin/theme-options.php:6555
+msgid "Classic"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5901,
+#: dist/khaki/admin/theme-options.php:6596
+msgid "Cut in the number of words"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5921,
+#: dist/khaki/admin/theme-options.php:6616
+msgid "Simple View"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:5936,
+#: dist/khaki/admin/theme-options.php:6631
+msgid "Show Continue Button"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:7838
+msgid "Tinymce"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:7849
+msgid "Required Plugin"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:7850
+msgid "To generate custom styles you should install nK Themes Helper Plugin"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:7858
+msgid "Required Theme License Activation"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:7859
+msgid ""
+"Custom styles can only be used in the activated theme. Please visit the <a "
+"href=\"%s\" target=\"_blank\">theme dashboard page</a> and activate the "
+"theme."
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:7867
+msgid "Required PHP version 5.4 or higher"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:7876
+msgid "Enable Custom Styles"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:7886
+msgid "Main Color 1"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:7901
+msgid "Main Color 2"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:7916
+msgid "Main Color 3"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:7931
+msgid "Main Color 4"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:7946
+msgid "Main Color 5"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:7963
+msgid "Color Primary"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:7978
+msgid "Color Success"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:7993
+msgid "Color Info"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:8008
+msgid "Color Warning"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:8023
+msgid "Color Danger"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:8038
+msgid "Color Dark"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:8053
+msgid "Color Gray"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:8068
+msgid "Page Border Size"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:8088
+msgid "Page Border Size Middle"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:8108
+msgid "Page Border Size Small"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:8128
+msgid "Share Place Height"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:8148
+msgid "Audio Player Height"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:8168
+msgid "Audio Player Playlist Height"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:8188
+msgid "Audio Player Mobile Height"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:8209
+msgid "Show Audio Player"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:8222
+msgid "Disable"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:8230
+msgid "Select Active Playlist"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:9081
+msgid "Small Cart Show"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:9119,
+#: dist/khaki/admin/theme-options.php:9214
+msgid "Inverse"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:9319
+msgid "Product List"
+msgstr ""
+
+#: dist/khaki/bbpress/content-statistics.php:17
+msgid "Registered Users"
+msgstr ""
+
+#: dist/khaki/bbpress/content-statistics.php:22
+msgid "Forums"
+msgstr ""
+
+#: dist/khaki/bbpress/content-statistics.php:27
+msgid "Topics"
+msgstr ""
+
+#: dist/khaki/bbpress/content-statistics.php:32
+msgid "Replies"
+msgstr ""
+
+#: dist/khaki/bbpress/content-statistics.php:37
+msgid "Topic Tags"
+msgstr ""
+
+#: dist/khaki/bbpress/content-statistics.php:44
+msgid "Empty Topic Tags"
+msgstr ""
+
+#: dist/khaki/bbpress/content-statistics.php:53
+msgid "Hidden Topics"
+msgstr ""
+
+#: dist/khaki/bbpress/content-statistics.php:64
+msgid "Hidden Replies"
+msgstr ""
+
+#: dist/khaki/bbpress/feedback-logged-in.php:11
+msgid "You are already logged in."
+msgstr ""
+
+#: dist/khaki/bbpress/feedback-no-access.php:13
+msgid "Private"
+msgstr ""
+
+#: dist/khaki/bbpress/feedback-no-access.php:15
+msgid "You do not have permission to view this forum."
+msgstr ""
+
+#: dist/khaki/bbpress/feedback-no-forums.php:11
+msgid "Oh bother! No forums were found here!"
+msgstr ""
+
+#: dist/khaki/bbpress/feedback-no-replies.php:11
+msgid "Oh bother! No replies were found here!"
+msgstr ""
+
+#: dist/khaki/bbpress/feedback-no-search.php:11
+msgid "Oh bother! No search results were found here!"
+msgstr ""
+
+#: dist/khaki/bbpress/feedback-no-topics.php:11
+msgid "Oh bother! No topics were found here!"
+msgstr ""
+
+#: dist/khaki/bbpress/form-anonymous.php:17
+msgid "Author Information"
+msgstr ""
+
+#: dist/khaki/bbpress/form-anonymous.php:17
+msgid "Your information:"
+msgstr ""
+
+#: dist/khaki/bbpress/form-anonymous.php:22
+msgid "Name (required):"
+msgstr ""
+
+#: dist/khaki/bbpress/form-anonymous.php:27
+msgid "Mail (will not be published) (required):"
+msgstr ""
+
+#: dist/khaki/bbpress/form-anonymous.php:33
+msgid "Website:"
+msgstr ""
+
+#: dist/khaki/bbpress/form-forum.php:33, dist/khaki/bbpress/form-topic.php:24
+msgid "Now Editing &ldquo;%s&rdquo;"
+msgstr ""
+
+#: dist/khaki/bbpress/form-forum.php:35
+msgid "Create New Forum in &ldquo;%s&rdquo;"
+msgstr ""
+
+#: dist/khaki/bbpress/form-forum.php:35
+msgid "Create New Forum"
+msgstr ""
+
+#: dist/khaki/bbpress/form-forum.php:45
+msgid ""
+"This forum is closed to new content, however your account still allows you "
+"to do so."
+msgstr ""
+
+#: dist/khaki/bbpress/form-forum.php:53, dist/khaki/bbpress/form-reply.php:42,
+#: dist/khaki/bbpress/form-topic.php:59
+msgid "Your account has the ability to post unrestricted HTML content."
+msgstr ""
+
+#: dist/khaki/bbpress/form-forum.php:65
+msgid "Forum Name (Maximum Length: %d):"
+msgstr ""
+
+#: dist/khaki/bbpress/form-forum.php:79, dist/khaki/bbpress/form-reply.php:59,
+#: dist/khaki/bbpress/form-topic.php:88
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes:"
+msgstr ""
+
+#: dist/khaki/bbpress/form-forum.php:88
+msgid "Forum Type:"
+msgstr ""
+
+#: dist/khaki/bbpress/form-forum.php:97
+msgid "Status:"
+msgstr ""
+
+#: dist/khaki/bbpress/form-forum.php:106
+msgid "Visibility:"
+msgstr ""
+
+#: dist/khaki/bbpress/form-forum.php:114
+msgid "Parent Forum:"
+msgstr ""
+
+#: dist/khaki/bbpress/form-forum.php:119
+msgid "(No Parent)"
+msgstr ""
+
+#: dist/khaki/bbpress/form-forum.php:134,
+#: dist/khaki/bbpress/form-reply-move.php:71,
+#: dist/khaki/bbpress/form-topic-merge.php:94,
+#: dist/khaki/bbpress/form-topic-split.php:98,
+#: dist/khaki/bbpress/form-topic.php:212, dist/khaki/inc/extras.php:489,
+#: dist/khaki/woocommerce/single-product-reviews.php:131,
+#: dist/khaki/woocommerce/single-product-reviews.php:135
+msgid "Submit"
+msgstr ""
+
+#: dist/khaki/bbpress/form-forum.php:158
+msgid "The forum &#8216;%s&#8217; is closed to new content."
+msgstr ""
+
+#: dist/khaki/bbpress/form-forum.php:166
+msgid "You cannot create new forums."
+msgstr ""
+
+#: dist/khaki/bbpress/form-forum.php:166
+msgid "You must be logged in to create new forums."
+msgstr ""
+
+#: dist/khaki/bbpress/form-protected.php:15
+msgid "Protected"
+msgstr ""
+
+#: dist/khaki/bbpress/form-reply-move.php:22
+msgid "Move reply \"%s\""
+msgstr ""
+
+#: dist/khaki/bbpress/form-reply-move.php:27
+msgid ""
+"You can either make this reply a new topic with a new title, or merge it "
+"into an existing topic."
+msgstr ""
+
+#: dist/khaki/bbpress/form-reply-move.php:31
+msgid ""
+"If you choose an existing topic, replies will be ordered by the time and "
+"date they were created."
+msgstr ""
+
+#: dist/khaki/bbpress/form-reply-move.php:35
+msgid "Move Method"
+msgstr ""
+
+#: dist/khaki/bbpress/form-reply-move.php:39,
+#: dist/khaki/bbpress/form-topic-split.php:41
+msgid "New topic in <strong>%s</strong> titled:"
+msgstr ""
+
+#: dist/khaki/bbpress/form-reply-move.php:40
+msgid "Moved: %s"
+msgstr ""
+
+#: dist/khaki/bbpress/form-reply-move.php:47,
+#: dist/khaki/bbpress/form-topic-split.php:49
+msgid "Use an existing topic in this forum:"
+msgstr ""
+
+#: dist/khaki/bbpress/form-reply-move.php:66,
+#: dist/khaki/bbpress/form-topic-merge.php:89,
+#: dist/khaki/bbpress/form-topic-split.php:93
+msgid "<strong>WARNING:</strong> This process cannot be undone."
+msgstr ""
+
+#: dist/khaki/bbpress/form-reply-move.php:86
+msgid "You do not have the permissions to edit this reply!"
+msgstr ""
+
+#: dist/khaki/bbpress/form-reply-move.php:86
+msgid "You cannot edit this reply."
+msgstr ""
+
+#: dist/khaki/bbpress/form-reply.php:22
+msgid "Reply To: %s"
+msgstr ""
+
+#: dist/khaki/bbpress/form-reply.php:36
+msgid ""
+"This topic is marked as closed to new replies, however your posting "
+"capabilities still allow you to do so."
+msgstr ""
+
+#: dist/khaki/bbpress/form-reply.php:73
+msgid "Tags:"
+msgstr ""
+
+#: dist/khaki/bbpress/form-reply.php:95, dist/khaki/bbpress/form-topic.php:161
+msgid "Notify the author of follow-up replies via email"
+msgstr ""
+
+#: dist/khaki/bbpress/form-reply.php:100, dist/khaki/bbpress/form-topic.php:166
+msgid "Notify me of follow-up replies via email"
+msgstr ""
+
+#: dist/khaki/bbpress/form-reply.php:121, dist/khaki/bbpress/form-topic.php:185
+msgid "Keep a log of this edit:"
+msgstr ""
+
+#: dist/khaki/bbpress/form-reply.php:130, dist/khaki/bbpress/form-topic.php:194
+msgid "Optional reason for editing:"
+msgstr ""
+
+#: dist/khaki/bbpress/form-reply.php:175
+msgid "The topic &#8216;%s&#8217; is closed to new replies."
+msgstr ""
+
+#: dist/khaki/bbpress/form-reply.php:183, dist/khaki/bbpress/form-topic.php:237
+msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
+msgstr ""
+
+#: dist/khaki/bbpress/form-reply.php:191
+msgid "You cannot reply to this topic."
+msgstr ""
+
+#: dist/khaki/bbpress/form-reply.php:191
+msgid "You must be logged in to reply to this topic."
+msgstr ""
+
+#: dist/khaki/bbpress/form-search.php:15
+msgid "Search for:"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-merge.php:24
+msgid "Merge topic \"%s\""
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-merge.php:29
+msgid ""
+"Select the topic to merge this one into. The destination topic will remain "
+"the lead topic, and this one will change into a reply."
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-merge.php:30
+msgid ""
+"To keep this topic as the lead, go to the other topic and use the merge tool "
+"from there instead."
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-merge.php:34
+msgid ""
+"All replies within both topics will be merged chronologically. The order of "
+"the merged replies is based on the time and date they were posted. If the "
+"destination topic was created after this one, it's post date will be updated "
+"to second earlier than this one."
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-merge.php:38
+msgid "Destination"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-merge.php:42
+msgid "Merge with this topic:"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-merge.php:56
+msgid "There are no other topics in this forum to merge with."
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-merge.php:64,
+#: dist/khaki/bbpress/form-topic-split.php:68
+msgid "Topic Extras"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-merge.php:71
+msgid "Merge topic subscribers"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-merge.php:76
+msgid "Merge topic favoriters"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-merge.php:81
+msgid "Merge topic tags"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-merge.php:109,
+#: dist/khaki/bbpress/form-topic-split.php:113
+msgid "You do not have the permissions to edit this topic!"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-merge.php:109,
+#: dist/khaki/bbpress/form-topic-split.php:113
+msgid "You cannot edit this topic."
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-split.php:24
+msgid "Split topic \"%s\""
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-split.php:29
+msgid ""
+"When you split a topic, you are slicing it in half starting with the reply "
+"you just selected. Choose to use that reply as a new topic with a new title, "
+"or merge those replies into an existing topic."
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-split.php:33
+msgid ""
+"If you use the existing topic option, replies within both topics will be "
+"merged chronologically. The order of the merged replies is based on the time "
+"and date they were posted."
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-split.php:37
+msgid "Split Method"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-split.php:42
+msgid "Split: %s"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-split.php:75
+msgid "Copy subscribers to the new topic"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-split.php:80
+msgid "Copy favoriters to the new topic"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-split.php:85
+msgid "Copy topic tags to the new topic"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-tag.php:18
+msgid "Manage Tag: \"%s\""
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-tag.php:22
+msgid "Rename"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-tag.php:25
+msgid "Leave the slug empty to have one automatically generated."
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-tag.php:29
+msgid ""
+"Changing the slug affects its permalink. Any links to the old slug will stop "
+"working."
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-tag.php:35
+msgid "Name:"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-tag.php:40
+msgid "Slug:"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-tag.php:45,
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2808,
+#: dist/khaki/woocommerce/cart/shipping-calculator.php:101
+msgid "Update"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-tag.php:59,
+#: dist/khaki/bbpress/form-topic-tag.php:73
+msgid "Merge"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-tag.php:62
+msgid "Merging tags together cannot be undone."
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-tag.php:68
+msgid "Existing tag:"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-tag.php:73
+msgid ""
+"Are you sure you want to merge the \"%s\" tag into the tag you specified?"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-tag.php:88,
+#: dist/khaki/bbpress/form-topic-tag.php:101
+msgid "Delete"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-tag.php:91
+msgid "This does not delete your topics. Only the tag itself is deleted."
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-tag.php:94
+msgid "Deleting a tag cannot be undone."
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-tag.php:95
+msgid "Any links to this tag will no longer function."
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic-tag.php:101
+msgid ""
+"Are you sure you want to delete the \"%s\" tag? This is permanent and cannot "
+"be undone."
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic.php:26
+msgid "Create New Topic in &ldquo;%s&rdquo;"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic.php:26
+msgid "Create New Topic"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic.php:53
+msgid ""
+"This forum is marked as closed to new topics, however your posting "
+"capabilities still allow you to do so."
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic.php:76
+msgid "Topic Title (Maximum Length: %d):"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic.php:102
+msgid "Topic Tags:"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic.php:115
+msgid "Forum:"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic.php:118
+msgid "(No Forum)"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic.php:131
+msgid "Topic Type:"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic.php:141
+msgid "Topic Status:"
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic.php:245
+msgid "You cannot create new topics."
+msgstr ""
+
+#: dist/khaki/bbpress/form-topic.php:245
+msgid "You must be logged in to create new topics."
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-edit.php:11
+msgid "Edit Profile"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-edit.php:26
+msgid "First Name"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-edit.php:33
+msgid "Last Name"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-edit.php:39
+msgid "Nickname"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-edit.php:44
+msgid "Display Name"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-edit.php:55,
+#: dist/khaki/bbpress/form-user-edit.php:58
+msgid "Contact Info"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-edit.php:84,
+#: dist/khaki/bbpress/form-user-edit.php:88
+msgid "About Yourself"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-edit.php:84,
+#: dist/khaki/bbpress/form-user-edit.php:88
+msgid "About the user"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-edit.php:94
+msgid "Biographical Info"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-edit.php:100,
+#: dist/khaki/bbpress/form-user-edit.php:103
+msgid "Account"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-edit.php:108,
+#: dist/khaki/bbpress/form-user-login.php:17,
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:102
+msgid "Username"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-edit.php:130
+msgid ""
+"There is a pending email address change to <code>%1$s</code>. <a href=\"%2$s"
+"\">Cancel</a>"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-edit.php:139
+msgid "New Password"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-edit.php:141
+msgid ""
+"Your password should be at least ten characters long. Use upper and lower "
+"case letters, numbers, and symbols to make it even stronger."
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-edit.php:145
+msgid ""
+"If you would like to change the password type a new one. Otherwise leave "
+"this blank."
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-edit.php:151
+msgid "Type your new password again."
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-edit.php:165,
+#: dist/khaki/bbpress/form-user-edit.php:169
+msgid "User Role"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-edit.php:176
+msgid "Network Role"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-edit.php:181
+msgid "Grant this user super admin privileges for the Network."
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-edit.php:201
+msgid "Update Profile"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-edit.php:201
+msgid "Update User"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-login.php:14,
+#: dist/khaki/bbpress/form-user-login.php:30,
+#: dist/khaki/woocommerce/myaccount/form-login.php:52,
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:41,
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:41
+msgid "Log In"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-login.php:21, dist/khaki/inc/extras.php:489,
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:26
+msgid "Password"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-login.php:25
+msgid "Keep me signed in"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-lost-pass.php:14,
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:68
+msgid "Lost Password"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-lost-pass.php:16,
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:18
+msgid "Username or Email"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-lost-pass.php:19
+msgid "Reset My Password"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-register.php:14
+msgid "Create an Account"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-register.php:17
+msgid "Your username must be unique, and cannot be changed later."
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-register.php:18
+msgid ""
+"We use your email address to email you a secure password and verify your "
+"account."
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-register.php:28,
+#: dist/khaki/woocommerce/myaccount/form-login.php:74,
+#: dist/khaki/woocommerce/myaccount/form-login.php:109,
+#: dist/khaki/woocommerce/myaccount/form-login.php:110,
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:56,
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:97,
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:118,
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:118
+msgid "Register"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-roles.php:13
+msgid "Blog Role"
+msgstr ""
+
+#: dist/khaki/bbpress/form-user-roles.php:20
+msgid "Forum Role"
+msgstr ""
+
+#: dist/khaki/bbpress/functions.php:126
+msgid "User updated."
+msgstr ""
+
+#: dist/khaki/bbpress/functions.php:138
+msgid "You have super admin privileges."
+msgstr ""
+
+#: dist/khaki/bbpress/functions.php:138
+msgid "This user has super admin privileges."
+msgstr ""
+
+#: dist/khaki/bbpress/functions.php:276
+msgid "Member since: %s"
+msgstr ""
+
+#: dist/khaki/bbpress/loop-search-forum.php:18
+msgid "Last updated %s"
+msgstr ""
+
+#: dist/khaki/bbpress/loop-search-forum.php:28
+msgid "Forum: "
+msgstr ""
+
+#: dist/khaki/bbpress/loop-search-reply.php:26
+msgid "In reply to: "
+msgstr ""
+
+#: dist/khaki/bbpress/loop-search-topic.php:26
+msgid "Topic: "
+msgstr ""
+
+#: dist/khaki/bbpress/loop-search-topic.php:32
+msgid "in group forum "
+msgstr ""
+
+#: dist/khaki/bbpress/loop-search-topic.php:36
+msgid "in forum "
+msgstr ""
+
+#: dist/khaki/bbpress/loop-single-forum.php:63,
+#: dist/khaki/bbpress/loop-single-topic.php:91
+msgid "%1$s post%2$s"
+msgstr ""
+
+#: dist/khaki/bbpress/loop-single-forum.php:63,
+#: dist/khaki/bbpress/loop-single-topic.php:85,
+#: dist/khaki/bbpress/loop-single-topic.php:91
+msgid "s"
+msgstr ""
+
+#: dist/khaki/bbpress/loop-single-forum.php:65
+msgid "%1$s repl%2$s"
+msgstr ""
+
+#: dist/khaki/bbpress/loop-single-forum.php:65
+msgid "ies"
+msgstr ""
+
+#: dist/khaki/bbpress/loop-single-forum.php:65
+msgid "y"
+msgstr ""
+
+#: dist/khaki/bbpress/loop-single-reply.php:73
+msgid "in reply to: "
+msgstr ""
+
+#: dist/khaki/bbpress/loop-single-topic.php:35
+msgid "Started by %1$s on %2$s"
+msgstr ""
+
+#: dist/khaki/bbpress/loop-single-topic.php:44
+msgid "in: <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: dist/khaki/bbpress/loop-single-topic.php:85
+msgid "%1$s voice%2$s"
+msgstr ""
+
+#: dist/khaki/bbpress/loop-single-topic.php:114
+msgid "No Replies"
+msgstr ""
+
+#: dist/khaki/bbpress/pagination-topics.php:27
+msgid "New Topic"
+msgstr ""
+
+#: dist/khaki/bbpress/user-details.php:21
+msgid "%s's Profile"
+msgstr ""
+
+#: dist/khaki/bbpress/user-details.php:22,
+#: dist/khaki/bbpress/user-profile.php:16,
+#: dist/khaki/plugins/login-with-ajax/default/widget_in.php:24,
+#: dist/khaki/plugins/login-with-ajax/default/widget_in.php:28
+msgid "Profile"
+msgstr ""
+
+#: dist/khaki/bbpress/user-details.php:27
+msgid "%s's Topics Started"
+msgstr ""
+
+#: dist/khaki/bbpress/user-details.php:27
+msgid "Topics Started"
+msgstr ""
+
+#: dist/khaki/bbpress/user-details.php:32
+msgid "%s's Replies Created"
+msgstr ""
+
+#: dist/khaki/bbpress/user-details.php:32
+msgid "Replies Created"
+msgstr ""
+
+#: dist/khaki/bbpress/user-details.php:38
+msgid "%s's Favorites"
+msgstr ""
+
+#: dist/khaki/bbpress/user-details.php:38,
+#: dist/khaki/bbpress/user-favorites.php:16
+msgid "Favorites"
+msgstr ""
+
+#: dist/khaki/bbpress/user-details.php:47
+msgid "%s's Subscriptions"
+msgstr ""
+
+#: dist/khaki/bbpress/user-details.php:47
+msgid "Subscriptions"
+msgstr ""
+
+#: dist/khaki/bbpress/user-details.php:53
+msgid "Edit %s's Profile"
+msgstr ""
+
+#: dist/khaki/bbpress/user-details.php:53,
+#: dist/khaki/inc/template-tags.php:168,
+#: dist/khaki/admin/menu/backend-walker.php:248
+msgid "Edit"
+msgstr ""
+
+#: dist/khaki/bbpress/user-favorites.php:28
+msgid "You currently have no favorite topics."
+msgstr ""
+
+#: dist/khaki/bbpress/user-favorites.php:28
+msgid "This user has no favorite topics."
+msgstr ""
+
+#: dist/khaki/bbpress/user-profile.php:34
+msgid "Forum Role: %s"
+msgstr ""
+
+#: dist/khaki/bbpress/user-profile.php:35
+msgid "Topics Started: %s"
+msgstr ""
+
+#: dist/khaki/bbpress/user-profile.php:36
+msgid "Replies Created: %s"
+msgstr ""
+
+#: dist/khaki/bbpress/user-replies-created.php:19
+msgid "Forum Replies Created"
+msgstr ""
+
+#: dist/khaki/bbpress/user-replies-created.php:31
+msgid "You have not replied to any topics."
+msgstr ""
+
+#: dist/khaki/bbpress/user-replies-created.php:31
+msgid "This user has not replied to any topics."
+msgstr ""
+
+#: dist/khaki/bbpress/user-subscriptions.php:27
+msgid "You are not currently subscribed to any forums."
+msgstr ""
+
+#: dist/khaki/bbpress/user-subscriptions.php:27
+msgid "This user is not currently subscribed to any forums."
+msgstr ""
+
+#: dist/khaki/bbpress/user-subscriptions.php:33
+msgid "Subscribed Topics"
+msgstr ""
+
+#: dist/khaki/bbpress/user-subscriptions.php:46
+msgid "You are not currently subscribed to any topics."
+msgstr ""
+
+#: dist/khaki/bbpress/user-subscriptions.php:46
+msgid "This user is not currently subscribed to any topics."
+msgstr ""
+
+#: dist/khaki/bbpress/user-topics-created.php:16
+msgid "Forum Topics Started"
+msgstr ""
+
+#: dist/khaki/bbpress/user-topics-created.php:28
+msgid "You have not created any topics."
+msgstr ""
+
+#: dist/khaki/bbpress/user-topics-created.php:28
+msgid "This user has not created any topics."
+msgstr ""
+
+#: dist/khaki/inc/comments-walker.php:72
+msgid "%s Reply"
+msgstr ""
+
+#: dist/khaki/inc/comments-walker.php:86
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: dist/khaki/inc/custom-posts.php:40
+msgid "More Info"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:69
+msgid "Archive by Category \"%s\""
+msgstr ""
+
+#: dist/khaki/inc/extras.php:70
+msgid "Archive for \"%s\""
+msgstr ""
+
+#: dist/khaki/inc/extras.php:72
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: dist/khaki/inc/extras.php:73
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:225
+msgid "Page"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:377
+msgid "Twitch"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:378
+msgid "Vimeo"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:379
+msgid "Youtube"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:380, dist/khaki/inc/extras.php:408
+msgid "Facebook"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:381
+msgid "Google-plus"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:383, dist/khaki/inc/extras.php:411
+msgid "Pinterest"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:385, dist/khaki/inc/extras.php:412
+msgid "Linkedin"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:386
+msgid "Behance"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:387
+msgid "Odnoklassniki"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:388
+msgid "Skype"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:389, dist/khaki/inc/extras.php:413
+msgid "VK"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:390
+msgid "Steam"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:391
+msgid "Bitbucket"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:392
+msgid "Dropbox"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:393
+msgid "Dribbble"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:394
+msgid "Deviantart"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:395
+msgid "Flickr"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:396
+msgid "Foursquare"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:397
+msgid "Github"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:398
+msgid "Medium"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:399
+msgid "PayPal"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:400
+msgid "Reddit"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:401
+msgid "SoundCloud"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:402
+msgid "Slack"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:403
+msgid "Tumblr"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:404
+msgid "WordPress"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:409
+msgid "Google Plus"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:473
+msgid ""
+"This content is password protected. To view it please enter your password "
+"below"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:475
+msgid "Enter you password"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:476
+msgctxt "post password form"
+msgid "Enter"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:478
+msgid "Enter"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:489
+msgid "To view this protected post, enter the password below"
+msgstr ""
+
+#: dist/khaki/inc/extras.php:632
+msgid "Cart"
+msgstr "Koszyk"
+
+#: dist/khaki/inc/extras.php:656, dist/khaki/woocommerce/cart/cart.php:119,
+#: dist/khaki/woocommerce/cart/mini-cart.php:63,
+#: dist/khaki/woocommerce/cart/mini-cart.php:132
+msgid "Remove this item"
+msgstr "Usuń ten produkt"
+
+#: dist/khaki/inc/extras.php:687, dist/khaki/woocommerce/cart/mini-cart.php:163
+msgid "Empty Cart"
+msgstr "Opróżnij koszyk"
+
+#: dist/khaki/inc/extras.php:694, dist/khaki/woocommerce/cart/mini-cart.php:169
+msgid "Your cart is empty!"
+msgstr "Twój koszyk jest pusty!"
+
+#: dist/khaki/inc/extras.php:700, dist/khaki/woocommerce/cart/mini-cart.php:175
+msgid "View Cart"
+msgstr "Zobacz koszyk"
+
+#: dist/khaki/inc/extras.php:703, dist/khaki/woocommerce/cart/mini-cart.php:178
+msgid "Checkout"
+msgstr "Zamówienie"
+
+#: dist/khaki/inc/template-tags.php:90
+msgctxt "post date"
+msgid "%s %s"
+msgstr ""
+
+#: dist/khaki/inc/template-tags.php:93
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: dist/khaki/inc/template-tags.php:119
+msgid "%s"
+msgstr ""
+
+#: dist/khaki/inc/template-tags.php:157
+msgid "Read More"
+msgstr "Czytaj więcej"
+
+#: dist/khaki/template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: dist/khaki/template-parts/content-none.php:21
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: dist/khaki/template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: dist/khaki/template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: dist/khaki/template-parts/content-page.php:28,
+#: dist/khaki/template-parts/content.php:127
+msgid "Pages:"
+msgstr ""
+
+#: dist/khaki/template-parts/content-post-list-category.php:6,
+#: dist/khaki/template-parts/content.php:78,
+#: dist/khaki/template-parts/content.php:110,
+#: dist/khaki/template-parts/header/post.php:111,
+#: dist/khaki/template-parts/header/post.php:145
+msgid "In "
+msgstr ""
+
+#: dist/khaki/template-parts/content.php:133
+msgid "Next page"
+msgstr ""
+
+#: dist/khaki/template-parts/content.php:134
+msgid "Previous page"
+msgstr ""
+
+#: dist/khaki/template-parts/pagination-fixed.php:65,
+#: dist/khaki/template-parts/pagination-fixed.php:120,
+#: dist/khaki/woocommerce/content-product.php:75,
+#: dist/khaki/woocommerce/loop-product.php:58
+msgid "In"
+msgid_plural "In"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: dist/khaki/woocommerce/functions.php:211
+msgid "In %s"
+msgstr ""
+
+#: dist/khaki/woocommerce/functions.php:223
+msgid "Place Order"
+msgstr "Złóż zamówienie"
+
+#: dist/khaki/woocommerce/single-product-reviews.php:80
+msgid "%s Star"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:101
+msgid "Add a Review"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:111
+msgid "Rate&hellip;"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:112
+msgid "Perfect"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:113
+msgid "Good"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:114
+msgid "Average"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:115
+msgid "Not that bad"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:116
+msgid "Very poor"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:123
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:127
+msgid "Name *"
+msgstr "Imię*"
+
+#: dist/khaki/woocommerce/single-product-reviews.php:128
+msgid "Email *"
+msgstr "Email*"
+
+#: dist/khaki/woocommerce/single-product-reviews.php:140
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:151
+msgid "Your Review *"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:160
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:232
+msgid "There are no reviews yet."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:341
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:347
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:353
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:359
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:365
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:371
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:393,
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:912,
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2618,
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:394,
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:395,
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:399
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:1019,
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:1206,
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2067
+msgid "TGMPA v%s"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2427
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2473
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2477
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2481
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2485
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2688
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2693
+msgid "Update %2$s"
+msgstr "Uaktualnij %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2699
+msgid "Activate %2$s"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3583
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3586
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3588
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3594
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3594,
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3594,
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3597
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3602
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3605
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:27
+msgid "Mega Menu"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:34
+msgid "Column Labels"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:49
+msgid "Mega Menu Background Image"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:53
+msgid "Remove this image"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:216
+msgid "sub item"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:231
+msgid "Move up"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:244
+msgid "Move down"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:248
+msgid "Edit menu item"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:266
+msgid "Navigation Label"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:274
+msgid "Title Attribute"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:285
+msgid "Open link in a new tab"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:290
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:298
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:306
+msgid "Description"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:311
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:318
+msgid "Move"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:320
+msgid "Up one"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:322
+msgid "Down one"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:326
+msgid "To the top"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:345
+msgid "Remove"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:348
+msgid "Cancel"
+msgstr ""
+
+#: dist/khaki/plugins/sociality/sharing-buttons.php:23
+msgid "Share page on Facebook"
+msgstr ""
+
+#: dist/khaki/plugins/sociality/sharing-buttons.php:31
+msgid "Share page on Twitter"
+msgstr ""
+
+#: dist/khaki/plugins/sociality/sharing-buttons.php:39
+msgid "Share page on Google+"
+msgstr ""
+
+#: dist/khaki/plugins/sociality/sharing-buttons.php:48
+msgid "Share page on Pinterest"
+msgstr ""
+
+#: dist/khaki/plugins/sociality/sharing-buttons.php:56
+msgid "Share page on VK"
+msgstr ""
+
+#: dist/khaki/template-parts/event/event-status.php:16,
+#: dist/khaki/template-parts/header/custom.php:129
+msgid "Sold Out"
+msgstr ""
+
+#: dist/khaki/template-parts/event/event-status.php:33,
+#: dist/khaki/template-parts/header/custom.php:143
+msgid "j F Y"
+msgstr ""
+
+#: dist/khaki/template-parts/event/event-status.php:52,
+#: dist/khaki/template-parts/header/custom.php:159
+msgid "Buy on"
+msgstr "Kup teraz"
+
+#: dist/khaki/template-parts/header/search.php:78
+msgid "Search Results for: \"%s\" Query"
+msgstr ""
+
+#: dist/khaki/woocommerce/cart/cart-empty.php:31
+msgid "Return To Shop"
+msgstr "Wróć do sklepu"
+
+#. translators: $s shipping destination.
+#: dist/khaki/woocommerce/cart/cart-shipping.php:54,
+#: dist/khaki/woocommerce/cart/cart-shipping.php:109
+msgid "Shipping to %s."
+msgstr "Wysyłka do: %s."
+
+#: dist/khaki/woocommerce/cart/cart-shipping.php:55,
+#: dist/khaki/woocommerce/cart/cart-shipping.php:110
+msgid "Change address"
+msgstr "Zmień adres"
+
+#: dist/khaki/woocommerce/cart/cart-shipping.php:57,
+#: dist/khaki/woocommerce/cart/cart-shipping.php:112
+msgid "Shipping options will be updated during checkout."
+msgstr "Metody wysyłki zostaną zaktualizowane podczas składania zamówienia."
+
+#: dist/khaki/woocommerce/cart/cart-shipping.php:64,
+#: dist/khaki/woocommerce/cart/cart-shipping.php:119
+msgid "Enter your address to view shipping options."
+msgstr "Wpisz pełny adres, aby zobaczyć koszty wysyłki."
+
+#: dist/khaki/woocommerce/cart/cart-shipping.php:66,
+#: dist/khaki/woocommerce/cart/cart-shipping.php:121
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+"Brak dostępnych metod wysyłki. Sprawdź swój adres lub skontaktuj się z nami, "
+"jeżeli potrzebujesz pomocy."
+
+#: dist/khaki/woocommerce/cart/cart-shipping.php:69,
+#: dist/khaki/woocommerce/cart/cart-shipping.php:124
+msgid "No shipping options were found for %s."
+msgstr "Nie znaleziono żadnych opcji wysyłki dla %s."
+
+#: dist/khaki/woocommerce/cart/cart-shipping.php:70,
+#: dist/khaki/woocommerce/cart/cart-shipping.php:125
+msgid "Enter a different address"
+msgstr "Wpisz inny adres"
+
+#: dist/khaki/woocommerce/cart/cart-totals.php:33
+msgid "Calculate Shipping"
+msgstr "Oblicz koszty wysyłki"
+
+#: dist/khaki/woocommerce/cart/cart-totals.php:44,
+#: dist/khaki/woocommerce/cart/cart-totals.php:45
+msgid "Shipping"
+msgstr "Wysyłka"
+
+#: dist/khaki/woocommerce/cart/cart-totals.php:55
+msgid "Cart Totals"
+msgstr "Podsumowanie koszyka"
+
+#: dist/khaki/woocommerce/cart/cart-totals.php:60,
+#: dist/khaki/woocommerce/cart/cart-totals.php:61,
+#: dist/khaki/woocommerce/cart/mini-cart.php:90,
+#: dist/khaki/woocommerce/checkout/review-order.php:58
+msgid "Subtotal"
+msgstr "Kwota"
+
+#: dist/khaki/woocommerce/cart/cart-totals.php:83
+msgid "estimated for %s"
+msgstr "szacunkowo %s"
+
+#: dist/khaki/woocommerce/cart/cart-totals.php:104,
+#: dist/khaki/woocommerce/cart/cart-totals.php:105,
+#: dist/khaki/woocommerce/cart/cart.php:35,
+#: dist/khaki/woocommerce/cart/cart.php:108,
+#: dist/khaki/woocommerce/checkout/review-order.php:27,
+#: dist/khaki/woocommerce/checkout/review-order.php:105
+msgid "Total"
+msgstr "Suma:"
+
+#: dist/khaki/woocommerce/cart/cart.php:31,
+#: dist/khaki/woocommerce/cart/cart.php:32,
+#: dist/khaki/woocommerce/cart/cart.php:64,
+#: dist/khaki/woocommerce/checkout/form-pay.php:29,
+#: dist/khaki/woocommerce/checkout/review-order.php:26
+msgid "Product"
+msgstr "Produkt"
+
+#: dist/khaki/woocommerce/cart/cart.php:33,
+#: dist/khaki/woocommerce/cart/cart.php:84
+msgid "Price"
+msgstr "Cena"
+
+#: dist/khaki/woocommerce/cart/cart.php:34,
+#: dist/khaki/woocommerce/cart/cart.php:90
+msgid "Quantity"
+msgstr "Ilość"
+
+#: dist/khaki/woocommerce/cart/cart.php:79
+msgid "Available on backorder"
+msgstr "Produkt dostępny na zamówienie"
+
+#: dist/khaki/woocommerce/cart/cart.php:139,
+#: dist/khaki/woocommerce/checkout/form-coupon.php:35
+msgid "Coupon code"
+msgstr "Kod kuponu"
+
+#: dist/khaki/woocommerce/cart/cart.php:140,
+#: dist/khaki/woocommerce/checkout/form-coupon.php:39,
+#: dist/khaki/woocommerce/checkout/form-coupon.php:40
+msgid "Apply Coupon"
+msgstr "Zastosuj kupon"
+
+#: dist/khaki/woocommerce/cart/cart.php:148,
+#: dist/khaki/woocommerce/cart/cart.php:149
+msgid "Update Cart"
+msgstr "Zaktualizuj koszyk"
+
+#: dist/khaki/woocommerce/cart/cross-sells.php:33
+msgid "You may be interested in&hellip;"
+msgstr "Możesz być zainteresowany także&hellip;"
+
+#: dist/khaki/woocommerce/cart/mini-cart.php:84
+msgid "No products in the cart."
+msgstr "Brak produktów w koszyku."
+
+#: dist/khaki/woocommerce/cart/proceed-to-checkout-button.php:26
+msgid "Proceed to Checkout"
+msgstr "Przejdź do kasy"
+
+#: dist/khaki/woocommerce/cart/shipping-calculator.php:27
+msgid "Calculate shipping"
+msgstr "Oblicz koszty wysyłki"
+
+#: dist/khaki/woocommerce/cart/shipping-calculator.php:33
+msgid "Select a country&hellip;"
+msgstr "Wybierz kraj&hellip;"
+
+#: dist/khaki/woocommerce/cart/shipping-calculator.php:55,
+#: dist/khaki/woocommerce/cart/shipping-calculator.php:62,
+#: dist/khaki/woocommerce/cart/shipping-calculator.php:74
+msgid "State / county"
+msgstr "Stan/Okręg lub kod stanu"
+
+#: dist/khaki/woocommerce/cart/shipping-calculator.php:63
+msgid "Select an option&hellip;"
+msgstr "Wybierz opcję&hellip;"
+
+#: dist/khaki/woocommerce/cart/shipping-calculator.php:85
+msgid "City"
+msgstr "Miasto"
+
+#: dist/khaki/woocommerce/cart/shipping-calculator.php:93
+msgid "Postcode / ZIP"
+msgstr "Kod pocztowy"
+
+#: dist/khaki/woocommerce/checkout/form-billing.php:29
+msgid "Billing &amp; Shipping"
+msgstr "Płatność i wysyłka"
+
+#: dist/khaki/woocommerce/checkout/form-billing.php:33
+msgid "Billing Details"
+msgstr "Szczegóły płatności"
+
+#: dist/khaki/woocommerce/checkout/form-billing.php:86
+msgid "Create an account?"
+msgstr "Stworzyć konto?"
+
+#: dist/khaki/woocommerce/checkout/form-billing.php:97
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+"Stwórz konto wpisując informacje poniżej. Jeśli jesteś powracającym klientem "
+"zaloguj się na górze strony."
+
+#: dist/khaki/woocommerce/checkout/form-checkout.php:27
+msgid "You must be logged in to checkout."
+msgstr "Musisz się zalogować, aby zrealizować zamówienie."
+
+#: dist/khaki/woocommerce/checkout/form-checkout.php:53
+msgid "Your order"
+msgstr "Twoje zamówienie"
+
+#: dist/khaki/woocommerce/checkout/form-coupon.php:28
+msgid "Have a coupon?"
+msgstr "Masz kupon?"
+
+#: dist/khaki/woocommerce/checkout/form-coupon.php:28
+msgid "Click here to enter your code"
+msgstr "Kliknij tutaj, aby dodać kod"
+
+#: dist/khaki/woocommerce/checkout/form-coupon.php:33
+msgid "If you have a coupon code, please apply it below."
+msgstr ""
+
+#: dist/khaki/woocommerce/checkout/form-pay.php:30
+msgid "Qty"
+msgstr "Ilość"
+
+#: dist/khaki/woocommerce/checkout/form-pay.php:31
+msgid "Totals"
+msgstr "Łącznie"
+
+#: dist/khaki/woocommerce/checkout/form-pay.php:81
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+"Przykro nam, ale dla Twojej lokalizacji nie jest udostępniona żadna metoda "
+"płatności. Prosimy skontaktuj się z nami, jeśli potrzebujesz wyjaśnień lub "
+"chcesz omówić alternatywne sposoby płatności."
+
+#: dist/khaki/woocommerce/checkout/form-shipping.php:29
+msgid "Ship to a different address?"
+msgstr "Wysłać na inny adres?"
+
+#: dist/khaki/woocommerce/checkout/form-shipping.php:86
+msgid "Additional Information"
+msgstr "Dodatkowe informacje"
+
+#: dist/khaki/woocommerce/checkout/payment.php:33
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: dist/khaki/woocommerce/checkout/payment.php:33
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: dist/khaki/woocommerce/checkout/payment.php:42
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: dist/khaki/woocommerce/checkout/payment.php:44
+msgid "Update totals"
+msgstr ""
+
+#: dist/khaki/woocommerce/checkout/thankyou.php:28
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: dist/khaki/woocommerce/checkout/thankyou.php:30
+msgid "Pay"
+msgstr ""
+
+#: dist/khaki/woocommerce/checkout/thankyou.php:32
+msgid "My Account"
+msgstr "Moje konto"
+
+#: dist/khaki/woocommerce/checkout/thankyou.php:37,
+#: dist/khaki/woocommerce/checkout/thankyou.php:93
+msgid "Thank you. Your order has been received."
+msgstr "Dziękujemy. Otrzymaliśmy Twoje zamówienie."
+
+#: dist/khaki/woocommerce/checkout/thankyou.php:43
+msgid "Order Number:"
+msgstr "Numer zamówienia."
+
+#: dist/khaki/woocommerce/checkout/thankyou.php:47
+msgid "Date:"
+msgstr "Data:"
+
+#: dist/khaki/woocommerce/checkout/thankyou.php:52
+msgid "Email:"
+msgstr "E-mail:"
+
+#: dist/khaki/woocommerce/checkout/thankyou.php:57
+msgid "Total:"
+msgstr ""
+
+#: dist/khaki/woocommerce/checkout/thankyou.php:62
+msgid "Payment Method:"
+msgstr "Sposób płatności:"
+
+#: dist/khaki/woocommerce/global/form-login.php:35
+msgid "Username or email *"
+msgstr "Nazwa użytkownika lub email"
+
+#: dist/khaki/woocommerce/global/form-login.php:38,
+#: dist/khaki/woocommerce/myaccount/form-login.php:43,
+#: dist/khaki/woocommerce/myaccount/form-login.php:95
+msgid "Password *"
+msgstr "Hasło:"
+
+#: dist/khaki/woocommerce/global/form-login.php:47,
+#: dist/khaki/woocommerce/global/form-login.php:48,
+#: dist/khaki/woocommerce/myaccount/form-login.php:32,
+#: dist/khaki/woocommerce/myaccount/form-login.php:51
+msgid "Login"
+msgstr "Zaloguj się"
+
+#: dist/khaki/woocommerce/global/form-login.php:52,
+#: dist/khaki/woocommerce/myaccount/form-login.php:57
+msgid "Remember me"
+msgstr "Zapamiętaj mnie"
+
+#: dist/khaki/woocommerce/global/form-login.php:56,
+#: dist/khaki/woocommerce/myaccount/form-login.php:61
+msgid "Lost your password?"
+msgstr "Nie pamiętasz hasła ?"
+
+#: dist/khaki/woocommerce/global/quantity-input.php:28
+msgid "%s quantity"
+msgstr "%s ilość"
+
+#: dist/khaki/woocommerce/global/quantity-input.php:40
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: dist/khaki/woocommerce/loop/no-products-found.php:22
+msgid "No products were found matching your selection."
+msgstr "Nie znaleziono produktów, których szukasz."
+
+#. translators: %d: total results
+#: dist/khaki/woocommerce/loop/result-count.php:30
+msgid "Showing the single result"
+msgid_plural "Showing all %d results"
+msgstr[0] "Wyświetlanie jednego wyniku"
+msgstr[1] ""
+msgstr[2] ""
+
+#. translators: 1: first result 2: last result 3: total results
+#: dist/khaki/woocommerce/loop/result-count.php:35
+msgctxt "with first and last result"
+msgid "Showing the single result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: dist/khaki/woocommerce/myaccount/downloads.php:40
+msgid "No downloads available yet."
+msgstr ""
+
+#: dist/khaki/woocommerce/myaccount/downloads.php:42,
+#: dist/khaki/woocommerce/myaccount/orders.php:95
+msgid "Go Shop"
+msgstr "Przejdź do sklepu"
+
+#: dist/khaki/woocommerce/myaccount/form-add-payment-method.php:54,
+#: dist/khaki/woocommerce/myaccount/form-add-payment-method.php:55,
+#: dist/khaki/woocommerce/myaccount/payment-methods.php:78
+msgid "Add Payment Method"
+msgstr "Dodaj sposób płatności"
+
+#: dist/khaki/woocommerce/myaccount/form-add-payment-method.php:63
+msgid ""
+"New payment methods can only be added during checkout. Please contact us if "
+"you require assistance."
+msgstr ""
+
+#: dist/khaki/woocommerce/myaccount/form-edit-account.php:27
+msgid "Details"
+msgstr ""
+
+#: dist/khaki/woocommerce/myaccount/form-edit-account.php:30
+msgid "First name *"
+msgstr "Imię."
+
+#: dist/khaki/woocommerce/myaccount/form-edit-account.php:33
+msgid "Last name *"
+msgstr "Nazwisko."
+
+#: dist/khaki/woocommerce/myaccount/form-edit-account.php:37
+msgid "Display name *"
+msgstr "Imię*"
+
+#: dist/khaki/woocommerce/myaccount/form-edit-account.php:41,
+#: dist/khaki/woocommerce/myaccount/form-login.php:89
+msgid "Email address *"
+msgstr "Adres Email:"
+
+#: dist/khaki/woocommerce/myaccount/form-edit-account.php:45
+msgid "Password Change"
+msgstr "Zmiana hasła"
+
+#: dist/khaki/woocommerce/myaccount/form-edit-account.php:48
+msgid "Current Password (leave blank to leave unchanged)"
+msgstr "Aktualne hasło (pozostaw puste, aby nie zmieniać)"
+
+#: dist/khaki/woocommerce/myaccount/form-edit-account.php:52
+msgid "New Password (leave blank to leave unchanged)"
+msgstr "Nowe hasło (pozostaw puste, aby nie zmieniać)"
+
+#: dist/khaki/woocommerce/myaccount/form-edit-account.php:56
+msgid "Confirm New Password"
+msgstr "Potwierdź nowe hasło"
+
+#: dist/khaki/woocommerce/myaccount/form-edit-account.php:66,
+#: dist/khaki/woocommerce/myaccount/form-edit-account.php:67
+msgid "Save changes"
+msgstr "Zapisz zmiany"
+
+#: dist/khaki/woocommerce/myaccount/form-edit-address.php:23
+msgid "Billing Address"
+msgstr ""
+
+#: dist/khaki/woocommerce/myaccount/form-edit-address.php:23
+msgid "Shipping Address"
+msgstr "Adres wysyłki"
+
+#: dist/khaki/woocommerce/myaccount/form-edit-address.php:67,
+#: dist/khaki/woocommerce/myaccount/form-edit-address.php:68
+msgid "Save Address"
+msgstr "Zapisz adres"
+
+#: dist/khaki/woocommerce/myaccount/form-login.php:39
+msgid "Username or email address *"
+msgstr "Wpisz nazwę użytkownika lub e-mail."
+
+#: dist/khaki/woocommerce/myaccount/form-login.php:83
+msgid "Username *"
+msgstr "Nazwa użytkownika"
+
+#: dist/khaki/woocommerce/myaccount/form-login.php:99
+msgid "A password will be sent to your email address."
+msgstr ""
+
+#: dist/khaki/woocommerce/myaccount/form-lost-password.php:26
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: dist/khaki/woocommerce/myaccount/form-lost-password.php:29
+msgid "Username or email"
+msgstr ""
+
+#: dist/khaki/woocommerce/myaccount/form-lost-password.php:36
+msgid "Reset Password"
+msgstr ""
+
+#: dist/khaki/woocommerce/myaccount/form-reset-password.php:25
+msgid "Enter a new password below."
+msgstr ""
+
+#: dist/khaki/woocommerce/myaccount/form-reset-password.php:28
+msgid "New password *"
+msgstr ""
+
+#: dist/khaki/woocommerce/myaccount/form-reset-password.php:31
+msgid "Re-enter new password *"
+msgstr ""
+
+#: dist/khaki/woocommerce/myaccount/form-reset-password.php:44,
+#: dist/khaki/woocommerce/myaccount/form-reset-password.php:45
+msgid "Save"
+msgstr ""
+
+#: dist/khaki/woocommerce/myaccount/orders.php:51
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: dist/khaki/woocommerce/myaccount/orders.php:61
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: dist/khaki/woocommerce/myaccount/orders.php:95
+msgid "No order has been made yet."
+msgstr ""
+
+#: dist/khaki/woocommerce/myaccount/payment-methods.php:51
+msgid "%s ending in %s"
+msgstr ""
+
+#: dist/khaki/woocommerce/myaccount/payment-methods.php:72
+msgid "No saved methods found."
+msgstr ""
+
+#: dist/khaki/woocommerce/myaccount/view-order.php:28
+msgid "Order #%1$s was placed on %2$s and is currently %3$s."
+msgstr ""
+
+#: dist/khaki/woocommerce/myaccount/view-order.php:36
+msgid "Order Updates"
+msgstr ""
+
+#: dist/khaki/woocommerce/myaccount/view-order.php:42
+msgid "l jS \\o\f F Y, h:ia"
+msgstr ""
+
+#: dist/khaki/woocommerce/order/form-tracking.php:27
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"the \"Track\" button. This was given to you on your receipt and in the "
+"confirmation email you should have received."
+msgstr ""
+
+#: dist/khaki/woocommerce/order/form-tracking.php:29
+msgid "Order ID"
+msgstr ""
+
+#: dist/khaki/woocommerce/order/form-tracking.php:29
+msgid "Found in your order confirmation email."
+msgstr ""
+
+#: dist/khaki/woocommerce/order/form-tracking.php:30
+msgid "Billing Email"
+msgstr ""
+
+#: dist/khaki/woocommerce/order/form-tracking.php:30
+msgid "Email you used during checkout."
+msgstr ""
+
+#: dist/khaki/woocommerce/order/form-tracking.php:33,
+#: dist/khaki/woocommerce/order/form-tracking.php:33
+msgid "Track"
+msgstr ""
+
+#: dist/khaki/woocommerce/order/order-downloads.php:48
+msgid "&infin;"
+msgstr ""
+
+#: dist/khaki/woocommerce/order/order-downloads.php:56
+msgid "Never"
+msgstr ""
+
+#: dist/khaki/woocommerce/order/order-downloads.php:64
+msgid "Download"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product/meta.php:34
+msgid "SKU:"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product/meta.php:34
+msgid "N/A"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product/meta.php:38
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: dist/khaki/woocommerce/single-product/product-attributes.php:28
+msgid "Weight"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product/product-attributes.php:35
+msgid "Dimensions"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product/related.php:32
+msgid "Related"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product/review-meta.php:28
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product/review-meta.php:48
+msgid "verified owner"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product/up-sells.php:37
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: dist/khaki/plugins/login-with-ajax/default/widget_in.php:12
+msgid "Hi"
+msgstr ""
+
+#: dist/khaki/plugins/login-with-ajax/default/widget_in.php:34
+msgid "Log Out"
+msgstr ""
+
+#: dist/khaki/plugins/login-with-ajax/default/widget_in.php:39
+msgid "Blog Admin"
+msgstr ""
+
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:12
+msgid "Sign In"
+msgstr ""
+
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:37
+msgid "Remember Me"
+msgstr ""
+
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:59
+msgid "Lost Password?"
+msgstr ""
+
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:73
+msgid "Enter username or email"
+msgstr ""
+
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:81
+msgid "Get New Password"
+msgstr ""
+
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:87,
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:124
+msgid "Back to Log In"
+msgstr ""
+
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:114
+msgid "A password will be emailed to you."
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product/add-to-cart/variable.php:30
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product/add-to-cart/variable.php:46
+msgid "Clear"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product/add-to-cart/variation.php:31
+msgid ""
+"Sorry, this product is unavailable. Please choose a different combination."
+msgstr ""

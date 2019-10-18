@@ -1,0 +1,58 @@
+/*
+Theme Name: kristine-v
+Theme URI: https://demo.studiopress.com/
+Description: This is the sample theme created for the Genesis Framework.
+Author: StudioPress
+Author URI: https://www.studiopress.com/
+
+
+
+Tags: accessibility-ready, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, left-sidebar, one-column, right-sidebar, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, two-columns
+
+Template: genesis
+
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+Text Domain: genesis-sample
+*/
+
+/* Table of Contents
+
+- Content Area
+	- Entry Content
+	- Entry Meta
+	- Pagination
+	- Entry Comments
+- Sidebar
+*/
+
+/* Sidebar
+---------------------------------------------------------------------------- */
+
+.sidebar {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.sidebar .widget {
+	margin-bottom: 40px;
+}
+
+.sidebar p {
+	margin-bottom: 20px;
+}
+
+@import "HTML5-Reset";
+@import "variables";
+@import "topbar";
+@import "defaults";
+@import "structureAndLayout";
+@import "CommonClasses";
+@import "widgets";
+@import "siteheader";
+@import "plugins/index";
+@import "sitenavigation";
+@import "contentArea";
+@import "MediaQueries";
+@import "SiteFooter";

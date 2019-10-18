@@ -1,0 +1,304 @@
+global:
+  sql_adapter: wpcli
+
+local:
+  vhost: https://kristine-v.loc
+  wordpress_path: /shared/httpd/www.kristine-v/htdocs # use an absolute path here
+
+  database:
+    # name: krisinev_loc-en
+    # user: krisinev_loc-en
+    # password: "d)@1942E5_sF@H_" # could be blank, so always use quotes around
+    # host: s67.linuxpl.com
+    name: kristine-v
+    user: root
+    password: "Versacze13" # could be blank, so always use quotes around
+    host: 127.0.0.1
+
+staging:
+  vhost: https://kristine.intellegro.pl
+  wordpress_path: /home/projectk/domains/kristine.intellegro.pl/public_html # use an absolute path here
+
+  database:
+    name: projectk_kris-v
+    user: projectk_kris-v
+    password: 1@(c4c1;C_1N~1D
+    host: localhost
+    # port: 3308 # Use just in case you have exotic server config
+    # mysqldump_options: '--max_allowed_packet=1G' # Only available if using SSH
+    # mysql_options: '--protocol=TCP' # mysql command is used to import db
+
+  exclude:
+    - ".git/"
+    - ".gitignore"
+    - ".gitmodules"
+    - ".env"
+    - "node_modules/"
+    - "bin/"
+    - "tmp/*"
+    - "Gemfile*"
+    - "Movefile"
+    - "movefile"
+    - "movefile.yml"
+    - "movefile.yaml"
+    - "wp-config.php"
+    - "wp-content/*.sql.gz"
+    - "*.orig"
+
+  # paths: # you can customize wordpress internal paths
+  #   wp_content: wp-content
+  #   uploads: wp-content/uploads
+  #   plugins: wp-content/plugins
+  #   mu_plugins: wp-content/mu-plugins
+  #   themes: wp-content/themes
+  #   languages: wp-content/languages
+
+  ssh:
+    host: 78.46.168.98
+    user: projectk
+    password: Versacze@103 # password is optional, will use public keys if available.
+    port: 59184 # Port is optional
+  #   rsync_options: '--verbose --itemize-changes' # Additional rsync options, optional
+  #   gateway: # Gateway is optional
+  #     host: host
+  #     user: user
+  #     password: password # password is optional, will use public keys if available.
+  # ftp:
+  #   user: user
+  #   password: password
+  #   host: host
+  #   passive: true
+  #   port: 21 # Port is optional
+  #   scheme: ftps # default `ftp`. alternative `sftp`
+  # hooks: # Remote hooks won't work with FTP
+  #   push:
+  #     before:
+  #       local:
+  #         - 'echo "Do something locally before push"'
+  #       remote:
+  #         - 'echo "Do something remotely before push"'
+  #     after:
+  #       local:
+  #         - 'echo "Do something locally after push"'
+  #       remote:
+  #         - 'echo "Do something remotely after push"'
+  #   pull:
+  #     before:
+  #       local:
+  #         - 'echo "Do something locally before pull"'
+  #       remote:
+  #         - 'echo "Do something remotely before pull"'
+  #     after:
+  #       local:
+  #         - 'echo "Do something locally after pull"'
+  #       remote:
+  #         - 'echo "Do something remotely after pull"'
+  # forbid:
+  #   push:
+  #     db: false
+  #     plugins: false
+  #     themes: false
+  #     languages: false
+  #     uploads: false
+  #     mu-plugins: false
+  #   pull:
+  #     db: false
+  #     plugins: false
+  #     themes: false
+  #     languages: false
+  #     uploads: false
+  #     mu-plugins: false
+# staging: # multiple environments can be specified
+#   [...]
+
+production:
+  vhost: https://www.kristine-v.com
+  wordpress_path: /home/krisinev/domains/kristine-v.com/public_html # use an absolute path here
+
+  database:
+    name: krisinev_prod
+    user: krisinev_prod
+    password: a#A2OByBz3..b
+    host: localhost
+    # port: 3308 # Use just in case you have exotic server config
+    # mysqldump_options: '--max_allowed_packet=1G' # Only available if using SSH
+    # mysql_options: '--protocol=TCP' # mysql command is used to import db
+
+  exclude:
+    - ".git/"
+    - ".gitignore"
+    - ".gitmodules"
+    - ".env"
+    - "node_modules/"
+    - "bin/"
+    - "tmp/*"
+    - "Gemfile*"
+    - "Movefile"
+    - "movefile"
+    - "movefile.yml"
+    - "movefile.yaml"
+    - "wp-config.php"
+    - "wp-content/*.sql.gz"
+    - "*.orig"
+
+  # paths: # you can customize wordpress internal paths
+  #   wp_content: wp-content
+  #   uploads: wp-content/uploads
+  #   plugins: wp-content/plugins
+  #   mu_plugins: wp-content/mu-plugins
+  #   themes: wp-content/themes
+  #   languages: wp-content/languages
+
+  ssh:
+    host: 78.46.51.229
+    user: krisinev
+    password: kW4ixu(enX # password is optional, will use public keys if available.
+    port: 59184 # Port is optional
+  #   rsync_options: '--verbose --itemize-changes' # Additional rsync options, optional
+  #   gateway: # Gateway is optional
+  #     host: host
+  #     user: user
+  #     password: password # password is optional, will use public keys if available.
+  # ftp:
+  #   user: user
+  #   password: password
+  #   host: host
+  #   passive: true
+  #   port: 21 # Port is optional
+  #   scheme: ftps # default `ftp`. alternative `sftp`
+  # hooks: # Remote hooks won't work with FTP
+  #   push:
+  #     before:
+  #       local:
+  #         - 'echo "Do something locally before push"'
+  #       remote:
+  #         - 'echo "Do something remotely before push"'
+  #     after:
+  #       local:
+  #         - 'echo "Do something locally after push"'
+  #       remote:
+  #         - 'echo "Do something remotely after push"'
+  #   pull:
+  #     before:
+  #       local:
+  #         - 'echo "Do something locally before pull"'
+  #       remote:
+  #         - 'echo "Do something remotely before pull"'
+  #     after:
+  #       local:
+  #         - 'echo "Do something locally after pull"'
+  #       remote:
+  #         - 'echo "Do something remotely after pull"'
+  forbid:
+    push:
+      db: true
+  #     plugins: false
+  #     themes: false
+  #     languages: false
+  #     uploads: false
+  #     mu-plugins: false
+  #   pull:
+  #     db: false
+  #     plugins: false
+  #     themes: false
+  #     languages: false
+  #     uploads: false
+  #     mu-plugins: false
+# staging: # multiple environments can be specified
+#   [...]
+
+test:
+  vhost: https://krisinev.vot.pl/
+  wordpress_path: /home/krisinev/domains/krisinev.vot.pl/public_html # use an absolute path here
+
+  database:
+    name: krisinev_test
+    user: krisinev_test
+    password: Versacze@13
+    host: localhost
+    # port: 3308 # Use just in case you have exotic server config
+    # mysqldump_options: '--max_allowed_packet=1G' # Only available if using SSH
+    # mysql_options: '--protocol=TCP' # mysql command is used to import db
+
+  exclude:
+    - ".git/"
+    - ".gitignore"
+    - ".gitmodules"
+    - ".env"
+    - "node_modules/"
+    - "bin/"
+    - "tmp/*"
+    - "Gemfile*"
+    - "Movefile"
+    - "movefile"
+    - "movefile.yml"
+    - "movefile.yaml"
+    - "wp-config.php"
+    - "wp-content/*.sql.gz"
+    - "*.orig"
+
+  # paths: # you can customize wordpress internal paths
+  #   wp_content: wp-content
+  #   uploads: wp-content/uploads
+  #   plugins: wp-content/plugins
+  #   mu_plugins: wp-content/mu-plugins
+  #   themes: wp-content/themes
+  #   languages: wp-content/languages
+
+  ssh:
+    host: 78.46.51.229
+    user: krisinev
+    password: kW4ixu(enX # password is optional, will use public keys if available.
+    port: 59184 # Port is optional
+  #   rsync_options: '--verbose --itemize-changes' # Additional rsync options, optional
+  #   gateway: # Gateway is optional
+  #     host: host
+  #     user: user
+  #     password: password # password is optional, will use public keys if available.
+  # ftp:
+  #   user: user
+  #   password: password
+  #   host: host
+  #   passive: true
+  #   port: 21 # Port is optional
+  #   scheme: ftps # default `ftp`. alternative `sftp`
+  # hooks: # Remote hooks won't work with FTP
+  #   push:
+  #     before:
+  #       local:
+  #         - 'echo "Do something locally before push"'
+  #       remote:
+  #         - 'echo "Do something remotely before push"'
+  #     after:
+  #       local:
+  #         - 'echo "Do something locally after push"'
+  #       remote:
+  #         - 'echo "Do something remotely after push"'
+  #   pull:
+  #     before:
+  #       local:
+  #         - 'echo "Do something locally before pull"'
+  #       remote:
+  #         - 'echo "Do something remotely before pull"'
+  #     after:
+  #       local:
+  #         - 'echo "Do something locally after pull"'
+  #       remote:
+  #         - 'echo "Do something remotely after pull"'
+  # forbid:
+  #   push:
+  #     db: false
+  #     plugins: false
+  #     themes: false
+  #     languages: false
+  #     uploads: false
+  #     mu-plugins: false
+  #   pull:
+  #     db: false
+  #     plugins: false
+  #     themes: false
+  #     languages: false
+  #     uploads: false
+  #     mu-plugins: false
+# staging: # multiple environments can be specified
+#   [...]

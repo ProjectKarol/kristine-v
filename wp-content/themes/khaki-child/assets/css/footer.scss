@@ -1,0 +1,81 @@
+.nk-copyright {
+	background-color: white;
+	color: black;
+	padding: 0.5rem 0;
+	a {
+		color: black;
+	}
+	.container {
+		max-width: 100%;
+		.credit-footer {
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+}
+
+.nk-footer {
+
+	.nk-widget{
+		margin-top: 40px
+	}
+	color: black;
+	.row.vertical-gap {
+		margin-top: 0px;
+	}
+	a {
+		color: black;
+	}
+
+	#menu-shop-with-us,
+	.menu {
+		list-style-type: none;
+		margin-left: 0px;
+		padding-left: 0px;
+		line-height: 30px;
+	}
+
+	.mailster-form-fields {
+		display: inline-flex;
+	}
+	.mailster-submit-wrapper {
+		margin-top: 0px;
+	}
+	.nk-widget-title{
+		font-size: 15px;
+		line-height: 12px;
+		letter-spacing: 2.15px;
+		font-weight: 400
+	}
+	.menu-item{
+		font-size: 16px;
+		font-weight: 400
+	}
+}
+
+.nk-widget-social-2 {
+	a{
+		float: left;
+		display: inline-flex;
+		.svg-inline--fa{
+			margin-right: 20px;
+		}
+		.fa-facebook-f {
+			margin-right: 30px;
+		}
+	}
+	a.icon{
+		margin: 0px;
+		float: left;
+		margin-right: 5px;
+	}
+	a {
+		margin: 0 10px;
+	}
+	.h5 {
+		font-size: 17px;
+		font-weight: 300;
+		margin-top: 7px;
+		padding: 0px;
+	}
+}

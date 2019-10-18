@@ -1,0 +1,228 @@
+.home {
+	p {
+		color: #f592a3;
+		font-family: "Great Vibes", cursive;
+		font-size: 45px;
+	}
+	h3 {
+		color: #f592a3;
+		font-family: "Great Vibes", cursive;
+		font-size: 45px;
+		.pointer {
+			cursor: pointer;
+		}
+	}
+
+	.nk-contacts-top.nk-contacts-top-blur.nk-contacts-top-light.nk-contacts-top-solid::after,
+	.nk-contacts-top.nk-contacts-top-blur.nk-contacts-top-light::after {
+		background-color: transparent;
+	}
+	.nk-gap-4 {
+		height: 0px;
+	}
+	.nk-main {
+		overflow: hidden;
+		background-color: black;
+		margin-top: -35px;
+	}
+	// typed in home slider
+	.nk-typed {
+		font-weight: 100;
+		font-family: "League Script", cursive;
+	}
+	.text-main-color {
+		color: #da7b93;
+	}
+
+	// homepage slider
+	.homeslider {
+		height: 100vh;
+		margin-top: 100px;
+		// background: linear-gradient(
+		// 	0deg,
+		// 	rgba(78, 56, 131, 0.2) 0%,
+		// 	$maincolor 100%
+		// );
+
+		.heder-sentence {
+			margin: auto;
+			align-items: flex-start;
+			display: flex;
+		}
+
+		#typed {
+			color: #fdc;
+
+			font-weight: 900;
+			text-transform: uppercase;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		.main--brdr h3:hover {
+			font-size: 48px;
+			color: black !important;
+			text-decoration: none;
+			cursor: pointer;
+		}
+		a:hover {
+			color: transparent;
+		}
+	}
+
+	.abs_content {
+		// height: calc(100% - 75px);
+		// position: absolute;
+		// left: 0;
+		// right: 0;
+		// bottom: 0;
+		// top: 75px;
+	}
+	.container-fluid {
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.main-border {
+		position: relative;
+		padding: 2rem;
+	}
+	.main--brdr {
+		justify-content: space-around;
+		justify-content: space-around;
+		align-items: flex-end;
+
+		h3 {
+			color: #fdc !important;
+		}
+	}
+
+	.main-brd-left {
+		border-top: 2px solid hsla(23, 64%, 94%, 0.5);
+		border-left: 2px solid hsla(23, 64%, 94%, 0.5);
+		border-bottom: 2px solid hsla(23, 64%, 94%, 0.5);
+		padding: 2rem;
+		min-height: 80vh;
+	}
+	.main-brd-right {
+		border-top: 2px solid hsla(23, 64%, 94%, 0.5);
+		border-right: 2px solid hsla(23, 64%, 94%, 0.5);
+		border-bottom: 2px solid hsla(23, 64%, 94%, 0.5);
+		padding: 2rem;
+		min-height: 80vh;
+	}
+	.main-border--img {
+		min-height: 80vh;
+	}
+
+	.ownsecret {
+		width: 200px;
+		position: absolute;
+		bottom: 0px;
+		margin: 0 auto;
+		transition: -50%;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.nk-navbar.nk-navbar-light.nk-navbar-solid::after,
+	.nk-navbar.nk-navbar-light::after {
+		background-color: transparent;
+	}
+}
+
+.slider-home {
+	margin-top: 70px;
+}
+
+.slider-home-scrolled {
+	margin-top: 105px;
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+	//CSS
+	.main--brdr {
+		display: flex;
+	}
+	#typed {
+		font-size: 7rem;
+	}
+}
+
+/*
+	##Device = Laptops, Desktops
+	##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+	//CSS
+	.main--brdr {
+		display: flex;
+	}
+}
+
+/*
+	##Device = Tablets, Ipads (portrait)
+	##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	#typed {
+		font-size: 5rem;
+	}
+	//CSS
+	.main--brdr {
+		display: flex;
+		h3 {
+			display: none;
+		}
+	}
+}
+
+/*
+	##Device = Tablets, Ipads (landscape)
+	##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	//CSS
+	.main--brdr {
+		display: flex;
+	}
+}
+
+/*
+	##Device = Low Resolution Tablets, Mobiles (Landscape)
+	##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+	//CSS
+}
+
+/*
+	##Device = Most of the Smartphones Mobiles (Portrait)
+	##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+	#typed {
+		font-size: 3rem;
+	}
+	//CSS
+	.main-brd-left {
+		display: none;
+	}
+	.main-brd-right {
+		display: none;
+	}
+}

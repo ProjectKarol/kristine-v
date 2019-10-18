@@ -1,0 +1,6 @@
+/* fixed for shipping and billing columns*/
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1,
+.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+  flex: 0 0 48%;
+  max-width: 48%;
+}

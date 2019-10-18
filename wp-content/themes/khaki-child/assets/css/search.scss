@@ -1,0 +1,353 @@
+#search-overlay__results {
+	.nk-search {
+		display: none;
+	}
+	.seach-grid-result {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+		.post-type-result {
+			margin-top: 5px;
+			border: 1px solid #dbdbdb;
+			box-shadow: 3px 4px 9px #aaa;
+			h2 {
+				text-align: center;
+				font-weight: 100;
+			}
+			p {
+				text-align: center;
+			}
+		}
+		.model-list {
+			display: grid;
+			img {
+				width: 100%;
+			}
+			.seeprofile {
+				max-width: 80%;
+			}
+			article {
+				border: solid 1px;
+				margin: 1px;
+				.entry-title {
+					font-size: 20px;
+				}
+			}
+		}
+	}
+} //#search-overlay__results
+.search-overlay-active {
+	background: rgba(247, 249, 250, 0.95);
+	height: 100vh;
+	margin-top: 130px;
+	top: 0px;
+	position: fixed;
+	width: 100vw;
+	z-index: 9999;
+
+	.seach-overlay__top {
+		.container {
+			display: inline-flex;
+		}
+
+		.fa-search,
+		.fa-times {
+			font-size: 45px;
+			color: black;
+			margin-top: 20px;
+			margin-right: 10px;
+		}
+		.fa-times {
+			color: black;
+			font-size: 45px;
+
+			margin-top: 20px;
+			margin-left: 10px;
+		}
+	}
+
+	.search-term {
+		width: 100%;
+		background: #99999921;
+		padding: 13px 57px 13px 22px;
+		color: #1b2734;
+		font-size: 45px;
+	}
+}
+
+.search-overlay {
+	overflow-y: auto;
+	overflow-x: hidden;
+	z-index: 1100;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(255, 255, 255, 0.96);
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transform: scale(1.09);
+	transform: scale(1.09);
+	transition: opacity 0.3s, visibility 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s, visibility 0.3s;
+	transition: opacity 0.3s, transform 0.3s, visibility 0.3s,
+		-webkit-transform 0.3s;
+	box-sizing: border-box;
+}
+
+.search-overlay p {
+	padding-top: 15px;
+}
+
+.search-overlay .event-summary p {
+	padding-top: 0;
+}
+
+.search-overlay .event-summary {
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+
+body.admin-bar .search-overlay {
+	top: 32px;
+}
+
+.search-overlay__top {
+	background-color: rgba(0, 0, 0, 0.12);
+}
+
+.search-overlay__icon {
+	margin-right: 10px;
+	font-size: 1.8rem;
+	color: black;
+}
+
+@media (min-width: 960px) {
+	.search-overlay__icon {
+		font-size: 2.5rem;
+	}
+}
+
+.search-overlay--active {
+	margin-top: 125px;
+	visibility: visible;
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.search-overlay__section-title {
+	margin: 30px 0 1px 0;
+	font-weight: 400;
+	color: #0d3b66;
+	font-size: 2rem;
+	padding: 15px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.search-overlay__close {
+	position: relative;
+	float: right;
+	top: 13px;
+	margin-top: -2px;
+	font-size: 2.1rem;
+	cursor: pointer;
+	transition: all 0.3s;
+	color: black;
+	line-height: 0.7;
+}
+
+@media (min-width: 530px) {
+}
+
+@media (min-width: 960px) {
+}
+
+.search-overlay__close:hover {
+	opacity: 1;
+}
+
+.search-overlay .one-half {
+	padding-bottom: 0;
+}
+
+.search-term {
+	width: 75%;
+	box-sizing: border-box;
+	border: none;
+	padding: 15px 0;
+	margin: 0;
+	background-color: transparent;
+	font-size: 1rem;
+	font-weight: 300;
+	outline: none;
+	color: black;
+}
+
+@media (min-width: 530px) {
+	.search-term {
+		font-size: 1.5rem;
+	}
+}
+
+@media (min-width: 960px) {
+	.search-term {
+		width: 80%;
+	}
+}
+
+.body-no-scroll {
+	overflow: hidden;
+}
+
+.professor-cards {
+	margin: 0;
+	padding: 0;
+}
+
+.search-overlay .professor-cards {
+	padding-top: 21px;
+}
+
+.professor-card {
+	position: relative;
+	display: inline-block;
+	width: 200px;
+	margin-right: 15px;
+	background-color: black;
+	overflow: hidden;
+}
+
+.search-overlay .professor-card {
+	width: 180px;
+}
+
+@-webkit-keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+.spinner-loader {
+	margin-top: 45px;
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+	border: 0.25rem solid rgba(0, 0, 0, 0.2);
+	border-top-color: black;
+	-webkit-animation: spin 1s infinite linear;
+	animation: spin 1s infinite linear;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+	.model-list {
+		margin: 5px;
+
+		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	}
+	.post-type-result {
+		margin: 5px;
+	}
+	.search-overlay__close {
+		top: 10px;
+		font-size: 2.8rem;
+	}
+} // @media (min-width: 1281px)
+
+/* 
+##Device = Laptops, Desktops
+##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+	.model-list {
+		margin: 3px;
+		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	}
+	.post-type-result {
+		margin: 5px;
+	}
+} //@media (min-width: 1025px) and (max-width: 1280px)
+
+/* 
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.model-list {
+		margin: 3px;
+		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	}
+	.search-overlay__close {
+		top: 10px;
+		right: 6px;
+		font-size: 2.1rem;
+	}
+	.post-type-result {
+		margin: 3px;
+	}
+} //@media (min-width: 768px) and (max-width: 1024px)
+
+/* 
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+} //@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)
+
+/* 
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.model-list {
+		margin: 3px;
+		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	}
+	.search-overlay__close {
+		top: 6px;
+		right: 6px;
+		font-size: 2.1rem;
+	}
+} //@media (min-width: 481px) and (max-width: 767px)
+
+/* 
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.model-list {
+		margin-top: 3px;
+		grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+	}
+	.search-overlay__close {
+		top: 6px;
+		right: 6px;
+		font-size: 2.1rem;
+	}
+} //@media (min-width: 320px) and (max-width: 480px)

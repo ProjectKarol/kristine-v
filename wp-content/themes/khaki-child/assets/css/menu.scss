@@ -1,0 +1,39 @@
+
+
+
+#menu-top-menu-icons svg {
+	font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+	#mega-menu-wrap-primary
+		#mega-menu-primary
+		> li.mega-menu-megamenu
+		> ul.mega-sub-menu {
+		height: 500px;
+		z-index: 1;
+		overflow: overlay;
+	}
+}
+
+.nk-navbar li>.nk-badge, li.single-icon>a>span,li.single-icon>a>span,.nk-navbar .nk-nav>li {
+	color: $maincolor;
+}
+.nk-contacts-top.nk-contacts-top-blur.nk-contacts-top-light.nk-contacts-top-solid::after, .nk-contacts-top.nk-contacts-top-blur.nk-contacts-top-light::after {
+    background-color: rgb(12, 12, 12);
+}
+
+.nk-navbar.nk-navbar-light.nk-navbar-solid::after,
+.nk-navbar.nk-navbar-light::after {
+	background-color: #000000;
+}
+
+#nk-nav-mobile .nk-icon-burger {
+	display: none;
+}
+
+// top classs menu
+.nk-navbar {
+	.d-lg-none {
+		display: none;
+	}
+}

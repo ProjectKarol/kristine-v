@@ -1,0 +1,150 @@
+.nk-share-place {
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    top: -$share_place_height;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: $share_place_height;
+    color: #fff;
+    text-align: center;
+    background-color: $color_dark_1;
+    -webkit-transition: .2s transform ease-in-out;
+    transition: .2s transform ease-in-out;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    z-index: 1007;
+
+    // light
+    &.nk-share-place-light {
+        color: inherit;
+        background-color: #fff;
+    }
+
+    // all share buttons
+    .nk-share-icons {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding: 0;
+        margin: 0;
+        line-height: 2;
+
+        > .nk-share-icon {
+            margin: 0 21px;
+            font-size: 1.6rem;
+            text-decoration: none;
+            cursor: pointer;
+            opacity: 0;
+            -webkit-transition: .2s opacity ease-out, .2s transform ease-out;
+            transition: .2s opacity ease-out, .2s transform ease-out;
+            -webkit-transform: translateY(-20px);
+                    transform: translateY(-20px);
+
+            // stagger animation
+            &:nth-of-type(1) {
+                -webkit-transition-delay: .15s, .15s;
+                        transition-delay: .15s, .15s;
+            }
+            &:nth-of-type(2) {
+                -webkit-transition-delay: .2s, .2s;
+                        transition-delay: .2s, .2s;
+            }
+            &:nth-of-type(3) {
+                -webkit-transition-delay: .25s, .25s;
+                        transition-delay: .25s, .25s;
+            }
+            &:nth-of-type(4) {
+                -webkit-transition-delay: .3s, .3s;
+                        transition-delay: .3s, .3s;
+            }
+            &:nth-of-type(5) {
+                -webkit-transition-delay: .35s, .35s;
+                        transition-delay: .35s, .35s;
+            }
+            &:nth-of-type(6) {
+                -webkit-transition-delay: .4s, .4s;
+                        transition-delay: .4s, .4s;
+            }
+            &:nth-of-type(7) {
+                -webkit-transition-delay: .45s, .45s;
+                        transition-delay: .45s, .45s;
+            }
+
+            &::before,
+            &::after,
+            > * {
+                opacity: .85;
+                -webkit-transition: .2s opacity;
+                transition: .2s opacity;
+                will-change: opacity;
+            }
+
+            .social-likes__counter,
+            .sociality-share-counter {
+                margin-left: 10px;
+                font-size: .6em;
+                vertical-align: middle;
+                opacity: .7;
+            }
+
+            &:hover {
+                &::before,
+                &::after,
+                > * {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    // open
+    &.open {
+        -webkit-transform: translateY($share_place_height);
+                transform: translateY($share_place_height);
+
+        .nk-share-icons > .nk-share-icon {
+            opacity: 1;
+            -webkit-transform: translateY(0);
+                    transform: translateY(0);
+        }
+    }
+}
+
+// overlay
+.nk-share-place-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+    visibility: hidden;
+    background-color: rgba($color_dark_1, .6);
+    opacity: 0;
+    -webkit-transition: .2s opacity ease-in-out, .2s visibility;
+    transition: .2s opacity ease-in-out, .2s visibility;
+    z-index: 1006;
+
+    .nk-share-place.open ~ & {
+        visibility: visible;
+        opacity: 1;
+    }
+}

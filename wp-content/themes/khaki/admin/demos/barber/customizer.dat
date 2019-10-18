@@ -1,0 +1,15 @@
+a:4:{s:8:"template";s:5:"khaki";s:4:"mods";a:27:{s:18:"custom_css_post_id";i:283;s:22:"side_navigation_social";a:4:{i:0;a:3:{s:6:"target";s:6:"_blank";s:8:"link_url";s:50:"https://themeforest.net/user/_nk/portfolio?ref=_nK";s:4:"icon";s:14:"fab fa-twitter";}i:1;a:3:{s:6:"target";s:6:"_blank";s:8:"link_url";s:50:"https://themeforest.net/user/_nk/portfolio?ref=_nK";s:4:"icon";s:16:"fab fa-instagram";}i:2;a:3:{s:6:"target";s:6:"_blank";s:8:"link_url";s:50:"https://themeforest.net/user/_nk/portfolio?ref=_nK";s:4:"icon";s:15:"fab fa-dribbble";}i:3;a:3:{s:6:"target";s:6:"_blank";s:8:"link_url";s:50:"https://themeforest.net/user/_nk/portfolio?ref=_nK";s:4:"icon";s:16:"fab fa-pinterest";}}s:28:"fullscreen_navigation_social";a:4:{i:0;a:3:{s:6:"target";s:6:"_blank";s:8:"link_url";s:50:"https://themeforest.net/user/_nk/portfolio?ref=_nK";s:4:"icon";s:14:"fab fa-twitter";}i:1;a:3:{s:6:"target";s:6:"_blank";s:8:"link_url";s:50:"https://themeforest.net/user/_nk/portfolio?ref=_nK";s:4:"icon";s:16:"fab fa-instagram";}i:2;a:3:{s:6:"target";s:6:"_blank";s:8:"link_url";s:50:"https://themeforest.net/user/_nk/portfolio?ref=_nK";s:4:"icon";s:15:"fab fa-dribbble";}i:3;a:3:{s:6:"target";s:6:"_blank";s:8:"link_url";s:50:"https://themeforest.net/user/_nk/portfolio?ref=_nK";s:4:"icon";s:16:"fab fa-pinterest";}}s:16:"footer_show_logo";b:0;s:26:"footer_widget_col_one_size";s:1:"4";s:26:"footer_widget_col_two_size";s:1:"4";s:28:"footer_widget_col_three_size";s:1:"4";s:29:"footer_row_align_items_center";b:1;s:11:"footer_text";s:0:"";s:23:"footer_background_image";s:90:"https://wp.nkdev.info/khaki/demo-barber/wp-content/uploads/sites/2/2019/02/bg-footer-5.jpg";s:11:"show_border";b:1;s:17:"background_border";s:7:"#1c1c1c";s:18:"nav_menu_locations";a:4:{s:7:"primary";i:15;s:8:"top_menu";i:16;s:14:"top_icons_menu";i:18;s:20:"side_navigation_menu";i:17;}s:13:"top_menu_show";b:1;s:20:"side_navigation_show";b:1;s:21:"side_navigation_light";b:1;s:20:"side_navigation_side";s:5:"right";s:20:"side_navigation_blur";b:1;s:20:"side_navigation_logo";s:97:"https://wp.nkdev.info/khaki/demo-barber/wp-content/uploads/sites/2/2017/04/logo-barber-light1.png";s:15:"main_menu_align";s:4:"left";s:20:"main_navigation_logo";s:91:"https://wp.nkdev.info/khaki/demo-barber/wp-content/uploads/sites/2/2017/04/logo-barber1.png";s:20:"main_navigation_blur";b:1;s:21:"woocommerce_cart_show";b:0;s:13:"top_menu_blur";b:1;s:30:"main_navigation_custom_content";s:191:"<span class="text-dark-1">
+<a class="nk-btn nk-btn-effect-1-bottom nk-btn-color-white" href="https://wp.nkdev.info/khaki/demo-barber/#post-25">
+<span class="icon">
+
+</span>
+Price
+</a>
+</span>";s:28:"single_page_breadcrumbs_show";s:1:"0";s:17:"typography_titles";a:5:{s:11:"font-family";s:12:"Merriweather";s:7:"variant";s:3:"700";s:11:"font-backup";s:0:"";s:11:"font-weight";i:700;s:10:"font-style";s:6:"normal";}}s:7:"options";a:0:{}s:6:"wp_css";s:173:".nk-contacts-top::after {
+	background-color: transparent!important;
+}
+@media screen and (min-width: 992px) {
+    .d-md-block {
+        display: table-cell!important;
+    }
+}";}

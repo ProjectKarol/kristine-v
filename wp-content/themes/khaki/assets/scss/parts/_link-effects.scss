@@ -1,0 +1,133 @@
+/* Link Effect 1 (rotate all letters) */
+.link-effect-1 {
+    > span {
+        position: relative;
+        display: inline-block;
+        -webkit-transition: -webkit-transform .3s;
+        transition: -webkit-transform .3s;
+        transition: transform .3s;
+        transition: transform .3s, -webkit-transform .3s;
+        -webkit-transform: perspective(1000px) rotateY(0deg);
+                transform: perspective(1000px) rotateY(0deg);
+        will-change: transform;
+    }
+    > span.active {
+        -webkit-transform: perspective(1000px) rotateY(360deg);
+                transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+/* Link Effect 2 and 3 (color for letters from left to right and from top to bottom) */
+.link-effect-2,
+.link-effect-3 {
+    > span {
+        position: relative;
+        display: inline-block;
+        color: $color_main_1;
+        vertical-align: middle;
+    }
+    .link-effect-shade {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        overflow: hidden;
+        color: lighten($color_main_1, 10%);
+        white-space: nowrap;
+        -webkit-transition: width .3s;
+        transition: width .3s;
+        z-index: 2;
+        will-change: width;
+    }
+    &:hover .link-effect-shade {
+        width: 100%;
+    }
+}
+.link-effect-3 {
+    .link-effect-shade {
+        width: auto;
+        height: 0;
+        -webkit-transition: height .3s;
+        transition: height .3s;
+        will-change: height;
+    }
+    &:hover .link-effect-shade {
+        width: auto;
+        height: 100%;
+    }
+}
+
+/* Link effect 4 (underline) */
+.link-effect-4 {
+    > span {
+        background-image: linear-gradient(120deg, currentColor 0%, currentColor 100%);
+        background-repeat: no-repeat;
+        background-position-x: 0;
+        background-position-y: 100%;
+        background-size: 0 2px;
+        -webkit-transition: background-size .2s;
+        transition: background-size .2s;
+    }
+
+    &:hover > span,
+    &:focus > span {
+        background-position-x: 100%;
+        background-size: 100% 2px;
+    }
+}
+
+// link effects for navbar
+.nk-navbar {
+    // hover effects
+    .dropdown > li > .link-effect-2,
+    .dropdown > li > .link-effect-3 {
+        opacity: 1;
+    }
+    .link-effect-2 > span,
+    .link-effect-3 > span {
+        color: inherit;
+    }
+    .dropdown .link-effect-2,
+    .dropdown .link-effect-3 {
+        color: rgba(#fff, .7);
+    }
+    .link-effect-2,
+    .link-effect-3,
+    .link-effect-2 .link-effect-shade,
+    .link-effect-3 .link-effect-shade,
+    .active > .link-effect-2,
+    .active > .link-effect-3 {
+        color: #fff;
+    }
+    .active > .link-effect-2 .link-effect-shade {
+        width: 100%;
+    }
+    .active > .link-effect-3 .link-effect-shade {
+        height: 100%;
+    }
+
+    .nk-nav li > .link-effect-4 {
+        &::before,
+        &::after {
+            content: none;
+        }
+    }
+    .nk-nav li.active > .link-effect-4 > span {
+        background-position-x: 100%;
+        background-size: 100% 2px;
+    }
+}
+.nk-navbar-light {
+    .dropdown .link-effect-2,
+    .dropdown .link-effect-3 {
+        color: rgba($color_dark_4, .85);
+    }
+    .link-effect-2,
+    .link-effect-3,
+    .link-effect-2 .link-effect-shade,
+    .link-effect-3 .link-effect-shade,
+    .active > .link-effect-2,
+    .active > .link-effect-3 {
+        color: $color_dark_4;
+    }
+}

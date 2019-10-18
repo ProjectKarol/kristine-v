@@ -1,0 +1,550 @@
+/*
+Theme Name: Khaki
+Theme URI: https://themeforest.net/item/khaki-multipurpose-wordpress-theme/19968221?ref=_nK
+Theme ID: 19968221
+Author: nK
+Author URI: https://themeforest.net/user/_nk
+Description: Multifunctional Multi-Purpose WordPress Theme
+Version: 2.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, left-sidebar, right-sidebar, grid-layout, custom-colors, custom-logo, featured-images, full-width-template, post-formats, theme-options, threaded-comments, translation-ready, blog, e-commerce, entertainment, news, photography
+Text Domain: khaki
+*/
+
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Wordpress CSS
+ * 2.0 - Text Render
+ * 3.0 - Table for posts
+ * 4.0 - Fixed section
+ *   4.1 - Large Images
+ *   4.2 - Category List
+ *   4.3 - Monster Widgets
+ *   4.4 - Buttons
+ *   4.5 - Contact Form 7
+ *   4.6 -  Monster Widgets
+ *   4.7 -  VC Video Widget
+ *   4.8 -  Meta View Post
+ *   4.9 -  Image Width
+ *   4.10 -  Ajax Login Form
+ *   4.11 - Portfolio Icon Box
+ *   4.12 - WooCommerce Notice block
+ */
+
+
+/**
+ * 1.0 - Wordpress CSS
+ */
+
+.nk-blog-post.sticky .nk-post-title:before {
+    content: "\f2a6";
+    display: inline-block;
+    font-family: "Ionicons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: 15px;
+    -webkit-transform: rotate(-45deg) translateY(2px);
+    transform: rotate(-45deg) translateY(2px);
+}
+
+.gallery {
+    margin-bottom: 1.6em;
+}
+
+.gallery-item {
+    display: inline-block;
+    padding: 1.79104477%;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+    max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+    max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+    max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+    max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+    max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+    max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+    max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+    max-width: 11.11%;
+}
+
+.gallery-icon img {
+    margin: 0 auto;
+}
+
+.gallery-caption {
+    display: block;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 0.5em 0;
+}
+
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+    display: none;
+}
+
+.nk-comment.bypostauthor > .nk-comment-meta > .nk-comment-name {
+    background-color: #e8e8e8;
+    padding: 3px 8px;
+    margin-bottom: 2px;
+}
+
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    color: #000;
+    max-width: 96%;
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+
+/**
+ * 2.0 - Text Render
+ *
+ * Text meant only for screen readers
+ */
+
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+}
+
+
+/**
+ * 3.0 - Table for posts
+ */
+
+.nk-post-text table, .nk-comments table, .page table {
+    margin-bottom: 30px;
+    border: 1px solid #838282;
+}
+.nk-post-text table th,
+.nk-post-text table td,
+.nk-comments table th,
+.nk-comments table td,
+.page table th,
+.page table td{
+    padding: 5px 15px;
+    border-top: 1px solid #838282;
+    border-left: 1px solid #838282;
+}
+
+
+/**
+ * 4.0 - Fixed section
+ */
+
+/**
+ * 4.1 - Large Images
+ */
+
+.nk-post-text img, .nk-forum-topic-content img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/**
+ * 4.2 - Category List
+ *
+ * Fixed Multiple category list on post page
+ */
+
+.nk-categories-list{
+    vertical-align: top;
+}
+
+
+/**
+ * 4.3 - Monster Widgets
+ */
+
+#wp-calendar {
+    color: inherit;
+}
+#wp-calendar {width: auto;min-width: 99%;}
+#wp-calendar caption { text-align: right; font-size: 12px; padding: 0; margin-bottom: 15px; }
+#wp-calendar thead { font-weight: 900; font-size: 1.2rem; }
+#wp-calendar thead th { text-align: center; padding-bottom: 10px; }
+#wp-calendar tbody td, #wp-calendar tfoot td  { border: 1px solid #fff; text-align: center; padding: 8px 3px;}
+
+@media screen and (max-width: 1200px) {
+    #wp-calendar tbody td{
+        font-size: 12px;
+    }
+}
+
+#wp-calendar tbody .pad { background: none; }
+#wp-calendar tfoot #next { font-size: 1.2rem; text-transform: uppercase; text-align: right; }
+#wp-calendar tfoot #prev { font-size: 1.2rem; text-transform: uppercase; padding-top: 10px; }
+#wp-calendar th{ padding: 8px 3px; }
+
+
+/**
+ * 4.4 - Buttons
+ *
+ * Fixed for all buttons
+ */
+
+.nk-btn:focus{
+    outline: none;
+}
+
+/* Fixed comment button */
+.hidden.button{
+    display:none!important;
+}
+
+/* Disabled style for buttons */
+.nk-btn.disabled,
+.nk-btn[disabled],
+.nk-btn:disabled,
+.nk-btn.khaki-shadow-button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+    cursor: not-allowed;
+    color: #888;
+}
+
+
+/**
+ * 4.5 - Contact Form 7
+ */
+
+.wpcf7-mail-sent-ok{
+    color: #5CB85C!important;
+    border:none!important;
+    margin: 0!important;
+    padding: 0!important;
+}
+.wpcf7-validation-errors,
+.wpcf7-mail-sent-ng,
+.wpcf7-spam-blocked
+{
+    color: #D9534F!important;
+    border:none!important;
+    margin: 0!important;
+    padding: 0!important;
+}
+#subscribe-email-error{
+    display: none!important;
+}
+.nk-input-group-btn.subscribe-alternate {
+    vertical-align: top;
+}
+.mc4wp-checkbox.mc4wp-checkbox-contact-form-7{
+    display: none;
+}
+span.wpcf7-not-valid-tip{
+    color: #D9534F!important;
+}
+
+/**
+ * 4.6 - Monster Widgets
+ */
+
+.nk-widget img {
+    max-width: 100%;
+    height: auto;
+}
+.nk-widget select {
+    max-width: 100%;
+}
+.nk-widget ul > li > ul > li > ul > li > ul ul {
+    padding-left: 0;
+}
+@media screen and (max-width: 950px) {
+    .nk-widget ul > li > ul > li > ul > li > ul > li > ul > li > ul ul {
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 1175px) {
+    .nk-widget ul > li > ul > li > ul ul {
+        padding-left: 0;
+    }
+}
+
+.responsive-embed {
+    clear: none !important;
+}
+.nk-carousel[data-dots="true"],
+.nk-carousel-2[data-dots="true"] {
+    padding-bottom: 45px;
+}
+
+
+/**
+ * 4.7 - VC Video Widget
+ *
+ * Fixed VC Video Widget Conflict
+ */
+
+.wpb_video_widget .wpb_wrapper .wpb_video_wrapper > div {
+    padding-bottom: 0 !important;
+}
+
+div.nk-portfolio-image + img {
+    opacity: 0;
+}
+div.nk-portfolio-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/**
+ * 4.8 -  Meta View Post
+ */
+
+.nk-views{
+    transition: .3s opacity;
+    font-style: italic;
+    user-select: none;
+    opacity: .8;
+    margin-right: 15px;
+}
+.nk-views>i{
+    display: inline-block;
+    font-size: 1.1rem;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+.nk-views .num{
+    font-size: .7rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+
+/**
+ * 4.9 -  Meta View Post
+ *
+ * Additional class for disable image width
+ */
+
+.nk-img-width-auto img{
+    width: auto!important;
+}
+.nk-set-z-index{
+    z-index: 1!important;
+}
+
+
+/**
+ * 4.10 -  Ajax Login Form
+ */
+
+.nk-sign-form-login:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.lwa-password input,
+.lwa-username input,
+.lwa-email input,
+.lwa-remember-email input {
+    margin: 0;
+    width: 100%;
+}
+.lwa-info a{
+    color: #fff!important;
+}
+.nk-sign-form .lwa-loading {
+    background: none;
+    z-index: 1;
+}
+.nk-sign-form .lwa-loading:after {
+    content: "\f29d";
+    font-family: "Ionicons";
+    position: absolute;
+    display: block;
+    font-size: 2rem;
+    top: 50%;
+    left: 50%;
+    margin-left: -14px;
+    margin-top: -27px;
+    -webkit-animation: ajax-form-loader 2s linear infinite;
+    animation: ajax-form-loader 2s linear infinite;
+}
+.nk-sign-form .lwa-loading ~ *,
+.nk-sign-form .lwa-loading ~ * input {
+    opacity: 0.4;
+}
+@-webkit-keyframes ajax-form-loader {
+    from { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@keyframes ajax-form-loader {
+    from { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+.lwa-status {
+    margin-bottom: 25px;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+}
+.lwa-status-invalid {
+    background-color: #d9534f;
+}
+.lwa-status-confirm {
+    background-color: #2fcc67;
+}
+
+/**
+ * 4.11 - Portfolio Icon Box
+ */
+.nk-portfolio-item .nk-image-box-overlay.nk-image-box-center {
+    z-index: 1;
+}
+
+/**
+ * 4.12 - Fixed WooCommerce Notice block
+ */
+.woocommerce-store-notice, p.demo_store {
+    position: fixed;
+    top: unset!important;
+    width: 50%;
+    padding: 35px;
+    margin: 30px;
+    bottom: 0;
+}

@@ -1,0 +1,136 @@
+
+/**
+ * Shortcode Icons
+ */
+.vc_element-icon[data-is-container=true].icon-nk,
+.vc_element-icon.icon-nk {
+    background-position: 50% 50%;
+}
+.vc_element-icon.icon-nk {
+    background-image: url('../images/shortcodes/nk.png');
+}
+
+.vc_element-icon.icon-nk.icon-nk-button {
+    background-image: url('../images/shortcodes/button.png');
+}
+.vc_element-icon.icon-nk.icon-nk-accordion {
+    background-image: url('../images/shortcodes/accordion.png');
+}
+.vc_element-icon.icon-nk.icon-nk-block-quote {
+    background-image: url('../images/shortcodes/block-quote.png');
+}
+.vc_element-icon.icon-nk.icon-nk-video-block {
+    background-image: url('../images/shortcodes/video-block.png');
+}
+.vc_element-icon.icon-nk.icon-nk-carousel {
+    background-image: url('../images/shortcodes/carousel.png');
+}
+.vc_element-icon.icon-nk.icon-nk-countdown {
+    background-image: url('../images/shortcodes/countdown.png');
+}
+.vc_element-icon.icon-nk.icon-nk-counter {
+    background-image: url('../images/shortcodes/counter.png');
+}
+.vc_element-icon.icon-nk.icon-nk-text {
+    background-image: url('../images/shortcodes/text.png');
+}
+.vc_element-icon.icon-nk.icon-nk-gallery-images {
+    background-image: url('../images/shortcodes/gallery-images.png');
+}
+.vc_element-icon.icon-nk.icon-nk-gallery-videos {
+    background-image: url('../images/shortcodes/gallery-videos.png');
+}
+.vc_element-icon.icon-nk.icon-nk-gif {
+    background-image: url('../images/shortcodes/gif.png');
+}
+.vc_element-icon.icon-nk.icon-nk-icon-box {
+    background-image: url('../images/shortcodes/icon-box.png');
+}
+.vc_element-icon.icon-nk.icon-nk-image-box {
+    background-image: url('../images/shortcodes/image-box.png');
+}
+.vc_element-icon.icon-nk.icon-nk-info-box {
+    background-image: url('../images/shortcodes/info-box.png');
+}
+.vc_element-icon.icon-nk.icon-nk-instagram {
+    background-image: url('../images/shortcodes/instagram.png');
+}
+.vc_element-icon.icon-nk.icon-nk-plain-video {
+    background-image: url('../images/shortcodes/plain-video.png');
+}
+.vc_element-icon.icon-nk.icon-nk-pricing-table {
+    background-image: url('../images/shortcodes/pricing-table.png');
+}
+.vc_element-icon.icon-nk.icon-nk-progress {
+    background-image: url('../images/shortcodes/progress.png');
+}
+.vc_element-icon.icon-nk.icon-nk-tabs {
+    background-image: url('../images/shortcodes/tabs.png');
+}
+.vc_element-icon.icon-nk.icon-nk-team-member {
+    background-image: url('../images/shortcodes/team-member.png');
+}
+.vc_element-icon.icon-nk.icon-nk-testimonial {
+    background-image: url('../images/shortcodes/testimonial.png');
+}
+.vc_element-icon.icon-nk.icon-nk-text-typed {
+    background-image: url('../images/shortcodes/text-typed.png');
+}
+.vc_element-icon.icon-nk.icon-nk-title {
+    background-image: url('../images/shortcodes/title.png');
+}
+.vc_element-icon.icon-nk.icon-nk-twitter {
+    background-image: url('../images/shortcodes/twitter.png');
+}
+.vc_element-icon.icon-nk.icon-nk-posts-list {
+    background-image: url('../images/shortcodes/posts-list.png');
+}
+
+
+/**
+ * Customizer
+ */
+#customize-theme-controls .accordion-section-title .fa {
+    width: 20px;
+    text-align: left;
+}
+/* Hide icons on panels */
+#customize-theme-controls .control-subsection > .accordion-section-title .fa,
+#customize-controls .control-section .customize-section-title h3 .fa {
+    display: none;
+}
+/* Additional margin for controls and border */
+.customize-control {
+    margin-bottom: 15px;
+}
+.customize-control:after {
+    content: '';
+    display: block;
+    margin-top: 15px;
+    margin-left: -12px;
+    margin-right: -12px;
+    border-bottom: 1px solid #dedede;
+}
+#customize-theme-controls .fa.dashicons,
+#customize-theme-controls .fa.dashicons-before {
+    display: block;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 600;
+}
+#customize-theme-controls .fa.dashicons:before,
+#customize-theme-controls .fa.dashicons-before:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    vertical-align: baseline;
+    width: 25px;
+    text-align: left;
+}
+
+
+/*Mega Menu*/
+#update-nav-menu .field-link-mega.description, #update-nav-menu .khaki-menu-bg-image{
+    display: none;
+}
+#update-nav-menu ul>li.menu-item-depth-0 .field-link-mega.description, #update-nav-menu ul>li.menu-item-depth-0 .khaki-menu-bg-image{
+    display: block;
+}
