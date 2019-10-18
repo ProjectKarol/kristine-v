@@ -117,7 +117,7 @@ define('WP_DEBUG', false);
 
 // defelopment envoroments
 $envs = array(
-    'development' => 'https://kristine-v.loc',
+    'development' => 'https://www.kristine-v.loc',
     'staging' => 'https://kristine.intellegro.pl/',
     'production' => 'https://www.kristine-v.com'
 );

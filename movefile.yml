@@ -2,7 +2,7 @@ global:
   sql_adapter: wpcli
 
 local:
-  vhost: https://kristine-v.loc
+  vhost: https://www.kristine-v.loc
   wordpress_path: /shared/httpd/www.kristine-v/htdocs # use an absolute path here
 
   database:
