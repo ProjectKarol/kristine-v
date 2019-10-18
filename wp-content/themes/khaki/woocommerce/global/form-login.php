@@ -13,7 +13,7 @@
  * @see 	    https://docs.woocommerce.com/document/template-structure/
  * @author 		WooThemes
  * @package 	WooCommerce/Templates
- * @version     3.3.0
+ * @version     3.6.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -47,7 +47,7 @@ if ( is_user_logged_in() ) {
 					<?php esc_html_e( 'Login', 'khaki' ); ?>
                 <input type="submit" class="khaki-wc-submit" name="login" value="<?php esc_attr_e( 'Login', 'khaki' ); ?>" />
 			</span>
-            <input type="hidden" name="redirect" value="<?php echo esc_url( $redirect ) ?>" />
+            <input type="hidden" name="redirect" value="<?php echo esc_url( $redirect ); ?>" />
             <label class="woocommerce-form__label woocommerce-form__label-for-checkbox inline" id="khaki_woocommerce_rememberme_label">
                 <input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever" /> <span><?php _e( 'Remember me', 'khaki' ); ?></span>
             </label>

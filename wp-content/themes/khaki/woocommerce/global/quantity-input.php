@@ -13,7 +13,7 @@
  * @see 	    https://docs.woocommerce.com/document/template-structure/
  * @author 		WooThemes
  * @package 	WooCommerce/Templates
- * @version     3.4.0
+ * @version     3.6.0
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -25,9 +25,10 @@ if ( $max_value && $min_value === $max_value ) {
     </div>
 <?php
 } else {
-    $labelledby = ! empty( $args['product_name'] ) ? sprintf( __( '%s quantity', 'khaki' ), strip_tags( $args['product_name'] ) ) : '';
+    $labelledby = ! empty( $args['product_name'] ) ? sprintf( __( '%s quantity', 'khaki' ), wp_strip_all_tags( $args['product_name'] ) ) : '';
     ?>
     <div class="quantity nk-form-control-number">
+        <?php do_action( 'woocommerce_before_quantity_input_field' ); ?>
         <input
                 type="number"
                 id="<?php echo esc_attr( $input_id ); ?>"
@@ -39,10 +40,12 @@ if ( $max_value && $min_value === $max_value ) {
                 value="<?php echo esc_attr( $input_value ); ?>"
                 title="<?php echo esc_attr_x( 'Qty', 'Product quantity input tooltip', 'khaki' ) ?>"
                 size="4"
-                pattern="<?php echo esc_attr( $pattern ); ?>"
                 inputmode="<?php echo esc_attr( $inputmode ); ?>"
+                <?php if ( ! empty( $labelledby ) ) { ?>
                 aria-labelledby="<?php echo esc_attr( $labelledby ); ?>"
+                <?php } ?>
         />
+        <?php do_action( 'woocommerce_after_quantity_input_field' ); ?>
     </div>
     <?php
 }

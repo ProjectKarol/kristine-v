@@ -13,5 +13,6 @@ $preview_description_trim_cnt = khaki_get_theme_mod('archive_preview_description
             the_content();
         }
         ?>
+        <div class="clearfix"></div>
     </div>
 <?php endif; ?>

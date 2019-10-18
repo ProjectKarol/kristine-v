@@ -92,6 +92,7 @@ get_template_part('/template-parts/header/search');
                                                 the_content();
                                             }
                                             ?>
+                                            <div class="clearfix"></div>
                                         </div>
                                     <?php endif; ?>
 
@@ -124,6 +125,7 @@ get_template_part('/template-parts/header/search');
                                         the_content();
                                     }
                                     ?>
+                                    <div class="clearfix"></div>
                                 </div>
                             <?php endif; ?>
                             <?php if(!$simple_view):?>

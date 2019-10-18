@@ -20,11 +20,14 @@ if ( function_exists('nk_theme') && method_exists ( nk_theme() , 'theme_dashboar
     );
 
     nk_theme()->theme_dashboard( array(
-        'theme_title'        => 'Khaki',
-        'theme_id'           => '19968221',
-        'theme_uri'          => 'https://themeforest.net/item/khaki-multipurpose-wordpress-theme/19968221?ref=_nK',
-        'ask_for_review'     => true,
-        'is_envato_elements' => true,
+        'theme_title'         => 'Khaki',
+        'theme_version'       => '2.0.4',
+        'theme_id'            => '19968221',
+        'theme_uri'           => 'https://themeforest.net/item/khaki-multipurpose-wordpress-theme/19968221?ref=_nK',
+        'theme_documentation' => 'https://nkdev.info/docs/khaki-wp/',
+        'theme_changelog'     => 'https://nkdev.info/docs/khaki-wp/log/',
+        'ask_for_review'      => true,
+        'is_envato_elements'  => true,
         'demos'             => array(
             'main' => array(
                 'title'      => esc_html__('Main', 'khaki'),
