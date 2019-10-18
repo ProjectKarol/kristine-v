@@ -1,8 +1,8 @@
-# Copyright (C) 2019 Khaki Core
-# This file is distributed under the same license as the Khaki Core package.
+# Copyright (C) 2019 Khaki Core Plugin
+# This file is distributed under the same license as the Khaki Core Plugin package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Khaki Core\n"
+"Project-Id-Version: Khaki Core Plugin\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,110 +14,6 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: dist/khaki-core/_all.php:20
-msgid "None"
-msgstr ""
-
-#: dist/khaki-core/_all.php:21
-msgid "Main 1"
-msgstr ""
-
-#: dist/khaki-core/_all.php:22
-msgid "Main 2"
-msgstr ""
-
-#: dist/khaki-core/_all.php:23
-msgid "Main 3"
-msgstr ""
-
-#: dist/khaki-core/_all.php:24
-msgid "Main 4"
-msgstr ""
-
-#: dist/khaki-core/_all.php:25
-msgid "Main 5"
-msgstr ""
-
-#: dist/khaki-core/_all.php:26
-msgid "Primary"
-msgstr ""
-
-#: dist/khaki-core/_all.php:27
-msgid "Success"
-msgstr ""
-
-#: dist/khaki-core/_all.php:28
-msgid "Info"
-msgstr ""
-
-#: dist/khaki-core/_all.php:29
-msgid "Warning"
-msgstr ""
-
-#: dist/khaki-core/_all.php:30
-msgid "Danger"
-msgstr ""
-
-#: dist/khaki-core/_all.php:31
-msgid "White"
-msgstr ""
-
-#: dist/khaki-core/_all.php:32, dist/khaki-core/shortcodes/nk-video-icon.php:58
-msgid "Black"
-msgstr ""
-
-#: dist/khaki-core/_all.php:33
-msgid "Dark 1"
-msgstr ""
-
-#: dist/khaki-core/_all.php:34
-msgid "Dark 2"
-msgstr ""
-
-#: dist/khaki-core/_all.php:35
-msgid "Dark 3"
-msgstr ""
-
-#: dist/khaki-core/_all.php:36
-msgid "Dark 4"
-msgstr ""
-
-#: dist/khaki-core/_all.php:37
-msgid "Gray 1"
-msgstr ""
-
-#: dist/khaki-core/_all.php:38
-msgid "Gray 2"
-msgstr ""
-
-#: dist/khaki-core/_all.php:39
-msgid "Gray 3"
-msgstr ""
-
-#: dist/khaki-core/_all.php:40
-msgid "Gray 4"
-msgstr ""
-
-#: dist/khaki-core/_all.php:71
-msgid "CSS"
-msgstr ""
-
-#: dist/khaki-core/_all.php:73, dist/khaki-core/shortcodes/nk-pricing-table.php:347, dist/khaki-core/shortcodes/nk-pricing-table.php:354, dist/khaki-core/shortcodes/nk-pricing-table.php:367, dist/khaki-core/shortcodes/nk-pricing-table.php:377
-msgid "Design Options"
-msgstr ""
-
-#: dist/khaki-core/_all.php:104, dist/khaki-core/_all.php:104
-msgid "Select File"
-msgstr ""
-
-#: dist/khaki-core/_all.php:104, dist/khaki-core/_all.php:104
-msgid "&times;"
-msgstr ""
-
-#: dist/khaki-core/_all.php:112
-msgid "Ionicons"
-msgstr ""
 
 #: dist/khaki-core/shortcodes/nk-accordion.php:106
 msgid "nK Accordion"
@@ -1175,6 +1071,10 @@ msgstr ""
 msgid "Button Link"
 msgstr ""
 
+#: dist/khaki-core/shortcodes/nk-pricing-table.php:347, dist/khaki-core/shortcodes/nk-pricing-table.php:354, dist/khaki-core/shortcodes/nk-pricing-table.php:367, dist/khaki-core/shortcodes/nk-pricing-table.php:377, dist/khaki-core/_all.php:73
+msgid "Design Options"
+msgstr ""
+
 #: dist/khaki-core/shortcodes/nk-pricing-table.php:352
 msgid "Substrate Background Color"
 msgstr ""
@@ -1411,6 +1311,10 @@ msgstr ""
 msgid "nK Video Icon"
 msgstr ""
 
+#: dist/khaki-core/shortcodes/nk-video-icon.php:58, dist/khaki-core/_all.php:32
+msgid "Black"
+msgstr ""
+
 #: dist/khaki-core/shortcodes/nk-video-icon.php:59
 msgid "Black 2"
 msgstr ""
@@ -1561,4 +1465,100 @@ msgstr ""
 
 #: dist/khaki-core/widgets/twitter.php:65
 msgid "Tweets Count:"
+msgstr ""
+
+#: dist/khaki-core/_all.php:20
+msgid "None"
+msgstr ""
+
+#: dist/khaki-core/_all.php:21
+msgid "Main 1"
+msgstr ""
+
+#: dist/khaki-core/_all.php:22
+msgid "Main 2"
+msgstr ""
+
+#: dist/khaki-core/_all.php:23
+msgid "Main 3"
+msgstr ""
+
+#: dist/khaki-core/_all.php:24
+msgid "Main 4"
+msgstr ""
+
+#: dist/khaki-core/_all.php:25
+msgid "Main 5"
+msgstr ""
+
+#: dist/khaki-core/_all.php:26
+msgid "Primary"
+msgstr ""
+
+#: dist/khaki-core/_all.php:27
+msgid "Success"
+msgstr ""
+
+#: dist/khaki-core/_all.php:28
+msgid "Info"
+msgstr ""
+
+#: dist/khaki-core/_all.php:29
+msgid "Warning"
+msgstr ""
+
+#: dist/khaki-core/_all.php:30
+msgid "Danger"
+msgstr ""
+
+#: dist/khaki-core/_all.php:31
+msgid "White"
+msgstr ""
+
+#: dist/khaki-core/_all.php:33
+msgid "Dark 1"
+msgstr ""
+
+#: dist/khaki-core/_all.php:34
+msgid "Dark 2"
+msgstr ""
+
+#: dist/khaki-core/_all.php:35
+msgid "Dark 3"
+msgstr ""
+
+#: dist/khaki-core/_all.php:36
+msgid "Dark 4"
+msgstr ""
+
+#: dist/khaki-core/_all.php:37
+msgid "Gray 1"
+msgstr ""
+
+#: dist/khaki-core/_all.php:38
+msgid "Gray 2"
+msgstr ""
+
+#: dist/khaki-core/_all.php:39
+msgid "Gray 3"
+msgstr ""
+
+#: dist/khaki-core/_all.php:40
+msgid "Gray 4"
+msgstr ""
+
+#: dist/khaki-core/_all.php:71
+msgid "CSS"
+msgstr ""
+
+#: dist/khaki-core/_all.php:104, dist/khaki-core/_all.php:104
+msgid "Select File"
+msgstr ""
+
+#: dist/khaki-core/_all.php:104, dist/khaki-core/_all.php:104
+msgid "&times;"
+msgstr ""
+
+#: dist/khaki-core/_all.php:112
+msgid "Ionicons"
 msgstr ""
