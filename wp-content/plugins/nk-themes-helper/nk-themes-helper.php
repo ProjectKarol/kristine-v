@@ -2,7 +2,7 @@
 /**
  * Plugin Name:  nK Themes Helper
  * Description:  Helper for nK themes
- * Version:      1.6.15
+ * Version:      1.6.17
  * Author:       nK
  * Author URI:   https://nkdev.info
  * License:      GPLv2 or later
@@ -181,23 +181,22 @@ class nK {
 
         // init updater class to plugin updates check.
         $this->updater();
-
-        // init plugins updater.
-        new NK_Helper_Plugins_Updater();
     }
 
     /**
      * Include dependencies
      */
     private function include_dependencies() {
-        require_once( $this->plugin_path . 'class-demo-importer.php' );
-        require_once( $this->plugin_path . 'class-twitter.php' );
-        require_once( $this->plugin_path . 'class-instagram.php' );
-        require_once( $this->plugin_path . 'class-updater.php' );
-        require_once( $this->plugin_path . 'class-theme-dashboard.php' );
-        require_once( $this->plugin_path . 'class-portfolio.php' );
-        require_once( $this->plugin_path . 'class-custom-post-type.php' );
-        require_once( $this->plugin_path . 'class-plugins-updater.php' );
+        require_once $this->plugin_path . 'class-demo-importer.php';
+        require_once $this->plugin_path . 'class-twitter.php';
+        require_once $this->plugin_path . 'class-instagram.php';
+        require_once $this->plugin_path . 'class-updater.php';
+        require_once $this->plugin_path . 'class-theme-dashboard.php';
+        require_once $this->plugin_path . 'class-portfolio.php';
+        require_once $this->plugin_path . 'class-custom-post-type.php';
+
+        require_once $this->plugin_path . 'plugins-updater/acf-pro.php';
+        require_once $this->plugin_path . 'plugins-updater/vc.php';
     }
 
 
@@ -540,7 +539,7 @@ class nK {
             return false;
         }
 
-        require_once( $this->plugin_path . 'vendor/scssphp/scss.inc.php' );
+        require_once $this->plugin_path . 'vendor/scssphp/scss.inc.php';
 
         // if there is no cached version - let's compile!
         $scss = new Leafo\ScssPhp\Compiler();
@@ -569,7 +568,7 @@ class nK {
      * @return bool|string
      */
     public function less( $file_name = 'nk-custom-style.css', $src_file = null, $variables = array() ) {
-        require_once( $this->plugin_path . 'vendor/lessphp/lessc.inc.php' );
+        require_once $this->plugin_path . 'vendor/lessphp/lessc.inc.php';
 
         $stored_less = get_option( $this->compile_folder . $file_name );
 

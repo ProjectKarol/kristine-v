@@ -464,12 +464,12 @@ msgid "Documentation"
 msgstr ""
 
 #. translators: %s - theme name.
-#: dist/nk-themes-helper/class-theme-dashboard.php:373
+#: dist/nk-themes-helper/class-theme-dashboard.php:342
 msgid "%s is now installed and ready to use! We hope you enjoy it!"
 msgstr ""
 
 #. translators: %s - theme name.
-#: dist/nk-themes-helper/class-theme-dashboard.php:375
+#: dist/nk-themes-helper/class-theme-dashboard.php:344
 msgid "%s is now installed and ready to use! Please activate your theme to get automatic updates and demo import. Read below for additional information. We hope you enjoy it!"
 msgstr ""
 

@@ -72,7 +72,7 @@ gulp.task( 'clean:mobile', function() {
 
 		// here we use a globbing pattern to match everything inside the `mobile` folder
 		'./disc/css/',
-		'!./disc/js/',
+		'./disc/js/',
 
 		// we don't want to clean this file though so we negate the pattern
 		'!dist/mobile/deploy.json'
@@ -131,22 +131,24 @@ const reload = done => {
  */
 
 gulp.task( 'styles', () => {
+	del([
+		'assets/dist/report.csv',
 
-	// del([
-	// 	'assets/dist/report.csv',
+		// here we use a globbing pattern to match everything inside the `mobile` folder
+		'./disc/css/',
+		'!./disc/js/',
 
-	// 	// here we use a globbing pattern to match everything inside the `mobile` folder
-	// 	'./disc/css/',
-	// 	'!./disc/js/',
-
-	// 	// we don't want to clean this file though so we negate the pattern
-	// 	'!dist/mobile/deploy.json'
-	// ]);
+		// we don't want to clean this file though so we negate the pattern
+		'!dist/mobile/deploy.json'
+	]);
 	return (
 		gulp
 			.src( config.styleSRC, { allowEmpty: true })
 			.pipe( plumber( errorHandler ) )
-			.pipe( sourcemaps.init() )
+			.pipe( hash() )
+
+			//.pipe(sourcemaps.init())
+			.pipe( sourcemaps.init({ loadMaps: true }) )
 			.pipe(
 				sass({
 					errLogToConsole: config.errLogToConsole,
@@ -154,12 +156,13 @@ gulp.task( 'styles', () => {
 					precision: config.precision
 				})
 			)
+			.pipe( sourcemaps.write( './' ) )
+
+			// .pipe(sourcemaps.write({ includeContent: true }))
 			.on( 'error', sass.logError )
 
-			// .pipe( sourcemaps.write({ includeContent: false }) )
-			// .pipe( sourcemaps.init({ loadMaps: true }) )
-			// .pipe( autoprefixer( config.BROWSERS_LIST ) )
-			.pipe( sourcemaps.write( './' ) )
+		// .pipe( autoprefixer( config.BROWSERS_LIST ) )
+
 			.pipe( lineec() ) // Consistent Line Endings for non UNIX systems.
 			.pipe( gulp.dest( config.styleDestination ) )
 			.pipe( filter( '**/*.css' ) ) // Filtering stream to only css files.
@@ -368,6 +371,16 @@ gulp.task( 'customJS', () => {
 
 // web
 gulp.task( 'webpack', function( callback ) {
+	del([
+		'assets/dist/report.csv',
+
+		// here we use a globbing pattern to match everything inside the `mobile` folder
+		'!./disc/css/',
+		'./disc/js/',
+
+		// we don't want to clean this file though so we negate the pattern
+		'!dist/mobile/deploy.json'
+	]);
 	webpack( require( './webpack.config.js' ), function( err, stats ) {
 		if ( err ) {
 			console.log( err.toString() );

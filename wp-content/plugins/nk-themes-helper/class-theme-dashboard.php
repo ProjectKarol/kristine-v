@@ -163,12 +163,12 @@ class NK_Helper_Theme_Dashboard {
     public function admin_print_styles() {
         wp_enqueue_style( 'fontawesome', nk_theme()->plugin_url . 'assets/vendor/fontawesome/css/font-awesome.min.css' );
         wp_enqueue_style( 'tether-drop', nk_theme()->plugin_url . 'assets/vendor/drop/dist/css/drop-theme-twipsy.min.css' );
-        wp_enqueue_style( 'nk-theme-dashboard', nk_theme()->plugin_url . 'assets/css/theme-dashboard.min.css', '', '1.6.15' );
+        wp_enqueue_style( 'nk-theme-dashboard', nk_theme()->plugin_url . 'assets/css/theme-dashboard.min.css', '', '1.6.17' );
 
         wp_register_script( 'event-source-polyfill', nk_theme()->plugin_url . 'assets/vendor/eventsource/eventsource.min.js' );
         wp_enqueue_script( 'tether', nk_theme()->plugin_url . 'assets/vendor/drop/dist/js/tether.min.js', '', '', true );
         wp_enqueue_script( 'tether-drop', nk_theme()->plugin_url . 'assets/vendor/drop/dist/js/drop.min.js', '', '', true );
-        wp_enqueue_script( 'nk-theme-dashboard', nk_theme()->plugin_url . 'assets/js/theme-dashboard.min.js', array( 'jquery' ), '1.6.15', true );
+        wp_enqueue_script( 'nk-theme-dashboard', nk_theme()->plugin_url . 'assets/js/theme-dashboard.min.js', array( 'jquery' ), '1.6.17', true );
 
         $data_init = array(
             'demoImportConfirm' => esc_html__( 'This will import data from demo page. Clicking this option will replace your current theme options and widgets. Please, wait before the process end. It may take a while.', 'nk-themes-helper' ),
@@ -319,37 +319,6 @@ class NK_Helper_Theme_Dashboard {
                 ), 'nk_theme'
             );
             $this->theme_id = $extra_headers['Theme ID'];
-        }
-
-        // fix for 21.07.2019 bug in themes.
-        if ( '@@theme_id' === $this->theme_id ) {
-            switch ( $this->theme_name ) {
-                case 'Khaki':
-                case 'khaki':
-                    $this->theme_id = '19968221';
-                    break;
-                case 'Godlike':
-                case 'GodLike':
-                case 'godlike':
-                    $this->theme_id = '18711623';
-                    break;
-                case 'Youplay':
-                case 'youplay':
-                    $this->theme_id = '11959042';
-                    break;
-                case 'Umbrella':
-                case 'umbrella':
-                    $this->theme_id = '18068692';
-                    break;
-                case 'Snow':
-                case 'snow':
-                    $this->theme_id = '19347252';
-                    break;
-                case 'Piroll':
-                case 'piroll':
-                    $this->theme_id = '20672319';
-                    break;
-            }
         }
 
         $this->is_envato_hosted = defined( 'ENVATO_HOSTED_SITE' );
