@@ -163,12 +163,12 @@ class NK_Helper_Theme_Dashboard {
     public function admin_print_styles() {
         wp_enqueue_style( 'fontawesome', nk_theme()->plugin_url . 'assets/vendor/fontawesome/css/font-awesome.min.css' );
         wp_enqueue_style( 'tether-drop', nk_theme()->plugin_url . 'assets/vendor/drop/dist/css/drop-theme-twipsy.min.css' );
-        wp_enqueue_style( 'nk-theme-dashboard', nk_theme()->plugin_url . 'assets/css/theme-dashboard.min.css', '', '1.6.17' );
+        wp_enqueue_style( 'nk-theme-dashboard', nk_theme()->plugin_url . 'assets/css/theme-dashboard.min.css', '', '1.6.18' );
 
         wp_register_script( 'event-source-polyfill', nk_theme()->plugin_url . 'assets/vendor/eventsource/eventsource.min.js' );
         wp_enqueue_script( 'tether', nk_theme()->plugin_url . 'assets/vendor/drop/dist/js/tether.min.js', '', '', true );
         wp_enqueue_script( 'tether-drop', nk_theme()->plugin_url . 'assets/vendor/drop/dist/js/drop.min.js', '', '', true );
-        wp_enqueue_script( 'nk-theme-dashboard', nk_theme()->plugin_url . 'assets/js/theme-dashboard.min.js', array( 'jquery' ), '1.6.17', true );
+        wp_enqueue_script( 'nk-theme-dashboard', nk_theme()->plugin_url . 'assets/js/theme-dashboard.min.js', array( 'jquery' ), '1.6.18', true );
 
         $data_init = array(
             'demoImportConfirm' => esc_html__( 'This will import data from demo page. Clicking this option will replace your current theme options and widgets. Please, wait before the process end. It may take a while.', 'nk-themes-helper' ),

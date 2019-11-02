@@ -12,8 +12,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 if ( ! function_exists( 'vc_manager' ) ) {
 	/**
 	 * WPBakery Page Builder manager.
-	 * @return Vc_Manager
 	 * @since 4.2
+	 * @return Vc_Manager
 	 */
 	function vc_manager() {
 		return Vc_Manager::getInstance();
@@ -22,8 +22,8 @@ if ( ! function_exists( 'vc_manager' ) ) {
 if ( ! function_exists( 'visual_composer' ) ) {
 	/**
 	 * WPBakery Page Builder instance.
-	 * @return Vc_Base
 	 * @since 4.2
+	 * @return Vc_Base
 	 */
 	function visual_composer() {
 		return vc_manager()->vc();
@@ -32,8 +32,8 @@ if ( ! function_exists( 'visual_composer' ) ) {
 if ( ! function_exists( 'vc_mapper' ) ) {
 	/**
 	 * Shorthand for Vc Mapper.
-	 * @return Vc_Mapper
 	 * @since 4.2
+	 * @return Vc_Mapper
 	 */
 	function vc_mapper() {
 		return vc_manager()->mapper();
@@ -42,8 +42,8 @@ if ( ! function_exists( 'vc_mapper' ) ) {
 if ( ! function_exists( 'vc_settings' ) ) {
 	/**
 	 * Shorthand for WPBakery Page Builder settings.
-	 * @return Vc_Settings
 	 * @since 4.2
+	 * @return Vc_Settings
 	 */
 	function vc_settings() {
 		return vc_manager()->settings();
@@ -52,8 +52,8 @@ if ( ! function_exists( 'vc_settings' ) ) {
 if ( ! function_exists( 'vc_license' ) ) {
 	/**
 	 * Get License manager
-	 * @return Vc_License
 	 * @since 4.2
+	 * @return Vc_License
 	 */
 	function vc_license() {
 		return vc_manager()->license();
@@ -61,8 +61,8 @@ if ( ! function_exists( 'vc_license' ) ) {
 }
 if ( ! function_exists( 'vc_automapper' ) ) {
 	/**
-	 * @return Vc_Automapper
 	 * @since 4.2
+	 * @return Vc_Automapper
 	 */
 	function vc_automapper() {
 		return vc_manager()->automapper();
@@ -71,8 +71,8 @@ if ( ! function_exists( 'vc_automapper' ) ) {
 if ( ! function_exists( 'vc_frontend_editor' ) ) {
 	/**
 	 * Shorthand for VC frontend editor
-	 * @return Vc_Frontend_Editor
 	 * @since 4.2
+	 * @return Vc_Frontend_Editor
 	 */
 	function vc_frontend_editor() {
 		return vc_manager()->frontendEditor();
@@ -81,8 +81,8 @@ if ( ! function_exists( 'vc_frontend_editor' ) ) {
 if ( ! function_exists( 'vc_backend_editor' ) ) {
 	/**
 	 * Shorthand for VC frontend editor
-	 * @return Vc_Backend_Editor
 	 * @since 4.2
+	 * @return Vc_Backend_Editor
 	 */
 	function vc_backend_editor() {
 		return vc_manager()->backendEditor();
@@ -90,8 +90,8 @@ if ( ! function_exists( 'vc_backend_editor' ) ) {
 }
 if ( ! function_exists( 'vc_updater' ) ) {
 	/**
-	 * @return Vc_Updater
 	 * @since 4.2
+	 * @return Vc_Updater
 	 */
 	function vc_updater() {
 		return vc_manager()->updater();
@@ -100,8 +100,8 @@ if ( ! function_exists( 'vc_updater' ) ) {
 if ( ! function_exists( 'vc_is_network_plugin' ) ) {
 	/**
 	 * Vc is network plugin or not.
-	 * @return bool
 	 * @since 4.2
+	 * @return bool
 	 */
 	function vc_is_network_plugin() {
 		return vc_manager()->isNetworkPlugin();
@@ -114,8 +114,8 @@ if ( ! function_exists( 'vc_path_dir' ) ) {
 	 * @param string $name - path name
 	 * @param string $file
 	 *
-	 * @return string
 	 * @since 4.2
+	 * @return string
 	 */
 	function vc_path_dir( $name, $file = '' ) {
 		return vc_manager()->path( $name, $file );
@@ -127,8 +127,8 @@ if ( ! function_exists( 'vc_asset_url' ) ) {
 	 *
 	 * @param string $file
 	 *
-	 * @return string
 	 * @since 4.2
+	 * @return string
 	 */
 	function vc_asset_url( $file ) {
 		return vc_manager()->assetUrl( $file );
@@ -137,8 +137,8 @@ if ( ! function_exists( 'vc_asset_url' ) ) {
 if ( ! function_exists( 'vc_upload_dir' ) ) {
 	/**
 	 * Temporary files upload dir;
-	 * @return string
 	 * @since 4.2
+	 * @return string
 	 */
 	function vc_upload_dir() {
 		return vc_manager()->uploadDir();
@@ -148,8 +148,8 @@ if ( ! function_exists( 'vc_template' ) ) {
 	/**
 	 * @param $file
 	 *
-	 * @return string
 	 * @since 4.2
+	 * @return string
 	 */
 	function vc_template( $file ) {
 		return vc_path_dir( 'TEMPLATES_DIR', $file );
@@ -162,17 +162,10 @@ if ( ! function_exists( 'vc_post_param' ) ) {
 	 * @param $param
 	 * @param $default
 	 *
-	 * @param bool $check
-	 * @return null|string - null for undefined param.
 	 * @since 4.2
+	 * @return null|string - null for undefined param.
 	 */
-	function vc_post_param( $param, $default = null, $check = false ) {
-		if ( 'admin' === $check ) {
-			check_admin_referer();
-		} elseif ( 'ajax' === $check ) {
-			check_ajax_referer();
-		}
-
+	function vc_post_param( $param, $default = null ) {
 		return isset( $_POST[ $param ] ) ? $_POST[ $param ] : $default;
 	}
 }
@@ -183,18 +176,10 @@ if ( ! function_exists( 'vc_get_param' ) ) {
 	 * @param string $param
 	 * @param $default
 	 *
-	 * @param bool $check
-	 * @return null|string - null for undefined param.
 	 * @since 4.2
+	 * @return null|string - null for undefined param.
 	 */
-	function vc_get_param( $param, $default = null, $check = false ) {
-		if ( 'admin' === $check ) {
-			check_admin_referer();
-		} elseif ( 'ajax' === $check ) {
-			check_ajax_referer();
-		}
-
-		// @codingStandardsIgnoreLine
+	function vc_get_param( $param, $default = null ) {
 		return isset( $_GET[ $param ] ) ? $_GET[ $param ] : $default;
 	}
 }
@@ -205,25 +190,17 @@ if ( ! function_exists( 'vc_request_param' ) ) {
 	 * @param $param
 	 * @param $default
 	 *
-	 * @param bool $check
-	 * @return null|string - null for undefined param.
 	 * @since 4.4
+	 * @return null|string - null for undefined param.
 	 */
-	function vc_request_param( $param, $default = null, $check = false ) {
-		if ( 'admin' === $check ) {
-			check_admin_referer();
-		} elseif ( 'ajax' === $check ) {
-			check_ajax_referer();
-		}
-
-		// @codingStandardsIgnoreLine
+	function vc_request_param( $param, $default = null ) {
 		return isset( $_REQUEST[ $param ] ) ? $_REQUEST[ $param ] : $default;
 	}
 }
 if ( ! function_exists( 'vc_is_frontend_editor' ) ) {
 	/**
-	 * @return bool
 	 * @since 4.2
+	 * @return bool
 	 */
 	function vc_is_frontend_editor() {
 		return 'admin_frontend_editor' === vc_mode();
@@ -231,8 +208,8 @@ if ( ! function_exists( 'vc_is_frontend_editor' ) ) {
 }
 if ( ! function_exists( 'vc_is_page_editable' ) ) {
 	/**
-	 * @return bool
 	 * @since 4.2
+	 * @return bool
 	 */
 	function vc_is_page_editable() {
 		return 'page_editable' === vc_mode();
@@ -241,11 +218,16 @@ if ( ! function_exists( 'vc_is_page_editable' ) ) {
 if ( ! function_exists( 'vc_action' ) ) {
 	/**
 	 * Get VC special action param.
-	 * @return string|null
 	 * @since 4.2
+	 * @return string|null
 	 */
 	function vc_action() {
-		$vc_action = wp_strip_all_tags( vc_request_param( 'vc_action' ) );
+		$vc_action = null;
+		if ( isset( $_GET['vc_action'] ) ) {
+			$vc_action = $_GET['vc_action'];
+		} elseif ( isset( $_POST['vc_action'] ) ) {
+			$vc_action = $_POST['vc_action'];
+		}
 
 		return $vc_action;
 	}
@@ -253,8 +235,8 @@ if ( ! function_exists( 'vc_action' ) ) {
 if ( ! function_exists( 'vc_is_inline' ) ) {
 	/**
 	 * Get is inline or not.
-	 * @return bool
 	 * @since 4.2
+	 * @return bool
 	 */
 	function vc_is_inline() {
 		global $vc_is_inline;
@@ -267,8 +249,8 @@ if ( ! function_exists( 'vc_is_inline' ) ) {
 }
 if ( ! function_exists( 'vc_is_frontend_ajax' ) ) {
 	/**
-	 * @return bool
 	 * @since 4.2
+	 * @return bool
 	 */
 	function vc_is_frontend_ajax() {
 		return 'true' === vc_post_param( 'vc_inline' ) || vc_get_param( 'vc_inline' );
@@ -276,8 +258,8 @@ if ( ! function_exists( 'vc_is_frontend_ajax' ) ) {
 }
 /**
  * @depreacted since 4.8 ( use vc_is_frontend_editor )
- * @return bool
  * @since 4.2
+ * @return bool
  */
 function vc_is_editor() {
 	return vc_is_frontend_editor();
@@ -287,11 +269,10 @@ function vc_is_editor() {
  * @param $value
  * @param bool $encode
  *
- * @return string
  * @since 4.2
+ * @return string
  */
 function vc_value_from_safe( $value, $encode = false ) {
-	// @codingStandardsIgnoreLine
 	$value = preg_match( '/^#E\-8_/', $value ) ? rawurldecode( base64_decode( preg_replace( '/^#E\-8_/', '', $value ) ) ) : $value;
 	if ( $encode ) {
 		$value = htmlentities( $value, ENT_COMPAT, 'UTF-8' );
@@ -301,17 +282,17 @@ function vc_value_from_safe( $value, $encode = false ) {
 }
 
 /**
- * @param bool $disable
  * @since 4.2
  *
+ * @param bool $disable
  */
 function vc_disable_automapper( $disable = true ) {
 	vc_automapper()->setDisabled( $disable );
 }
 
 /**
- * @return bool
  * @since 4.2
+ * @return bool
  */
 function vc_automapper_is_disabled() {
 	return vc_automapper()->disabled();
@@ -321,8 +302,8 @@ function vc_automapper_is_disabled() {
  * @param $param
  * @param $value
  *
- * @return mixed|string
  * @since 4.2
+ * @return mixed|string
  */
 function vc_get_dropdown_option( $param, $value ) {
 	if ( '' === $value && is_array( $param['value'] ) ) {
@@ -341,8 +322,8 @@ function vc_get_dropdown_option( $param, $value ) {
  * @param $prefix
  * @param $color
  *
- * @return string
  * @since 4.2
+ * @return string
  */
 function vc_get_css_color( $prefix, $color ) {
 	$rgb_color = preg_match( '/rgba/', $color ) ? preg_replace( array(
@@ -364,8 +345,8 @@ function vc_get_css_color( $prefix, $color ) {
  * @param $param_value
  * @param string $prefix
  *
- * @return string
  * @since 4.2
+ * @return string
  */
 function vc_shortcode_custom_css_class( $param_value, $prefix = '' ) {
 	$css_class = preg_match( '/\s*\.([^\{]+)\s*\{\s*([^\}]+)\s*\}\s*/', $param_value ) ? $prefix . preg_replace( '/\s*\.([^\{]+)\s*\{\s*([^\}]+)\s*\}\s*/', '$1', $param_value ) : '';
@@ -378,8 +359,8 @@ function vc_shortcode_custom_css_class( $param_value, $prefix = '' ) {
  * @param $property
  * @param bool|false $strict
  *
- * @return bool
  * @since 4.9
+ * @return bool
  */
 function vc_shortcode_custom_css_has_property( $subject, $property, $strict = false ) {
 	$styles = array();
@@ -414,34 +395,39 @@ function vc_shortcode_custom_css_has_property( $subject, $property, $strict = fa
 /**
  * Plugin name for VC.
  *
- * @return string
  * @since 4.2
+ * @return string
  */
 function vc_plugin_name() {
 	return vc_manager()->pluginName();
 }
 
 /**
- * @param $filename
- *
- * @return bool|mixed|string
  * @since 4.4.3 used in vc_base when getting an custom css output
  *
+ * @param $filename
+ *
+ * @param bool $partial
+ *
+ * @return bool|mixed|string
  */
-function vc_file_get_contents( $filename ) {
+function vc_file_get_contents( $filename, $partial = false ) {
 	global $wp_filesystem;
 	if ( empty( $wp_filesystem ) ) {
-		require_once ABSPATH . '/wp-admin/includes/file.php';
+		require_once( ABSPATH . '/wp-admin/includes/file.php' );
 		WP_Filesystem( false, false, true );
 	}
-	/** @var WP_Filesystem_Base $wp_filesystem */
-	$output = '';
-	if ( is_object( $wp_filesystem ) ) {
-		$output = $wp_filesystem->get_contents( $filename );
-	}
+	/** @var $wp_filesystem WP_Filesystem_Base */
+	if ( ! is_object( $wp_filesystem ) || ! $output = $wp_filesystem->get_contents( $filename ) ) {
+		/*if ( is_wp_error( $wp_filesystem->errors ) && $wp_filesystem->errors->get_error_code() ) {
 
-	if ( ! $output ) {
-		// @codingStandardsIgnoreLine
+		} elseif ( ! $wp_filesystem->connect() ) {
+
+		} elseif ( ! $wp_filesystem->is_writable( $filename ) ) {
+
+		} else {
+
+		}*/
 		$output = file_get_contents( $filename );
 	}
 
@@ -450,8 +436,8 @@ function vc_file_get_contents( $filename ) {
 
 /**
  * HowTo: vc_role_access()->who('administrator')->with('editor')->can('frontend_editor');
- * @return Vc_Role_Access;
  * @since 4.8
+ * @return Vc_Role_Access;
  */
 function vc_role_access() {
 	return vc_manager()->getRoleAccess();
@@ -460,17 +446,13 @@ function vc_role_access() {
 /**
  * Get access manager for current user.
  * HowTo: vc_user_access()->->with('editor')->can('frontend_editor');
- * @return Vc_Current_User_Access;
  * @since 4.8
+ * @return Vc_Current_User_Access;
  */
 function vc_user_access() {
 	return vc_manager()->getCurrentUserAccess();
 }
 
-/**
- * @return array
- * @throws \Exception
- */
 function vc_user_roles_get_all() {
 	require_once vc_path_dir( 'SETTINGS_DIR', 'class-vc-roles.php' );
 	$vc_roles = new Vc_Roles();
@@ -485,6 +467,15 @@ function vc_user_roles_get_all() {
 	}
 
 	return $capabilities;
+}
+
+/**
+ * Return a $_GET action param for ajax
+ * @since 4.8
+ * @return bool
+ */
+function vc_wp_action() {
+	return isset( $_REQUEST['action'] ) ? $_REQUEST['action'] : false;
 }
 
 /**
@@ -524,11 +515,6 @@ function vc_verify_public_nonce( $nonce = '' ) {
 	return (bool) vc_verify_nonce( ( ! empty( $nonce ) ? $nonce : vc_request_param( '_vcnonce' ) ), 'vc-public-nonce' );
 }
 
-/**
- * @param $type
- * @return bool|mixed|void
- * @throws \Exception
- */
 function vc_check_post_type( $type ) {
 	if ( empty( $type ) ) {
 		$type = get_post_type();
@@ -540,8 +526,8 @@ function vc_check_post_type( $type ) {
 		}
 		$state = vc_user_access()->part( 'post_types' )->getState();
 		if ( null === $state ) {
-			return in_array( $type, vc_default_editor_post_types(), true );
-		} elseif ( true === $state && ! in_array( $type, vc_default_editor_post_types(), true ) ) {
+			return in_array( $type, vc_default_editor_post_types() );
+		} else if ( true === $state && ! in_array( $type, vc_default_editor_post_types() ) ) {
 			$valid = false;
 		} else {
 			$valid = vc_user_access()->part( 'post_types' )->can( $type )->get();
@@ -551,10 +537,6 @@ function vc_check_post_type( $type ) {
 	return $valid;
 }
 
-/**
- * @param $shortcode
- * @return bool|mixed|void
- */
 function vc_user_access_check_shortcode_edit( $shortcode ) {
 	$do_check = apply_filters( 'vc_user_access_check-shortcode_edit', null, $shortcode );
 
@@ -570,11 +552,6 @@ function vc_user_access_check_shortcode_edit( $shortcode ) {
 	}
 }
 
-/**
- * @param $shortcode
- * @return bool|mixed|void
- * @throws \Exception
- */
 function vc_user_access_check_shortcode_all( $shortcode ) {
 	$do_check = apply_filters( 'vc_user_access_check-shortcode_all', null, $shortcode );
 
@@ -589,11 +566,11 @@ function vc_user_access_check_shortcode_all( $shortcode ) {
  * htmlspecialchars_decode_deep
  * Call the htmlspecialchars_decode to a gived multilevel array
  *
+ * @since 4.8
+ *
  * @param mixed $value The value to be stripped.
  *
  * @return mixed Stripped value.
- * @since 4.8
- *
  */
 function vc_htmlspecialchars_decode_deep( $value ) {
 	if ( is_array( $value ) ) {
@@ -610,10 +587,6 @@ function vc_htmlspecialchars_decode_deep( $value ) {
 	return $value;
 }
 
-/**
- * @param $str
- * @return mixed
- */
 function vc_str_remove_protocol( $str ) {
 	return str_replace( array(
 		'https://',

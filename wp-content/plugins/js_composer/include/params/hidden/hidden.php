@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 function vc_hidden_form_field( $settings, $value ) {
 	$value = htmlspecialchars( $value );
 
-	return '<input name="' . esc_attr( $settings['param_name'] ) . '" class="wpb_vc_param_value vc_hidden-field vc_param-name-' . esc_attr( $settings['param_name'] ) . ' ' . esc_attr( $settings['type'] ) . '" type="hidden" value="' . esc_attr( $value ) . '"/>';
+	return '<input name="' . $settings['param_name'] . '" class="wpb_vc_param_value vc_hidden-field vc_param-name-' . $settings['param_name'] . ' ' . $settings['type'] . '" type="hidden" value="' . $value . '"/>';
 }
 
 /**
@@ -27,7 +27,7 @@ function vc_hidden_form_field( $settings, $value ) {
  *
  * @return string
  */
-function vc_edit_form_fields_render_field_hidden_before() {
+function vc_edit_form_fields_render_field_hidden_before( $output ) {
 	return '<div class="vc_column vc_edit-form-hidden-field-wrapper">';
 }
 
@@ -40,6 +40,6 @@ function vc_edit_form_fields_render_field_hidden_before() {
  *
  * @return string
  */
-function vc_edit_form_fields_render_field_hidden_after() {
+function vc_edit_form_fields_render_field_hidden_after( $output ) {
 	return '</div>';
 }

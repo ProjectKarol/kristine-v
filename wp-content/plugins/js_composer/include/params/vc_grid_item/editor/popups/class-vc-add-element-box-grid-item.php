@@ -1,9 +1,4 @@
 <?php
-/**
- * @noinspection PhpMissingParentCallCommonInspection
- * @package WPBakery
- */
-
 if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
@@ -19,26 +14,22 @@ class Vc_Add_Element_Box_Grid_Item extends Vc_Add_Element_Box {
 	/**
 	 * Get shortcodes from param type vc_grid_item
 	 * @return array|bool
-	 * @throws \Exception
 	 */
+
 	public function shortcodes() {
 		return WpbMap_Grid_Item::getSortedGitemUserShortCodes();
 	}
 
 	/**
 	 * Get categories list from mapping data.
-	 * @return bool
-	 * @throws \Exception
 	 * @since 4.5
+	 *
+	 * @return array
 	 */
 	public function getCategories() {
 		return WpbMap_Grid_Item::getGitemUserCategories();
 	}
 
-	/**
-	 * @return mixed
-	 * @throws \Exception
-	 */
 	public function getPartState() {
 		return vc_user_access()->part( 'grid_builder' )->getState();
 	}

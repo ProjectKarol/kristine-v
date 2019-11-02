@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @var $offset
  * @var $content - shortcode content
  * Shortcode class
- * @var WPBakeryShortCode_Vc_Column_Inner $this
+ * @var $this WPBakeryShortCode_VC_Column_Inner
  */
 $el_class = $width = $el_id = $css = $offset = '';
 $output = '';

@@ -63,10 +63,7 @@ class khaki_walker_comment extends Walker_Comment
         </div>
         <div class="nk-comment-meta">
             <div class="nk-comment-name h5"><?php echo get_comment_author_link(); ?></div>
-            <div class="nk-comment-date">
-                <?php comment_date(); ?>
-                <?php edit_comment_link('(Edit)'); ?>
-
+            <div class="nk-comment-date"><?php comment_date(); ?>
                 <div class="nk-comment-reply"><?php
                     comment_reply_link(array_merge($args, array(
                         'add_below' => isset($args['add_below']) ? $args['add_below'] : 'comment',
@@ -82,6 +79,7 @@ class khaki_walker_comment extends Walker_Comment
                 }
                 ?>
             </div>
+            <?php edit_comment_link('(Edit)'); ?>
         </div>
         <p>
             <?php if (!$comment->comment_approved) : ?>

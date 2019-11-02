@@ -1,5 +1,4 @@
 (function ( $ ) {
-	'use strict';
 	window.InlineShortcodeView_vc_round_chart = window.InlineShortcodeView.extend( {
 		render: function () {
 			var model_id = this.model.get( 'id' );

@@ -74,19 +74,18 @@ class Vc_Templates_Panel_Editor {
 			$this,
 			'delete',
 		) );
+
+		/*		add_action( 'vc-render-templates-preview-template', array(
+					$this,
+					'addScriptsToTemplatePreview',
+				) );*/
+
 	}
 
-	/**
-	 * @return string
-	 */
 	public function addBodyClassTemplatePreview() {
 		return 'vc_general-template-preview';
 	}
 
-	/**
-	 * @param $category
-	 * @return mixed
-	 */
 	public function renderTemplateBlock( $category ) {
 		if ( 'my_templates' === $category['category'] ) {
 			$category['output'] = '';
@@ -94,14 +93,14 @@ class Vc_Templates_Panel_Editor {
 			if ( vc_user_access()->part( 'templates' )->checkStateAny( true, null )->get() ) {
 				$category['output'] .= '
 				<div class="vc_column vc_col-sm-12" data-vc-hide-on-search="true">
-					<div class="vc_element_label">' . esc_html__( 'Save current layout as a template', 'js_composer' ) . '</div>
+					<div class="vc_element_label">' . esc_html( __( 'Save current layout as a template', 'js_composer' ) ) . '</div>
 					<div class="vc_input-group">
 						<input name="padding" data-js-element="vc-templates-input" class="vc_form-control wpb-textinput vc_panel-templates-name" type="text" value="" placeholder="' . esc_attr__( 'Template name', 'js_composer' ) . '" data-vc-disable-empty="#vc_ui-save-template-btn">
 						<span class="vc_input-group-btn">
-							<button class="vc_general vc_ui-button vc_ui-button-size-sm vc_ui-button-action vc_ui-button-shape-rounded vc_template-save-btn" id="vc_ui-save-template-btn" disabled data-vc-ui-element="button-save">' . esc_html__( 'Save Template', 'js_composer' ) . '</button>
+							<button class="vc_general vc_ui-button vc_ui-button-size-sm vc_ui-button-action vc_ui-button-shape-rounded vc_template-save-btn" id="vc_ui-save-template-btn" disabled data-vc-ui-element="button-save">' . esc_html( __( 'Save Template', 'js_composer' ) ) . '</button>
 						</span>
 					</div>
-					<span class="vc_description">' . esc_html__( 'Save layout and reuse it on different sections of this site.', 'js_composer' ) . '</span>
+					<span class="vc_description">' . esc_html( __( 'Save layout and reuse it on different sections of this site.', 'js_composer' ) ) . '</span>
 				</div>';
 			}
 
@@ -154,14 +153,14 @@ class Vc_Templates_Panel_Editor {
 	}
 
 	/** Output rendered template in new panel dialog
+	 * @since 4.4
+	 *
 	 * @param $template_name
 	 * @param $template_data
 	 *
 	 * @return string
-	 * @since 4.4
-	 *
 	 */
-	public function renderTemplateWindow( $template_name, $template_data ) {
+	function renderTemplateWindow( $template_name, $template_data ) {
 		if ( 'my_templates' === $template_data['type'] ) {
 			return $this->renderTemplateWindowMyTemplates( $template_name, $template_data );
 		} else {
@@ -174,12 +173,12 @@ class Vc_Templates_Panel_Editor {
 	}
 
 	/**
+	 * @since 4.4
+	 *
 	 * @param $template_name
 	 * @param $template_data
 	 *
 	 * @return string
-	 * @since 4.4
-	 *
 	 */
 	public function renderTemplateWindowMyTemplates( $template_name, $template_data ) {
 		ob_start();
@@ -188,25 +187,42 @@ class Vc_Templates_Panel_Editor {
 		$template_name = esc_html( $template_name );
 		$preview_template_title = esc_attr__( 'Preview template', 'js_composer' );
 		$add_template_title = esc_attr__( 'Add template', 'js_composer' );
-		echo '<button type="button" class="vc_ui-list-bar-item-trigger" title="' . esc_attr( $add_template_title ) . '" data-template-handler="" data-vc-ui-element="template-title">' . esc_html( $template_name ) . '</button><div class="vc_ui-list-bar-item-actions"><button type="button" class="vc_general vc_ui-control-button" title="' . esc_attr( $add_template_title ) . '" data-template-handler=""><i class="vc-composer-icon vc-c-icon-add"></i></button>';
-
+		$deleteControlRender = '';
 		if ( vc_user_access()->part( 'templates' )->checkStateAny( true, null )->get() ) {
 			$delete_template_title = esc_attr__( 'Delete template', 'js_composer' );
-			echo '<button type="button" class="vc_general vc_ui-control-button" data-vc-ui-delete="template-title" title="' . esc_attr( $delete_template_title ) . '"><i class="vc-composer-icon vc-c-icon-delete_empty"></i></button>';
+			$deleteControlRender = <<<DATA
+				<button type="button" class="vc_general vc_ui-control-button" data-vc-ui-delete="template-title" title="$delete_template_title">
+					<i class="vc-composer-icon vc-c-icon-delete_empty"></i>
+				</button>
+DATA;
 		}
-
-		echo '<button type="button" class="vc_general vc_ui-control-button" title="' . esc_attr( $preview_template_title ) . '" data-vc-container=".vc_ui-list-bar" data-vc-preview-handler data-vc-target="[data-template_id_hash=' . esc_attr( $template_id_hash ) . ']"><i class="vc-composer-icon vc-c-icon-arrow_drop_down"></i></button></div>';
+		echo <<<HTML
+			<button type="button" class="vc_ui-list-bar-item-trigger" title="$add_template_title"
+					 	data-template-handler=""
+						data-vc-ui-element="template-title">$template_name</button>
+			<div class="vc_ui-list-bar-item-actions">
+				<button type="button" class="vc_general vc_ui-control-button" title="$add_template_title"
+					 	data-template-handler="">
+					<i class="vc-composer-icon vc-c-icon-add"></i>
+				</button>
+				$deleteControlRender
+				<button type="button" class="vc_general vc_ui-control-button" title="$preview_template_title"
+					data-vc-container=".vc_ui-list-bar" data-vc-preview-handler data-vc-target="[data-template_id_hash=$template_id_hash]">
+					<i class="vc-composer-icon vc-c-icon-arrow_drop_down"></i>
+				</button>
+			</div>
+HTML;
 
 		return ob_get_clean();
 	}
 
 	/**
+	 * @since 4.4
+	 *
 	 * @param $template_name
 	 * @param $template_data
 	 *
 	 * @return string
-	 * @since 4.4
-	 *
 	 */
 	public function renderTemplateWindowDefaultTemplates( $template_name, $template_data ) {
 		ob_start();
@@ -216,19 +232,21 @@ class Vc_Templates_Panel_Editor {
 		$preview_template_title = esc_attr__( 'Preview template', 'js_composer' );
 		$add_template_title = esc_attr__( 'Add template', 'js_composer' );
 
-		echo sprintf( '<button type="button" class="vc_ui-list-bar-item-trigger" title="%s"
+		echo <<<HTML
+		<button type="button" class="vc_ui-list-bar-item-trigger" title="$add_template_title"
 			data-template-handler=""
-			data-vc-ui-element="template-title">%s</button>
+			data-vc-ui-element="template-title">$template_name</button>
 		<div class="vc_ui-list-bar-item-actions">
-			<button type="button" class="vc_general vc_ui-control-button" title="%s"
+			<button type="button" class="vc_general vc_ui-control-button" title="$add_template_title"
 					data-template-handler="">
 				<i class="vc-composer-icon vc-c-icon-add"></i>
 			</button>
-			<button type="button" class="vc_general vc_ui-control-button" title="%s"
-				data-vc-container=".vc_ui-list-bar" data-vc-preview-handler data-vc-target="[data-template_id_hash=%s]">
+			<button type="button" class="vc_general vc_ui-control-button" title="$preview_template_title"
+				data-vc-container=".vc_ui-list-bar" data-vc-preview-handler data-vc-target="[data-template_id_hash=$template_id_hash]">
 				<i class="vc-composer-icon vc-c-icon-arrow_drop_down"></i>
 			</button>
-		</div>', esc_attr( $add_template_title ), esc_html( $template_name ), esc_attr( $add_template_title ), esc_attr( $preview_template_title ), esc_attr( $template_id_hash ) );
+		</div>
+HTML;
 
 		return ob_get_clean();
 	}
@@ -237,7 +255,7 @@ class Vc_Templates_Panel_Editor {
 	 * @since 4.4
 	 * vc_filter: vc_templates_render_frontend_template - called when unknown template received to render in frontend.
 	 */
-	public function renderFrontendTemplate() {
+	function renderFrontendTemplate() {
 		vc_user_access()->checkAdminNonce()->validateDie()->wpAny( 'edit_posts', 'edit_pages' )->validateDie()->part( 'templates' )->can()->validateDie();
 
 		add_filter( 'vc_frontend_template_the_content', array(
@@ -267,11 +285,10 @@ class Vc_Templates_Panel_Editor {
 			if ( 'default_templates' === $template_type ) {
 				$this->renderFrontendDefaultTemplate();
 			} else {
-				// @codingStandardsIgnoreLine
-				print apply_filters( 'vc_templates_render_frontend_template', $template_id, $template_type );
+				echo apply_filters( 'vc_templates_render_frontend_template', $template_id, $template_type );
 			}
 		}
-		die; // no needs to do anything more. optimization.
+		die(); // no needs to do anything more. optimization.
 	}
 
 	/**
@@ -313,7 +330,7 @@ class Vc_Templates_Panel_Editor {
 		$template = vc_post_param( 'template' );
 		if ( ! isset( $template_name ) || '' === trim( $template_name ) || ! isset( $template ) || '' === trim( $template ) ) {
 			header( ':', true, 500 );
-			throw new Exception( 'Error: Vc_Templates_Panel_Editor::save:1' );
+			throw new Exception( 'Error: Vc_Templates_Panel_Editor::save:1' ); // @todo set default function for reply
 		}
 
 		$template_arr = array(
@@ -323,12 +340,13 @@ class Vc_Templates_Panel_Editor {
 
 		$saved_templates = get_option( $this->option_name );
 
-		$template_id = sanitize_title( $template_name ) . '_' . wp_rand();
+		$template_id = sanitize_title( $template_name ) . '_' . rand();
 		if ( false === $saved_templates ) {
+			$deprecated = '';
 			$autoload = 'no';
 			$new_template = array();
 			$new_template[ $template_id ] = $template_arr;
-			add_option( $this->option_name, $new_template, '', $autoload );
+			add_option( $this->option_name, $new_template, $deprecated, $autoload );
 		} else {
 			$saved_templates[ $template_id ] = $template_arr;
 			update_option( $this->option_name, $saved_templates );
@@ -338,9 +356,8 @@ class Vc_Templates_Panel_Editor {
 			'type' => 'my_templates',
 			'unique_id' => $template_id,
 		);
-		// @codingStandardsIgnoreLine
-		print $this->renderTemplateListItem( $template );
-		die;
+		echo $this->renderTemplateListItem( $template );
+		die();
 	}
 
 	/**
@@ -365,16 +382,14 @@ class Vc_Templates_Panel_Editor {
 			$content = str_replace( '\"', '"', $content );
 			$pattern = get_shortcode_regex();
 			$content = preg_replace_callback( "/{$pattern}/s", 'vc_convert_shortcode', $content );
-			// @codingStandardsIgnoreLine
-			print $content;
+			echo $content;
 			die();
 		} else {
 			if ( 'default_templates' === $template_type ) {
 				$this->getBackendDefaultTemplate();
 				die();
 			} else {
-				// @codingStandardsIgnoreLine
-				print apply_filters( 'vc_templates_render_backend_template', $template_id, $template_type );
+				echo apply_filters( 'vc_templates_render_backend_template', $template_id, $template_type );
 				die();
 			}
 		}
@@ -387,9 +402,9 @@ class Vc_Templates_Panel_Editor {
 	 */
 	public function renderTemplatePreview() {
 		vc_user_access()->checkAdminNonce()->validateDie()->wpAny( array(
-			'edit_post',
-			(int) vc_request_param( 'post_id' ),
-		) )->validateDie()->part( 'templates' )->can()->validateDie();
+				'edit_post',
+				(int) vc_request_param( 'post_id' ),
+			) )->validateDie()->part( 'templates' )->can()->validateDie();
 
 		$template_id = vc_request_param( 'template_unique_id' );
 		$template_type = vc_request_param( 'template_type' );
@@ -397,7 +412,7 @@ class Vc_Templates_Panel_Editor {
 		wp_get_current_user();
 
 		if ( ! isset( $template_id, $template_type ) || '' === $template_id || '' === $template_type ) {
-			die( esc_html__( 'Error: wrong template id.', 'js_composer' ) );
+			die( __( 'Error: wrong template id.', 'js_composer' ) );
 		}
 		WPBMap::addAllMappedShortcodes();
 		if ( 'my_templates' === $template_type ) {
@@ -473,13 +488,13 @@ class Vc_Templates_Panel_Editor {
 	}
 
 	/**
+	 * @since 4.4
+	 *
 	 * @param $templates
 	 *
 	 * vc_filter: vc_load_default_templates_limit_total - total items to show
 	 *
 	 * @return array
-	 * @since 4.4
-	 *
 	 */
 	public function loadDefaultTemplatesLimit( $templates ) {
 		$start_index = 0;
@@ -491,8 +506,8 @@ class Vc_Templates_Panel_Editor {
 	/**
 	 * Get user templates
 	 *
-	 * @return mixed
 	 * @since 4.12
+	 * @return mixed
 	 */
 	public function getUserTemplates() {
 		return apply_filters( 'vc_get_user_templates', get_option( $this->option_name ) );
@@ -508,8 +523,8 @@ class Vc_Templates_Panel_Editor {
 	 * "All" category type vc_filter: vc_get_user_templates - hook to override "user My Templates" vc_filter:
 	 * vc_get_all_templates - hook for override return array(all templates), hook to add/modify/remove more templates,
 	 *  - this depends only to displaying in panel window (more layouts)
-	 * @return array - all templates with name/unique_id/category_key(optional)/image
 	 * @since 4.4
+	 * @return array - all templates with name/unique_id/category_key(optional)/image
 	 */
 	public function getAllTemplates() {
 		$data = array();
@@ -520,8 +535,8 @@ class Vc_Templates_Panel_Editor {
 			// this has only 'name' and 'template' key  and index 'key' is template id.
 			$arr_category = array(
 				'category' => 'my_templates',
-				'category_name' => esc_html__( 'My Templates', 'js_composer' ),
-				'category_description' => esc_html__( 'Append previously saved template to the current layout.', 'js_composer' ),
+				'category_name' => __( 'My Templates', 'js_composer' ),
+				'category_description' => __( 'Append previously saved template to the current layout.', 'js_composer' ),
 				'category_weight' => 10,
 			);
 			$category_templates = array();
@@ -541,11 +556,12 @@ class Vc_Templates_Panel_Editor {
 
 		// To get all "Default Templates"
 		$default_templates = $this->getDefaultTemplates();
+		// this has 'name', 'image_path', 'custom_class', and 'content' as template data
 		if ( ! empty( $default_templates ) ) {
 			$arr_category = array(
 				'category' => 'default_templates',
-				'category_name' => esc_html__( 'Default Templates', 'js_composer' ),
-				'category_description' => esc_html__( 'Append default template to the current layout.', 'js_composer' ),
+				'category_name' => __( 'Default Templates', 'js_composer' ),
+				'category_description' => __( 'Append default template to the current layout.', 'js_composer' ),
 				'category_weight' => 11,
 			);
 			$category_templates = array();
@@ -579,7 +595,7 @@ class Vc_Templates_Panel_Editor {
 	 * Argument is array of templates data like:
 	 *      array(
 	 *          array(
-	 *              'name'=>esc_html__('My custom template','my_plugin'),
+	 *              'name'=>__('My custom template','my_plugin'),
 	 *              'image_path'=> preg_replace( '/\s/', '%20', plugins_url( 'images/my_image.png', __FILE__ ) ), //
 	 * always use preg replace to be sure that "space" will not break logic
 	 *              'custom_class'=>'my_custom_class', // if needed
@@ -591,8 +607,8 @@ class Vc_Templates_Panel_Editor {
 	 * Also see filters 'vc_load_default_templates_panels' and 'vc_load_default_templates_welcome_block' to modify
 	 * templates in panels tab and/or in welcome block. vc_filter: vc_load_default_templates - filter to override
 	 * default templates array
-	 * @return array
 	 * @since 4.4
+	 * @return array
 	 */
 	public function loadDefaultTemplates() {
 		if ( ! $this->initialized ) {
@@ -611,8 +627,8 @@ class Vc_Templates_Panel_Editor {
 
 	/**
 	 * Alias for loadDefaultTemplates
-	 * @return array - list of default templates
 	 * @since 4.4
+	 * @return array - list of default templates
 	 */
 	public function getDefaultTemplates() {
 		return $this->loadDefaultTemplates();
@@ -620,11 +636,11 @@ class Vc_Templates_Panel_Editor {
 
 	/**
 	 * Get default template data by template index in array.
+	 * @since 4.4
+	 *
 	 * @param number $template_index
 	 *
 	 * @return array|bool
-	 * @since 4.4
-	 *
 	 */
 	public function getDefaultTemplate( $template_index ) {
 		$this->loadDefaultTemplates();
@@ -638,11 +654,11 @@ class Vc_Templates_Panel_Editor {
 	/**
 	 * Add custom template to default templates list ( at end of list )
 	 * $data = array( 'name'=>'', 'image'=>'', 'content'=>'' )
+	 * @since 4.4
+	 *
 	 * @param $data
 	 *
 	 * @return bool true if added, false if failed
-	 * @since 4.4
-	 *
 	 */
 	public function addDefaultTemplates( $data ) {
 		if ( is_array( $data ) && ! empty( $data ) && isset( $data['name'], $data['content'] ) ) {
@@ -659,11 +675,11 @@ class Vc_Templates_Panel_Editor {
 
 	/**
 	 * Load default template content by index from ajax
+	 * @since 4.4
+	 *
 	 * @param bool $return | should function return data or not
 	 *
 	 * @return string
-	 * @since 4.4
-	 *
 	 */
 	public function getBackendDefaultTemplate( $return = false ) {
 		$template_index = (int) vc_request_param( 'template_unique_id' );
@@ -674,17 +690,17 @@ class Vc_Templates_Panel_Editor {
 		if ( $return ) {
 			return trim( $data['content'] );
 		} else {
-			print trim( $data['content'] );
-			die;
+			echo trim( $data['content'] );
+			die();
 		}
 	}
 
 	/**
+	 * @since 4.4
+	 *
 	 * @param array $data
 	 *
 	 * @return array
-	 * @since 4.4
-	 *
 	 */
 	public function sortTemplatesByCategories( array $data ) {
 		$buffer = $data;
@@ -697,11 +713,11 @@ class Vc_Templates_Panel_Editor {
 	}
 
 	/**
+	 * @since 4.4
+	 *
 	 * @param array $data
 	 *
 	 * @return array
-	 * @since 4.4
-	 *
 	 */
 	public function sortTemplatesByNameWeight( array $data ) {
 		$buffer = $data;
@@ -715,11 +731,11 @@ class Vc_Templates_Panel_Editor {
 
 	/**
 	 * Function should return array of templates categories
+	 * @since 4.4
+	 *
 	 * @param array $categories
 	 *
 	 * @return array - associative array of category key => and visible Name
-	 * @since 4.4
-	 *
 	 */
 	public function getAllCategoriesNames( array $categories ) {
 		$categories_names = array();
@@ -734,8 +750,8 @@ class Vc_Templates_Panel_Editor {
 	}
 
 	/**
-	 * @return array
 	 * @since 4.4
+	 * @return array
 	 */
 	public function getAllTemplatesSorted() {
 		$data = $this->getAllTemplates();
@@ -752,12 +768,12 @@ class Vc_Templates_Panel_Editor {
 	/**
 	 * Used to compare two templates by category, category_weight
 	 * If category weight is less template will appear in first positions
+	 * @since 4.4
+	 *
 	 * @param array $a - template one
 	 * @param array $b - second template to compare
 	 *
 	 * @return int
-	 * @since 4.4
-	 *
 	 */
 	protected function cmpCategory( $a, $b ) {
 		$a_k = isset( $a['category'] ) ? $a['category'] : '*';
@@ -765,16 +781,16 @@ class Vc_Templates_Panel_Editor {
 		$a_category_weight = isset( $a['category_weight'] ) ? $a['category_weight'] : 0;
 		$b_category_weight = isset( $b['category_weight'] ) ? $b['category_weight'] : 0;
 
-		return $a_category_weight === $b_category_weight ? strcmp( $a_k, $b_k ) : $a_category_weight - $b_category_weight;
+		return $a_category_weight == $b_category_weight ? strcmp( $a_k, $b_k ) : $a_category_weight - $b_category_weight;
 	}
 
 	/**
+	 * @since 4.4
+	 *
 	 * @param $a
 	 * @param $b
 	 *
 	 * @return int
-	 * @since 4.4
-	 *
 	 */
 	protected function cmpNameWeight( $a, $b ) {
 		$a_k = isset( $a['name'] ) ? $a['name'] : '*';
@@ -782,7 +798,7 @@ class Vc_Templates_Panel_Editor {
 		$a_weight = isset( $a['weight'] ) ? $a['weight'] : 0;
 		$b_weight = isset( $b['weight'] ) ? $b['weight'] : 0;
 
-		return $a_weight === $b_weight ? strcmp( $a_k, $b_k ) : $a_weight - $b_weight;
+		return $a_weight == $b_weight ? strcmp( $a_k, $b_k ) : $a_weight - $b_weight;
 	}
 
 	/**
@@ -809,26 +825,20 @@ class Vc_Templates_Panel_Editor {
 		$output = $shortcodes_custom_css = '';
 		$shortcodes_custom_css = visual_composer()->parseShortcodesCustomCss( vc_frontend_editor()->getTemplateContent() );
 		if ( ! empty( $shortcodes_custom_css ) ) {
-			$shortcodes_custom_css = wp_strip_all_tags( $shortcodes_custom_css );
-			$first_tag = 'style';
-			$output .= '<' . $first_tag . ' data-type="vc_shortcodes-custom-css">';
+			$shortcodes_custom_css = strip_tags( $shortcodes_custom_css );
+			$output .= '<style type="text/css" data-type="vc_shortcodes-custom-css">';
 			$output .= $shortcodes_custom_css;
-			$output .= '</' . $first_tag . '>';
+			$output .= '</style>';
 		}
-		// @todo Check for wp_add_inline_style posibility
-		// @codingStandardsIgnoreLine
-		print $output;
+		echo $output;
 	}
 
 	public function addScriptsToTemplatePreview() {
+		// wp_enqueue_script( 'vc-template-preview-script', vc_asset_url( 'js/editors/vc_ui-panel-templates-preview-be.js' ), array( 'vc-backend-min-js' ), WPB_VC_VERSION, true );
 	}
 
-	/**
-	 * @param $template
-	 * @return string
-	 */
 	public function renderTemplateListItem( $template ) {
-		$name = isset( $template['name'] ) ? esc_html( $template['name'] ) : esc_html__( 'No title', 'js_composer' );
+		$name = isset( $template['name'] ) ? esc_html( $template['name'] ) : esc_html( __( 'No title', 'js_composer' ) );
 		$template_id = esc_attr( $template['unique_id'] );
 		$template_id_hash = md5( $template_id ); // needed for jquery target for TTA
 		$template_name = esc_html( $name );
@@ -858,12 +868,6 @@ HTML;
 		return $output;
 	}
 
-	/**
-	 * @return string
-	 */
-	/**
-	 * @return string
-	 */
 	public function getOptionName() {
 		return $this->option_name;
 	}

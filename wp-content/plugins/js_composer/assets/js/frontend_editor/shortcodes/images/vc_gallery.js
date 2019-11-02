@@ -1,5 +1,4 @@
-(function () {
-	'use strict';
+(function ( $ ) {
 	window.InlineShortcodeView_vc_gallery = window.InlineShortcodeView.extend( {
 		render: function () {
 			var model_id = this.model.get( 'id' );
@@ -14,4 +13,4 @@
 			vc.frame_window.vc_iframe.vc_gallery( this.model.get( 'id' ) );
 		}
 	} );
-})();
+})( window.jQuery );

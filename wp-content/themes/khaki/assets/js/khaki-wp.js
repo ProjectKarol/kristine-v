@@ -1,83 +1,3 @@
-'use strict';
-
-/******/ (function(modules) { // webpackBootstrap
-/******/ 	// The module cache
-/******/ 	var installedModules = {};
-/******/
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/
-/******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId]) {
-/******/ 			return installedModules[moduleId].exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = installedModules[moduleId] = {
-/******/ 			i: moduleId,
-/******/ 			l: false,
-/******/ 			exports: {}
-/******/ 		};
-/******/
-/******/ 		// Execute the module function
-/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-/******/
-/******/ 		// Flag the module as loaded
-/******/ 		module.l = true;
-/******/
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/
-/******/
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = modules;
-/******/
-/******/ 	// expose the module cache
-/******/ 	__webpack_require__.c = installedModules;
-/******/
-/******/ 	// define getter function for harmony exports
-/******/ 	__webpack_require__.d = function(exports, name, getter) {
-/******/ 		if(!__webpack_require__.o(exports, name)) {
-/******/ 			Object.defineProperty(exports, name, {
-/******/ 				configurable: false,
-/******/ 				enumerable: true,
-/******/ 				get: getter
-/******/ 			});
-/******/ 		}
-/******/ 	};
-/******/
-/******/ 	// getDefaultExport function for compatibility with non-harmony modules
-/******/ 	__webpack_require__.n = function(module) {
-/******/ 		var getter = module && module.__esModule ?
-/******/ 			function getDefault() { return module['default']; } :
-/******/ 			function getModuleExports() { return module; };
-/******/ 		__webpack_require__.d(getter, 'a', getter);
-/******/ 		return getter;
-/******/ 	};
-/******/
-/******/ 	// Object.prototype.hasOwnProperty.call
-/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
-/******/
-/******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
-/******/
-/******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 8);
-/******/ })
-/************************************************************************/
-/******/ ({
-
-/***/ 8:
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(9);
-
-
-/***/ }),
-
-/***/ 9:
-/***/ (function(module, exports) {
-
 (function ($) {
     // fixed carousel inside full-width-row when row resized
     $(document).on('vc-full-width-row', function (e, rows, a, b, c) {
@@ -91,39 +11,39 @@ module.exports = __webpack_require__(9);
             }
         }
     });
-    $(document).on('tinymce-editor-init', function (event, editor) {
-        if ((editor.id == 'bbp_reply_content' || editor.id == 'bbp_topic_content' || editor.id == 'bbp_forum_content') && editor.dom) {
-            var body = editor.dom.select('body');
-            if (typeof body[0] !== 'undefined') {
-                body[0].style.backgroundColor = "#e9e9e9";
-                body[0].style.color = "black";
-                body[0].style.margin = "0px";
-                body[0].style.padding = "0px";
-                var css = 'a { color: #b56d19;}',
-                    head = editor.dom.doc.head || editor.dom.doc.getElementsByTagName('head')[0],
-                    style = editor.dom.doc.createElement('style');
-                style.type = 'text/css';
-                if (style.styleSheet) {
-                    style.styleSheet.cssText = css;
-                } else {
-                    style.appendChild(editor.dom.doc.createTextNode(css));
-                }
-                head.appendChild(style);
+$(document).on( 'tinymce-editor-init', function( event, editor) {
+    if ((editor.id == 'bbp_reply_content' || editor.id == 'bbp_topic_content' || editor.id == 'bbp_forum_content') && editor.dom) {
+        var body = editor.dom.select('body');
+        if (typeof body[0] !== 'undefined') {
+            body[0].style.backgroundColor = "#e9e9e9";
+            body[0].style.color = "black";
+            body[0].style.margin = "0px";
+            body[0].style.padding = "0px";
+            var css = 'a { color: #b56d19;}',
+                head = editor.dom.doc.head || editor.dom.doc.getElementsByTagName('head')[0],
+                style = editor.dom.doc.createElement('style');
+            style.type = 'text/css';
+            if (style.styleSheet){
+                style.styleSheet.cssText = css;
+            } else {
+                style.appendChild(editor.dom.doc.createTextNode(css));
             }
+            head.appendChild(style);
         }
-    });
+    }
+});
 
-    //Called when woocommerce finishes the adding to cart process and produce fragments with the new data
-    $(document.body).on("added_to_cart", function (event, fragments, cart_hash, $thisbutton) {
+//Called when woocommerce finishes the adding to cart process and produce fragments with the new data
+    $( document.body ).on( "added_to_cart", function( event, fragments, cart_hash, $thisbutton ){
         var smallCart;
         var countContainer = $('#khaki_small_cart_count');
-        $.each(fragments, function (name, item) {
+        $.each( fragments, function(name, item) {
             smallCart = $(item).find('.khaki_hide_small_cart');
         });
-        if (smallCart !== undefined) {
+        if(smallCart !== undefined){
             //remove small cart modal container
             $('.nk-widget-store-cart').html(smallCart.html());
-            if (smallCart.attr('data-cart-count') > 0) {
+            if(smallCart.attr('data-cart-count') > 0){
                 countContainer.removeClass('fade out');
                 countContainer.addClass('fade show');
             }
@@ -133,14 +53,14 @@ module.exports = __webpack_require__(9);
         $('.added_to_cart').prev('.add_to_cart_button').hide();
     });
 
-    $(document.body).on("wc_fragments_loaded wc_fragments_refreshed", function () {
+    $( document.body ).on( "wc_fragments_loaded wc_fragments_refreshed", function(){
         var countContainer = $('#khaki_small_cart_count');
         $('#khaki_small_cart div').addClass('widget_shopping_cart_content');
-        var smallCart = $('.nk-widget-store-cart .widget_shopping_cart_content .khaki_hide_small_cart');
-        if (smallCart.length) {
+        var smallCart =  $('.nk-widget-store-cart .widget_shopping_cart_content .khaki_hide_small_cart');
+        if(smallCart.length){
             //remove small cart modal container
             $('.nk-widget-store-cart').html(smallCart.html());
-            if (smallCart.attr('data-cart-count') > 0) {
+            if(smallCart.attr('data-cart-count') > 0){
                 countContainer.removeClass('fade out');
                 countContainer.addClass('fade show');
             }
@@ -152,8 +72,21 @@ module.exports = __webpack_require__(9);
         widgetSmallCartButtons.removeClass('button');
         widgetSmallCartButtons.addClass('nk-btn nk-btn-sm nk-btn-circle nk-btn-color-dark-1');
     });
-    $(document).on('change input', 'div.woocommerce > form .cart_item :input', function () {
+    $(document.body).on('country_to_state_changed', function (event, country, wrapper) {
+        var statebox   = wrapper.find( '#calc_shipping_state' );
+        if(!statebox.parent().is('#billing_state_field')){
+            statebox.addClass('form-control');
+        }else{
+            statebox.addClass('form-control');
+        }
+        $('#calc_shipping_state_field .select2.select2-container.select2-container--default').css('display', 'none')
+
+        // fixed for billing_state_field and shipping_state_field
+        wrapper.find( '#billing_state_field input#billing_state, #shipping_state_field input#shipping_state, #calc_shipping_state, #calc_shipping_city' ).addClass('form-control');
+    });
+    $( document ).on('change input', 'div.woocommerce > form .cart_item :input', function () {
         $('#khaki-cart-update').removeClass('khaki-shadow-button');
+
     });
     $(document.body).on('updated_cart_totals', function () {
         $('#khaki-cart-update').addClass('khaki-shadow-button');
@@ -177,7 +110,7 @@ module.exports = __webpack_require__(9);
         $thereIsGaps = $content.length;
     }
 
-    function updateTopContentPadding() {
+    function updateTopContentPadding () {
         $padding.height($headerNotOpaq[0].getBoundingClientRect().height);
     }
     if (!$headerTitle.length && $headerNotOpaq.length && (!$page.length || $thereIsGaps)) {
@@ -207,25 +140,25 @@ module.exports = __webpack_require__(9);
     $('.nk-widget.woocommerce.widget_layered_nav ul .wc-layered-nav-term span.count').addClass('nk-widget-categories-count');
 
     // WooCommerce prevent review without rating
-    $('body').on('click', '#respond #submit', function () {
-        if (typeof wc_single_product_params === 'undefined') {
+    $('body').on( 'click', '#respond #submit', function() {
+        if(typeof wc_single_product_params === 'undefined'){
             return;
         }
 
-        var $rating = $(this).closest('#respond').find('.nk-rating');
-        var $form = $(this).closest('form');
+        var $rating = $( this ).closest( '#respond' ).find( '.nk-rating' );
+        var $form = $( this ).closest( 'form' );
         var formData = $form.serializeArray();
-        var rating = false;
+        var rating  = false;
 
-        for (var k = 0; k < formData.length; k++) {
-            if (formData[k].name === 'rating') {
+        for(var k = 0; k < formData.length; k++){
+            if(formData[k].name === 'rating'){
                 rating = formData[k].value;
                 break;
             }
         }
 
-        if ($rating.length > 0 && !rating && wc_single_product_params.review_rating_required === 'yes') {
-            window.alert(wc_single_product_params.i18n_required_rating_text);
+        if ( $rating.length > 0 && !rating && wc_single_product_params.review_rating_required === 'yes' ) {
+            window.alert( wc_single_product_params.i18n_required_rating_text );
 
             return false;
         }
@@ -244,10 +177,9 @@ module.exports = __webpack_require__(9);
 
     function debounce(func, wait, immediate) {
         var timeout;
-        return function () {
-            var context = this,
-                args = arguments;
-            var later = function () {
+        return function() {
+            var context = this, args = arguments;
+            var later = function() {
                 timeout = null;
                 if (!immediate) func.apply(context, args);
             };
@@ -258,52 +190,48 @@ module.exports = __webpack_require__(9);
         };
     };
 
-    function setMarginToNavbar(marginTop, scrollTop) {
+    function setMarginToNavbar( marginTop, scrollTop ) {
         var transition = 'margin-top .2s ease 0s, .2s transform,.2s visibility';
 
-        $('.nk-header, .nk-navbar-side, .nk-share-place, .nk-nav-toggler-right, .nk-page-border-t').css({
-            marginTop: marginTop,
-            transition: transition
-        });
+        $('.nk-header, .nk-navbar-side, .nk-share-place, .nk-nav-toggler-right, .nk-page-border-t').css( {
+            marginTop:  marginTop,
+            transition: transition,
+        } );
 
-        if ((!$('.nk-contacts-top').length || $('.nk-navbar-fixed').length) && marginTop >= 0) {
-            $('.nk-navbar-top').css({
-                'margin-top': marginTop,
+        if ( ( ! $('.nk-contacts-top').length || $('.nk-navbar-fixed').length ) &&  marginTop  >= 0 ) {
+            $('.nk-navbar-top').css( {
+                'margin-top':  marginTop,
                 'transition': transition
-            });
+            } );
         }
-        if ($('.nk-contacts-top').length > 0 && (scrollTop <= marginTop || scrollTop === 0)) {
-            $('.nk-navbar-top').css({
-                'margin-top': '0',
+        if ( $('.nk-contacts-top').length > 0 && ( scrollTop <= marginTop || scrollTop === 0 ) ) {
+            $('.nk-navbar-top').css( {
+                'margin-top':  '0',
                 'transition': transition
-            });
+            } );
         }
     }
 
     // Fixed sticky if set admin-bar
-    $(document).ready(function () {
-        if ($('#wpadminbar').length) {
-            var reindexMarginToAdminBar = debounce(function () {
-                var heightAdminBar = $('#wpadminbar').height();
-                var scrollTop = $(window).scrollTop();
-                setMarginToNavbar(heightAdminBar, scrollTop);
-                if ($(window).scrollTop() >= heightAdminBar) {
+    $( document ).ready(function() {
+        if ($('#wpadminbar').length){
+            var reindexMarginToAdminBar = debounce(function() {
+                $heightAdminBar = $('#wpadminbar').height();
+                $scrollTop = $(window).scrollTop();
+                setMarginToNavbar($heightAdminBar, $scrollTop);
+                if ($(window).scrollTop() >= $heightAdminBar) {
                     if ($('#wpadminbar').css('position') == 'absolute') {
-                        setMarginToNavbar('0', scrollTop);
+                        setMarginToNavbar('0', $scrollTop);
                     } else {
-                        setMarginToNavbar(heightAdminBar, scrollTop);
+                        setMarginToNavbar($heightAdminBar, $scrollTop);
                     }
                 } else {
-                    setMarginToNavbar(heightAdminBar - scrollTop, scrollTop);
+                    setMarginToNavbar($heightAdminBar - $scrollTop, $scrollTop);
                 }
             }, 250);
 
-            $(window).on('resize scroll orientationchange', reindexMarginToAdminBar);
+            $(window).on( 'resize scroll orientationchange', reindexMarginToAdminBar );
             reindexMarginToAdminBar();
         }
     });
 })(jQuery);
-
-/***/ })
-
-/******/ });

@@ -3,9 +3,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
 
-/**
- * Class WpbMap_Grid_Item
- */
 class WpbMap_Grid_Item extends WPBMap {
 	protected static $gitem_user_sc = false;
 	protected static $gitem_user_categories = false;
@@ -20,7 +17,6 @@ class WpbMap_Grid_Item extends WPBMap {
 	 * @static
 	 *
 	 * @param bool $force - force data generation even data already generated.
-	 * @throws \Exception
 	 */
 	protected static function generateGitemUserData( $force = false ) {
 		if ( ! $force && false !== self::$gitem_user_sc && false !== self::$gitem_user_categories ) {
@@ -41,13 +37,13 @@ class WpbMap_Grid_Item extends WPBMap {
 						} else {
 							if ( is_array( $categories ) && ! empty( $categories ) ) {
 								foreach ( $categories as $c ) {
-									if ( false === array_search( $c, self::$gitem_user_categories, true ) ) {
+									if ( false === array_search( $c, self::$gitem_user_categories ) ) {
 										self::$gitem_user_categories[] = $c;
 									}
 									$values['_category_ids'][] = md5( $c );
 								}
 							} else {
-								if ( false === array_search( $categories, self::$gitem_user_categories, true ) ) {
+								if ( false === array_search( $categories, self::$gitem_user_categories ) ) {
 									self::$gitem_user_categories[] = $categories;
 								}
 								$values['_category_ids'][] = md5( $categories );
@@ -73,8 +69,7 @@ class WpbMap_Grid_Item extends WPBMap {
 	 * Sorting depends on the weight attribute and mapping order.
 	 *
 	 * @static
-	 * @return bool
-	 * @throws \Exception
+	 * @return array
 	 */
 	public static function getSortedGitemUserShortCodes() {
 		self::generateGitemUserData();
@@ -85,8 +80,7 @@ class WpbMap_Grid_Item extends WPBMap {
 	/**
 	 * Get list of mapped shortcode settings for current user.
 	 * @static
-	 * @return bool - associated array of shortcodes settings with tag as the key.
-	 * @throws \Exception
+	 * @return array - associated array of shortcodes settings with tag as the key.
 	 */
 	public static function getGitemUserShortCodes() {
 		self::generateGitemUserData();
@@ -101,8 +95,7 @@ class WpbMap_Grid_Item extends WPBMap {
 	 * by Vc access rules.
 	 *
 	 * @static
-	 * @return bool
-	 * @throws \Exception
+	 * @return array
 	 */
 	public static function getGitemUserCategories() {
 		self::generateGitemUserData();

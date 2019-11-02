@@ -108,7 +108,6 @@ get_template_part('/template-parts/header/archive');
                                                 the_content();
                                             }
                                             ?>
-                                            <div class="clearfix"></div>
                                         </div>
                                     <?php endif; ?>
                                     <?php if($show_continue_button):?>
@@ -141,7 +140,6 @@ get_template_part('/template-parts/header/archive');
                                         the_content();
                                     }
                                     ?>
-                                    <div class="clearfix"></div>
                                 </div>
                             <?php endif; ?>
                             <?php if(!$simple_view):?>

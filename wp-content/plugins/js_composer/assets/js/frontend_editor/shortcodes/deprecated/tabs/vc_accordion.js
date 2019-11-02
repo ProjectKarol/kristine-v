@@ -1,6 +1,4 @@
 (function ( $ ) {
-	'use strict';
-
 	window.InlineShortcodeView_vc_accordion = window.InlineShortcodeView_vc_row.extend( {
 		events: {
 			'click > .wpb_accordion > .vc_empty-element': 'addElement'
@@ -15,9 +13,8 @@
 			if ( this.allowAddControlOnEmpty() && 0 === this.$el.find( '.vc_element[data-tag]' ).length ) {
 				this.$el.addClass( 'vc_empty' ).find( '> :first' ).addClass( 'vc_empty-element' );
 			} else {
-				if ( this.allowAddControlOnEmpty() ) {
-					this.$el.removeClass( 'vc_empty' ).find( '> .vc_empty-element' ).removeClass( 'vc_empty-element' );
-				}
+				this.allowAddControlOnEmpty() && this.$el.removeClass( 'vc_empty' ).find( '> .vc_empty-element' ).removeClass(
+					'vc_empty-element' );
 				this.setSorting();
 			}
 		},
@@ -42,9 +39,7 @@
 			} );
 		},
 		addElement: function ( e ) {
-			if ( e && e.preventDefault ) {
-				e.preventDefault();
-			}
+			e && e.preventDefault();
 			new vc.ShortcodesBuilder()
 				.create( {
 					shortcode: 'vc_accordion_tab',
@@ -55,9 +50,7 @@
 		},
 		rowsColumnsConverted: function () {
 			_.each( vc.shortcodes.where( { parent_id: this.model.get( 'id' ) } ), function ( model ) {
-				if ( model.view.rowsColumnsConverted ) {
-					model.view.rowsColumnsConverted();
-				}
+				model.view.rowsColumnsConverted && model.view.rowsColumnsConverted();
 			} );
 		}
 	} );

@@ -94,7 +94,6 @@ if ($show_custom_sidebar && $custom_sidebar && is_active_sidebar($custom_sidebar
                                 <div class="nk-portfolio-item-description">
                                     <div class="nk-portfolio-item-excerpt">
                                         <?php the_content(); ?>
-                                        <div class="clearfix"></div>
                                     </div>
                                 </div>
                                 <?php if (khaki_get_theme_mod($post_type . '_show_meta', $acf_meta) && khaki_get_theme_mod($post_type . '_position_meta', $acf_meta) == 'after content'): ?>
@@ -122,7 +121,6 @@ if ($show_custom_sidebar && $custom_sidebar && is_active_sidebar($custom_sidebar
                 (khaki_get_theme_mod($post_type . '_style', true) == 'standard'
                 ): ?>
                     <?php the_content(); ?>
-                    <div class="clearfix"></div>
                 <?php endif; ?>
             </div>
         </div>

@@ -1,6 +1,4 @@
-(function () {
-	'use strict';
-
+(function ( $ ) {
 	window.InlineShortcodeView_vc_tour = window.InlineShortcodeView_vc_tabs.extend( {
 		render: function () {
 			_.bindAll( this, 'stopSorting' );
@@ -18,4 +16,4 @@
 			window.InlineShortcodeView_vc_tour.__super__.updated.call( this );
 		}
 	} );
-})();
+})( window.jQuery );

@@ -4,42 +4,42 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 return array(
-	'name' => 'WP ' . esc_html__( 'Archives' ),
+	'name' => 'WP ' . __( 'Archives' ),
 	'base' => 'vc_wp_archives',
 	'icon' => 'icon-wpb-wp',
-	'category' => esc_html__( 'WordPress Widgets', 'js_composer' ),
+	'category' => __( 'WordPress Widgets', 'js_composer' ),
 	'class' => 'wpb_vc_wp_widget',
 	'weight' => - 50,
-	'description' => esc_html__( 'A monthly archive of your sites posts', 'js_composer' ),
+	'description' => __( 'A monthly archive of your sites posts', 'js_composer' ),
 	'params' => array(
 		array(
 			'type' => 'textfield',
-			'heading' => esc_html__( 'Widget title', 'js_composer' ),
+			'heading' => __( 'Widget title', 'js_composer' ),
 			'param_name' => 'title',
-			'description' => esc_html__( 'What text use as a widget title. Leave blank to use default widget title.', 'js_composer' ),
-			'value' => esc_html__( 'Archives' ),
+			'description' => __( 'What text use as a widget title. Leave blank to use default widget title.', 'js_composer' ),
+			'value' => __( 'Archives' ),
 		),
 		array(
 			'type' => 'checkbox',
-			'heading' => esc_html__( 'Display options', 'js_composer' ),
+			'heading' => __( 'Display options', 'js_composer' ),
 			'param_name' => 'options',
 			'value' => array(
-				esc_html__( 'Dropdown', 'js_composer' ) => 'dropdown',
-				esc_html__( 'Show post counts', 'js_composer' ) => 'count',
+				__( 'Dropdown', 'js_composer' ) => 'dropdown',
+				__( 'Show post counts', 'js_composer' ) => 'count',
 			),
-			'description' => esc_html__( 'Select display options for archives.', 'js_composer' ),
+			'description' => __( 'Select display options for archives.', 'js_composer' ),
 		),
 		array(
 			'type' => 'el_id',
-			'heading' => esc_html__( 'Element ID', 'js_composer' ),
+			'heading' => __( 'Element ID', 'js_composer' ),
 			'param_name' => 'el_id',
-			'description' => sprintf( esc_html__( 'Enter element ID (Note: make sure it is unique and valid according to %sw3c specification%s).', 'js_composer' ), '<a href="https://www.w3schools.com/tags/att_global_id.asp" target="_blank">', '</a>' ),
+			'description' => sprintf( __( 'Enter element ID (Note: make sure it is unique and valid according to <a href="%s" target="_blank">w3c specification</a>).', 'js_composer' ), 'http://www.w3schools.com/tags/att_global_id.asp' ),
 		),
 		array(
 			'type' => 'textfield',
-			'heading' => esc_html__( 'Extra class name', 'js_composer' ),
+			'heading' => __( 'Extra class name', 'js_composer' ),
 			'param_name' => 'el_class',
-			'description' => esc_html__( 'Style particular content element differently - add a class name and refer to it in custom CSS.', 'js_composer' ),
+			'description' => __( 'Style particular content element differently - add a class name and refer to it in custom CSS.', 'js_composer' ),
 		),
 	),
 );

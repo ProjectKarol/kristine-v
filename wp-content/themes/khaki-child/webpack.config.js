@@ -1,6 +1,6 @@
 const path = require( 'path' );
 
-var urlToPreview = 'https://www.kristine-v.loc';
+var urlToPreview = 'https://kristine-v.loc';
 
 module.exports = {
 	mode: 'development',

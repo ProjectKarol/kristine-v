@@ -1,5 +1,4 @@
-(function () {
-	'use strict';
+(function ( $ ) {
 	window.InlineShortcodeView_vc_toggle = window.InlineShortcodeView.extend( {
 		render: function () {
 			var model_id = this.model.get( 'id' );
@@ -7,8 +6,7 @@
 			vc.frame_window.vc_iframe.addActivity( function () {
 				this.vc_iframe.vc_toggle( model_id );
 			} );
-
 			return this;
 		}
 	} );
-})();
+})( window.jQuery );

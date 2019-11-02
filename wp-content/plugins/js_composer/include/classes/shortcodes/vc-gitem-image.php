@@ -5,10 +5,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 require_once vc_path_dir( 'SHORTCODES_DIR', 'vc-custom-heading.php' );
 
-/**
- * Class WPBakeryShortCode_Vc_Gitem_Image
- */
-class WPBakeryShortCode_Vc_Gitem_Image extends WPBakeryShortCode_Vc_Gitem_Post_Data {
+class WPBakeryShortCode_VC_Gitem_Image extends WPBakeryShortCode_VC_Gitem_Post_Data {
 	/**
 	 * Get data_source attribute value
 	 *

@@ -16,11 +16,11 @@
  * @version     3.5.1
  */
 
-if (!defined('ABSPATH')) {
-    exit();
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
 }
 
 global $post, $product;
 ?>
 
-<?php khaki_shop_thumbnail_or_gallery(true); ?>
+<?php khaki_shop_thumbnail_or_gallery(true);?>

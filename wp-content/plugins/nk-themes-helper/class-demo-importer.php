@@ -340,6 +340,7 @@ class NK_Helper_Demo_Importer {
     public function stream_import_demo_data( $file ) {
         $this->microtime = microtime( true );
 
+        add_action( 'wxr_importer.processed.post', array( $this, 'imported_menu_items' ), 10, 3 );
         add_action( 'wxr_importer.processed.post', array( $this, 'imported_post' ), 10, 2 );
         add_action( 'wxr_importer.process_failed.post', array( $this, 'imported_post' ), 10, 2 );
         add_action( 'wxr_importer.process_already_imported.post', array( $this, 'imported_post' ), 10, 2 );
@@ -668,6 +669,100 @@ class NK_Helper_Demo_Importer {
             }
         }
         $this->update_delta( 'attachment' === $data['post_type'] ? 'media' : 'posts' );
+    }
+
+    /**
+     * Fixed Menu Items Import.
+     *
+     * @param int|WP_Error $id Post ID.
+     * @param array        $data Post data saved to the DB.
+     * @param array        $meta Raw meta data, already processed by {@see process_post_meta}.
+     */
+    public function imported_menu_items( $id, $data, $meta ) {
+        if ( ! is_wp_error( $id ) && 'nav_menu_item' === $data['post_type'] ) {
+
+            $args = array(
+                'menu-item-db-id' => $data['post_id'],
+                'menu-item-position'   => $data['menu_order'],
+                'menu-item-title' => $data['post_title'],
+                'menu-item-status' => $data['post_status'],
+            );
+
+            foreach ( $meta as $meta_data ) {
+                switch ( $meta_data['key'] ) {
+                    case '_menu_item_object_id':
+                        $args['menu-item-object-id'] = $meta_data['value'];
+                        break;
+                    case '_menu_item_object':
+                        $args['menu-item-object'] = $meta_data['value'];
+                        break;
+                    case '_menu_item_menu_item_parent':
+                        if ( '0' !== $meta_data['value'] ) {
+                            $args['menu-item-parent-id'] = $meta_data['value'];
+                        }
+                        break;
+                    case '_menu_item_type':
+                        $args['menu-item-type'] = $meta_data['value'];
+                        break;
+                    case '_menu_item_url':
+                        if ( '' !== $meta_data['value'] ) {
+                            $args['menu-item-url'] = $meta_data['value'];
+                        }
+                        break;
+                    case '_menu_item_target':
+                        if ( '' !== $meta_data['value'] ) {
+                            $args['menu-item-target'] = $meta_data['value'];
+                        }
+                        break;
+                    case '_menu_item_xfn':
+                        if ( '' !== $meta_data['value'] ) {
+                            $args['menu-item-xfn'] = $meta_data['value'];
+                        }
+                        break;
+                    case '_wxr_import_term':
+                        if ( ! empty( $meta_data['value'] ) ) {
+                            if ( 'nav_menu' === $meta_data['value']['taxonomy'] ) {
+                                $menu_object = wp_get_nav_menu_object( $meta_data['value']['slug'] );
+                            }
+                        }
+                        break;
+                }
+            }
+            if ( isset( $menu_object ) && ! empty( $menu_object ) ) {
+
+                $menu_items = wp_get_nav_menu_items( $menu_object );
+                $remapping = true;
+                if ( $menu_items ) {
+                    foreach ( $menu_items as $menu_item ) {
+                        if ( $menu_item->ID === $data['post_id'] ) {
+                            $remapping = false;
+                        }
+                    }
+                }
+
+                if ( $remapping ) {
+                    $this->logger->info(
+                        sprintf(
+                            /* translators: %1$s: Menu Item Title, %2$s: Name of Menu, %3$s: Menu Item Id */
+                            __( 'Remapping "%1$s" from (%2$s) - %3$s', 'nk-themes-helper' ),
+                            $data['post_title'],
+                            $menu_object->name,
+                            $data['post_id']
+                        )
+                    );
+                    $item_id = wp_update_nav_menu_item( $menu_object->term_id, $data['post_id'], $args );
+                    if ( ! is_wp_error( $item_id ) ) {
+                        $this->logger->info(
+                            sprintf(
+                                /* translators: %s: term Id */
+                                __( 'Remapping successful - %s', 'nk-themes-helper' ),
+                                $item_id
+                            )
+                        );
+                    }
+                }
+            }
+        }
     }
 
     /**

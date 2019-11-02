@@ -2,7 +2,7 @@
 /*
  * Plugin Name:  nK WooCommerce Swatches
  * Description:  Attributes swatches for WooCommerce
- * Version:      1.1.2
+ * Version:      1.1.1
  * Author:       nK
  * Author URI:   https://nkdev.info
  * License:      GPLv2 or later
@@ -54,11 +54,6 @@ class NKWCS {
     public function init_options() {
         $this->plugin_path = plugin_dir_path(__FILE__);
         $this->plugin_url = plugin_dir_url(__FILE__);
-
-        // Work with active WooCommerce only.
-        if ( ! function_exists( 'WC' ) ) {
-            return;
-        }
 
         // include helper files
         $this->include_dependencies();

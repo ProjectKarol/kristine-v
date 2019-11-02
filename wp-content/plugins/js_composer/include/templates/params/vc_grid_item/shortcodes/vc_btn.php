@@ -2,5 +2,4 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
-
-return '{{ vc_btn: ' . http_build_query( $atts ) . ' }}';
+?>{{ vc_btn:<?php echo http_build_query( $atts ) ?> }}

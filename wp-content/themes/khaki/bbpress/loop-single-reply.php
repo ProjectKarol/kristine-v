@@ -13,7 +13,7 @@ if ( bbp_thread_replies() ){
     $tag = 'div';
 }
 ?>
-<<?php echo esc_html( $tag ); ?> id="post-<?php bbp_reply_id(); ?>" class="bbp-reply-header">
+<<?php echo $tag;?> id="post-<?php bbp_reply_id(); ?>" class="bbp-reply-header">
 
 
     <div <?php bbp_reply_class(); ?>>
@@ -64,7 +64,7 @@ if ( bbp_thread_replies() ){
         <span class="nk-forum-topic-date"><?php bbp_reply_post_date(); ?></span>
 
         <a href="<?php bbp_reply_url(); ?>" class="bbp-reply-permalink">#<?php bbp_reply_id(); ?></a>
-
+        
 
 
         <?php if (bbp_is_single_user_replies()) : ?>
@@ -86,5 +86,5 @@ if ( bbp_thread_replies() ){
 
     </div><!-- .bbp-meta -->
 
-</<?php echo esc_html( $tag ); ?>><!-- #post-<?php bbp_reply_id(); ?> -->
+</<?php echo $tag;?>><!-- #post-<?php bbp_reply_id(); ?> -->
 

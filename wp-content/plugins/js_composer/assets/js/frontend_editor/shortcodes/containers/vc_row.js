@@ -1,6 +1,4 @@
 (function ( $ ) {
-	'use strict';
-
 	window.InlineShortcodeView_vc_row = window.InlineShortcodeView.extend( {
 		column_tag: 'vc_column',
 		events: {
@@ -10,7 +8,6 @@
 		addControls: function () {
 			this.$controls = $( '<div class="no-controls"></div>' );
 			this.$controls.appendTo( this.$el );
-
 			return this;
 		},
 		render: function () {
@@ -20,7 +17,6 @@
 				this.$el.addClass( 'vc_row-has-fill' );
 			}
 			window.InlineShortcodeView_vc_row.__super__.render.call( this );
-
 			return this;
 		},
 		removeHoldActive: function () {
@@ -33,22 +29,17 @@
 			} ).render();
 		},
 		addElement: function ( e ) {
-			if ( e && e.preventDefault ) {
-				e.preventDefault();
-			}
+			e && e.preventDefault();
 			this.addColumn();
 		},
 		changeLayout: function ( e ) {
-			if ( e && e.preventDefault ) {
-				e.preventDefault();
-			}
+			e && e.preventDefault();
 			this.layoutEditor().render( this.model ).show();
 		},
 		layoutEditor: function () {
 			if ( _.isUndefined( vc.row_layout_editor ) ) {
 				vc.row_layout_editor = new vc.RowLayoutUIPanelFrontendEditor( { el: $( '#vc_ui-panel-row-layout' ) } );
 			}
-
 			return vc.row_layout_editor;
 		},
 		convertToWidthsArray: function ( string ) {
@@ -67,18 +58,17 @@
 				this.$content = this.$el.find( '.vc_container-anchor:first' ).parent();
 			}
 			this.$el.find( '.vc_container-anchor:first' ).remove();
-
 			return this.$content;
 		},
 		addLayoutClass: function () {
 			this.$el.removeClass( 'vc_layout_' + this.layout );
 			this.layout = _.reject( vc.shortcodes.where( { parent_id: this.model.get( 'id' ) } ), function ( model ) {
-				return model.get( 'deleted' );
+				return model.get( 'deleted' )
 			} ).length;
 			this.$el.addClass( 'vc_layout_' + this.layout );
 		},
 		convertRowColumns: function ( layout, builder ) {
-			if ( !layout ) {
+			if ( ! layout ) {
 				return false;
 			}
 			var column_params, new_model, columns_contents, columns;
@@ -129,17 +119,13 @@
 						},
 						{ silent: true } );
 					vc.layout_change_shortcodes.push( shortcode );
-					if ( shortcode.view.rowsColumnsConverted ) {
-						shortcode.view.rowsColumnsConverted();
-					}
+					shortcode.view.rowsColumnsConverted && shortcode.view.rowsColumnsConverted()
 				}, this );
 			}, this );
 			builder.render( function () {
 				_.each( vc.layout_change_shortcodes, function ( shortcode ) {
 					shortcode.trigger( 'change:parent_id' );
-					if ( shortcode.view.rowsColumnsConverted ) {
-						shortcode.view.rowsColumnsConverted();
-					}
+					shortcode.view.rowsColumnsConverted && shortcode.view.rowsColumnsConverted();
 				} );
 				_.each( vc.layout_old_columns, function ( column ) {
 					column.destroy();
@@ -147,14 +133,13 @@
 				vc.layout_old_columns = [];
 				vc.layout_change_shortcodes = [];
 			} );
-
 			return columns;
 		},
 		allowAddControl: function () {
-			return 'edit' !== vc_user_access().getState( 'shortcodes' );
+			return vc_user_access().getState( 'shortcodes' ) !== 'edit';
 		},
 		allowAddControlOnEmpty: function () {
-			return 'edit' !== vc_user_access().getState( 'shortcodes' );
+			return vc_user_access().getState( 'shortcodes' ) !== 'edit';
 		}
 	} );
 })( window.jQuery );

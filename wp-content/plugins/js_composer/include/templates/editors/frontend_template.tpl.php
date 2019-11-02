@@ -6,12 +6,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 <div id="vc_template-html">
 	<?php
-	/** @var Vc_Frontend_Editor $editor */
+	/** @var $editor Vc_Frontend_Editor */
 	?>
-	<?php
-	// @codingStandardsIgnoreLine
-	print apply_filters( 'vc_frontend_template_the_content', $editor->parseShortcodesString( $editor->getTemplateContent() ) );
-	?>
+	<?php echo apply_filters( 'vc_frontend_template_the_content', $editor->parseShortcodesString( $editor->getTemplateContent() ) ); ?>
 	<div data-type="files">
 		<?php
 		_print_styles();
@@ -21,4 +18,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 		?>
 	</div>
 </div>
-<div id="vc_template-data"><?php echo esc_html( wp_json_encode( $editor->post_shortcodes ) ); ?></div>
+<div
+	id="vc_template-data"><?php echo esc_html( json_encode( $editor->post_shortcodes ) ); ?></div>
+

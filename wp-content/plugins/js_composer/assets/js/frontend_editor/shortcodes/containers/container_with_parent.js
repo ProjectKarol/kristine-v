@@ -1,6 +1,4 @@
 (function ( $ ) {
-	'use strict';
-
 	window.InlineShortcodeViewContainerWithParent = window.InlineShortcodeViewContainer.extend( {
 		controls_selector: '#vc_controls-template-container-with-parent',
 		events: {
@@ -20,43 +18,31 @@
 			'mouseleave': 'holdActive'
 		},
 		destroyParent: function ( e ) {
-			if ( e && e.preventDefault ) {
-				e.preventDefault();
-			}
+			e && e.preventDefault();
 			this.parent_view.destroy( e );
 		},
 		cloneParent: function ( e ) {
-			if ( e && e.preventDefault ) {
-				e.preventDefault();
-			}
+			e && e.preventDefault();
 			this.parent_view.clone( e );
 		},
 		editParent: function ( e ) {
-			if ( e && e.preventDefault ) {
-				e.preventDefault();
-			}
+			e && e.preventDefault();
 			this.parent_view.edit( e );
 		},
 		addSibling: function ( e ) {
-			if ( e && e.preventDefault ) {
-				e.preventDefault();
-			}
+			e && e.preventDefault();
 			this.parent_view.addElement( e );
 		},
 		changeLayout: function ( e ) {
-			if ( e && e.preventDefault ) {
-				e.preventDefault();
-			}
+			e && e.preventDefault();
 			this.parent_view.changeLayout( e );
 		},
 		switchControls: function ( e ) {
-			var $control, $parent, $current;
-			if ( e && e.preventDefault ) {
-				e.preventDefault();
-			}
+			e && e.preventDefault();
 			vc.unsetHoldActive();
-			$control = $( e.currentTarget );
-			$parent = $control.parent();
+			var $control = $( e.currentTarget ),
+				$parent = $control.parent(),
+				$current;
 			// $parentAdvanced = $parent.find( '.vc_advanced' );
 			//$parentAdvanced.width( 30 * $parentAdvanced.find( '.vc_control-btn' ).length );
 			$parent.addClass( 'vc_active' );
@@ -64,9 +50,7 @@
 			$current = $parent.siblings( '.vc_active' );
 			//$current.find( '.vc_advanced' ).width( 0 );
 			$current.removeClass( 'vc_active' );
-			if ( !$current.hasClass( 'vc_element' ) ) {
-				window.setTimeout( this.holdActive, 500 );
-			}
+			! $current.hasClass( 'vc_element' ) && window.setTimeout( this.holdActive, 500 );
 		}
 	} );
 })( window.jQuery );

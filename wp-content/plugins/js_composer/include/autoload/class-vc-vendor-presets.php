@@ -10,18 +10,15 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 class Vc_Vendor_Preset {
 
-	private static $instance;
+	private static $_instance;
 	private static $presets = array();
 
-	/**
-	 * @return \Vc_Vendor_Preset
-	 */
 	public static function getInstance() {
-		if ( ! self::$instance ) {
-			self::$instance = new self();
+		if ( ! self::$_instance ) {
+			self::$_instance = new self();
 		}
 
-		return self::$instance;
+		return self::$_instance;
 	}
 
 	protected function __construct() {
@@ -30,14 +27,14 @@ class Vc_Vendor_Preset {
 	/**
 	 * Add vendor preset to collection
 	 *
+	 * @since 4.8
+	 *
 	 * @param string $title
 	 * @param string $shortcode
 	 * @param array $params
 	 * @param bool $default
 	 *
 	 * @return bool
-	 * @since 4.8
-	 *
 	 */
 	public function add( $title, $shortcode, $params, $default = false ) {
 		if ( ! $title || ! is_string( $title ) || ! $shortcode || ! is_string( $shortcode ) || ! $params || ! is_array( $params ) ) {
@@ -51,7 +48,6 @@ class Vc_Vendor_Preset {
 			'title' => $title,
 		);
 
-		// @codingStandardsIgnoreLine
 		$id = md5( serialize( $preset ) );
 
 		self::$presets[ $id ] = $preset;
@@ -62,11 +58,11 @@ class Vc_Vendor_Preset {
 	/**
 	 * Get specific vendor preset
 	 *
+	 * @since 4.8
+	 *
 	 * @param string $id
 	 *
 	 * @return mixed array|false
-	 * @since 4.8
-	 *
 	 */
 	public function get( $id ) {
 		if ( isset( self::$presets[ $id ] ) ) {
@@ -79,11 +75,11 @@ class Vc_Vendor_Preset {
 	/**
 	 * Get all vendor presets for specific shortcode
 	 *
+	 * @since 4.8
+	 *
 	 * @param string $shortcode
 	 *
 	 * @return array
-	 * @since 4.8
-	 *
 	 */
 	public function getAll( $shortcode ) {
 		$list = array();
@@ -102,9 +98,9 @@ class Vc_Vendor_Preset {
 	 *
 	 * Include only one default preset per shortcode
 	 *
-	 * @return array
 	 * @since 4.8
 	 *
+	 * @return array
 	 */
 	public function getDefaults() {
 		$list = array();
@@ -112,7 +108,7 @@ class Vc_Vendor_Preset {
 		$added = array();
 
 		foreach ( self::$presets as $id => $preset ) {
-			if ( $preset['default'] && ! in_array( $preset['shortcode'], $added, true ) ) {
+			if ( $preset['default'] && ! in_array( $preset['shortcode'], $added ) ) {
 				$added[] = $preset['shortcode'];
 				$list[ $id ] = $preset;
 			}
@@ -126,11 +122,11 @@ class Vc_Vendor_Preset {
 	 *
 	 * If multiple presets are default, return first
 	 *
+	 * @since 4.8
+	 *
 	 * @param string $shortcode
 	 *
 	 * @return string|null
-	 * @since 4.8
-	 *
 	 */
 	public function getDefaultId( $shortcode ) {
 		foreach ( self::$presets as $id => $preset ) {

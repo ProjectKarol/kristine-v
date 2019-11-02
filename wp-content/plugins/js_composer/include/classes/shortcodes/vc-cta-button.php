@@ -9,5 +9,6 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @package WPBakeryPageBuilder
  *
  */
-class WPBakeryShortCode_Vc_Cta_Button extends WPBakeryShortCode {
+class WPBakeryShortCode_VC_Cta_button extends WPBakeryShortCode {
+
 }

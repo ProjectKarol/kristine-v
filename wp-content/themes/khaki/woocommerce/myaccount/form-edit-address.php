@@ -13,7 +13,7 @@
  * @see     https://docs.woocommerce.com/document/template-structure/
  * @author  WooThemes
  * @package WooCommerce/Templates
- * @version 3.6.0
+ * @version 3.4.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -47,6 +47,10 @@ do_action( 'woocommerce_before_edit_account_address_form' ); ?>
                     $field['input_class'] = array('form-control');
                 }
                 unset($field['label']);
+
+                if ( isset( $field['country_field'], $address[ $field['country_field'] ] ) ) {
+                    $field['country'] = wc_get_post_data_by_key( $field['country_field'], $address[ $field['country_field'] ]['value'] );
+                }
 
                 woocommerce_form_field( $key, $field, wc_get_post_data_by_key( $key, $field['value'] ) );
                 if ($key == 'billing_last_name' || $key == 'shipping_last_name') {

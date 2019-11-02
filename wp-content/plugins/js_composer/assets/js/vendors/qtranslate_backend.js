@@ -1,6 +1,4 @@
 (function ( $ ) {
-	'use strict';
-
 	$( '#content-html' ).on( 'click', function () {
 		window.setTimeout( function () {
 			window.wpActiveEditor = 'qtrans_textarea_content';
@@ -33,7 +31,7 @@
 
 		$langs.show();
 
-		if ( !window.vc ) {
+		if ( ! window.vc ) {
 			window.vc = {};
 		}
 		vc.QtransResetContent = function () {
@@ -46,7 +44,7 @@
 			var content;
 			vc.QtransResetContent();
 			content = $( '#qtrans_textarea_content' ).val();
-			if ( vc.gridItemEditor && !content.length ) {
+			if ( vc.gridItemEditor && ! content.length ) {
 				content = vcDefaultGridItemContent;
 			}
 			return content;

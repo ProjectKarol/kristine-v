@@ -13,10 +13,12 @@
  * @see     https://docs.woocommerce.com/document/template-structure/
  * @author  WooThemes
  * @package WooCommerce/Templates
- * @version 3.6.0
+ * @version 3.0.9
  */
 
-defined( 'ABSPATH' ) || exit;
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
 
 /** @global WC_Checkout $checkout */
 
@@ -60,6 +62,11 @@ defined( 'ABSPATH' ) || exit;
             }
             unset($field['label']);
 
+            //billing style argument fields. end
+            if ( isset( $field['country_field'], $fields[ $field['country_field'] ] ) ) {
+                $field['country'] = $checkout->get_value( $field['country_field'] );
+            }
+
             woocommerce_form_field( $key, $field, $checkout->get_value( $key ) );
 
             if ($key == 'billing_last_name') {
@@ -75,7 +82,7 @@ defined( 'ABSPATH' ) || exit;
 		<?php if ( $checkout->enable_guest_checkout ) : ?>
 
 			<label class="create-account custom-control custom-checkbox">
-				<input class="input-checkbox custom-control-input" id="createaccount" <?php checked( ( true === $checkout->get_value( 'createaccount' ) || ( true === apply_filters( 'woocommerce_create_account_default_checked', false ) ) ), true); ?> type="checkbox" name="createaccount" value="1" />
+				<input class="input-checkbox custom-control-input" id="createaccount" <?php checked( ( true === $checkout->get_value( 'createaccount' ) || ( true === apply_filters( 'woocommerce_create_account_default_checked', false ) ) ), true) ?> type="checkbox" name="createaccount" value="1" />
 				<span class="custom-control-indicator"></span><span><?php esc_html_e( 'Create an account?', 'khaki' ); ?></span>
 			</label>
 

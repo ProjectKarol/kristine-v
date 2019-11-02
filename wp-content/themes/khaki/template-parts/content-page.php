@@ -24,10 +24,6 @@ $acf_content = khaki_get_theme_mod('content_page_custom', true);
         <?php
         the_content();
 
-        ?>
-        <div class="clearfix"></div>
-        <?php
-
         wp_link_pages(array(
             'before' => '<div class="page-links">' . esc_html__('Pages:', 'khaki'),
             'after' => '</div>',

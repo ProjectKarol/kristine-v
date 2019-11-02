@@ -1,7 +1,5 @@
 (function ( $ ) {
-	'use strict';
-
-	window.vc.ttaSectionActivateOnClone = false;
+	vc.ttaSectionActivateOnClone = false;
 	window.InlineShortcodeView_vc_tta_section = window.InlineShortcodeViewContainerWithParent.extend( {
 		events: {
 			'click > .vc_controls [data-vc-control="destroy"]': 'destroy',
@@ -84,7 +82,7 @@
 				paramsMap = vc.getDefaultsAndDependencyMap( parentModel.get( 'shortcode' ) );
 				parentParams = _.extend( {}, paramsMap.defaults, parentModel.get( 'params' ) );
 				$controlsIcon = this.$el.find( '.vc_tta-controls-icon' );
-				if ( parentParams && !_.isUndefined( parentParams.c_icon ) && 0 < parentParams.c_icon.length ) {
+				if ( parentParams && ! _.isUndefined( parentParams.c_icon ) && 0 < parentParams.c_icon.length ) {
 					if ( $controlsIcon.length ) {
 						$controlsIcon.attr( 'data-vc-tta-controls-icon', parentParams.c_icon );
 					} else {
@@ -92,7 +90,7 @@
 							$( '<i class="vc_tta-controls-icon" data-vc-tta-controls-icon="' + parentParams.c_icon + '"></i>' )
 						);
 					}
-					if ( !_.isUndefined( parentParams.c_position ) && 0 < parentParams.c_position.length ) {
+					if ( ! _.isUndefined( parentParams.c_position ) && 0 < parentParams.c_position.length ) {
 						$controlsIconsPositionEl = this.$el.find( '[data-vc-tta-controls-icon-position]' );
 						if ( $controlsIconsPositionEl.length ) {
 							$controlsIconsPositionEl.attr( 'data-vc-tta-controls-icon-position',
@@ -110,10 +108,10 @@
 			}
 		},
 		setAsActiveSection: function ( isActive ) {
-			this.model.set( 'isActiveSection', !!isActive );
+			this.model.set( 'isActiveSection', ! ! isActive );
 		},
 		isAsActiveSection: function () {
-			return !!this.model.get( 'isActiveSection' );
+			return ! ! this.model.get( 'isActiveSection' );
 		},
 		bindAccordionEvents: function () {
 			var that = this;
@@ -129,12 +127,11 @@
 			parentId = this.model.get( 'parent_id' );
 			window.InlineShortcodeView_vc_tta_section.__super__.destroy.call( this, e );
 			parentModel = vc.shortcodes.get( parentId );
-			if ( !vc.shortcodes.where( { parent_id: parentId } ).length ) {
+			if ( ! vc.shortcodes.where( { parent_id: parentId } ).length ) {
 				parentModel.destroy();
 			} else {
-				if ( parentModel.view && parentModel.view.removeSection ) {
-					parentModel.view.removeSection( this.model.get( 'id' ) );
-				}
+				parentModel.view && parentModel.view.removeSection && parentModel.view.removeSection( this.model.get(
+					'id' ) );
 			}
 		}
 	} );

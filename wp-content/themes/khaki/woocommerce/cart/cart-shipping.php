@@ -83,7 +83,7 @@ if(is_checkout()):?>
 <?php else:?>
 	<div class="shipping woocommerce-shipping-totals">
 		<div data-title="<?php echo esc_attr( $package_name ); ?>">
-			<?php if (  $available_methods ) : ?>
+			<?php if ( 1 < count( $available_methods ) ) : ?>
 				<ul id="shipping_method">
 					<?php foreach ( $available_methods as $method ) : ?>
 						<li>

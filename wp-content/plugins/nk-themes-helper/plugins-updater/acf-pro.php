@@ -84,10 +84,14 @@ class NK_Helper_ACF_Pro_Plugin_Updater {
      */
     public function acf_pro_license( $license ) {
         if ( ! $license ) {
-            return base64_encode( maybe_serialize( array(
-                'key' => 'fake',
-                'url' => home_url(),
-            ) ) );
+            return base64_encode(
+                maybe_serialize(
+                    array(
+                        'key' => 'fake',
+                        'url' => home_url(),
+                    )
+                )
+            );
         }
 
         return $license;

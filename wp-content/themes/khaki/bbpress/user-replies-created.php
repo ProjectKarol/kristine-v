@@ -8,6 +8,10 @@
  */
 
 ?>
+<?php
+/**
+ TODO: add style to repair behavior html
+ */?>
 	<?php do_action( 'bbp_template_before_user_replies' ); ?>
 
 	<div id="bbp-user-replies-created" class="bbp-user-replies-created">

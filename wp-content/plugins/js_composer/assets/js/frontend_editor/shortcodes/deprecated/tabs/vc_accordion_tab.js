@@ -1,6 +1,4 @@
-(function () {
-	'use strict';
-
+(function ( $ ) {
 	window.InlineShortcodeView_vc_accordion_tab = window.InlineShortcodeView_vc_tab.extend( {
 		events: {
 			'click > .vc_controls .vc_element .vc_control-btn-delete': 'destroy',
@@ -28,23 +26,21 @@
 		},
 		render: function () {
 			window.InlineShortcodeView_vc_tab.__super__.render.call( this );
-			if ( !this.content().find( '.vc_element[data-tag]' ).length ) {
+			if ( ! this.content().find( '.vc_element[data-tag]' ).length ) {
 				this.content().empty();
 			}
-			this.parent_view.buildAccordion( !this.model.get( 'from_content' ) && !this.model.get( 'default_content' ) ? this.model : false );
+			this.parent_view.buildAccordion( ! this.model.get( 'from_content' ) && ! this.model.get( 'default_content' ) ? this.model : false );
 			return this;
 		},
 		rowsColumnsConverted: function () {
 			_.each( vc.shortcodes.where( { parent_id: this.model.get( 'id' ) } ), function ( model ) {
-				if ( model.view.rowsColumnsConverted ) {
-					model.view.rowsColumnsConverted();
-				}
+				model.view.rowsColumnsConverted && model.view.rowsColumnsConverted();
 			} );
 		},
 		destroy: function ( e ) {
 			var parent_id = this.model.get( 'parent_id' );
 			window.InlineShortcodeView_vc_accordion_tab.__super__.destroy.call( this, e );
-			if ( !vc.shortcodes.where( { parent_id: parent_id } ).length ) {
+			if ( ! vc.shortcodes.where( { parent_id: parent_id } ).length ) {
 				vc.shortcodes.get( parent_id ).destroy();
 			}
 		},
@@ -52,4 +48,4 @@
 			return vc_user_access().shortcodeAll( 'vc_accordion_tab' );
 		}
 	} );
-})();
+})( window.jQuery );

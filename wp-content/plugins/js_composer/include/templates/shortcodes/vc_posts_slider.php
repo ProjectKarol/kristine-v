@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @var $el_id
  * @var $css
  * Shortcode class
- * @var WPBakeryShortCode_Vc_Posts_slider $this
+ * @var $this WPBakeryShortCode_VC_Posts_slider
  */
 $title = $type = $count = $interval = $slides_content = $slides_title = $link = $custom_links = $thumb_size = $posttypes = $posts_in = $categories = $order = $orderby = $el_class = $el_id = $css = '';
 $link_image_start = '';
@@ -73,7 +73,7 @@ $query_args = array(
 	'post_status' => 'publish',
 );
 
-// exclude current post/page from query
+//exclude current post/page from query
 if ( '' !== $posts_in ) {
 	$query_args['post__in'] = explode( ',', $posts_in );
 }
@@ -113,7 +113,7 @@ if ( '' !== $categories ) {
 	$taxonomies = get_taxonomies( '', 'object' );
 	$query_args['tax_query'] = array( 'relation' => 'OR' );
 	foreach ( $taxonomies as $t ) {
-		if ( in_array( $t->object_type[0], $pt, true ) ) {
+		if ( in_array( $t->object_type[0], $pt ) ) {
 			$query_args['tax_query'][] = array(
 				'taxonomy' => $t->name,
 				'terms' => $categories,
@@ -132,7 +132,7 @@ $query_args['order'] = $order;
 // Run query
 $my_query = new WP_Query( $query_args );
 
-$pretty_rel_random = ' data-rel="prettyPhoto[rel-' . get_the_ID() . '-' . wp_rand() . ']"';
+$pretty_rel_random = ' data-rel="prettyPhoto[rel-' . get_the_ID() . '-' . rand() . ']"';
 if ( 'custom_link' === $link ) {
 	$custom_links = explode( ',', vc_value_from_safe( $custom_links ) );
 }
@@ -144,7 +144,7 @@ while ( $my_query->have_posts() ) {
 	$my_query->the_post();
 	$post_title = the_title( '', '', false );
 	$post_id = $my_query->post->ID;
-	if ( in_array( get_the_ID(), $vc_posts_grid_exclude_id, true ) ) {
+	if ( in_array( get_the_ID(), $vc_posts_grid_exclude_id ) ) {
 		continue;
 	}
 	if ( 'teaser' === $slides_content ) {
@@ -157,32 +157,30 @@ while ( $my_query->have_posts() ) {
 	// Thumbnail logic
 	$post_thumbnail = $p_img_large = '';
 
-	$post_thumbnail = wpb_getImageBySize( array(
-		'post_id' => $post_id,
-		'thumb_size' => $thumb_size,
-	) );
+	$post_thumbnail = wpb_getImageBySize( array( 'post_id' => $post_id, 'thumb_size' => $thumb_size ) );
 	$thumbnail = $post_thumbnail['thumbnail'];
 	$p_img_large = $post_thumbnail['p_img_large'];
 
 	// Link logic
 	if ( 'link_no' !== $link ) {
 		if ( 'link_post' === $link ) {
-			$link_image_start = '<a class="link_image" href="' . esc_url( get_permalink( $post_id ) ) . '" title="' . sprintf( esc_attr__( 'Permalink to %s', 'js_composer' ), the_title_attribute( 'echo=0' ) ) . '">';
+			$link_image_start = '<a class="link_image" href="' . get_permalink( $post_id ) . '" title="' . sprintf( esc_attr__( 'Permalink to %s', 'js_composer' ), the_title_attribute( 'echo=0' ) ) . '">';
 		} elseif ( 'link_image' === $link ) {
 			$p_video = get_post_meta( $post_id, '_p_video', true );
+			//
 			if ( '' !== $p_video ) {
 				$p_link = $p_video;
 			} else {
 				$p_link = $p_img_large[0];
 			}
-			$link_image_start = '<a class="link_image prettyphoto" href="' . esc_url( $p_link ) . '" ' . $pretty_rel_random . ' title="' . the_title_attribute( 'echo=0' ) . '" >';
+			$link_image_start = '<a class="link_image prettyphoto" href="' . $p_link . '" ' . $pretty_rel_random . ' title="' . the_title_attribute( 'echo=0' ) . '" >';
 		} elseif ( 'custom_link' === $link ) {
 			if ( isset( $custom_links[ $i ] ) ) {
 				$slide_custom_link = $custom_links[ $i ];
 			} else {
 				$slide_custom_link = $custom_links[0];
 			}
-			$link_image_start = '<a class="link_image" href="' . esc_url( $slide_custom_link ) . '">';
+			$link_image_start = '<a class="link_image" href="' . $slide_custom_link . '">';
 		}
 
 		$link_image_end = '</a>';
@@ -202,13 +200,13 @@ while ( $my_query->have_posts() ) {
 	}
 
 	$teasers .= $el_start . $link_image_start . $thumbnail . $link_image_end . $description . $el_end;
-}//end while
-wp_reset_postdata();
+} // endwhile loop
+wp_reset_query();
 
 if ( $teasers ) {
 	$teasers = $slides_wrap_start . $teasers . $slides_wrap_end;
 } else {
-	$teasers = esc_html__( 'Nothing found.', 'js_composer' );
+	$teasers = __( 'Nothing found.', 'js_composer' );
 }
 
 $class_to_filter = 'wpb_gallery wpb_posts_slider wpb_content_element';
@@ -222,13 +220,10 @@ if ( ! empty( $el_id ) ) {
 $output = '
 	<div class="' . esc_attr( $css_class ) . '" ' . implode( ' ', $wrapper_attributes ) . '>
 		<div class="wpb_wrapper">
-			' . wpb_widget_title( array(
-	'title' => $title,
-	'extraclass' => 'wpb_posts_slider_heading',
-) ) . '
+			' . wpb_widget_title( array( 'title' => $title, 'extraclass' => 'wpb_posts_slider_heading' ) ) . '
 			<div class="wpb_gallery_slides' . $type . '" data-interval="' . $interval . '"' . $flex_fx . '>' . $teasers . '</div>
 		</div>
 	</div>
 ';
 
-return $output;
+echo $output;

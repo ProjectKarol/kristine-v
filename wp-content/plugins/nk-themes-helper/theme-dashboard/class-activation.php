@@ -67,7 +67,7 @@ class NK_Helper_Theme_Dashboard_Activation {
      * Init Global variables
      */
     private function init_globals() {
-        if ( isset( $_GET['vatomi_action'] ) ) {
+        if ( isset( $_GET['vatomi_action'] ) && is_admin() ) {
             $item_id = isset( $_GET['vatomi_item_id'] ) ? sanitize_text_field( wp_unslash( $_GET['vatomi_item_id'] ) ) : false;
 
             // vatomi activation.

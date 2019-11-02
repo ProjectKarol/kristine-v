@@ -3,16 +3,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
 
-/**
- * Class WPBakeryShortCode_Vc_Acf
- */
 class WPBakeryShortCode_Vc_Acf extends WPBakeryShortCode {
 	/**
 	 * @param $atts
 	 * @param null $content
 	 *
-	 * @return mixed
-	 * @throws \Exception
+	 * @return mixed|void
 	 */
 	protected function content( $atts, $content = null ) {
 		$atts = $atts + vc_map_get_attributes( $this->getShortcode(), $atts );

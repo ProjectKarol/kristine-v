@@ -13,7 +13,7 @@
  * @see     https://docs.woocommerce.com/document/template-structure/
  * @author  WooThemes
  * @package WooCommerce/Templates
- * @version 3.6.0
+ * @version 3.4.0
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -46,7 +46,7 @@ if($custom_sidebar && $show_custom_sidebar){
 }
 ?>
 <div class="<?php echo khaki_sanitize_class($product_class);?>">
-	<div <?php wc_product_class( 'nk-product', $product ); ?>>
+	<div <?php wc_product_class('nk-product'); ?>>
 	<?php
 	/**
      * Hook: woocommerce_before_shop_loop_item.

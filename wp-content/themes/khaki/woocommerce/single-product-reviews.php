@@ -13,7 +13,7 @@
  * @see        https://docs.woocommerce.com/document/template-structure/
  * @author        WooThemes
  * @package    WooCommerce/Templates
- * @version     3.6.0
+ * @version     3.5.0
  */
 if (!defined('ABSPATH')) {
 	exit; // Exit if accessed directly
@@ -106,7 +106,7 @@ if ($rating_count != $current_rating_count) {
 							<?php
 							$commenter = wp_get_current_commenter();
 							$rating_field = '';
-							if ( wc_review_ratings_enabled() ) {
+							if (get_option('woocommerce_enable_review_rating') === 'yes') {
 								$rating_field='<div class="comment-form-rating"><select name="rating" id="rating" required>
 							<option value="">' . esc_html__( 'Rate&hellip;', 'khaki' ) . '</option>
 							<option value="5">' . esc_html__( 'Perfect', 'khaki' ) . '</option>
@@ -140,7 +140,7 @@ if ($rating_count != $current_rating_count) {
 								$comment_form['must_log_in'] = '<p class="must-log-in">' . sprintf(__('You must be <a href="%s">logged in</a> to post a review.', 'khaki'), esc_url($account_page_url)) . '</p>';
 							}
 
-							if ( wc_review_ratings_enabled() ) {
+							if (get_option('woocommerce_enable_review_rating') === 'yes') {
 								if(is_user_logged_in()){
 									$comment_form['comment_field']=$rating_field;
 								}else{

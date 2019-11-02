@@ -48,7 +48,6 @@ if ($show_custom_sidebar && $custom_sidebar && is_active_sidebar($custom_sidebar
                         <?php endif; ?>
                         <div class="nk-events-item-description">
                             <?php the_content(); ?>
-                            <div class="clearfix"></div>
                         </div>
                         <?php if (khaki_get_theme_mod($post_type . '_show_meta', $acf_meta) && khaki_get_theme_mod($post_type . '_position_meta', $acf_meta) == 'after content'): ?>
                             <?php get_template_part('/template-parts/' . $post_type . '/' . $post_type . '-meta'); ?>
@@ -64,7 +63,6 @@ if ($show_custom_sidebar && $custom_sidebar && is_active_sidebar($custom_sidebar
                 <div class="nk-gap-2"></div>
                 <div class="container">
                     <?php the_content(); ?>
-                    <div class="clearfix"></div>
                 </div>
             </div>
             <div class="nk-gap-4"></div>

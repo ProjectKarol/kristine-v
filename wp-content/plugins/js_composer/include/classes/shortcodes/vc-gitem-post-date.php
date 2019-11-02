@@ -5,13 +5,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 require_once vc_path_dir( 'SHORTCODES_DIR', 'vc-gitem-post-data.php' );
 
-/**
- * Class WPBakeryShortCode_Vc_Gitem_Post_Date
- */
-class WPBakeryShortCode_Vc_Gitem_Post_Date extends WPBakeryShortCode_Vc_Gitem_Post_Data {
-	/**
-	 * @return mixed|string
-	 */
+class WPBakeryShortCode_VC_Gitem_Post_Date extends WPBakeryShortCode_VC_Gitem_Post_Data {
 	protected function getFileName() {
 		return 'vc_gitem_post_data';
 	}

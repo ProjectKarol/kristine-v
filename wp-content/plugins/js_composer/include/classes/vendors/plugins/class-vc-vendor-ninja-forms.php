@@ -7,7 +7,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Ninja Forms vendor
  * @since 4.4
  */
-class Vc_Vendor_NinjaForms {
+class Vc_Vendor_NinjaForms implements Vc_Vendor_Interface {
 	private static $ninjaCount;
 
 	/**
@@ -29,11 +29,11 @@ class Vc_Vendor_NinjaForms {
 	/**
 	 * Mapping settings for lean method.
 	 *
+	 * @since 4.9
+	 *
 	 * @param $tag
 	 *
 	 * @return array
-	 * @since 4.9
-	 *
 	 */
 	public function addShortcodeSettings( $tag ) {
 
@@ -41,26 +41,23 @@ class Vc_Vendor_NinjaForms {
 
 		return array(
 			'base' => $tag,
-			'name' => esc_html__( 'Ninja Forms', 'js_composer' ),
+			'name' => __( 'Ninja Forms', 'js_composer' ),
 			'icon' => 'icon-wpb-ninjaforms',
-			'category' => esc_html__( 'Content', 'js_composer' ),
-			'description' => esc_html__( 'Place Ninja Form', 'js_composer' ),
+			'category' => __( 'Content', 'js_composer' ),
+			'description' => __( 'Place Ninja Form', 'js_composer' ),
 			'params' => array(
 				array(
 					'type' => 'dropdown',
-					'heading' => esc_html__( 'Select ninja form', 'js_composer' ),
+					'heading' => __( 'Select ninja form', 'js_composer' ),
 					'param_name' => 'id',
 					'value' => $ninja_forms,
 					'save_always' => true,
-					'description' => esc_html__( 'Choose previously created ninja form from the drop down list.', 'js_composer' ),
+					'description' => __( 'Choose previously created ninja form from the drop down list.', 'js_composer' ),
 				),
 			),
 		);
 	}
 
-	/**
-	 * @return array
-	 */
 	private function get_forms() {
 		$ninja_forms = array();
 		if ( $this->is_ninja_forms_three() ) {
@@ -90,17 +87,10 @@ class Vc_Vendor_NinjaForms {
 		return $ninja_forms;
 	}
 
-	/**
-	 * @return bool
-	 */
 	private function is_ninja_forms_three() {
 		return ( version_compare( get_option( 'ninja_forms_version', '0.0.0' ), '3.0', '<' ) || get_option( 'ninja_forms_load_deprecated', false ) );
 	}
 
-	/**
-	 * @param $output
-	 * @return mixed
-	 */
 	public function replaceIds( $output ) {
 		if ( is_null( self::$ninjaCount ) ) {
 			self::$ninjaCount = 1;
@@ -119,7 +109,7 @@ class Vc_Vendor_NinjaForms {
 		}
 		$replaceTo = <<<JS
 if (typeof nfForms !== 'undefined') {
-  nfForms = nfForms.filter( function(item) {
+  nfForms = nfForms.filter( function(item, index) {
     if (item && item.id) {
       return document.querySelector('#nf-form-' + item.id + '-cont')
     }

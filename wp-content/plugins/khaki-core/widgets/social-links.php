@@ -164,7 +164,7 @@ if( function_exists('acf_add_local_field_group') ):
                             'fab fa-twitter' => 'Twitter',
                             'fab fa-pinterest' => 'Pinterest',
                             'fab fa-instagram' => 'Instagram',
-                            'ion-logo-linkedin' => 'Linkedin',
+                            'ion-social-linkedin-outline' => 'Linkedin',
                             'fa fa-behance' => 'Behance (font-awesome)',
                             'fa fa-odnoklassniki' => 'Odnoklassniki (font-awesome)',
                             'ion-social-skype-outline' => 'Skype',

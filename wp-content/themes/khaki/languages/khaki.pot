@@ -31,521 +31,236 @@ msgstr ""
 msgid "Go to Homepage"
 msgstr ""
 
-#: dist/khaki/admin/admin-init.php:33
+#: dist/khaki/archive-playlist.php:76
+msgid "See More"
+msgstr ""
+
+#: dist/khaki/archive-portfolio.php:183, dist/khaki/archive-portfolio.php:187, dist/khaki/admin/theme-options.php:4990, dist/khaki/admin/theme-options.php:9111, dist/khaki/woocommerce/functions.php:76, dist/khaki/woocommerce/functions.php:331
+msgid "No Image"
+msgstr ""
+
+#: dist/khaki/archive-portfolio.php:199
+msgid "F j, Y"
+msgstr ""
+
+#: dist/khaki/archive.php:80, dist/khaki/index.php:80, dist/khaki/search.php:68, dist/khaki/single-playlist.php:69, dist/khaki/inc/custom-posts.php:33, dist/khaki/inc/extras.php:241, dist/khaki/template-parts/content-post-list-meta.php:16, dist/khaki/template-parts/content.php:67, dist/khaki/template-parts/content.php:99, dist/khaki/template-parts/header/post.php:99, dist/khaki/template-parts/header/post.php:133, dist/khaki/template-parts/portfolio/portfolio-meta.php:11
+msgid "F j, Y "
+msgstr ""
+
+#: dist/khaki/archive.php:82, dist/khaki/index.php:82, dist/khaki/search.php:70, dist/khaki/template-parts/content-post-list-meta.php:16, dist/khaki/template-parts/content.php:71, dist/khaki/template-parts/content.php:103, dist/khaki/template-parts/header/post.php:104, dist/khaki/template-parts/header/post.php:138
+msgid "by"
+msgstr ""
+
+#: dist/khaki/archive.php:115, dist/khaki/archive.php:148, dist/khaki/index.php:116, dist/khaki/index.php:151, dist/khaki/search.php:100, dist/khaki/search.php:133
+msgid "Continue Reading"
+msgstr ""
+
+#: dist/khaki/comments.php:30
+msgid "Comments"
+msgstr ""
+
+#: dist/khaki/comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: dist/khaki/comments.php:84
+msgid "Post your comment"
+msgstr ""
+
+#: dist/khaki/comments.php:84
+msgid "Cancel reply"
+msgstr ""
+
+#: dist/khaki/comments.php:90, dist/khaki/bbpress/form-user-edit.php:118, dist/khaki/bbpress/form-user-register.php:25, dist/khaki/plugins/login-with-ajax/default/widget_out.php:108
+msgid "Email"
+msgstr ""
+
+#: dist/khaki/comments.php:95, dist/khaki/bbpress/form-user-edit.php:19
+msgid "Name"
+msgstr ""
+
+#: dist/khaki/comments.php:99, dist/khaki/bbpress/form-user-edit.php:65
+msgid "Website"
+msgstr ""
+
+#: dist/khaki/comments.php:107
+msgid "Comment"
+msgstr ""
+
+#: dist/khaki/comments.php:112, dist/khaki/bbpress/form-reply.php:150, dist/khaki/bbpress/pagination-replies.php:27
+msgid "Reply"
+msgstr ""
+
+#: dist/khaki/footer.php:186
+msgid "Loop"
+msgstr ""
+
+#: dist/khaki/footer.php:189
+msgid "Shuffle"
+msgstr ""
+
+#: dist/khaki/footer.php:192
+msgid "Show/Hide Playlist"
+msgstr ""
+
+#: dist/khaki/footer.php:195
+msgid "Pin/Unpin Player"
+msgstr ""
+
+#: dist/khaki/footer.php:330
+msgid "Search..."
+msgstr ""
+
+#: dist/khaki/functions.php:53
+msgid "Top Menu"
+msgstr ""
+
+#: dist/khaki/functions.php:54
+msgid "Top Icons Menu"
+msgstr ""
+
+#: dist/khaki/functions.php:55
+msgid "Main Menu"
+msgstr ""
+
+#: dist/khaki/functions.php:56
+msgid "Fullscreen Navigation Menu"
+msgstr ""
+
+#: dist/khaki/functions.php:57
+msgid "Side Navigation Menu"
+msgstr ""
+
+#: dist/khaki/functions.php:169
+msgid "Pages Sidebar"
+msgstr ""
+
+#: dist/khaki/functions.php:171
+msgid "For single pages."
+msgstr ""
+
+#: dist/khaki/functions.php:178
+msgid "Posts Sidebar"
+msgstr ""
+
+#: dist/khaki/functions.php:180
+msgid "For posts pages."
+msgstr ""
+
+#: dist/khaki/functions.php:187
+msgid "First Column Footer"
+msgstr ""
+
+#: dist/khaki/functions.php:189
+msgid "For First Column Footer."
+msgstr ""
+
+#: dist/khaki/functions.php:196
+msgid "Second Column Footer"
+msgstr ""
+
+#: dist/khaki/functions.php:198
+msgid "For Second Column Footer."
+msgstr ""
+
+#: dist/khaki/functions.php:205
+msgid "Three Column Footer"
+msgstr ""
+
+#: dist/khaki/functions.php:207
+msgid "For Three Column Footer."
+msgstr ""
+
+#: dist/khaki/functions.php:214
+msgid "Four Column Footer"
+msgstr ""
+
+#: dist/khaki/functions.php:216
+msgid "For Four Column Footer."
+msgstr ""
+
+#: dist/khaki/functions.php:223
+msgid "Shop Sidebar"
+msgstr ""
+
+#: dist/khaki/functions.php:225
+msgid "For shop pages."
+msgstr ""
+
+#: dist/khaki/functions.php:390
+msgid "Back"
+msgstr ""
+
+#: dist/khaki/functions.php:391
+msgid "Liked!"
+msgstr ""
+
+#: dist/khaki/functions.php:392
+msgid "Disliked!"
+msgstr ""
+
+#: dist/khaki/functions.php:393
+msgid "Days"
+msgstr ""
+
+#: dist/khaki/functions.php:394
+msgid "Hours"
+msgstr ""
+
+#: dist/khaki/functions.php:395
+msgid "Minutes"
+msgstr ""
+
+#: dist/khaki/functions.php:396
+msgid "Seconds"
+msgstr ""
+
+#: dist/khaki/search.php:15, dist/khaki/inc/extras.php:71
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: dist/khaki/searchform.php:10
+msgid "Type something..."
+msgstr ""
+
+#: dist/khaki/single-playlist.php:89, dist/khaki/template-parts/event/event-status.php:27, dist/khaki/template-parts/event/event-status.php:44, dist/khaki/template-parts/header/custom.php:137, dist/khaki/template-parts/header/custom.php:151
+msgid "Buy"
+msgstr ""
+
+#: dist/khaki/admin/admin-init.php:30
 msgid "Main"
 msgstr ""
 
-#: dist/khaki/admin/admin-init.php:52
+#: dist/khaki/admin/admin-init.php:49
 msgid "Barber Shop"
 msgstr ""
 
-#: dist/khaki/admin/admin-init.php:68
+#: dist/khaki/admin/admin-init.php:65
 msgid "Quadrocopter"
 msgstr ""
 
-#: dist/khaki/admin/admin-init.php:86
+#: dist/khaki/admin/admin-init.php:83
 msgid "Music Label"
 msgstr ""
 
-#: dist/khaki/admin/admin-init.php:105
+#: dist/khaki/admin/admin-init.php:102
 msgid "Gaming"
 msgstr ""
 
-#: dist/khaki/admin/admin-init.php:123
+#: dist/khaki/admin/admin-init.php:120
 msgid "App Landing"
 msgstr ""
 
-#: dist/khaki/admin/admin-init.php:142
+#: dist/khaki/admin/admin-init.php:139
 msgid "Band"
 msgstr ""
 
-#: dist/khaki/admin/admin-init.php:155
+#: dist/khaki/admin/admin-init.php:152
 msgid "App Showcase"
 msgstr ""
 
-#: dist/khaki/admin/admin-init.php:168
+#: dist/khaki/admin/admin-init.php:165
 msgid "Gallery"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:334
-msgid "Install Required Plugins"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:335
-msgid "Install Plugins"
-msgstr ""
-
-#. translators: %s: plugin name.
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:337
-msgid "Installing Plugin: %s"
-msgstr ""
-
-#. translators: %s: plugin name.
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:339
-msgid "Updating Plugin: %s"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:340
-msgid "Something went wrong with the plugin API."
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:341
-msgid "This theme requires the following plugin: %1$s."
-msgid_plural "This theme requires the following plugins: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:347
-msgid "This theme recommends the following plugin: %1$s."
-msgid_plural "This theme recommends the following plugins: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:353
-msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
-msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:359
-msgid "There is an update available for: %1$s."
-msgid_plural "There are updates available for the following plugins: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:365
-msgid "The following required plugin is currently inactive: %1$s."
-msgid_plural "The following required plugins are currently inactive: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:371
-msgid "The following recommended plugin is currently inactive: %1$s."
-msgid_plural "The following recommended plugins are currently inactive: %1$s."
-msgstr[0] ""
-msgstr[1] ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:377
-msgid "Begin installing plugin"
-msgid_plural "Begin installing plugins"
-msgstr[0] ""
-msgstr[1] ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:382
-msgid "Begin updating plugin"
-msgid_plural "Begin updating plugins"
-msgstr[0] ""
-msgstr[1] ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:387
-msgid "Begin activating plugin"
-msgid_plural "Begin activating plugins"
-msgstr[0] ""
-msgstr[1] ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:392
-msgid "Return to Required Plugins Installer"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:393, dist/khaki/admin/lib/class-tgm-plugin-activation.php:912, dist/khaki/admin/lib/class-tgm-plugin-activation.php:2618, dist/khaki/admin/lib/class-tgm-plugin-activation.php:3664
-msgid "Return to the Dashboard"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:394, dist/khaki/admin/lib/class-tgm-plugin-activation.php:3244
-msgid "Plugin activated successfully."
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:395, dist/khaki/admin/lib/class-tgm-plugin-activation.php:3037
-msgid "The following plugin was activated successfully:"
-msgid_plural "The following plugins were activated successfully:"
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: 1: plugin name.
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:397
-msgid "No action taken. Plugin %1$s was already active."
-msgstr ""
-
-#. translators: 1: plugin name.
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:399
-msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
-msgstr ""
-
-#. translators: 1: dashboard link.
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:401
-msgid "All plugins installed and activated successfully. %1$s"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:402
-msgid "Dismiss this notice"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:403
-msgid "There are one or more required or recommended plugins to install, update or activate."
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:404
-msgid "Please contact the administrator of this site for help."
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:607
-msgid "This plugin needs to be updated to be compatible with your theme."
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:608
-msgid "Update Required"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:1019
-msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:1019, dist/khaki/admin/lib/class-tgm-plugin-activation.php:1022
-msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:1022
-msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:1206, dist/khaki/admin/lib/class-tgm-plugin-activation.php:3033
-msgctxt "plugin A *and* plugin B"
-msgid "and"
-msgstr ""
-
-#. translators: %s: version number
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2067
-msgid "TGMPA v%s"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2358
-msgid "Required"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2361
-msgid "Recommended"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2377
-msgid "WordPress Repository"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2380
-msgid "External Source"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2383
-msgid "Pre-Packaged"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2400
-msgid "Not Installed"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2404
-msgid "Installed But Not Activated"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2406
-msgid "Active"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2412
-msgid "Required Update not Available"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2415
-msgid "Requires Update"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2418
-msgid "Update recommended"
-msgstr ""
-
-#. translators: 1: install status, 2: update status
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2427
-msgctxt "Install/Update Status"
-msgid "%1$s, %2$s"
-msgstr ""
-
-#. translators: 1: number of plugins.
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2473
-msgctxt "plugins"
-msgid "All <span class=\"count\">(%s)</span>"
-msgid_plural "All <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: 1: number of plugins.
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2477
-msgid "To Install <span class=\"count\">(%s)</span>"
-msgid_plural "To Install <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: 1: number of plugins.
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2481
-msgid "Update Available <span class=\"count\">(%s)</span>"
-msgid_plural "Update Available <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
-
-#. translators: 1: number of plugins.
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2485
-msgid "To Activate <span class=\"count\">(%s)</span>"
-msgid_plural "To Activate <span class=\"count\">(%s)</span>"
-msgstr[0] ""
-msgstr[1] ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2567
-msgctxt "as in: \"version nr unknown\""
-msgid "unknown"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2575
-msgid "Installed version:"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2583
-msgid "Minimum required version:"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2595
-msgid "Available version:"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2618
-msgid "No plugins to install, update or activate."
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2632
-msgid "Plugin"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2633
-msgid "Source"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2634, dist/khaki/admin/theme-options.php:3497, dist/khaki/admin/theme-options.php:4219, dist/khaki/admin/theme-options.php:5496, dist/khaki/admin/theme-options.php:8954
-msgid "Type"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2638
-msgid "Version"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2639
-msgid "Status"
-msgstr ""
-
-#. translators: %2$s: plugin name in screen reader markup
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2688
-msgid "Install %2$s"
-msgstr ""
-
-#. translators: %2$s: plugin name in screen reader markup
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2693
-msgid "Update %2$s"
-msgstr ""
-
-#. translators: %2$s: plugin name in screen reader markup
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2699
-msgid "Activate %2$s"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2769
-msgid "Upgrade message from the plugin author:"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2802
-msgid "Install"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2808, dist/khaki/bbpress/form-topic-tag.php:45
-msgid "Update"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2811
-msgid "Activate"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2842
-msgid "No plugins were selected to be installed. No action taken."
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2844
-msgid "No plugins were selected to be updated. No action taken."
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2885
-msgid "No plugins are available to be installed at this time."
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2887
-msgid "No plugins are available to be updated at this time."
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2993
-msgid "No plugins were selected to be activated. No action taken."
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3019
-msgid "No plugins are available to be activated at this time."
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3243
-msgid "Plugin activation failed."
-msgstr ""
-
-#. translators: 1: plugin name, 2: action number 3: total number of actions.
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3582
-msgid "Updating Plugin %1$s (%2$d/%3$d)"
-msgstr ""
-
-#. translators: 1: plugin name, 2: error message.
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3585
-msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
-msgstr ""
-
-#. translators: 1: plugin name.
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3587
-msgid "The installation of %1$s failed."
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3591
-msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
-msgstr ""
-
-#. translators: 1: plugin name.
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3593
-msgid "%1$s installed and activated successfully."
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3593, dist/khaki/admin/lib/class-tgm-plugin-activation.php:3601
-msgid "Show Details"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3593, dist/khaki/admin/lib/class-tgm-plugin-activation.php:3601
-msgid "Hide Details"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3594
-msgid "All installations and activations have been completed."
-msgstr ""
-
-#. translators: 1: plugin name, 2: action number 3: total number of actions.
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3596
-msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3599
-msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
-msgstr ""
-
-#. translators: 1: plugin name.
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3601
-msgid "%1$s installed successfully."
-msgstr ""
-
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3602
-msgid "All installations have been completed."
-msgstr ""
-
-#. translators: 1: plugin name, 2: action number 3: total number of actions.
-#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3604
-msgid "Installing Plugin %1$s (%2$d/%3$d)"
-msgstr ""
-
-#: dist/khaki/admin/menu/backend-walker.php:27
-msgid "Mega Menu"
-msgstr ""
-
-#: dist/khaki/admin/menu/backend-walker.php:34
-msgid "Column Labels"
-msgstr ""
-
-#: dist/khaki/admin/menu/backend-walker.php:49
-msgid "Mega Menu Background Image"
-msgstr ""
-
-#: dist/khaki/admin/menu/backend-walker.php:53
-msgid "Remove this image"
-msgstr ""
-
-#: dist/khaki/admin/menu/backend-walker.php:216
-msgid "sub item"
-msgstr ""
-
-#: dist/khaki/admin/menu/backend-walker.php:231
-msgid "Move up"
-msgstr ""
-
-#: dist/khaki/admin/menu/backend-walker.php:244
-msgid "Move down"
-msgstr ""
-
-#: dist/khaki/admin/menu/backend-walker.php:248
-msgid "Edit menu item"
-msgstr ""
-
-#: dist/khaki/admin/menu/backend-walker.php:248, dist/khaki/bbpress/user-details.php:53, dist/khaki/inc/template-tags.php:167
-msgid "Edit"
-msgstr ""
-
-#: dist/khaki/admin/menu/backend-walker.php:257, dist/khaki/admin/theme-options.php:3738, dist/khaki/admin/theme-options.php:5384, dist/khaki/admin/theme-options.php:9338
-msgid "URL"
-msgstr ""
-
-#: dist/khaki/admin/menu/backend-walker.php:266
-msgid "Navigation Label"
-msgstr ""
-
-#: dist/khaki/admin/menu/backend-walker.php:274
-msgid "Title Attribute"
-msgstr ""
-
-#: dist/khaki/admin/menu/backend-walker.php:285
-msgid "Open link in a new tab"
-msgstr ""
-
-#: dist/khaki/admin/menu/backend-walker.php:290
-msgid "CSS Classes (optional)"
-msgstr ""
-
-#: dist/khaki/admin/menu/backend-walker.php:298
-msgid "Link Relationship (XFN)"
-msgstr ""
-
-#: dist/khaki/admin/menu/backend-walker.php:306
-msgid "Description"
-msgstr ""
-
-#: dist/khaki/admin/menu/backend-walker.php:311
-msgid "The description will be displayed in the menu if the current theme supports it."
-msgstr ""
-
-#: dist/khaki/admin/menu/backend-walker.php:318
-msgid "Move"
-msgstr ""
-
-#: dist/khaki/admin/menu/backend-walker.php:320
-msgid "Up one"
-msgstr ""
-
-#: dist/khaki/admin/menu/backend-walker.php:322
-msgid "Down one"
-msgstr ""
-
-#: dist/khaki/admin/menu/backend-walker.php:326
-msgid "To the top"
-msgstr ""
-
-#: dist/khaki/admin/menu/backend-walker.php:345
-msgid "Remove"
-msgstr ""
-
-#: dist/khaki/admin/menu/backend-walker.php:348
-msgid "Cancel"
 msgstr ""
 
 #: dist/khaki/admin/theme-options.php:91
@@ -1380,6 +1095,10 @@ msgstr ""
 msgid "White"
 msgstr ""
 
+#: dist/khaki/admin/theme-options.php:3497, dist/khaki/admin/theme-options.php:4219, dist/khaki/admin/theme-options.php:5496, dist/khaki/admin/theme-options.php:8954, dist/khaki/admin/lib/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
 #: dist/khaki/admin/theme-options.php:3522, dist/khaki/admin/theme-options.php:4244, dist/khaki/admin/theme-options.php:5521, dist/khaki/admin/theme-options.php:8979
 msgid "Both"
 msgstr ""
@@ -1438,6 +1157,10 @@ msgstr ""
 
 #: dist/khaki/admin/theme-options.php:3719, dist/khaki/admin/theme-options.php:5365
 msgid "Posts List"
+msgstr ""
+
+#: dist/khaki/admin/theme-options.php:3738, dist/khaki/admin/theme-options.php:5384, dist/khaki/admin/theme-options.php:9338, dist/khaki/admin/menu/backend-walker.php:257
+msgid "URL"
 msgstr ""
 
 #: dist/khaki/admin/theme-options.php:3766
@@ -1518,10 +1241,6 @@ msgstr ""
 
 #: dist/khaki/admin/theme-options.php:4984
 msgid "Masonry"
-msgstr ""
-
-#: dist/khaki/admin/theme-options.php:4990, dist/khaki/admin/theme-options.php:9111, dist/khaki/archive-portfolio.php:183, dist/khaki/archive-portfolio.php:187, dist/khaki/woocommerce/functions.php:76, dist/khaki/woocommerce/functions.php:331
-msgid "No Image"
 msgstr ""
 
 #: dist/khaki/admin/theme-options.php:4998, dist/khaki/admin/theme-options.php:5822, dist/khaki/admin/theme-options.php:6517, dist/khaki/admin/theme-options.php:9163
@@ -1656,7 +1375,7 @@ msgstr ""
 msgid "Position"
 msgstr ""
 
-#: dist/khaki/admin/theme-options.php:5663, dist/khaki/inc/extras.php:382
+#: dist/khaki/admin/theme-options.php:5663, dist/khaki/inc/extras.php:384
 msgid "Instagram"
 msgstr ""
 
@@ -1680,7 +1399,7 @@ msgstr ""
 msgid "Cache Time [seconds]"
 msgstr ""
 
-#: dist/khaki/admin/theme-options.php:5728, dist/khaki/inc/extras.php:380, dist/khaki/inc/extras.php:408
+#: dist/khaki/admin/theme-options.php:5728, dist/khaki/inc/extras.php:382, dist/khaki/inc/extras.php:410
 msgid "Twitter"
 msgstr ""
 
@@ -1860,26 +1579,6 @@ msgstr ""
 msgid "Product List"
 msgstr ""
 
-#: dist/khaki/archive-playlist.php:76
-msgid "See More"
-msgstr ""
-
-#: dist/khaki/archive-portfolio.php:199
-msgid "F j, Y"
-msgstr ""
-
-#: dist/khaki/archive.php:80, dist/khaki/inc/custom-posts.php:33, dist/khaki/inc/extras.php:241, dist/khaki/index.php:80, dist/khaki/search.php:68, dist/khaki/single-playlist.php:69, dist/khaki/template-parts/content-post-list-meta.php:16, dist/khaki/template-parts/content.php:67, dist/khaki/template-parts/content.php:99, dist/khaki/template-parts/header/post.php:99, dist/khaki/template-parts/header/post.php:133, dist/khaki/template-parts/portfolio/portfolio-meta.php:11
-msgid "F j, Y "
-msgstr ""
-
-#: dist/khaki/archive.php:82, dist/khaki/index.php:82, dist/khaki/search.php:70, dist/khaki/template-parts/content-post-list-meta.php:16, dist/khaki/template-parts/content.php:71, dist/khaki/template-parts/content.php:103, dist/khaki/template-parts/header/post.php:104, dist/khaki/template-parts/header/post.php:138
-msgid "by"
-msgstr ""
-
-#: dist/khaki/archive.php:116, dist/khaki/archive.php:150, dist/khaki/index.php:117, dist/khaki/index.php:153, dist/khaki/search.php:101, dist/khaki/search.php:135
-msgid "Continue Reading"
-msgstr ""
-
 #: dist/khaki/bbpress/content-statistics.php:17
 msgid "Registered Users"
 msgstr ""
@@ -2008,7 +1707,7 @@ msgstr ""
 msgid "(No Parent)"
 msgstr ""
 
-#: dist/khaki/bbpress/form-forum.php:134, dist/khaki/bbpress/form-reply-move.php:71, dist/khaki/bbpress/form-topic-merge.php:94, dist/khaki/bbpress/form-topic-split.php:98, dist/khaki/bbpress/form-topic.php:212, dist/khaki/inc/extras.php:487, dist/khaki/woocommerce/single-product-reviews.php:131, dist/khaki/woocommerce/single-product-reviews.php:135
+#: dist/khaki/bbpress/form-forum.php:134, dist/khaki/bbpress/form-reply-move.php:71, dist/khaki/bbpress/form-topic-merge.php:94, dist/khaki/bbpress/form-topic-split.php:98, dist/khaki/bbpress/form-topic.php:212, dist/khaki/inc/extras.php:489, dist/khaki/woocommerce/single-product-reviews.php:131, dist/khaki/woocommerce/single-product-reviews.php:135
 msgid "Submit"
 msgstr ""
 
@@ -2094,10 +1793,6 @@ msgstr ""
 
 #: dist/khaki/bbpress/form-reply.php:130, dist/khaki/bbpress/form-topic.php:194
 msgid "Optional reason for editing:"
-msgstr ""
-
-#: dist/khaki/bbpress/form-reply.php:150, dist/khaki/bbpress/pagination-replies.php:27, dist/khaki/comments.php:112
-msgid "Reply"
 msgstr ""
 
 #: dist/khaki/bbpress/form-reply.php:175
@@ -2228,6 +1923,10 @@ msgstr ""
 msgid "Slug:"
 msgstr ""
 
+#: dist/khaki/bbpress/form-topic-tag.php:45, dist/khaki/admin/lib/class-tgm-plugin-activation.php:2808, dist/khaki/woocommerce/cart/shipping-calculator.php:101
+msgid "Update"
+msgstr ""
+
 #: dist/khaki/bbpress/form-topic-tag.php:59, dist/khaki/bbpress/form-topic-tag.php:73
 msgid "Merge"
 msgstr ""
@@ -2312,10 +2011,6 @@ msgstr ""
 msgid "Edit Profile"
 msgstr ""
 
-#: dist/khaki/bbpress/form-user-edit.php:19, dist/khaki/comments.php:95
-msgid "Name"
-msgstr ""
-
 #: dist/khaki/bbpress/form-user-edit.php:26
 msgid "First Name"
 msgstr ""
@@ -2336,10 +2031,6 @@ msgstr ""
 msgid "Contact Info"
 msgstr ""
 
-#: dist/khaki/bbpress/form-user-edit.php:65, dist/khaki/comments.php:99
-msgid "Website"
-msgstr ""
-
 #: dist/khaki/bbpress/form-user-edit.php:84, dist/khaki/bbpress/form-user-edit.php:88
 msgid "About Yourself"
 msgstr ""
@@ -2358,10 +2049,6 @@ msgstr ""
 
 #: dist/khaki/bbpress/form-user-edit.php:108, dist/khaki/bbpress/form-user-login.php:17, dist/khaki/plugins/login-with-ajax/default/widget_out.php:102
 msgid "Username"
-msgstr ""
-
-#: dist/khaki/bbpress/form-user-edit.php:118, dist/khaki/bbpress/form-user-register.php:25, dist/khaki/comments.php:90, dist/khaki/plugins/login-with-ajax/default/widget_out.php:108
-msgid "Email"
 msgstr ""
 
 #: dist/khaki/bbpress/form-user-edit.php:130
@@ -2404,11 +2091,11 @@ msgstr ""
 msgid "Update User"
 msgstr ""
 
-#: dist/khaki/bbpress/form-user-login.php:14, dist/khaki/bbpress/form-user-login.php:30, dist/khaki/plugins/login-with-ajax/default/widget_out.php:41, dist/khaki/plugins/login-with-ajax/default/widget_out.php:41, dist/khaki/woocommerce/myaccount/form-login.php:52
+#: dist/khaki/bbpress/form-user-login.php:14, dist/khaki/bbpress/form-user-login.php:30, dist/khaki/woocommerce/myaccount/form-login.php:52, dist/khaki/plugins/login-with-ajax/default/widget_out.php:41, dist/khaki/plugins/login-with-ajax/default/widget_out.php:41
 msgid "Log In"
 msgstr ""
 
-#: dist/khaki/bbpress/form-user-login.php:21, dist/khaki/inc/extras.php:487, dist/khaki/plugins/login-with-ajax/default/widget_out.php:26
+#: dist/khaki/bbpress/form-user-login.php:21, dist/khaki/inc/extras.php:489, dist/khaki/plugins/login-with-ajax/default/widget_out.php:26
 msgid "Password"
 msgstr ""
 
@@ -2440,7 +2127,7 @@ msgstr ""
 msgid "We use your email address to email you a secure password and verify your account."
 msgstr ""
 
-#: dist/khaki/bbpress/form-user-register.php:28, dist/khaki/plugins/login-with-ajax/default/widget_out.php:56, dist/khaki/plugins/login-with-ajax/default/widget_out.php:97, dist/khaki/plugins/login-with-ajax/default/widget_out.php:118, dist/khaki/plugins/login-with-ajax/default/widget_out.php:118, dist/khaki/woocommerce/myaccount/form-login.php:74, dist/khaki/woocommerce/myaccount/form-login.php:109, dist/khaki/woocommerce/myaccount/form-login.php:110
+#: dist/khaki/bbpress/form-user-register.php:28, dist/khaki/woocommerce/myaccount/form-login.php:74, dist/khaki/woocommerce/myaccount/form-login.php:109, dist/khaki/woocommerce/myaccount/form-login.php:110, dist/khaki/plugins/login-with-ajax/default/widget_out.php:56, dist/khaki/plugins/login-with-ajax/default/widget_out.php:97, dist/khaki/plugins/login-with-ajax/default/widget_out.php:118, dist/khaki/plugins/login-with-ajax/default/widget_out.php:118
 msgid "Register"
 msgstr ""
 
@@ -2580,6 +2267,10 @@ msgstr ""
 msgid "Edit %s's Profile"
 msgstr ""
 
+#: dist/khaki/bbpress/user-details.php:53, dist/khaki/inc/template-tags.php:168, dist/khaki/admin/menu/backend-walker.php:248
+msgid "Edit"
+msgstr ""
+
 #: dist/khaki/bbpress/user-favorites.php:28
 msgid "You currently have no favorite topics."
 msgstr ""
@@ -2600,15 +2291,15 @@ msgstr ""
 msgid "Replies Created: %s"
 msgstr ""
 
-#: dist/khaki/bbpress/user-replies-created.php:15
+#: dist/khaki/bbpress/user-replies-created.php:19
 msgid "Forum Replies Created"
 msgstr ""
 
-#: dist/khaki/bbpress/user-replies-created.php:27
+#: dist/khaki/bbpress/user-replies-created.php:31
 msgid "You have not replied to any topics."
 msgstr ""
 
-#: dist/khaki/bbpress/user-replies-created.php:27
+#: dist/khaki/bbpress/user-replies-created.php:31
 msgid "This user has not replied to any topics."
 msgstr ""
 
@@ -2644,155 +2335,11 @@ msgstr ""
 msgid "This user has not created any topics."
 msgstr ""
 
-#: dist/khaki/comments.php:30
-msgid "Comments"
-msgstr ""
-
-#: dist/khaki/comments.php:64
-msgid "Comments are closed."
-msgstr ""
-
-#: dist/khaki/comments.php:84
-msgid "Post your comment"
-msgstr ""
-
-#: dist/khaki/comments.php:84
-msgid "Cancel reply"
-msgstr ""
-
-#: dist/khaki/comments.php:107
-msgid "Comment"
-msgstr ""
-
-#: dist/khaki/footer.php:186
-msgid "Loop"
-msgstr ""
-
-#: dist/khaki/footer.php:189
-msgid "Shuffle"
-msgstr ""
-
-#: dist/khaki/footer.php:192
-msgid "Show/Hide Playlist"
-msgstr ""
-
-#: dist/khaki/footer.php:195
-msgid "Pin/Unpin Player"
-msgstr ""
-
-#: dist/khaki/footer.php:330
-msgid "Search..."
-msgstr ""
-
-#: dist/khaki/functions.php:53
-msgid "Top Menu"
-msgstr ""
-
-#: dist/khaki/functions.php:54
-msgid "Top Icons Menu"
-msgstr ""
-
-#: dist/khaki/functions.php:55
-msgid "Main Menu"
-msgstr ""
-
-#: dist/khaki/functions.php:56
-msgid "Fullscreen Navigation Menu"
-msgstr ""
-
-#: dist/khaki/functions.php:57
-msgid "Side Navigation Menu"
-msgstr ""
-
-#: dist/khaki/functions.php:169
-msgid "Pages Sidebar"
-msgstr ""
-
-#: dist/khaki/functions.php:171
-msgid "For single pages."
-msgstr ""
-
-#: dist/khaki/functions.php:178
-msgid "Posts Sidebar"
-msgstr ""
-
-#: dist/khaki/functions.php:180
-msgid "For posts pages."
-msgstr ""
-
-#: dist/khaki/functions.php:187
-msgid "First Column Footer"
-msgstr ""
-
-#: dist/khaki/functions.php:189
-msgid "For First Column Footer."
-msgstr ""
-
-#: dist/khaki/functions.php:196
-msgid "Second Column Footer"
-msgstr ""
-
-#: dist/khaki/functions.php:198
-msgid "For Second Column Footer."
-msgstr ""
-
-#: dist/khaki/functions.php:205
-msgid "Three Column Footer"
-msgstr ""
-
-#: dist/khaki/functions.php:207
-msgid "For Three Column Footer."
-msgstr ""
-
-#: dist/khaki/functions.php:214
-msgid "Four Column Footer"
-msgstr ""
-
-#: dist/khaki/functions.php:216
-msgid "For Four Column Footer."
-msgstr ""
-
-#: dist/khaki/functions.php:223
-msgid "Shop Sidebar"
-msgstr ""
-
-#: dist/khaki/functions.php:225
-msgid "For shop pages."
-msgstr ""
-
-#: dist/khaki/functions.php:387
-msgid "Back"
-msgstr ""
-
-#: dist/khaki/functions.php:388
-msgid "Liked!"
-msgstr ""
-
-#: dist/khaki/functions.php:389
-msgid "Disliked!"
-msgstr ""
-
-#: dist/khaki/functions.php:390
-msgid "Days"
-msgstr ""
-
-#: dist/khaki/functions.php:391
-msgid "Hours"
-msgstr ""
-
-#: dist/khaki/functions.php:392
-msgid "Minutes"
-msgstr ""
-
-#: dist/khaki/functions.php:393
-msgid "Seconds"
-msgstr ""
-
-#: dist/khaki/inc/comments-walker.php:75
+#: dist/khaki/inc/comments-walker.php:72
 msgid "%s Reply"
 msgstr ""
 
-#: dist/khaki/inc/comments-walker.php:88
+#: dist/khaki/inc/comments-walker.php:86
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
@@ -2808,10 +2355,6 @@ msgstr ""
 msgid "Archive for \"%s\""
 msgstr ""
 
-#: dist/khaki/inc/extras.php:71, dist/khaki/search.php:15
-msgid "Search Results for \"%s\" Query"
-msgstr ""
-
 #: dist/khaki/inc/extras.php:72
 msgid "Posts Tagged \"%s\""
 msgstr ""
@@ -2824,215 +2367,735 @@ msgstr ""
 msgid "Page"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:375
+#: dist/khaki/inc/extras.php:377
 msgid "Twitch"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:376
+#: dist/khaki/inc/extras.php:378
 msgid "Vimeo"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:377
+#: dist/khaki/inc/extras.php:379
 msgid "Youtube"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:378, dist/khaki/inc/extras.php:406
+#: dist/khaki/inc/extras.php:380, dist/khaki/inc/extras.php:408
 msgid "Facebook"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:379
+#: dist/khaki/inc/extras.php:381
 msgid "Google-plus"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:381, dist/khaki/inc/extras.php:409
+#: dist/khaki/inc/extras.php:383, dist/khaki/inc/extras.php:411
 msgid "Pinterest"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:383, dist/khaki/inc/extras.php:410
+#: dist/khaki/inc/extras.php:385, dist/khaki/inc/extras.php:412
 msgid "Linkedin"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:384
+#: dist/khaki/inc/extras.php:386
 msgid "Behance"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:385
+#: dist/khaki/inc/extras.php:387
 msgid "Odnoklassniki"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:386
+#: dist/khaki/inc/extras.php:388
 msgid "Skype"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:387, dist/khaki/inc/extras.php:411
+#: dist/khaki/inc/extras.php:389, dist/khaki/inc/extras.php:413
 msgid "VK"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:388
+#: dist/khaki/inc/extras.php:390
 msgid "Steam"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:389
+#: dist/khaki/inc/extras.php:391
 msgid "Bitbucket"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:390
+#: dist/khaki/inc/extras.php:392
 msgid "Dropbox"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:391
+#: dist/khaki/inc/extras.php:393
 msgid "Dribbble"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:392
+#: dist/khaki/inc/extras.php:394
 msgid "Deviantart"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:393
+#: dist/khaki/inc/extras.php:395
 msgid "Flickr"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:394
+#: dist/khaki/inc/extras.php:396
 msgid "Foursquare"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:395
+#: dist/khaki/inc/extras.php:397
 msgid "Github"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:396
+#: dist/khaki/inc/extras.php:398
 msgid "Medium"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:397
+#: dist/khaki/inc/extras.php:399
 msgid "PayPal"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:398
+#: dist/khaki/inc/extras.php:400
 msgid "Reddit"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:399
+#: dist/khaki/inc/extras.php:401
 msgid "SoundCloud"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:400
+#: dist/khaki/inc/extras.php:402
 msgid "Slack"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:401
+#: dist/khaki/inc/extras.php:403
 msgid "Tumblr"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:402
+#: dist/khaki/inc/extras.php:404
 msgid "WordPress"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:407
+#: dist/khaki/inc/extras.php:409
 msgid "Google Plus"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:471
+#: dist/khaki/inc/extras.php:473
 msgid "This content is password protected. To view it please enter your password below"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:473
+#: dist/khaki/inc/extras.php:475
 msgid "Enter you password"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:474
+#: dist/khaki/inc/extras.php:476
 msgctxt "post password form"
 msgid "Enter"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:476
+#: dist/khaki/inc/extras.php:478
 msgid "Enter"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:487
+#: dist/khaki/inc/extras.php:489
 msgid "To view this protected post, enter the password below"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:630
+#: dist/khaki/inc/extras.php:632
 msgid "Cart"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:654, dist/khaki/woocommerce/cart/cart.php:119, dist/khaki/woocommerce/cart/mini-cart.php:63, dist/khaki/woocommerce/cart/mini-cart.php:132
+#: dist/khaki/inc/extras.php:656, dist/khaki/woocommerce/cart/cart.php:119, dist/khaki/woocommerce/cart/mini-cart.php:63, dist/khaki/woocommerce/cart/mini-cart.php:132
 msgid "Remove this item"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:685, dist/khaki/woocommerce/cart/mini-cart.php:163
+#: dist/khaki/inc/extras.php:687, dist/khaki/woocommerce/cart/mini-cart.php:163
 msgid "Empty Cart"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:692, dist/khaki/woocommerce/cart/mini-cart.php:169
+#: dist/khaki/inc/extras.php:694, dist/khaki/woocommerce/cart/mini-cart.php:169
 msgid "Your cart is empty!"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:698, dist/khaki/woocommerce/cart/mini-cart.php:175
+#: dist/khaki/inc/extras.php:700, dist/khaki/woocommerce/cart/mini-cart.php:175
 msgid "View Cart"
 msgstr ""
 
-#: dist/khaki/inc/extras.php:701, dist/khaki/woocommerce/cart/mini-cart.php:178
+#: dist/khaki/inc/extras.php:703, dist/khaki/woocommerce/cart/mini-cart.php:178
 msgid "Checkout"
 msgstr ""
 
-#: dist/khaki/inc/template-tags.php:89
+#: dist/khaki/inc/template-tags.php:90
 msgctxt "post date"
 msgid "%s %s"
 msgstr ""
 
-#: dist/khaki/inc/template-tags.php:92
+#: dist/khaki/inc/template-tags.php:93
 msgctxt "post author"
 msgid "by %s"
 msgstr ""
 
-#: dist/khaki/inc/template-tags.php:118
+#: dist/khaki/inc/template-tags.php:119
 msgid "%s"
 msgstr ""
 
-#: dist/khaki/inc/template-tags.php:156
+#: dist/khaki/inc/template-tags.php:157
 msgid "Read More"
 msgstr ""
 
-#: dist/khaki/plugins/login-with-ajax/default/widget_in.php:12
-msgid "Hi"
+#: dist/khaki/template-parts/content-none.php:14
+msgid "Nothing Found"
 msgstr ""
 
-#: dist/khaki/plugins/login-with-ajax/default/widget_in.php:34
-msgid "Log Out"
+#: dist/khaki/template-parts/content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
-#: dist/khaki/plugins/login-with-ajax/default/widget_in.php:39
-msgid "Blog Admin"
+#: dist/khaki/template-parts/content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr ""
 
-#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:12
-msgid "Sign In"
+#: dist/khaki/template-parts/content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr ""
 
-#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:37
-msgid "Remember Me"
+#: dist/khaki/template-parts/content-page.php:28, dist/khaki/template-parts/content.php:127
+msgid "Pages:"
 msgstr ""
 
-#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:59
-msgid "Lost Password?"
+#: dist/khaki/template-parts/content-post-list-category.php:6, dist/khaki/template-parts/content.php:78, dist/khaki/template-parts/content.php:110, dist/khaki/template-parts/header/post.php:111, dist/khaki/template-parts/header/post.php:145
+msgid "In "
 msgstr ""
 
-#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:73
-msgid "Enter username or email"
+#: dist/khaki/template-parts/content.php:133
+msgid "Next page"
 msgstr ""
 
-#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:81
-msgid "Get New Password"
+#: dist/khaki/template-parts/content.php:134
+msgid "Previous page"
 msgstr ""
 
-#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:87, dist/khaki/plugins/login-with-ajax/default/widget_out.php:124
-msgid "Back to Log In"
+#: dist/khaki/template-parts/pagination-fixed.php:65, dist/khaki/template-parts/pagination-fixed.php:120, dist/khaki/woocommerce/content-product.php:75, dist/khaki/woocommerce/loop-product.php:58
+msgid "In"
+msgid_plural "In"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/khaki/woocommerce/functions.php:211
+msgid "In %s"
 msgstr ""
 
-#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:114
-msgid "A password will be emailed to you."
+#: dist/khaki/woocommerce/functions.php:223
+msgid "Place Order"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:80
+msgid "%s Star"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:101
+msgid "Add a Review"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:111
+msgid "Rate&hellip;"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:112
+msgid "Perfect"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:113
+msgid "Good"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:114
+msgid "Average"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:115
+msgid "Not that bad"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:116
+msgid "Very poor"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:123
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:127
+msgid "Name *"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:128
+msgid "Email *"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:140
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:151
+msgid "Your Review *"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:160
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product-reviews.php:232
+msgid "There are no reviews yet."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:341
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:347
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:353
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:359
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:365
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:371
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:393, dist/khaki/admin/lib/class-tgm-plugin-activation.php:912, dist/khaki/admin/lib/class-tgm-plugin-activation.php:2618, dist/khaki/admin/lib/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:394, dist/khaki/admin/lib/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:395, dist/khaki/admin/lib/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:399
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:1019
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:1019, dist/khaki/admin/lib/class-tgm-plugin-activation.php:1022
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:1022
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:1206, dist/khaki/admin/lib/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2067
+msgid "TGMPA v%s"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2427
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2473
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2477
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2481
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2485
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2688
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2693
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2699
+msgid "Activate %2$s"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3583
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3586
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3588
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3592
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3594
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3594, dist/khaki/admin/lib/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3594, dist/khaki/admin/lib/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3597
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3600
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3602
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: dist/khaki/admin/lib/class-tgm-plugin-activation.php:3605
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:27
+msgid "Mega Menu"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:34
+msgid "Column Labels"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:49
+msgid "Mega Menu Background Image"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:53
+msgid "Remove this image"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:216
+msgid "sub item"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:231
+msgid "Move up"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:244
+msgid "Move down"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:248
+msgid "Edit menu item"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:266
+msgid "Navigation Label"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:274
+msgid "Title Attribute"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:285
+msgid "Open link in a new tab"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:290
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:298
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:306
+msgid "Description"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:311
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:318
+msgid "Move"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:320
+msgid "Up one"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:322
+msgid "Down one"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:326
+msgid "To the top"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:345
+msgid "Remove"
+msgstr ""
+
+#: dist/khaki/admin/menu/backend-walker.php:348
+msgid "Cancel"
 msgstr ""
 
 #: dist/khaki/plugins/sociality/sharing-buttons.php:23
@@ -3055,46 +3118,6 @@ msgstr ""
 msgid "Share page on VK"
 msgstr ""
 
-#: dist/khaki/searchform.php:10
-msgid "Type something..."
-msgstr ""
-
-#: dist/khaki/single-playlist.php:90, dist/khaki/template-parts/event/event-status.php:27, dist/khaki/template-parts/event/event-status.php:44, dist/khaki/template-parts/header/custom.php:137, dist/khaki/template-parts/header/custom.php:151
-msgid "Buy"
-msgstr ""
-
-#: dist/khaki/template-parts/content-none.php:14
-msgid "Nothing Found"
-msgstr ""
-
-#: dist/khaki/template-parts/content-none.php:21
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
-
-#: dist/khaki/template-parts/content-none.php:25
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr ""
-
-#: dist/khaki/template-parts/content-none.php:31
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr ""
-
-#: dist/khaki/template-parts/content-page.php:32, dist/khaki/template-parts/content.php:127
-msgid "Pages:"
-msgstr ""
-
-#: dist/khaki/template-parts/content-post-list-category.php:6, dist/khaki/template-parts/content.php:78, dist/khaki/template-parts/content.php:110, dist/khaki/template-parts/header/post.php:111, dist/khaki/template-parts/header/post.php:145
-msgid "In "
-msgstr ""
-
-#: dist/khaki/template-parts/content.php:133
-msgid "Next page"
-msgstr ""
-
-#: dist/khaki/template-parts/content.php:134
-msgid "Previous page"
-msgstr ""
-
 #: dist/khaki/template-parts/event/event-status.php:16, dist/khaki/template-parts/header/custom.php:129
 msgid "Sold Out"
 msgstr ""
@@ -3111,17 +3134,10 @@ msgstr ""
 msgid "Search Results for: \"%s\" Query"
 msgstr ""
 
-#: dist/khaki/template-parts/pagination-fixed.php:65, dist/khaki/template-parts/pagination-fixed.php:120, dist/khaki/woocommerce/content-product.php:75, dist/khaki/woocommerce/loop-product.php:58
-msgid "In"
-msgid_plural "In"
-msgstr[0] ""
-msgstr[1] ""
-
 #: dist/khaki/woocommerce/cart/cart-empty.php:31
 msgid "Return To Shop"
 msgstr ""
 
-#. translators: $s shipping destination.
 #. translators: $s shipping destination.
 #: dist/khaki/woocommerce/cart/cart-shipping.php:54, dist/khaki/woocommerce/cart/cart-shipping.php:109
 msgid "Shipping to %s."
@@ -3143,8 +3159,6 @@ msgstr ""
 msgid "There are no shipping options available. Please ensure that your address has been entered correctly, or contact us if you need any help."
 msgstr ""
 
-#. translators: $s shipping destination.
-#. translators: $s shipping destination.
 #: dist/khaki/woocommerce/cart/cart-shipping.php:69, dist/khaki/woocommerce/cart/cart-shipping.php:124
 msgid "No shipping options were found for %s."
 msgstr ""
@@ -3217,19 +3231,43 @@ msgstr ""
 msgid "Proceed to Checkout"
 msgstr ""
 
-#: dist/khaki/woocommerce/checkout/form-billing.php:27
+#: dist/khaki/woocommerce/cart/shipping-calculator.php:27
+msgid "Calculate shipping"
+msgstr ""
+
+#: dist/khaki/woocommerce/cart/shipping-calculator.php:33
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: dist/khaki/woocommerce/cart/shipping-calculator.php:55, dist/khaki/woocommerce/cart/shipping-calculator.php:62, dist/khaki/woocommerce/cart/shipping-calculator.php:74
+msgid "State / county"
+msgstr ""
+
+#: dist/khaki/woocommerce/cart/shipping-calculator.php:63
+msgid "Select an option&hellip;"
+msgstr ""
+
+#: dist/khaki/woocommerce/cart/shipping-calculator.php:85
+msgid "City"
+msgstr ""
+
+#: dist/khaki/woocommerce/cart/shipping-calculator.php:93
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: dist/khaki/woocommerce/checkout/form-billing.php:29
 msgid "Billing &amp; Shipping"
 msgstr ""
 
-#: dist/khaki/woocommerce/checkout/form-billing.php:31
+#: dist/khaki/woocommerce/checkout/form-billing.php:33
 msgid "Billing Details"
 msgstr ""
 
-#: dist/khaki/woocommerce/checkout/form-billing.php:79
+#: dist/khaki/woocommerce/checkout/form-billing.php:86
 msgid "Create an account?"
 msgstr ""
 
-#: dist/khaki/woocommerce/checkout/form-billing.php:90
+#: dist/khaki/woocommerce/checkout/form-billing.php:97
 msgid "Create an account by entering the information below. If you are a returning customer please login at the top of the page."
 msgstr ""
 
@@ -3265,11 +3303,11 @@ msgstr ""
 msgid "Sorry, it seems that there are no available payment methods for your location. Please contact us if you require assistance or wish to make alternate arrangements."
 msgstr ""
 
-#: dist/khaki/woocommerce/checkout/form-shipping.php:27
+#: dist/khaki/woocommerce/checkout/form-shipping.php:29
 msgid "Ship to a different address?"
 msgstr ""
 
-#: dist/khaki/woocommerce/checkout/form-shipping.php:79
+#: dist/khaki/woocommerce/checkout/form-shipping.php:86
 msgid "Additional Information"
 msgstr ""
 
@@ -3281,7 +3319,6 @@ msgstr ""
 msgid "Please fill in your details above to see available payment methods."
 msgstr ""
 
-#. translators: $1 and $2 opening and closing emphasis tags respectively
 #: dist/khaki/woocommerce/checkout/payment.php:42
 msgid "Since your browser does not support JavaScript, or it is disabled, please ensure you click the %1$sUpdate Totals%2$s button before placing your order. You may be charged more than the amount stated above if you fail to do so."
 msgstr ""
@@ -3326,14 +3363,6 @@ msgstr ""
 msgid "Payment Method:"
 msgstr ""
 
-#: dist/khaki/woocommerce/functions.php:211
-msgid "In %s"
-msgstr ""
-
-#: dist/khaki/woocommerce/functions.php:223
-msgid "Place Order"
-msgstr ""
-
 #: dist/khaki/woocommerce/global/form-login.php:35
 msgid "Username or email *"
 msgstr ""
@@ -3358,17 +3387,13 @@ msgstr ""
 msgid "%s quantity"
 msgstr ""
 
-#: dist/khaki/woocommerce/global/quantity-input.php:41
+#: dist/khaki/woocommerce/global/quantity-input.php:40
 msgctxt "Product quantity input tooltip"
 msgid "Qty"
 msgstr ""
 
 #: dist/khaki/woocommerce/loop/no-products-found.php:22
 msgid "No products were found matching your selection."
-msgstr ""
-
-#: dist/khaki/woocommerce/loop/orderby.php:26
-msgid "Shop order"
 msgstr ""
 
 #. translators: %d: total results
@@ -3450,7 +3475,7 @@ msgstr ""
 msgid "Shipping Address"
 msgstr ""
 
-#: dist/khaki/woocommerce/myaccount/form-edit-address.php:63, dist/khaki/woocommerce/myaccount/form-edit-address.php:64
+#: dist/khaki/woocommerce/myaccount/form-edit-address.php:67, dist/khaki/woocommerce/myaccount/form-edit-address.php:68
 msgid "Save Address"
 msgstr ""
 
@@ -3478,19 +3503,19 @@ msgstr ""
 msgid "Reset Password"
 msgstr ""
 
-#: dist/khaki/woocommerce/myaccount/form-reset-password.php:26
+#: dist/khaki/woocommerce/myaccount/form-reset-password.php:25
 msgid "Enter a new password below."
 msgstr ""
 
-#: dist/khaki/woocommerce/myaccount/form-reset-password.php:29
+#: dist/khaki/woocommerce/myaccount/form-reset-password.php:28
 msgid "New password *"
 msgstr ""
 
-#: dist/khaki/woocommerce/myaccount/form-reset-password.php:32
+#: dist/khaki/woocommerce/myaccount/form-reset-password.php:31
 msgid "Re-enter new password *"
 msgstr ""
 
-#: dist/khaki/woocommerce/myaccount/form-reset-password.php:45, dist/khaki/woocommerce/myaccount/form-reset-password.php:46
+#: dist/khaki/woocommerce/myaccount/form-reset-password.php:44, dist/khaki/woocommerce/myaccount/form-reset-password.php:45
 msgid "Save"
 msgstr ""
 
@@ -3526,7 +3551,7 @@ msgid "Order Updates"
 msgstr ""
 
 #: dist/khaki/woocommerce/myaccount/view-order.php:42
-msgid "l jS \o\f F Y, h:ia"
+msgid "l jS \o F Y, h:ia"
 msgstr ""
 
 #: dist/khaki/woocommerce/order/form-tracking.php:27
@@ -3565,78 +3590,6 @@ msgstr ""
 msgid "Download"
 msgstr ""
 
-#: dist/khaki/woocommerce/single-product-reviews.php:80
-msgid "%s Star"
-msgstr ""
-
-#: dist/khaki/woocommerce/single-product-reviews.php:101
-msgid "Add a Review"
-msgstr ""
-
-#: dist/khaki/woocommerce/single-product-reviews.php:111
-msgid "Rate&hellip;"
-msgstr ""
-
-#: dist/khaki/woocommerce/single-product-reviews.php:112
-msgid "Perfect"
-msgstr ""
-
-#: dist/khaki/woocommerce/single-product-reviews.php:113
-msgid "Good"
-msgstr ""
-
-#: dist/khaki/woocommerce/single-product-reviews.php:114
-msgid "Average"
-msgstr ""
-
-#: dist/khaki/woocommerce/single-product-reviews.php:115
-msgid "Not that bad"
-msgstr ""
-
-#: dist/khaki/woocommerce/single-product-reviews.php:116
-msgid "Very poor"
-msgstr ""
-
-#: dist/khaki/woocommerce/single-product-reviews.php:123
-msgid "Leave a Reply to %s"
-msgstr ""
-
-#: dist/khaki/woocommerce/single-product-reviews.php:127
-msgid "Name *"
-msgstr ""
-
-#: dist/khaki/woocommerce/single-product-reviews.php:128
-msgid "Email *"
-msgstr ""
-
-#: dist/khaki/woocommerce/single-product-reviews.php:140
-msgid "You must be <a href=\"%s\">logged in</a> to post a review."
-msgstr ""
-
-#: dist/khaki/woocommerce/single-product-reviews.php:151
-msgid "Your Review *"
-msgstr ""
-
-#: dist/khaki/woocommerce/single-product-reviews.php:160
-msgid "Only logged in customers who have purchased this product may leave a review."
-msgstr ""
-
-#: dist/khaki/woocommerce/single-product-reviews.php:232
-msgid "There are no reviews yet."
-msgstr ""
-
-#: dist/khaki/woocommerce/single-product/add-to-cart/variable.php:32
-msgid "This product is currently out of stock and unavailable."
-msgstr ""
-
-#: dist/khaki/woocommerce/single-product/add-to-cart/variable.php:48
-msgid "Clear"
-msgstr ""
-
-#: dist/khaki/woocommerce/single-product/add-to-cart/variation.php:31
-msgid "Sorry, this product is unavailable. Please choose a different combination."
-msgstr ""
-
 #: dist/khaki/woocommerce/single-product/meta.php:34
 msgid "SKU:"
 msgstr ""
@@ -3650,6 +3603,14 @@ msgid "Tag:"
 msgid_plural "Tags:"
 msgstr[0] ""
 msgstr[1] ""
+
+#: dist/khaki/woocommerce/single-product/product-attributes.php:28
+msgid "Weight"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product/product-attributes.php:35
+msgid "Dimensions"
+msgstr ""
 
 #: dist/khaki/woocommerce/single-product/related.php:32
 msgid "Related"
@@ -3665,4 +3626,56 @@ msgstr ""
 
 #: dist/khaki/woocommerce/single-product/up-sells.php:37
 msgid "You may also like&hellip;"
+msgstr ""
+
+#: dist/khaki/plugins/login-with-ajax/default/widget_in.php:12
+msgid "Hi"
+msgstr ""
+
+#: dist/khaki/plugins/login-with-ajax/default/widget_in.php:34
+msgid "Log Out"
+msgstr ""
+
+#: dist/khaki/plugins/login-with-ajax/default/widget_in.php:39
+msgid "Blog Admin"
+msgstr ""
+
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:12
+msgid "Sign In"
+msgstr ""
+
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:37
+msgid "Remember Me"
+msgstr ""
+
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:59
+msgid "Lost Password?"
+msgstr ""
+
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:73
+msgid "Enter username or email"
+msgstr ""
+
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:81
+msgid "Get New Password"
+msgstr ""
+
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:87, dist/khaki/plugins/login-with-ajax/default/widget_out.php:124
+msgid "Back to Log In"
+msgstr ""
+
+#: dist/khaki/plugins/login-with-ajax/default/widget_out.php:114
+msgid "A password will be emailed to you."
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product/add-to-cart/variable.php:30
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product/add-to-cart/variable.php:46
+msgid "Clear"
+msgstr ""
+
+#: dist/khaki/woocommerce/single-product/add-to-cart/variation.php:31
+msgid "Sorry, this product is unavailable. Please choose a different combination."
 msgstr ""

@@ -11,7 +11,7 @@ function menu_function()
         <div class="credit-item-element"><a href="/privacy-policy/">Privacy</a> | <a href="/privacy-tools/">Privacy
                 Tools</a> | <a href="/terms-of-service/">Terms and Conditions</a></div>
         <div class="credit-item-element paytments-credit">Payments are secure and encrypted <img id="payment_logos"
-                src="https://www.kristine-v.com/wp-content/uploads/2019/07/set_credit_card-horizontal-transparent.png"
+                src="https://www.kristine-v.loc/wp-content/uploads/2019/07/set_credit_card-horizontal-transparent.png"
                 alt="" width="150" height="auto" /></div>
     </div>
     <?php elseif (ICL_LANGUAGE_CODE == 'pl'): ?>
@@ -21,7 +21,7 @@ function menu_function()
                 href="/pl/narzedzia-ochrony-prywatnosci/">Narzedzia prywatności</a> | <a
                 href="/pl/regulamin/">Regulamin</a></div>
         <div class="credit-item-element paytments-credit">Płatności są szyfrowane <img id="payment_logos"
-                src="https://www.kristine-v.com/wp-content/uploads/2019/07/set_credit_card-horizontal-transparent.png"
+                src="https://www.kristine-v.loc/wp-content/uploads/2019/07/set_credit_card-horizontal-transparent.png"
                 alt="" width="150" height="auto" /></div>
     </div>
     <?php elseif (ICL_LANGUAGE_CODE == 'ru'): ?>
@@ -31,7 +31,7 @@ function menu_function()
                 href="ru/инструменты-конфиденциальности/">Инструменты конфиденциальности</a> | <a
                 href="/ru/условия-обслуживания/">Срок и условие</a></div>
         <div class="credit-item-element paytments-credit">Платежи безопасны и зашифрованы <img id="payment_logos"
-                src="https://www.kristine-v.com/wp-content/uploads/2019/07/set_credit_card-horizontal-transparent.png"
+                src="https://www.kristine-v.loc/wp-content/uploads/2019/07/set_credit_card-horizontal-transparent.png"
                 alt="" width="150" height="auto" /></div>
     </div>
     <?php endif; ?>

@@ -7851,7 +7851,7 @@ if (!function_exists('khaki_initial_kirki_options') && class_exists('NK_Options'
                 'section' => 'style',
                 'priority' => 10,
             ));
-        } elseif ( ! nk_theme()->theme_dashboard()->is_envato_hosted && ! nk_theme()->theme_dashboard()->activation()->active ) {
+        } elseif (  nk_theme()->theme_dashboard()->is_envato_hosted && ! nk_theme()->theme_dashboard()->activation()->active ) {
             NK_Options::add_field( array(
                 'type' => 'custom',
                 'settings' => 'style_message_without_nk_themes_activated',

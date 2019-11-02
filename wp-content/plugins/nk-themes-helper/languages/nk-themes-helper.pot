@@ -164,37 +164,47 @@ msgstr ""
 msgid "Demo data successfully imported!"
 msgstr ""
 
-#: dist/nk-themes-helper/class-demo-importer.php:407
+#: dist/nk-themes-helper/class-demo-importer.php:408
 msgid "New Request..."
 msgstr ""
 
-#: dist/nk-themes-helper/class-demo-importer.php:455, dist/nk-themes-helper/class-demo-importer.php:713, dist/nk-themes-helper/vendor/widgets-importer/widgets_import.php:68
+#: dist/nk-themes-helper/class-demo-importer.php:456, dist/nk-themes-helper/class-demo-importer.php:808, dist/nk-themes-helper/vendor/widgets-importer/widgets_import.php:68
 msgid "Widgets import file could not be found."
 msgstr ""
 
-#: dist/nk-themes-helper/class-demo-importer.php:461
+#: dist/nk-themes-helper/class-demo-importer.php:462
 msgid "Widgets imported"
 msgstr ""
 
-#: dist/nk-themes-helper/class-demo-importer.php:474
+#: dist/nk-themes-helper/class-demo-importer.php:475
 msgid "Customizer options imported"
 msgstr ""
 
 #. translators: %s.
-#: dist/nk-themes-helper/class-demo-importer.php:515
+#: dist/nk-themes-helper/class-demo-importer.php:516
 msgid "RevSlider %s imported"
 msgstr ""
 
-#: dist/nk-themes-helper/class-demo-importer.php:541
+#: dist/nk-themes-helper/class-demo-importer.php:542
 msgid "Navigations added to their locations"
 msgstr ""
 
-#: dist/nk-themes-helper/class-demo-importer.php:582
+#: dist/nk-themes-helper/class-demo-importer.php:583
 msgid "Blog settings imported"
 msgstr ""
 
-#: dist/nk-themes-helper/class-demo-importer.php:611
+#: dist/nk-themes-helper/class-demo-importer.php:612
 msgid "WooCommerce settings imported"
+msgstr ""
+
+#. translators: %1$s: Menu Item Title, %2$s: Name of Menu, %3$s: Menu Item Id
+#: dist/nk-themes-helper/class-demo-importer.php:747
+msgid "Remapping \"%1$s\" from (%2$s) - %3$s"
+msgstr ""
+
+#. translators: %s: term Id
+#: dist/nk-themes-helper/class-demo-importer.php:758
+msgid "Remapping successful - %s"
 msgstr ""
 
 #: dist/nk-themes-helper/class-instagram.php:197

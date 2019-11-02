@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @var $css
  * @var $content - shortcode content
  * Shortcode class
- * @var WPBakeryShortCode_Vc_Column_text $this
+ * @var $this WPBakeryShortCode_VC_Column_text
  */
 $el_class = $el_id = $css = $css_animation = '';
 $atts = vc_map_get_attributes( $this->getShortcode(), $atts );

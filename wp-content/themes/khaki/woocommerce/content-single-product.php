@@ -13,12 +13,10 @@
  * @see 	    https://docs.woocommerce.com/document/template-structure/
  * @author 		WooThemes
  * @package 	WooCommerce/Templates
- * @version     3.6.0
+ * @version     3.4.0
  */
 
 defined( 'ABSPATH' ) || exit;
-
-global $product;
 
 ?>
 <div class="nk-gap-2"></div>
@@ -37,7 +35,7 @@ global $product;
 ?>
 <div class="nk-gap-2"></div>
 <?php do_action('woocommerce_adjacent_pagination_before');?>
-<div itemscope itemtype="<?php echo woocommerce_get_product_schema(); ?>" id="product-<?php the_ID(); ?>" <?php wc_product_class( 'nk-store-product', $product ); ?>>
+<div itemscope itemtype="<?php echo woocommerce_get_product_schema(); ?>" id="product-<?php the_ID(); ?>" <?php wc_product_class('nk-store-product'); ?>>
 
 	<div class="row">
 

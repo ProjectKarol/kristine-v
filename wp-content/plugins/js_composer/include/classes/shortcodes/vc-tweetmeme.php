@@ -3,22 +3,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
 
-/**
- * Class WPBakeryShortCode_Vc_TweetMeMe
- */
-class WPBakeryShortCode_Vc_TweetMeMe extends WPBakeryShortCode {
-	/**
-	 * @param $atts
-	 * @param null $content
-	 * @return string
-	 * @throws \Exception
-	 */
+class WPBakeryShortCode_VC_TweetMeMe extends WPBakeryShortCode {
 	protected function contentInline( $atts, $content = null ) {
 		/**
 		 * Shortcode attributes
 		 * @var $atts
 		 * Shortcode class
-		 * @var WPBakeryShortCode_Vc_TweetMeMe $this
+		 * @var $this WPBakeryShortCode_VC_TweetMeMe
 		 */
 		$atts = vc_map_get_attributes( $this->getShortcode(), $atts );
 		$css = isset( $atts['css'] ) ? $atts['css'] : '';

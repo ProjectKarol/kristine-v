@@ -13,7 +13,7 @@
  * @see 	https://docs.woocommerce.com/document/template-structure/
  * @author  WooThemes
  * @package WooCommerce/Templates
- * @version 3.6.0
+ * @version 3.4.0
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -22,7 +22,7 @@ global $post;
 
 ?>
 
-<form action="<?php echo esc_url( get_permalink( $post->ID ) ); ?>" method="post" class="woocommerce-form woocommerce-form-track-order track_order nk-form-style-1">
+<form action="<?php echo esc_url( get_permalink( $post->ID ) ); ?>" method="post" class="track_order nk-form-style-1">
 
 	<div class="nk-info-box bg-main-1"><div class="nk-info-box-icon"><span class="ion-ios-information"></span></div><?php esc_html_e( 'To track your order please enter your Order ID in the box below and press the "Track" button. This was given to you on your receipt and in the confirmation email you should have received.', 'khaki' ); ?></div>
 

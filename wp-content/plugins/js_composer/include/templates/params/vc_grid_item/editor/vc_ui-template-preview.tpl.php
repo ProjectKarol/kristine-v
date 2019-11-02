@@ -4,7 +4,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 vc_grid_item_map_shortcodes();
 do_action( 'vc-render-templates-preview-template' );
-/** @var Vc_Grid_Item_Editor $vc_grid_item_editor */
+/** @var $vc_grid_item_editor Vc_Grid_Item_Editor */
 global $vc_grid_item_editor;
 if ( $vc_grid_item_editor ) {
 	$vc_grid_item_editor->registerBackendCss();
@@ -33,11 +33,9 @@ remove_action( 'admin_print_styles', 'print_emoji_styles' );
 add_thickbox();
 wp_enqueue_media( array( 'post' => $post_ID ) );
 visual_composer()->templatesPanelEditor()->registerPreviewScripts();
-require_once ABSPATH . 'wp-admin/admin-header.php';
-$custom_tag = 'script';
-$first_tag = 'style';
+require_once( ABSPATH . 'wp-admin/admin-header.php' );
 ?>
-	<<?php echo esc_attr( $first_tag ); ?>>
+	<style type="text/css">
 		#screen-meta, #adminmenumain, .notice, #wpfooter, #message, .updated {
 			display: none !important;
 		}
@@ -57,23 +55,20 @@ $first_tag = 'style';
 			overflow: hidden;
 			background: transparent;
 		}
-	</<?php echo esc_attr( $first_tag ); ?>>
+	</style>
 	<div class="vc_not-remove-overlay"></div>
 	<div class="vc_ui-template-preview">
-		<textarea id="content" style="display: none;">
-			<?php
-			// @codingStandardsIgnoreLine
-			print $content;
-			?>
-		</textarea>
+		<textarea id="content" style="display: none;"><?php echo $content ?></textarea>
 
 		<div id="wpb_visual_composer" class="postbox " style="display: block;">
 			<div class="inside">
 				<div class="metabox-composer-content">
-					<div id="visual_composer_content" class="wpb_main_sortable main_wrapper ui-sortable ui-droppable"></div>
+					<div id="visual_composer_content"
+					     class="wpb_main_sortable main_wrapper ui-sortable ui-droppable"></div>
 					<div id="vc_no-content-helper" class="vc_welcome"></div>
 				</div>
-				<input type="hidden" name="vc_js_composer_group_access_show_rule" class="vc_js_composer_group_access_show_rule" value="all">
+				<input type="hidden" name="vc_js_composer_group_access_show_rule"
+				       class="vc_js_composer_group_access_show_rule" value="all">
 				<input type="hidden" id="wpb_vc_js_status" name="wpb_vc_js_status" value="true">
 				<input type="hidden" id="wpb_vc_loading" name="wpb_vc_loading" value="Loading, please wait...">
 				<input type="hidden" id="wpb_vc_loading_row" name="wpb_vc_loading_row" value="Crunching...">
@@ -81,10 +76,12 @@ $first_tag = 'style';
 				<input type="hidden" name="vc_post_custom_css" id="vc_post-custom-css" value="" autocomplete="off">
 			</div>
 		</div>
-		<input type="hidden" id="wpb_vc_loading" name="wpb_vc_loading" value="<?php esc_attr_e( 'Loading, please wait...', 'js_composer' ); ?>"/>
-		<input type="hidden" id="wpb_vc_loading_row" name="wpb_vc_loading_row" value="<?php esc_attr_e( 'Crunching...', 'js_composer' ); ?>"/>
+		<input type="hidden" id="wpb_vc_loading" name="wpb_vc_loading"
+		       value="<?php esc_attr_e( 'Loading, please wait...', 'js_composer' ) ?>"/>
+		<input type="hidden" id="wpb_vc_loading_row" name="wpb_vc_loading_row"
+		       value="<?php esc_attr_e( 'Crunching...', 'js_composer' ) ?>"/>
 	</div>
-	<<?php echo esc_attr( $custom_tag ); ?>>
+	<script type="text/javascript">
 		/**
 		 * Get content of grid item editor of current post. Data is used as models collection of shortcodes.
 		 * Data always wrapped with vc_gitem shortcode.
@@ -119,12 +116,12 @@ $first_tag = 'style';
 			'[/vc_gitem_zone_b]' +
 			'[/vc_gitem_animated_block]' +
 			'[/vc_gitem]';
-	</<?php echo esc_attr( $custom_tag ); ?>>
+	</script>
 <?php
 vc_include_template( 'editors/partials/backend-shortcodes-templates.tpl.php' );
 do_action( 'vc_backend_editor_render' );
 do_action( 'vc_vc_grid_item_editor_render' );
 do_action( 'vc_ui-template-preview' );
 // fix bug #59741644518985 in firefox
-// wp_dequeue_script( 'isotope' );
-require_once ABSPATH . 'wp-admin/admin-footer.php';
+//wp_dequeue_script( 'isotope' );
+require_once( ABSPATH . 'wp-admin/admin-footer.php' );

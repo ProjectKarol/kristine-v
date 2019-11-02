@@ -2,7 +2,7 @@
 /**
  * Plugin Name:  nK Themes Helper
  * Description:  Helper for nK themes
- * Version:      1.6.17
+ * Version:      1.6.18
  * Author:       nK
  * Author URI:   https://nkdev.info
  * License:      GPLv2 or later

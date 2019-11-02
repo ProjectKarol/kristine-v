@@ -6,7 +6,7 @@
  *
  * @package khaki
  */
-
+define('NK_DOMAIN', 'khaki');//define theme name
 if (!function_exists('khaki_setup')) :
     /**
      * Sets up theme defaults and registers support for various WordPress features.
@@ -262,8 +262,11 @@ if (!function_exists('khaki_scripts')) :
         wp_deregister_style( 'bbp-default' );
         wp_enqueue_style('bbpress', get_template_directory_uri() . '/assets/css/bbpress.css');
 
-        $khaki_url = get_template_directory_uri() . '/assets/scss/khaki.min.css';
-        $khaki_version = '2.0.4';
+        // WooCommerce
+        wp_enqueue_style('khaki-woocommerce', get_template_directory_uri() . '/assets/css/woocommerce.css');
+
+        $khaki_url = get_template_directory_uri() . '/assets/css/khaki.min.css';
+        $khaki_version = '2.0.0';
 
         khaki_compile_colors();
 
@@ -337,9 +340,9 @@ if (!function_exists('khaki_scripts')) :
         wp_register_script('keymaster', get_template_directory_uri() . '/assets/vendor/keymaster/keymaster.js', '', '', true);
 
         // khaki
-        wp_register_script('khaki', get_template_directory_uri() . '/assets/js/khaki.min.js', array('jquery', 'font-awesome-v4-shims', 'font-awesome', 'tween-max', 'gsap-scroll-to-plugin', 'popper.js', 'bootstrap', 'sticky-kit', 'jarallax', 'jarallax-video', 'flickity', 'isotope', 'imagesloaded', 'photoswipe', 'photoswipe-ui-default', 'social-likes', 'typed', 'jquery-countdown', 'moment', 'moment-timezone', 'hammer', 'nanoscroller', 'soundmanager2', 'datetimepicker', 'keymaster'), '2.0.4', true);
+        wp_register_script('khaki', get_template_directory_uri() . '/assets/js/khaki.min.js', array('jquery', 'font-awesome-v4-shims', 'font-awesome', 'tween-max', 'gsap-scroll-to-plugin', 'popper.js', 'bootstrap', 'sticky-kit', 'jarallax', 'jarallax-video', 'flickity', 'isotope', 'imagesloaded', 'photoswipe', 'photoswipe-ui-default', 'social-likes', 'typed', 'jquery-countdown', 'moment', 'moment-timezone', 'hammer', 'nanoscroller', 'soundmanager2', 'datetimepicker', 'keymaster'), '2.0.0', true);
 
-        wp_enqueue_script('khaki-init', get_template_directory_uri() . '/assets/js/khaki-init.js', array('khaki'), '2.0.4', true);
+        wp_enqueue_script('khaki-init', get_template_directory_uri() . '/assets/js/khaki-init.js', array('khaki'), '2.0.0', true);
 
         $dataInit = array(
 

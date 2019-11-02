@@ -178,7 +178,7 @@ Additional Classes:
                     <?php wp_nav_menu(array(
                         'theme_location' => 'primary',
                         'container' => '',
-                        'menu_class' => khaki_sanitize_class('nk-nav d-none d-lg-table-cell'.$main_nav_align),
+                        'menu_class' => khaki_sanitize_class('nk-nav d-none d-md-block'.$main_nav_align),
                         'walker' => new nk_walker($logo_position),
                         'items_wrap' => '<ul id="%1$s" class="%2$s" data-nav-mobile="#nk-nav-mobile">%3$s</ul>'
                     )); ?>

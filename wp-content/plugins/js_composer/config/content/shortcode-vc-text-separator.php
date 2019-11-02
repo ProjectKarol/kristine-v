@@ -5,8 +5,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 require_once 'vc-icon-element.php';
 $icon_params = vc_icon_element_params();
-
-$icons_params = vc_map_integrate_shortcode( $icon_params, 'i_', esc_html__( 'Icon', 'js_composer' ), array(
+/* Separator (Divider)
+---------------------------------------------------------- */
+$icons_params = vc_map_integrate_shortcode( $icon_params, 'i_', __( 'Icon', 'js_composer' ), array(
 	'exclude' => array(
 		'align',
 		'css',
@@ -32,64 +33,63 @@ if ( is_array( $icons_params ) && ! empty( $icons_params ) ) {
 		}
 	}
 }
-
 return array(
-	'name' => esc_html__( 'Separator with Text', 'js_composer' ),
+	'name' => __( 'Separator with Text', 'js_composer' ),
 	'base' => 'vc_text_separator',
 	'icon' => 'icon-wpb-ui-separator-label',
-	'category' => esc_html__( 'Content', 'js_composer' ),
-	'description' => esc_html__( 'Horizontal separator line with heading', 'js_composer' ),
+	'category' => __( 'Content', 'js_composer' ),
+	'description' => __( 'Horizontal separator line with heading', 'js_composer' ),
 	'params' => array_merge( array(
 		array(
 			'type' => 'textfield',
-			'heading' => esc_html__( 'Title', 'js_composer' ),
+			'heading' => __( 'Title', 'js_composer' ),
 			'param_name' => 'title',
 			'holder' => 'div',
-			'value' => esc_html__( 'Title', 'js_composer' ),
-			'description' => esc_html__( 'Add text to separator.', 'js_composer' ),
+			'value' => __( 'Title', 'js_composer' ),
+			'description' => __( 'Add text to separator.', 'js_composer' ),
 		),
 		array(
 			'type' => 'checkbox',
-			'heading' => esc_html__( 'Add icon?', 'js_composer' ),
+			'heading' => __( 'Add icon?', 'js_composer' ),
 			'param_name' => 'add_icon',
 		),
 	), $icons_params, array(
 		array(
 			'type' => 'dropdown',
-			'heading' => esc_html__( 'Title position', 'js_composer' ),
+			'heading' => __( 'Title position', 'js_composer' ),
 			'param_name' => 'title_align',
 			'value' => array(
-				esc_html__( 'Center', 'js_composer' ) => 'separator_align_center',
-				esc_html__( 'Left', 'js_composer' ) => 'separator_align_left',
-				esc_html__( 'Right', 'js_composer' ) => 'separator_align_right',
+				__( 'Center', 'js_composer' ) => 'separator_align_center',
+				__( 'Left', 'js_composer' ) => 'separator_align_left',
+				__( 'Right', 'js_composer' ) => 'separator_align_right',
 			),
-			'description' => esc_html__( 'Select title location.', 'js_composer' ),
+			'description' => __( 'Select title location.', 'js_composer' ),
 		),
 		array(
 			'type' => 'dropdown',
-			'heading' => esc_html__( 'Separator alignment', 'js_composer' ),
+			'heading' => __( 'Separator alignment', 'js_composer' ),
 			'param_name' => 'align',
 			'value' => array(
-				esc_html__( 'Center', 'js_composer' ) => 'align_center',
-				esc_html__( 'Left', 'js_composer' ) => 'align_left',
-				esc_html__( 'Right', 'js_composer' ) => 'align_right',
+				__( 'Center', 'js_composer' ) => 'align_center',
+				__( 'Left', 'js_composer' ) => 'align_left',
+				__( 'Right', 'js_composer' ) => 'align_right',
 			),
-			'description' => esc_html__( 'Select separator alignment.', 'js_composer' ),
+			'description' => __( 'Select separator alignment.', 'js_composer' ),
 		),
 		array(
 			'type' => 'dropdown',
-			'heading' => esc_html__( 'Color', 'js_composer' ),
+			'heading' => __( 'Color', 'js_composer' ),
 			'param_name' => 'color',
-			'value' => array_merge( vc_get_shared( 'colors' ), array( esc_html__( 'Custom color', 'js_composer' ) => 'custom' ) ),
+			'value' => array_merge( getVcShared( 'colors' ), array( __( 'Custom color', 'js_composer' ) => 'custom' ) ),
 			'std' => 'grey',
-			'description' => esc_html__( 'Select color of separator.', 'js_composer' ),
+			'description' => __( 'Select color of separator.', 'js_composer' ),
 			'param_holder_class' => 'vc_colored-dropdown',
 		),
 		array(
 			'type' => 'colorpicker',
-			'heading' => esc_html__( 'Custom Color', 'js_composer' ),
+			'heading' => __( 'Custom Color', 'js_composer' ),
 			'param_name' => 'accent_color',
-			'description' => esc_html__( 'Custom separator color for your element.', 'js_composer' ),
+			'description' => __( 'Custom separator color for your element.', 'js_composer' ),
 			'dependency' => array(
 				'element' => 'color',
 				'value' => array( 'custom' ),
@@ -97,37 +97,37 @@ return array(
 		),
 		array(
 			'type' => 'dropdown',
-			'heading' => esc_html__( 'Style', 'js_composer' ),
+			'heading' => __( 'Style', 'js_composer' ),
 			'param_name' => 'style',
-			'value' => vc_get_shared( 'separator styles' ),
-			'description' => esc_html__( 'Separator display style.', 'js_composer' ),
+			'value' => getVcShared( 'separator styles' ),
+			'description' => __( 'Separator display style.', 'js_composer' ),
 		),
 		array(
 			'type' => 'dropdown',
-			'heading' => esc_html__( 'Border width', 'js_composer' ),
+			'heading' => __( 'Border width', 'js_composer' ),
 			'param_name' => 'border_width',
-			'value' => vc_get_shared( 'separator border widths' ),
-			'description' => esc_html__( 'Select border width (pixels).', 'js_composer' ),
+			'value' => getVcShared( 'separator border widths' ),
+			'description' => __( 'Select border width (pixels).', 'js_composer' ),
 		),
 		array(
 			'type' => 'dropdown',
-			'heading' => esc_html__( 'Element width', 'js_composer' ),
+			'heading' => __( 'Element width', 'js_composer' ),
 			'param_name' => 'el_width',
-			'value' => vc_get_shared( 'separator widths' ),
-			'description' => esc_html__( 'Separator element width in percents.', 'js_composer' ),
+			'value' => getVcShared( 'separator widths' ),
+			'description' => __( 'Separator element width in percents.', 'js_composer' ),
 		),
 		vc_map_add_css_animation(),
 		array(
 			'type' => 'el_id',
-			'heading' => esc_html__( 'Element ID', 'js_composer' ),
+			'heading' => __( 'Element ID', 'js_composer' ),
 			'param_name' => 'el_id',
-			'description' => sprintf( esc_html__( 'Enter element ID (Note: make sure it is unique and valid according to %sw3c specification%s).', 'js_composer' ), '<a href="https://www.w3schools.com/tags/att_global_id.asp" target="_blank">', '</a>' ),
+			'description' => sprintf( __( 'Enter element ID (Note: make sure it is unique and valid according to <a href="%s" target="_blank">w3c specification</a>).', 'js_composer' ), 'http://www.w3schools.com/tags/att_global_id.asp' ),
 		),
 		array(
 			'type' => 'textfield',
-			'heading' => esc_html__( 'Extra class name', 'js_composer' ),
+			'heading' => __( 'Extra class name', 'js_composer' ),
 			'param_name' => 'el_class',
-			'description' => esc_html__( 'Style particular content element differently - add a class name and refer to it in custom CSS.', 'js_composer' ),
+			'description' => __( 'Style particular content element differently - add a class name and refer to it in custom CSS.', 'js_composer' ),
 		),
 		array(
 			'type' => 'hidden',
@@ -136,9 +136,9 @@ return array(
 		),
 		array(
 			'type' => 'css_editor',
-			'heading' => esc_html__( 'CSS box', 'js_composer' ),
+			'heading' => __( 'CSS box', 'js_composer' ),
 			'param_name' => 'css',
-			'group' => esc_html__( 'Design Options', 'js_composer' ),
+			'group' => __( 'Design Options', 'js_composer' ),
 		),
 	) ),
 	'js_view' => 'VcTextSeparatorView',

@@ -11,6 +11,7 @@ if (!function_exists('khaki_posts_navigation')) :
     /**
      * Display navigation to next/previous set of posts when applicable.
      *
+     * @todo Remove this function when WordPress 4.3 is released.
      */
     function khaki_posts_navigation($query = null)
     {

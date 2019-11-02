@@ -26,9 +26,10 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @var $border_color
  * @var $css
  * Shortcode class
- * @var WPBakeryShortCode_Vc_Single_image $this
+ * @var $this WPBakeryShortCode_VC_Single_image
  */
-$title = $source = $image = $custom_src = $onclick = $img_size = $external_img_size = $caption = $img_link_large = $link = $img_link_target = $alignment = $el_class = $el_id = $css_animation = $style = $external_style = $border_color = $css = '';
+$title = $source = $image = $custom_src = $onclick = $img_size = $external_img_size =
+$caption = $img_link_large = $link = $img_link_target = $alignment = $el_class = $el_id = $css_animation = $style = $external_style = $border_color = $css = '';
 $atts = vc_map_get_attributes( $this->getShortcode(), $atts );
 extract( $atts );
 
@@ -53,6 +54,7 @@ $img = false;
 switch ( $source ) {
 	case 'media_library':
 	case 'featured_image':
+
 		if ( 'featured_image' === $source ) {
 			$post_id = get_the_ID();
 			if ( $post_id && has_post_thumbnail( $post_id ) ) {
@@ -90,13 +92,13 @@ switch ( $source ) {
 		break;
 
 	case 'external_link':
-		$dimensions = vc_extract_dimensions( $external_img_size );
+		$dimensions = vcExtractDimensions( $external_img_size );
 		$hwstring = $dimensions ? image_hwstring( $dimensions[0], $dimensions[1] ) : '';
 
-		$custom_src = $custom_src ? $custom_src : $default_src;
+		$custom_src = $custom_src ? esc_attr( $custom_src ) : $default_src;
 
 		$img = array(
-			'thumbnail' => '<img class="vc_single_image-img" ' . $hwstring . ' src="' . esc_url( $custom_src ) . '" />',
+			'thumbnail' => '<img class="vc_single_image-img" ' . $hwstring . ' src="' . $custom_src . '" />',
 		);
 		break;
 
@@ -105,7 +107,7 @@ switch ( $source ) {
 }
 
 if ( ! $img ) {
-	$img['thumbnail'] = '<img class="vc_img-placeholder vc_single_image-img" src="' . esc_url( $default_src ) . '" />';
+	$img['thumbnail'] = '<img class="vc_img-placeholder vc_single_image-img" src="' . $default_src . '" />';
 }
 
 $el_class = $this->getExtraClass( $el_class );
@@ -124,10 +126,7 @@ if ( ! empty( $atts['img_link'] ) ) {
 }
 
 // backward compatibility
-if ( in_array( $link, array(
-	'none',
-	'link_no',
-), true ) ) {
+if ( in_array( $link, array( 'none', 'link_no' ) ) ) {
 	$link = '';
 }
 
@@ -135,6 +134,7 @@ $a_attrs = array();
 
 switch ( $onclick ) {
 	case 'img_link_large':
+
 		if ( 'external_link' === $source ) {
 			$link = $custom_src;
 		} else {
@@ -149,12 +149,14 @@ switch ( $onclick ) {
 		wp_enqueue_style( 'prettyphoto' );
 
 		$a_attrs['class'] = 'prettyphoto';
-		$a_attrs['data-rel'] = 'prettyPhoto[rel-' . get_the_ID() . '-' . wp_rand() . ']';
+		$a_attrs['data-rel'] = 'prettyPhoto[rel-' . get_the_ID() . '-' . rand() . ']';
 
 		// backward compatibility
-		if ( ! vc_has_class( 'prettyphoto', $el_class ) && 'external_link' === $source ) {
+		if ( vc_has_class( 'prettyphoto', $el_class ) ) {
+			// $link is already defined
+		} elseif ( 'external_link' === $source ) {
 			$link = $custom_src;
-		} elseif ( ! vc_has_class( 'prettyphoto', $el_class ) ) {
+		} else {
 			$link = wp_get_attachment_image_src( $img_id, 'large' );
 			$link = $link[0];
 		}
@@ -205,7 +207,7 @@ $class_to_filter = 'wpb_single_image wpb_content_element vc_align_' . $alignment
 $class_to_filter .= vc_shortcode_custom_css_class( $css, ' ' ) . $this->getExtraClass( $el_class );
 $css_class = apply_filters( VC_SHORTCODE_CUSTOM_CSS_FILTER_TAG, $class_to_filter, $this->settings['base'], $atts );
 
-if ( in_array( $source, array( 'media_library', 'featured_image' ), true ) && 'yes' === $add_caption ) {
+if ( in_array( $source, array( 'media_library', 'featured_image' ) ) && 'yes' === $add_caption ) {
 	$img_id = apply_filters( 'wpml_object_id', $img_id, 'attachment' );
 	$post = get_post( $img_id );
 	$caption = $post->post_excerpt;
@@ -224,14 +226,11 @@ if ( ! empty( $el_id ) ) {
 }
 $output = '
 	<div ' . implode( ' ', $wrapper_attributes ) . ' class="' . esc_attr( trim( $css_class ) ) . '">
-		' . wpb_widget_title( array(
-	'title' => $title,
-	'extraclass' => 'wpb_singleimage_heading',
-) ) . '
+		' . wpb_widget_title( array( 'title' => $title, 'extraclass' => 'wpb_singleimage_heading' ) ) . '
 		<figure class="wpb_wrapper vc_figure">
 			' . $html . '
 		</figure>
 	</div>
 ';
 
-return $output;
+echo $output;

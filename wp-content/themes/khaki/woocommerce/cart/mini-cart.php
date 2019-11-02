@@ -166,7 +166,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<?php endif; ?>
 	<?php if($cart_is_not_empty == false):?>
-		<span class="text-center"><?php esc_html_e('Your cart is empty!', 'khaki'); ?></span>
+		<span align="center"><?php esc_html_e('Your cart is empty!', 'khaki'); ?></span>
 	<?php endif;?>
 	<?php if($cart_is_not_empty):?>
 		<div class="nk-widget-store-cart-actions">

@@ -1,6 +1,6 @@
 exports.themeLocation =
-	"/Users/karolszczesny/Web-developmenet/data/www/kristine-v/htdocs/wp-content/themes/kristine-v";
-exports.urlToPreview = "https://www.kristine-v.loc";
+	'/Users/karolszczesny/Web-developmenet/data/www/kristine-v/htdocs/wp-content/themes/kristine-v';
+exports.urlToPreview = 'https://kristine-v.loc';
 
 // If you're using Local by Flywheel you will
 // want your settings to be similar to the examples below:

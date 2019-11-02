@@ -13,7 +13,7 @@
  * @see 	    https://docs.woocommerce.com/document/template-structure/
  * @author 		WooThemes
  * @package 	WooCommerce/Templates
- * @version     3.6.0
+ * @version     3.3.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -23,7 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 <div class="nk-store-order">
 	<form class="woocommerce-ordering nk-form nk-form-style-1" method="get">
-		<select name="orderby" class="orderby form-control" aria-label="<?php esc_attr_e( 'Shop order', 'khaki' ); ?>">
+		<select name="orderby" class="orderby form-control">
 			<?php foreach ( $catalog_orderby_options as $id => $name ) : ?>
 				<option value="<?php echo esc_attr( $id ); ?>" <?php selected( $orderby, $id ); ?>><?php echo esc_html( $name ); ?></option>
 			<?php endforeach; ?>

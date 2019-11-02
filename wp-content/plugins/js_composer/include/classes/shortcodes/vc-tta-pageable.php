@@ -3,18 +3,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
 
-VcShortcodeAutoloader::getInstance()->includeClass( 'WPBakeryShortCode_Vc_Tta_Tabs' );
+VcShortcodeAutoloader::getInstance()->includeClass( 'WPBakeryShortCode_VC_Tta_Tabs' );
 
-/**
- * Class WPBakeryShortCode_Vc_Tta_Pageable
- */
-class WPBakeryShortCode_Vc_Tta_Pageable extends WPBakeryShortCode_Vc_Tta_Tabs {
+class WPBakeryShortCode_VC_Tta_Pageable extends WPBakeryShortCode_VC_Tta_Tabs {
 
 	public $layout = 'tabs';
 
-	/**
-	 * @return string
-	 */
 	public function getTtaContainerClasses() {
 		$classes = parent::getTtaContainerClasses();
 
@@ -23,9 +17,6 @@ class WPBakeryShortCode_Vc_Tta_Pageable extends WPBakeryShortCode_Vc_Tta_Tabs {
 		return $classes;
 	}
 
-	/**
-	 * @return mixed|string
-	 */
 	public function getTtaGeneralClasses() {
 		$classes = parent::getTtaGeneralClasses();
 

@@ -33,7 +33,7 @@ function khaki_register_required_plugins() {
         array(
             'name'       => 'Khaki Core',
             'slug'       => 'khaki-core',
-            'source'     => 'https://a.nkdev.info/wp-plugins/khaki-core.zip',
+            'source'     => nk_admin()->admin_path . '/plugins/khaki-core.zip',
             'version'   => '1.0.0',
             'required'   => true,
         ),

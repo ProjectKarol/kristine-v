@@ -1,20 +1,17 @@
 (function ( $ ) {
-	'use strict';
+	$( function () {
+		var Manager = qTranslateConfig.js.get_qtx();
+
+		Manager.addLanguageSwitchListener( hookLanguageSwitch );
+	} );
 
 	function hookLanguageSwitch( activeLang ) {
-		var $inline_href = $( '.wpb_switch-to-front-composer' );
-		if ( !$inline_href.data( 'raw-url' ) ) {
-			$inline_href.data( 'raw-url', $inline_href.attr( 'href' ) );
+		var $inlineHref = $( '.wpb_switch-to-front-composer' );
+		if ( ! $inlineHref.data( 'raw-url' ) ) {
+			$inlineHref.data( 'raw-url', $inlineHref.attr( 'href' ) );
 		}
-		var new_url = $inline_href.data( 'raw-url' ) + '&lang=' + activeLang;
-		$inline_href.attr( 'href', new_url );
-
+		var newUrl = $inlineHref.data( 'raw-url' ) + '&lang=' + activeLang;
+		$inlineHref.attr( 'href', newUrl );
 		vc.shortcodes.fetch( { reset: true } );
 	}
-
-	$( function () {
-		var qtranslateManager = qTranslateConfig.js.get_qtx();
-
-		qtranslateManager.addLanguageSwitchListener( hookLanguageSwitch );
-	} );
 })( window.jQuery );

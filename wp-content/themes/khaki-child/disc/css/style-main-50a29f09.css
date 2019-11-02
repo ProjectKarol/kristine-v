@@ -4,7 +4,7 @@
 
 #search-overlay__results .seach-grid-result { display: grid; grid-template-columns: repeat(auto-fit, minmax(50%, 1fr)); }
 
-#search-overlay__results .seach-grid-result .post-type-result { margin-top: 5px; border: 1px solid #dbdbdb; box-shadow: 3px 4px 9px #aaa; }
+#search-overlay__results .seach-grid-result .post-type-result { margin-top: 5px; border: 1px solid #dbdbdb; -webkit-box-shadow: 3px 4px 9px #aaa; box-shadow: 3px 4px 9px #aaa; }
 
 #search-overlay__results .seach-grid-result .post-type-result h2 { text-align: center; font-weight: 100; }
 
@@ -22,7 +22,7 @@
 
 .search-overlay-active { background: rgba(247, 249, 250, 0.95); height: 100vh; margin-top: 130px; top: 0px; position: fixed; width: 100vw; z-index: 9999; }
 
-.search-overlay-active .seach-overlay__top .container { display: inline-flex; }
+.search-overlay-active .seach-overlay__top .container { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; }
 
 .search-overlay-active .seach-overlay__top .fa-search, .search-overlay-active .seach-overlay__top .fa-times { font-size: 45px; color: black; margin-top: 20px; margin-right: 10px; }
 
@@ -30,7 +30,7 @@
 
 .search-overlay-active .search-term { width: 100%; background: #99999921; padding: 13px 57px 13px 22px; color: #1b2734; font-size: 45px; }
 
-.search-overlay { overflow-y: auto; overflow-x: hidden; z-index: 1100; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(255, 255, 255, 0.96); visibility: hidden; opacity: 0; -webkit-transform: scale(1.09); transform: scale(1.09); transition: opacity 0.3s, visibility 0.3s, -webkit-transform 0.3s; transition: opacity 0.3s, transform 0.3s, visibility 0.3s; transition: opacity 0.3s, transform 0.3s, visibility 0.3s, -webkit-transform 0.3s; box-sizing: border-box; }
+.search-overlay { overflow-y: auto; overflow-x: hidden; z-index: 1100; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(255, 255, 255, 0.96); visibility: hidden; opacity: 0; -webkit-transform: scale(1.09); transform: scale(1.09); transition: opacity 0.3s, visibility 0.3s, -webkit-transform 0.3s; -webkit-transition: opacity 0.3s, visibility 0.3s, -webkit-transform 0.3s; transition: opacity 0.3s, transform 0.3s, visibility 0.3s; transition: opacity 0.3s, transform 0.3s, visibility 0.3s, -webkit-transform 0.3s; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 .search-overlay p { padding-top: 15px; }
 
@@ -50,13 +50,13 @@ body.admin-bar .search-overlay { top: 32px; }
 
 .search-overlay__section-title { margin: 30px 0 1px 0; font-weight: 400; color: #0d3b66; font-size: 2rem; padding: 15px 0; border-bottom: 1px solid #ccc; }
 
-.search-overlay__close { position: relative; float: right; top: 13px; margin-top: -2px; font-size: 2.1rem; cursor: pointer; transition: all 0.3s; color: black; line-height: 0.7; }
+.search-overlay__close { position: relative; float: right; top: 13px; margin-top: -2px; font-size: 2.1rem; cursor: pointer; -webkit-transition: all 0.3s; transition: all 0.3s; color: black; line-height: 0.7; }
 
 .search-overlay__close:hover { opacity: 1; }
 
 .search-overlay .one-half { padding-bottom: 0; }
 
-.search-term { width: 75%; box-sizing: border-box; border: none; padding: 15px 0; margin: 0; background-color: transparent; font-size: 1rem; font-weight: 300; outline: none; color: black; }
+.search-term { width: 75%; -webkit-box-sizing: border-box; box-sizing: border-box; border: none; padding: 15px 0; margin: 0; background-color: transparent; font-size: 1rem; font-weight: 300; outline: none; color: black; }
 
 @media (min-width: 530px) { .search-term { font-size: 1.5rem; } }
 
@@ -146,6 +146,8 @@ body.admin-bar .search-overlay { top: 32px; }
 
 #radio_toggler_select_pa_size > li label { background: #fee9de; margin: 5px; }
 
+.woocommerce div.product form.cart .reset_variations { display: none !important; }
+
 .woocommerce div.product span.price { font-size: 1.2rem; margin-top: 10px; }
 
 .home p { color: #f592a3; font-family: "Great Vibes", cursive; font-size: 45px; }
@@ -166,9 +168,9 @@ body.admin-bar .search-overlay { top: 32px; }
 
 .home .homeslider { height: 100vh; margin-top: 100px; }
 
-.home .homeslider .heder-sentence { margin: auto; align-items: flex-start; display: flex; }
+.home .homeslider .heder-sentence { margin: auto; -webkit-box-align: start; -ms-flex-align: start; align-items: flex-start; display: -webkit-box; display: -ms-flexbox; display: flex; }
 
-.home .homeslider #typed { color: #fdc; font-weight: 900; text-transform: uppercase; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.home .homeslider #typed { color: #fdc; font-weight: 900; text-transform: uppercase; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 
 .home .homeslider .main--brdr h3:hover { font-size: 48px; color: black !important; text-decoration: none; cursor: pointer; }
 
@@ -178,7 +180,7 @@ body.admin-bar .search-overlay { top: 32px; }
 
 .home .main-border { position: relative; padding: 2rem; }
 
-.home .main--brdr { justify-content: space-around; justify-content: space-around; align-items: flex-end; }
+.home .main--brdr { -ms-flex-pack: distribute; justify-content: space-around; justify-content: space-around; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
 
 .home .main--brdr h3 { color: #fdc !important; }
 
@@ -197,19 +199,19 @@ body.admin-bar .search-overlay { top: 32px; }
 .slider-home-scrolled { margin-top: 105px; }
 
 /* ##Device = Desktops ##Screen = 1281px to higher resolution desktops */
-@media (min-width: 1281px) { .main--brdr { display: flex; }
+@media (min-width: 1281px) { .main--brdr { display: -webkit-box; display: -ms-flexbox; display: flex; }
   #typed { font-size: 7rem; } }
 
 /* ##Device = Laptops, Desktops ##Screen = B/w 1025px to 1280px */
-@media (min-width: 1025px) and (max-width: 1280px) { .main--brdr { display: flex; } }
+@media (min-width: 1025px) and (max-width: 1280px) { .main--brdr { display: -webkit-box; display: -ms-flexbox; display: flex; } }
 
 /* ##Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px */
 @media (min-width: 768px) and (max-width: 1024px) { #typed { font-size: 5rem; }
-  .main--brdr { display: flex; }
+  .main--brdr { display: -webkit-box; display: -ms-flexbox; display: flex; }
   .main--brdr h3 { display: none; } }
 
 /* ##Device = Tablets, Ipads (landscape) ##Screen = B/w 768px to 1024px */
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { .main--brdr { display: flex; } }
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { .main--brdr { display: -webkit-box; display: -ms-flexbox; display: flex; } }
 
 /* ##Device = Low Resolution Tablets, Mobiles (Landscape) ##Screen = B/w 481px to 767px */
 /* ##Device = Most of the Smartphones Mobiles (Portrait) ##Screen = B/w 320px to 479px */
@@ -223,7 +225,7 @@ body.admin-bar .search-overlay { top: 32px; }
 
 .nk-copyright .container { max-width: 100%; }
 
-.nk-copyright .container .credit-footer { display: flex; justify-content: space-between; }
+.nk-copyright .container .credit-footer { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
 
 .nk-footer { color: black; }
 
@@ -235,7 +237,7 @@ body.admin-bar .search-overlay { top: 32px; }
 
 .nk-footer #menu-shop-with-us, .nk-footer .menu { list-style-type: none; margin-left: 0px; padding-left: 0px; line-height: 30px; }
 
-.nk-footer .mailster-form-fields { display: inline-flex; }
+.nk-footer .mailster-form-fields { display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; }
 
 .nk-footer .mailster-submit-wrapper { margin-top: 0px; }
 
@@ -243,7 +245,7 @@ body.admin-bar .search-overlay { top: 32px; }
 
 .nk-footer .menu-item { font-size: 16px; font-weight: 400; }
 
-.nk-widget-social-2 a { float: left; display: inline-flex; }
+.nk-widget-social-2 a { float: left; display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; }
 
 .nk-widget-social-2 a .svg-inline--fa { margin-right: 20px; }
 
@@ -266,6 +268,8 @@ body.admin-bar .search-overlay { top: 32px; }
 .nk-header-table { background-color: black; }
 
 .nk-header-table .nk-title { color: #f592a3; font-family: "Great Vibes", cursive; font-size: 70px; }
+
+.reset_variations { display: none; }
 
 #pum-306953 .nk-typed.ready > span, #pum-306953 .nk-typed { color: #ffe8de; font-size: 53px; }
 

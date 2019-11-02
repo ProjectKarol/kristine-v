@@ -7,7 +7,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Class Vc_Vendor_Qtranslate
  * @since 4.3
  */
-class Vc_Vendor_Qtranslate {
+class Vc_Vendor_Qtranslate implements Vc_Vendor_Interface {
 
 	/**
 	 * @since 4.3
@@ -27,11 +27,8 @@ class Vc_Vendor_Qtranslate {
 		$this->languages = $languages;
 	}
 
-	/**
-	 * @return bool
-	 */
 	public function isValidPostType() {
-		return in_array( get_post_type(), vc_editor_post_types(), true );
+		return in_array( get_post_type(), vc_editor_post_types() );
 	}
 
 	/**
@@ -224,8 +221,8 @@ class Vc_Vendor_Qtranslate {
 	}
 
 	/**
-	 * @return string
 	 * @since 4.3
+	 * @return string
 	 */
 	public function generateSelect() {
 		$output = '';
@@ -242,8 +239,8 @@ class Vc_Vendor_Qtranslate {
 	}
 
 	/**
-	 * @return string
 	 * @since 4.3
+	 * @return string
 	 */
 	public function generateSelectFrontend() {
 		$output = '';
@@ -261,11 +258,11 @@ class Vc_Vendor_Qtranslate {
 	}
 
 	/**
+	 * @since 4.3
+	 *
 	 * @param $list
 	 *
 	 * @return array
-	 * @since 4.3
-	 *
 	 */
 	public function vcNavControls( $list ) {
 		if ( $this->isValidPostType() ) {
@@ -282,11 +279,11 @@ class Vc_Vendor_Qtranslate {
 	}
 
 	/**
+	 * @since 4.3
+	 *
 	 * @param $list
 	 *
 	 * @return array
-	 * @since 4.3
-	 *
 	 */
 	public function vcNavControlsFrontend( $list ) {
 		if ( $this->isValidPostType() ) {
@@ -303,8 +300,8 @@ class Vc_Vendor_Qtranslate {
 	}
 
 	/**
-	 * @return string
 	 * @since 4.3
+	 * @return string
 	 */
 	public function getControlSelectDropdown() {
 		return '<li class="vc_pull-right" > ' . $this->generateSelect() . '</li > ';
@@ -318,11 +315,11 @@ class Vc_Vendor_Qtranslate {
 	}
 
 	/**
+	 * @since 4.3
+	 *
 	 * @param $link
 	 *
 	 * @return string
-	 * @since 4.3
-	 *
 	 */
 	public function vcRenderEditButtonLink( $link ) {
 		return add_query_arg( array( 'qlang' => qtrans_getLanguage() ), $link );
@@ -346,11 +343,11 @@ class Vc_Vendor_Qtranslate {
 	}
 
 	/**
+	 * @since 4.3
+	 *
 	 * @param $content
 	 *
 	 * @return string
-	 * @since 4.3
-	 *
 	 */
 	public function filterPostContent( $content ) {
 		return qtrans_useCurrentLanguageIfNotFoundShowAvailable( $content );
