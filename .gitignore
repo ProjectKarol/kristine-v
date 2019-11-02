@@ -82,7 +82,7 @@ wp-content/plugins/view-admin-as
 wp-content/plugins/woo-gutenberg-products-block
 wp-content/plugins/woocommerce
 wp-content/plugins/woocommerce-admin
-wp-content/plugins/woocommerce-colororimage-variation-select
+!wp-content/plugins/woocommerce-colororimage-variation-select
 wp-content/plugins/woocommerce-dotpay
 wp-content/plugins/woocommerce-gateway-paypal-express-checkout
 wp-content/plugins/woocommerce-gateway-stripe
