@@ -115,7 +115,7 @@ if (!class_exists('Kirki')) {
         <?php if (isset($footer_text) && !empty($footer_text)): ?>
             <div class="nk-copyright">
                 <div class="container text-center">
-                    <?php echo do_shortcode("[menu-shortcode]"); ?>
+                    <?php echo wp_kses_post($footer_text); ?>
                 </div>
             </div>
         <?php endif; ?>

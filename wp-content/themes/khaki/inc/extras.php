@@ -239,13 +239,11 @@ if (!function_exists('khaki_posted_on')) :
     {
 
         $time_string = get_the_time(esc_html__('F j, Y ', 'khaki'));
-        $posted_on = $time_string;
-
 
         if ($get) {
-            return ($showDate ? $posted_on : '');
+            return ($showDate ? wp_kses_post( $time_string ) : '');
         } else {
-            echo($showDate ? $posted_on : '');
+            echo($showDate ? wp_kses_post( $time_string ) : '');
         }
     }
 endif;
@@ -691,7 +689,7 @@ if ( ! function_exists( 'khaki_small_cart' ) ) {
 
                                     <?php endif; ?>
                                     <?php if ($cart_is_not_empty == false): ?>
-                                        <span align="center"><?php esc_html_e('Your cart is empty!', 'khaki'); ?></span>
+                                        <span class="text-center"><?php esc_html_e('Your cart is empty!', 'khaki'); ?></span>
                                     <?php endif; ?>
                                     <?php if ($cart_is_not_empty): ?>
                                         <div class="nk-widget-store-cart-actions">

@@ -13,11 +13,12 @@
  * @see     https://docs.woocommerce.com/document/template-structure/
  * @author  WooThemes
  * @package WooCommerce/Templates
- * @version 3.5.0
+ * @version 3.5.5
  */
 
 defined( 'ABSPATH' ) || exit;
 
+do_action( 'woocommerce_before_reset_password_form' );
 ?>
 <div class="nk-gap-4"></div>
 <form method="post" class="woocommerce-ResetPassword lost_reset_password nk-form-style-1">
@@ -50,3 +51,5 @@ defined( 'ABSPATH' ) || exit;
 
 </form>
 <div class="nk-gap-4"></div>
+<?php
+do_action( 'woocommerce_after_reset_password_form' );

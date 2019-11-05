@@ -1,7 +1,7 @@
 class productPage {
 	constructor() {
 		this.alert();
-		this.openGalery = document.querySelector( '.nk-product-carousel-thumbs' );
+		this.openGalery = document.querySelector( '.reset_variations' );
 		this.events();
 	}
 

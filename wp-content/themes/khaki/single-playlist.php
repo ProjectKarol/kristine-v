@@ -82,6 +82,7 @@ if(isset($playlist_text_color)){
                     <?php endif; ?>
                     <div class="nk-gap-1"></div>
                     <?php the_content(); ?>
+                    <div class="clearfix"></div>
                     <div class="nk-gap-1"></div>
                     <?php if (isset($buy_link) && !empty($buy_link)): ?>
                         <a href="<?php echo esc_url($buy_link); ?>"

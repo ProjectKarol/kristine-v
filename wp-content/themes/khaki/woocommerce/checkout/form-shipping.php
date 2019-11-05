@@ -11,14 +11,12 @@
  * the readme will list any important changes.
  *
  * @see     https://docs.woocommerce.com/document/template-structure/
- * @author  WooThemes
  * @package WooCommerce/Templates
- * @version 3.0.9
+ * @version 3.6.0
+ * @global WC_Checkout $checkout
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
+defined( 'ABSPATH' ) || exit;
 
 ?>
 <div class="woocommerce-shipping-fields">
@@ -57,11 +55,6 @@ if ( ! defined( 'ABSPATH' ) ) {
                         $field['input_class'] = array('form-control');
                     }
                     unset($field['label']);
-
-                    //shipping style argument fields. end
-                    if ( isset( $field['country_field'], $fields[ $field['country_field'] ] ) ) {
-                        $field['country'] = $checkout->get_value( $field['country_field'] );
-                    }
 
                     woocommerce_form_field( $key, $field, $checkout->get_value( $key ) );
 
