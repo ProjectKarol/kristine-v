@@ -1,0 +1,180 @@
+# Copyright (C) 2018 Khaki Widgets
+# This file is distributed under the same license as the Khaki Widgets package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Khaki Widgets\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: nK <https://nkdev.info>\n"
+"Last-Translator: nK <https://nkdev.info>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: dist/khaki-widgets/widgets/contact.php:16
+msgid "(nK) Contact"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/contact.php:17, dist/khaki-widgets/widgets/social-links.php:17
+msgid "List with social links."
+msgstr ""
+
+#: dist/khaki-widgets/widgets/contact.php:84, dist/khaki-widgets/widgets/copyright.php:61, dist/khaki-widgets/widgets/custom-image.php:70, dist/khaki-widgets/widgets/social-links.php:84
+msgid "ACF plugin"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/contact.php:87, dist/khaki-widgets/widgets/copyright.php:64, dist/khaki-widgets/widgets/custom-image.php:73, dist/khaki-widgets/widgets/social-links.php:87
+msgid "Please install %1$s to use this widget"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/copyright.php:16
+msgid "(nK) Copyright"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/copyright.php:17, dist/khaki-widgets/widgets/custom-image.php:17
+msgid "Add custom image"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/custom-image.php:16
+msgid "(nK) Custom Image"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/instagram.php:16
+msgid "(nK) Instagram"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/instagram.php:17
+msgid "Instagram images list."
+msgstr ""
+
+#: dist/khaki-widgets/widgets/instagram.php:75
+msgid "Instagram"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/instagram.php:79
+msgid "Before use, you need to configure access to Instagram here - "
+msgstr ""
+
+#: dist/khaki-widgets/widgets/instagram.php:82, dist/khaki-widgets/widgets/recent-posts.php:73, dist/khaki-widgets/widgets/tags-cloud.php:116, dist/khaki-widgets/widgets/twitter.php:58
+msgid "Title:"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/instagram.php:89
+msgid "Images Count:"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/recent-posts.php:16
+msgid "(nK) Recent Posts"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/recent-posts.php:17, dist/khaki-widgets/widgets/tags-cloud.php:17
+msgid "List with recent posts."
+msgstr ""
+
+#: dist/khaki-widgets/widgets/recent-posts.php:67
+msgid "Recent Posts"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/recent-posts.php:80
+msgid "Posts Count:"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/recent-posts.php:90
+msgid "Show Date"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/social-links.php:16
+msgid "(nK) Social Links"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/tags-cloud.php:16
+msgid "(nK) Tags Cloud"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/tags-cloud.php:106, dist/khaki-widgets/widgets/tags-cloud.php:173
+msgid "Tags"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/tags-cloud.php:123
+msgid "Style:"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/tags-cloud.php:127
+msgid "Default"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/tags-cloud.php:129
+msgid "khaki Tags"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/tags-cloud.php:131
+msgid "khaki Categories"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/tags-cloud.php:136
+msgid "Number of actual tags:"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/tags-cloud.php:143
+msgid "Order By:"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/tags-cloud.php:147
+msgid "Name"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/tags-cloud.php:149
+msgid "Count"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/tags-cloud.php:154
+msgid "Sort Order:"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/tags-cloud.php:158
+msgid "ASC"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/tags-cloud.php:160
+msgid "DESC"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/tags-cloud.php:162
+msgid "RAND"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/tags-cloud.php:167
+msgid "Taxonomy:"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/tags-cloud.php:171
+msgid "Categories"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/tags-cloud.php:175
+msgid "Link Categories"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/twitter.php:16
+msgid "(nK) Twitter"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/twitter.php:17
+msgid "Tweetts list."
+msgstr ""
+
+#: dist/khaki-widgets/widgets/twitter.php:51
+msgid "Twitter"
+msgstr ""
+
+#: dist/khaki-widgets/widgets/twitter.php:55
+msgid "Before use, you need to configure access to Twitter here - "
+msgstr ""
+
+#: dist/khaki-widgets/widgets/twitter.php:65
+msgid "Tweets Count:"
+msgstr ""

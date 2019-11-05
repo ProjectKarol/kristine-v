@@ -1,0 +1,1428 @@
+# Copyright (C) 2018 Khaki Shortcodes
+# This file is distributed under the same license as the Khaki Shortcodes package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Khaki Shortcodes\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: nK <https://nkdev.info>\n"
+"Last-Translator: nK <https://nkdev.info>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: dist/khaki-shortcodes/_all.php:20
+msgid "None"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:21
+msgid "Main 1"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:22
+msgid "Main 2"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:23
+msgid "Main 3"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:24
+msgid "Main 4"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:25
+msgid "Main 5"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:26
+msgid "Primary"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:27
+msgid "Success"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:28
+msgid "Info"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:29
+msgid "Warning"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:30
+msgid "Danger"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:31
+msgid "White"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:32, dist/khaki-shortcodes/shortcodes/nk-video-icon.php:58
+msgid "Black"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:33
+msgid "Dark 1"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:34
+msgid "Dark 2"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:35
+msgid "Dark 3"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:36
+msgid "Dark 4"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:37
+msgid "Gray 1"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:38
+msgid "Gray 2"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:39
+msgid "Gray 3"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:40
+msgid "Gray 4"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:71
+msgid "CSS"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:73, dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:347, dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:354, dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:367, dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:377
+msgid "Design Options"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:104, dist/khaki-shortcodes/_all.php:104
+msgid "Select File"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:104, dist/khaki-shortcodes/_all.php:104
+msgid "&times;"
+msgstr ""
+
+#: dist/khaki-shortcodes/_all.php:112
+msgid "Ionicons"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-accordion.php:106
+msgid "nK Accordion"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-accordion.php:117, dist/khaki-shortcodes/shortcodes/nk-block-quote.php:136, dist/khaki-shortcodes/shortcodes/nk-button.php:305, dist/khaki-shortcodes/shortcodes/nk-carousel.php:246, dist/khaki-shortcodes/shortcodes/nk-carousel.php:276, dist/khaki-shortcodes/shortcodes/nk-contact.php:138, dist/khaki-shortcodes/shortcodes/nk-countdown.php:56, dist/khaki-shortcodes/shortcodes/nk-counter.php:227, dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:238, dist/khaki-shortcodes/shortcodes/nk-events-list.php:176, dist/khaki-shortcodes/shortcodes/nk-gallery-images.php:157, dist/khaki-shortcodes/shortcodes/nk-gif.php:99, dist/khaki-shortcodes/shortcodes/nk-icon-box.php:195, dist/khaki-shortcodes/shortcodes/nk-image-box.php:187, dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:221, dist/khaki-shortcodes/shortcodes/nk-info-box.php:71, dist/khaki-shortcodes/shortcodes/nk-instagram.php:126, dist/khaki-shortcodes/shortcodes/nk-plain-audio.php:79, dist/khaki-shortcodes/shortcodes/nk-plain-video.php:63, dist/khaki-shortcodes/shortcodes/nk-playlist.php:219, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:343, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:456, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:252, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:412, dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:338, dist/khaki-shortcodes/shortcodes/nk-progress.php:174, dist/khaki-shortcodes/shortcodes/nk-separator.php:87, dist/khaki-shortcodes/shortcodes/nk-social.php:98, dist/khaki-shortcodes/shortcodes/nk-tabs.php:117, dist/khaki-shortcodes/shortcodes/nk-tabs.php:166, dist/khaki-shortcodes/shortcodes/nk-team-member.php:188, dist/khaki-shortcodes/shortcodes/nk-testimonial.php:138, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:236, dist/khaki-shortcodes/shortcodes/nk-text.php:77, dist/khaki-shortcodes/shortcodes/nk-title.php:151, dist/khaki-shortcodes/shortcodes/nk-twitter.php:85, dist/khaki-shortcodes/shortcodes/nk-video-icon.php:67
+msgid "Custom Classes"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-accordion.php:127, dist/khaki-shortcodes/shortcodes/nk-accordion.php:127
+msgid "Add section"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-accordion.php:130
+msgid "Section 1"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-accordion.php:131
+msgid "Section 2"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-accordion.php:145
+msgid "nK Accordion Content"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-accordion.php:155, dist/khaki-shortcodes/shortcodes/nk-counter.php:152, dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:339, dist/khaki-shortcodes/shortcodes/nk-icon-box.php:172, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:498, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:557, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:353, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:513, dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:204, dist/khaki-shortcodes/shortcodes/nk-progress.php:99, dist/khaki-shortcodes/shortcodes/nk-tabs.php:154, dist/khaki-shortcodes/shortcodes/nk-title.php:130
+msgid "Title"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-accordion.php:161, dist/khaki-shortcodes/shortcodes/nk-tabs.php:160
+msgid "Active"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-block-quote.php:86
+msgid "nK Block Quote"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-block-quote.php:94, dist/khaki-shortcodes/shortcodes/nk-button.php:148, dist/khaki-shortcodes/shortcodes/nk-contact.php:123, dist/khaki-shortcodes/shortcodes/nk-counter.php:179, dist/khaki-shortcodes/shortcodes/nk-testimonial.php:90, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:206, dist/khaki-shortcodes/shortcodes/nk-text.php:69
+msgid "Text"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-block-quote.php:102
+msgid "Author"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-block-quote.php:110, dist/khaki-shortcodes/shortcodes/nk-carousel.php:203, dist/khaki-shortcodes/shortcodes/nk-counter.php:123, dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:183, dist/khaki-shortcodes/shortcodes/nk-gallery-images.php:96, dist/khaki-shortcodes/shortcodes/nk-icon-box.php:103, dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:190, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:482, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:592, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:355, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:351, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:306, dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:197, dist/khaki-shortcodes/shortcodes/nk-separator.php:57, dist/khaki-shortcodes/shortcodes/nk-testimonial.php:98, dist/khaki-shortcodes/shortcodes/nk-text.php:95, dist/khaki-shortcodes/shortcodes/nk-title.php:125, dist/khaki-shortcodes/shortcodes/nk-video-icon.php:54
+msgid "Style"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-block-quote.php:114, dist/khaki-shortcodes/shortcodes/nk-carousel.php:208, dist/khaki-shortcodes/shortcodes/nk-counter.php:127, dist/khaki-shortcodes/shortcodes/nk-gallery-images.php:111, dist/khaki-shortcodes/shortcodes/nk-image-box.php:141, dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:194, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:487, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:597, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:360, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:356, dist/khaki-shortcodes/shortcodes/nk-testimonial.php:102, dist/khaki-shortcodes/shortcodes/nk-text.php:100
+msgid "Style 1"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-block-quote.php:115, dist/khaki-shortcodes/shortcodes/nk-carousel.php:209, dist/khaki-shortcodes/shortcodes/nk-counter.php:128, dist/khaki-shortcodes/shortcodes/nk-gallery-images.php:113, dist/khaki-shortcodes/shortcodes/nk-image-box.php:143, dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:195, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:489, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:599, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:362, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:357, dist/khaki-shortcodes/shortcodes/nk-testimonial.php:103, dist/khaki-shortcodes/shortcodes/nk-text.php:101
+msgid "Style 2"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-block-quote.php:121, dist/khaki-shortcodes/shortcodes/nk-button.php:156, dist/khaki-shortcodes/shortcodes/nk-contact.php:130, dist/khaki-shortcodes/shortcodes/nk-image-box.php:152, dist/khaki-shortcodes/shortcodes/nk-social.php:84, dist/khaki-shortcodes/shortcodes/nk-team-member.php:130
+msgid "Link"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-block-quote.php:126, dist/khaki-shortcodes/shortcodes/nk-counter.php:208
+msgid "Icon Color"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-block-quote.php:131, dist/khaki-shortcodes/shortcodes/nk-button.php:297, dist/khaki-shortcodes/shortcodes/nk-playlist.php:211, dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:345, dist/khaki-shortcodes/shortcodes/nk-progress.php:156
+msgid "Text Color"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:140
+msgid "nK Button"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:161
+msgid "Icon Right"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:166
+msgid "Icon Left"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:171, dist/khaki-shortcodes/shortcodes/nk-gallery-images.php:107, dist/khaki-shortcodes/shortcodes/nk-image-box.php:136
+msgid "Effect"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:175, dist/khaki-shortcodes/shortcodes/nk-image-box.php:140, dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:150
+msgid "Disable"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:176
+msgid "Icon From Top no title"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:177
+msgid "Icon From Bottom no title"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:178
+msgid "Icon from left no title"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:179
+msgid "Icon from Right no title"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:180
+msgid "Icon From Left"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:181
+msgid "Icon From Right"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:182
+msgid "Glow From Left"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:183
+msgid "Glow From Right"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:184
+msgid "Fill From Left Angle"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:185
+msgid "Fill From Right Angle"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:186
+msgid "Fill From Top"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:187
+msgid "Fill From Bottom"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:188
+msgid "Fill From Left"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:189
+msgid "Fill From Right"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:190
+msgid "Fill From Center Vertical"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:191
+msgid "Fill From Center Horizontal"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:192
+msgid "Fill From Center Vertical 2 "
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:193
+msgid "Fill From Center Horizontal 2"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:199
+msgid "Fill Color"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:222, dist/khaki-shortcodes/shortcodes/nk-carousel.php:216, dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:202, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:469, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:579, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:364, dist/khaki-shortcodes/shortcodes/nk-progress.php:122
+msgid "Size"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:226, dist/khaki-shortcodes/shortcodes/nk-carousel.php:157, dist/khaki-shortcodes/shortcodes/nk-carousel.php:207, dist/khaki-shortcodes/shortcodes/nk-carousel.php:220, dist/khaki-shortcodes/shortcodes/nk-gallery-images.php:99, dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:206, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:355, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:368, dist/khaki-shortcodes/shortcodes/nk-progress.php:126
+msgid "Default"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:227, dist/khaki-shortcodes/shortcodes/nk-progress.php:127
+msgid "Extra Small"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:228, dist/khaki-shortcodes/shortcodes/nk-progress.php:128
+msgid "Small"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:229, dist/khaki-shortcodes/shortcodes/nk-progress.php:129
+msgid "Mid"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:230, dist/khaki-shortcodes/shortcodes/nk-progress.php:130
+msgid "Large"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:231, dist/khaki-shortcodes/shortcodes/nk-carousel.php:222, dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:208, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:370
+msgid "X2"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:232, dist/khaki-shortcodes/shortcodes/nk-carousel.php:223, dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:209, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:371
+msgid "X3"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:233, dist/khaki-shortcodes/shortcodes/nk-carousel.php:224, dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:210, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:372
+msgid "X4"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:239
+msgid "Block"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:245
+msgid "Outline"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:251
+msgid "3D Effect"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:257
+msgid "Circle Hover"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:263
+msgid "Always Hover"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:269
+msgid "The Edges"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:273, dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:204, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:486, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:596, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:359, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:430, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:230, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:390
+msgid "Disabled"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:274, dist/khaki-shortcodes/shortcodes/nk-icon-box.php:118, dist/khaki-shortcodes/shortcodes/nk-text.php:108
+msgid "Circle"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:275
+msgid "Rounded"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:281, dist/khaki-shortcodes/shortcodes/nk-icon-box.php:143, dist/khaki-shortcodes/shortcodes/nk-progress.php:162, dist/khaki-shortcodes/shortcodes/nk-text.php:121
+msgid "Background Color"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-button.php:289
+msgid "Background Hover Color"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-carousel.php:63, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:150
+msgid "Previous"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-carousel.php:68, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:155
+msgid "Next"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-carousel.php:127
+msgid "nK Carousel"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-carousel.php:140, dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:158, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:323
+msgid "Autoplay"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-carousel.php:143, dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:161, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:326
+msgid "Type integer value in ms"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-carousel.php:147, dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:165
+msgid "Show Arrows"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-carousel.php:153
+msgid "Style Arrows"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-carousel.php:158
+msgid "Standard Pagination "
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-carousel.php:172
+msgid "Color Arrows"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-carousel.php:184, dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:171
+msgid "Show Dots"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-carousel.php:190, dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:177, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:338
+msgid "No Margin Between Slides"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-carousel.php:196, dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:183, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:344
+msgid "All Visible"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-carousel.php:197, dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:184, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:345
+msgid "By default non-active slides semi-transparent, this option removed transparency."
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-carousel.php:210, dist/khaki-shortcodes/shortcodes/nk-counter.php:129, dist/khaki-shortcodes/shortcodes/nk-gallery-images.php:114, dist/khaki-shortcodes/shortcodes/nk-image-box.php:144, dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:196, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:490, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:600, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:363, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:358, dist/khaki-shortcodes/shortcodes/nk-testimonial.php:104, dist/khaki-shortcodes/shortcodes/nk-text.php:102
+msgid "Style 3"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-carousel.php:221, dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:207, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:369
+msgid "X1"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-carousel.php:234, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:415
+msgid "Cell Align"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-carousel.php:238, dist/khaki-shortcodes/shortcodes/nk-counter.php:192, dist/khaki-shortcodes/shortcodes/nk-gallery-images.php:133, dist/khaki-shortcodes/shortcodes/nk-image-box.php:162, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:503, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:613, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:377, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:419, dist/khaki-shortcodes/shortcodes/nk-separator.php:81, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:187, dist/khaki-shortcodes/shortcodes/nk-title.php:145
+msgid "Center"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-carousel.php:239, dist/khaki-shortcodes/shortcodes/nk-counter.php:191, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:420, dist/khaki-shortcodes/shortcodes/nk-separator.php:79, dist/khaki-shortcodes/shortcodes/nk-team-member.php:170, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:185, dist/khaki-shortcodes/shortcodes/nk-title.php:143
+msgid "Left"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-carousel.php:240, dist/khaki-shortcodes/shortcodes/nk-counter.php:193, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:421, dist/khaki-shortcodes/shortcodes/nk-separator.php:80, dist/khaki-shortcodes/shortcodes/nk-team-member.php:171, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:186, dist/khaki-shortcodes/shortcodes/nk-title.php:144
+msgid "Right"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-carousel.php:264
+msgid "nK Carousel Item"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-contact.php:103
+msgid "nK Contact"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-contact.php:111
+msgid "Contacts"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-contact.php:117, dist/khaki-shortcodes/shortcodes/nk-counter.php:199, dist/khaki-shortcodes/shortcodes/nk-gallery-images.php:122, dist/khaki-shortcodes/shortcodes/nk-icon-box.php:111, dist/khaki-shortcodes/shortcodes/nk-info-box.php:59, dist/khaki-shortcodes/shortcodes/nk-separator.php:62, dist/khaki-shortcodes/shortcodes/nk-separator.php:68, dist/khaki-shortcodes/shortcodes/nk-social.php:79
+msgid "Icon"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-countdown.php:32
+msgid "nK Countdown"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-countdown.php:40
+msgid "Date End"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-countdown.php:43
+msgid "Example: 2017-11-26 08:20"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-countdown.php:48
+msgid "Date Timezone"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-counter.php:115
+msgid "nK Counter"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-counter.php:135, dist/khaki-shortcodes/shortcodes/nk-instagram.php:94, dist/khaki-shortcodes/shortcodes/nk-twitter.php:78
+msgid "Count"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-counter.php:143
+msgid "Count Color"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-counter.php:160, dist/khaki-shortcodes/shortcodes/nk-team-member.php:141
+msgid "Title Like"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-counter.php:164, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:346, dist/khaki-shortcodes/shortcodes/nk-team-member.php:145, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:149, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:166, dist/khaki-shortcodes/shortcodes/nk-title.php:93, dist/khaki-shortcodes/shortcodes/nk-title.php:110
+msgid "h1"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-counter.php:165, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:347, dist/khaki-shortcodes/shortcodes/nk-team-member.php:146, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:150, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:167, dist/khaki-shortcodes/shortcodes/nk-title.php:94, dist/khaki-shortcodes/shortcodes/nk-title.php:111
+msgid "h2"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-counter.php:166, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:348, dist/khaki-shortcodes/shortcodes/nk-team-member.php:147, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:151, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:168, dist/khaki-shortcodes/shortcodes/nk-title.php:95, dist/khaki-shortcodes/shortcodes/nk-title.php:112
+msgid "h3"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-counter.php:167, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:349, dist/khaki-shortcodes/shortcodes/nk-team-member.php:148, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:152, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:169, dist/khaki-shortcodes/shortcodes/nk-title.php:96, dist/khaki-shortcodes/shortcodes/nk-title.php:113
+msgid "h4"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-counter.php:168, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:350, dist/khaki-shortcodes/shortcodes/nk-team-member.php:149, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:153, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:170, dist/khaki-shortcodes/shortcodes/nk-title.php:97, dist/khaki-shortcodes/shortcodes/nk-title.php:114
+msgid "h5"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-counter.php:169, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:351, dist/khaki-shortcodes/shortcodes/nk-team-member.php:150, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:154, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:171, dist/khaki-shortcodes/shortcodes/nk-title.php:98, dist/khaki-shortcodes/shortcodes/nk-title.php:115
+msgid "h6"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-counter.php:170, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:352, dist/khaki-shortcodes/shortcodes/nk-team-member.php:151, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:172, dist/khaki-shortcodes/shortcodes/nk-title.php:116
+msgid "display-1"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-counter.php:171, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:353, dist/khaki-shortcodes/shortcodes/nk-team-member.php:152, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:173, dist/khaki-shortcodes/shortcodes/nk-title.php:117
+msgid "display-2"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-counter.php:172, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:354, dist/khaki-shortcodes/shortcodes/nk-team-member.php:153, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:174, dist/khaki-shortcodes/shortcodes/nk-title.php:118
+msgid "display-3"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-counter.php:173, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:355, dist/khaki-shortcodes/shortcodes/nk-team-member.php:154, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:175, dist/khaki-shortcodes/shortcodes/nk-title.php:119
+msgid "display-4"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-counter.php:187, dist/khaki-shortcodes/shortcodes/nk-separator.php:75, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:181, dist/khaki-shortcodes/shortcodes/nk-title.php:139
+msgid "Align"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-counter.php:217
+msgid "Show Border"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:166, dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:316, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:299, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:534, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:197, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:330, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:289, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:490
+msgid "Custom Query"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:167, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:300, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:198, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:290
+msgid "List of IDs"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:172
+msgid "nK Creative Posts List"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:186, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:310
+msgid "List"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:187
+msgid "List 2"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:194, dist/khaki-shortcodes/shortcodes/nk-events-list.php:143, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:306, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:316, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:214, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:368
+msgid "Recent Posts Count"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:201, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:427, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:227, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:387
+msgid "Preview Description Type"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:205, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:431, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:231, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:391
+msgid "Excerpt"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:206, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:432, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:232, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:392
+msgid "Use more tag"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:212, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:442, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:238, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:398
+msgid "Trim to a words"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:215, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:445, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:241, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:401
+msgid "cut in the number of words"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:226, dist/khaki-shortcodes/shortcodes/nk-events-list.php:150, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:331, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:375
+msgid "Pagination"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:229, dist/khaki-shortcodes/shortcodes/nk-events-list.php:153, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:334, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:378
+msgid "No Pagination"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:230, dist/khaki-shortcodes/shortcodes/nk-events-list.php:154, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:335, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:379
+msgid "Simple Pagination"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:231, dist/khaki-shortcodes/shortcodes/nk-events-list.php:155, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:336, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:380
+msgid "Load More button"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:232, dist/khaki-shortcodes/shortcodes/nk-events-list.php:156, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:337, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:381
+msgid "Infinite Scroll"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:250, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:468, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:264, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:424
+msgid "Data source"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:251, dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:260, dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:289, dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:306, dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:317, dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:328, dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:335, dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:348, dist/khaki-shortcodes/shortcodes/nk-events-list.php:189, dist/khaki-shortcodes/shortcodes/nk-events-list.php:196, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:455, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:477, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:487, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:494, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:507, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:469, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:478, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:507, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:524, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:535, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:546, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:553, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:566, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:265, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:274, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:303, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:320, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:331, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:342, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:349, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:362, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:425, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:434, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:463, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:480, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:491, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:502, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:509, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:522
+msgid "Query"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:255, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:473, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:269, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:429
+msgid "Select content type"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:259, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:454, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:477, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:273, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:433
+msgid "Narrow data source"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:277, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:472, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:495, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:291, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:451
+msgid "Enter categories, tags or custom taxonomies."
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:288, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:476, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:506, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:302, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:462
+msgid "Data source relation"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:305, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:523, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:319, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:479
+msgid "IDs"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:308, dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:330, dist/khaki-shortcodes/shortcodes/nk-events-list.php:191, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:489, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:526, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:548, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:322, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:344, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:482, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:504
+msgid "Type here the posts, pages, etc. IDs you want to use separated by coma. ex: 23,24,25"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:319, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:537, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:333, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:493
+msgid "Build custom query according to %s."
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:327, dist/khaki-shortcodes/shortcodes/nk-events-list.php:188, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:486, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:545, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:341, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:501
+msgid "Exclude IDs"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:334, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:493, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:552, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:348, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:508
+msgid "Order By"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:338, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:497, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:556, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:352, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:512
+msgid "Date"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:340, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:462, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:499, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:558, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:354, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:514
+msgid "ID"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:341, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:500, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:559, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:355, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:515
+msgid "Post In"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-creative-posts-list.php:347, dist/khaki-shortcodes/shortcodes/nk-events-list.php:195, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:506, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:565, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:361, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:521
+msgid "Order"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-events-list.php:132
+msgid "nK Event List"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-events-list.php:162, dist/khaki-shortcodes/shortcodes/nk-icon-box.php:136, dist/khaki-shortcodes/shortcodes/nk-text.php:115
+msgid "Color"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-events-list.php:170
+msgid "Hide Price Column"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-fullpage.php:41
+msgid "nK Fullpage"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-fullpage.php:62
+msgid "nK Fullpage Item"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-fullpage.php:74, dist/khaki-shortcodes/shortcodes/nk-image-box.php:123
+msgid "Select Image"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-gallery-images.php:88
+msgid "nK Gallery Images"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-gallery-images.php:100
+msgid "Boxed"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-gallery-images.php:101
+msgid "Boxed + Gap"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-gallery-images.php:112, dist/khaki-shortcodes/shortcodes/nk-image-box.php:142, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:488, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:598, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:361
+msgid "Style 1a"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-gallery-images.php:115, dist/khaki-shortcodes/shortcodes/nk-image-box.php:145, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:491, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:601, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:364
+msgid "Style 4"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-gallery-images.php:116, dist/khaki-shortcodes/shortcodes/nk-image-box.php:146, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:492, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:602, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:365
+msgid "Style 5"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-gallery-images.php:128, dist/khaki-shortcodes/shortcodes/nk-image-box.php:157, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:498, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:608, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:372
+msgid "Content Vertical Align"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-gallery-images.php:132, dist/khaki-shortcodes/shortcodes/nk-image-box.php:161, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:502, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:612, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:376, dist/khaki-shortcodes/shortcodes/nk-team-member.php:181
+msgid "Top"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-gallery-images.php:134, dist/khaki-shortcodes/shortcodes/nk-image-box.php:163, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:504, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:614, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:378, dist/khaki-shortcodes/shortcodes/nk-team-member.php:182
+msgid "Bottom"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-gallery-images.php:140, dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:132
+msgid "Select Images"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-gallery-images.php:147
+msgid "Columns"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-gif.php:65
+msgid "nK GIF"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-gif.php:73
+msgid "Select GIF"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-gif.php:80
+msgid "Static Image"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-gif.php:86
+msgid "Play Type"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-gif.php:90
+msgid "Default Autoplay"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-gif.php:91
+msgid "Mouse Over Play"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-gif.php:92
+msgid "On Click Play"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-gif.php:93
+msgid "In Viewport Play"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-icon-box.php:95
+msgid "nK Icon Box"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-icon-box.php:124
+msgid "Hover"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-icon-box.php:130
+msgid "Inverted"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-icon-box.php:150
+msgid "Hover Color"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-icon-box.php:161
+msgid "Hover Color Background"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-icon-box.php:180
+msgid "URL"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-icon-box.php:188, dist/khaki-shortcodes/shortcodes/nk-title.php:81
+msgid "Inner Text"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-image-box.php:112
+msgid "nK Image Box"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-image-box.php:128
+msgid "Image Size"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-image-box.php:169, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:510, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:620, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:385
+msgid "No Hover Effect"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-image-box.php:175, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:516, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:626, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:392
+msgid "Hovered"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-image-box.php:181
+msgid "Box Line"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:124
+msgid "nK Images Carousel"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:138
+msgid "Images Size"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:146
+msgid "On Click"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:151
+msgid "Popup"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:152
+msgid "Custom Link"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:154
+msgid "Custom Link option works only with Link property in Media Uploader"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-images-carousel.php:211
+msgid "X5"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-info-box.php:49
+msgid "nK Info Box"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-info-box.php:65
+msgid "Show Close Button"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-instagram.php:80
+msgid "nK Instagram"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-instagram.php:89, dist/khaki-shortcodes/shortcodes/nk-twitter.php:73
+msgid "Note"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-instagram.php:90
+msgid "Before use, you need to configure access to Instagram here - "
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-instagram.php:101
+msgid "Column Size"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-instagram.php:108, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:424
+msgid "Gap"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-instagram.php:114
+msgid "Photo Quality"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-instagram.php:118
+msgid "Thumbnail"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-instagram.php:119
+msgid "Low"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-instagram.php:120
+msgid "Standard"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-plain-audio.php:59
+msgid "nK Plain Audio"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-plain-audio.php:68
+msgid "Audio File"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-plain-audio.php:73, dist/khaki-shortcodes/shortcodes/nk-playlist.php:205
+msgid "Dark Style"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-plain-video.php:41
+msgid "nK Plain Video"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-plain-video.php:49, dist/khaki-shortcodes/shortcodes/nk-video-icon.php:46
+msgid "Video Link"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-plain-video.php:52, dist/khaki-shortcodes/shortcodes/nk-video-icon.php:49
+msgid "Supported Youtube and Vimeo"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-plain-video.php:57
+msgid "Video Thumbnail"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-playlist.php:145
+msgid "nK Playlist"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-playlist.php:153
+msgid "Add Method"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-playlist.php:157
+msgid "Playlist"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-playlist.php:158, dist/khaki-shortcodes/shortcodes/nk-playlist.php:174
+msgid "Audio Files"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-playlist.php:160
+msgid "select the add method"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-playlist.php:164
+msgid "Select Playlist"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-playlist.php:181
+msgid "Add Audio File"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-playlist.php:186
+msgid "Buy Link"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-playlist.php:192
+msgid "Allow Download"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:106, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:109, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:418, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:184, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:188, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:313, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:192, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:196, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:409, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:221
+msgid "No Image"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:126, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:200, dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:202, dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:151
+msgid "F j, Y"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:405
+msgid "nK Portfolio Custom List"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:430, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:319
+msgid "Cross"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:436, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:325
+msgid "Use Filter"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:452
+msgid "nK Portfolio Item"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:473, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:583
+msgid "Square"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:474, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:584
+msgid "Big Square"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:475, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:585
+msgid "Horizontal Rectangle"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:476, dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:586
+msgid "Vertical Rectangle"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:522
+msgid "Hide Title"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:528
+msgid "Hide Date"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:554
+msgid "nK Portfolio Custom Item"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:566
+msgid "Background Image"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:572
+msgid "Matching Filter"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-custom-list.php:575
+msgid "Used only if set Filter option for parent nK Portfolio List"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:288
+msgid "nK Portfolio List"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:299, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:316
+msgid "Number of Columns"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:354, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:371, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:384, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:391, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:398, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:405, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:412, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:419, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:427, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:435, dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:443
+msgid "Items"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:399
+msgid "Use Global Link"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:406
+msgid "Show Eye Icon"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:413
+msgid "Show Link Icon"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:420
+msgid "Show Likes"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:428
+msgid "Show Date"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:436
+msgid "Show Title"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-portfolio-list.php:444
+msgid "Show Comments Count"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:305
+msgid "nK Posts Carousel List"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:330, dist/khaki-shortcodes/shortcodes/nk-team-member.php:122, dist/khaki-shortcodes/shortcodes/nk-testimonial.php:115
+msgid "Photo Size"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:382
+msgid "Data Size"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:389
+msgid "Show Navigation"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:395
+msgid "Navigate Position"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:398
+msgid "Before Carousel"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-posts-carousel-list.php:399
+msgid "After Carousel"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:166
+msgid "More Info"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-posts-fullscreen-list.php:203
+msgid "nK Posts Fullscreen List"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-posts-list.php:174
+msgid "F j, Y "
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-posts-list.php:176
+msgid "by"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-posts-list.php:204, dist/khaki-shortcodes/shortcodes/nk-posts-list.php:234
+msgid "Continue Reading"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-posts-list.php:295
+msgid "nK Posts List"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-posts-list.php:309
+msgid "Classic"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-posts-list.php:329
+msgid "Simple View"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-posts-list.php:341
+msgid "Title Looks Like"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-posts-list.php:345, dist/khaki-shortcodes/shortcodes/nk-separator.php:61, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:165, dist/khaki-shortcodes/shortcodes/nk-title.php:109, dist/khaki-shortcodes/shortcodes/nk-title.php:129
+msgid "disabled"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-posts-list.php:361
+msgid "Spacing Between News"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-posts-list.php:364
+msgid "Add margin bottom for all news elements"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:187
+msgid "nK Pricing Table"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:211, dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:298
+msgid "Price"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:226
+msgid "Start From"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:230
+msgid "Price of accumulation effect"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:242
+msgid "Currency Symbol"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:249
+msgid "Period"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:264
+msgid "Features List"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:270
+msgid "Feature"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:286
+msgid "Price List"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:292
+msgid "Service or Product Title"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:304
+msgid "Description"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:316
+msgid "Button Title"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:327
+msgid "Button Link"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:352
+msgid "Substrate Background Color"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:365
+msgid "Header Color"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-pricing-table.php:375
+msgid "Header Background Image"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-progress.php:91
+msgid "nK Progress"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-progress.php:107
+msgid "Value"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-progress.php:115
+msgid "Show Mask"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-progress.php:116
+msgid "Use mask to change progress value view. Add {$} to show current progress value."
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-progress.php:131
+msgid "Extra Large"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-progress.php:137
+msgid "Show Value"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-progress.php:144
+msgid "Value on Right Side"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-progress.php:150
+msgid "Animate on Show"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-progress.php:168
+msgid "Background Bar Color"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-separator.php:49
+msgid "nK Separator"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-social.php:65
+msgid "nK Social"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-social.php:73
+msgid "Socials"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-social.php:92
+msgid "Inverted Hover Color"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-tabs.php:106
+msgid "nK Tabs"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-tabs.php:130
+msgid "Tab 1"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-tabs.php:131
+msgid "Tab 2"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-tabs.php:144
+msgid "nK Single Tab"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-team-member.php:108
+msgid "nK Team Member"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-team-member.php:116, dist/khaki-shortcodes/shortcodes/nk-testimonial.php:110
+msgid "Select Photo"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-team-member.php:135
+msgid "Name"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-team-member.php:160
+msgid "Rank"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-team-member.php:166
+msgid "Info Side"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-team-member.php:177
+msgid "Info Vertical Align"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-testimonial.php:82
+msgid "nK Testimonial"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-testimonial.php:123
+msgid "User Name"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-testimonial.php:131
+msgid "User Source"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-text-typed.php:137
+msgid "nK Text Typed"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-text-typed.php:145, dist/khaki-shortcodes/shortcodes/nk-title.php:89
+msgid "Tag"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-text-typed.php:155, dist/khaki-shortcodes/shortcodes/nk-title.php:99
+msgid "div"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-text-typed.php:161, dist/khaki-shortcodes/shortcodes/nk-title.php:105
+msgid "Looks Like"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-text-typed.php:193
+msgid "Container Classes"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-text-typed.php:200
+msgid "Typed Text Variants"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-text-typed.php:213
+msgid "Custom Speed"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-text-typed.php:216
+msgid "Speed in milliseconds, example: 3000"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-text-typed.php:222
+msgid "Text Before"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-text-typed.php:229
+msgid "Text After"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-text-typed.php:246
+msgid "Loop"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-text-typed.php:247, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:254, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:261, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:269, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:277, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:285, dist/khaki-shortcodes/shortcodes/nk-text-typed.php:293
+msgid "Advanced"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-text-typed.php:253
+msgid "Shuffle"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-text-typed.php:260
+msgid "Cursor"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-text-typed.php:268
+msgid "Type Speed"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-text-typed.php:272
+msgid "Speed in milliseconds, example: 90"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-text-typed.php:276
+msgid "Start Delay"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-text-typed.php:280
+msgid "Delay in milliseconds, example: 0"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-text-typed.php:284
+msgid "Back Speed"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-text-typed.php:288
+msgid "Speed in milliseconds, example: 60"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-text-typed.php:292
+msgid "Back Delay"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-text-typed.php:296
+msgid "Speed in milliseconds, example: 1000"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-text.php:61
+msgid "nK Text"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-text.php:87, dist/khaki-shortcodes/shortcodes/nk-text.php:88, dist/khaki-shortcodes/shortcodes/nk-text.php:96, dist/khaki-shortcodes/shortcodes/nk-text.php:109, dist/khaki-shortcodes/shortcodes/nk-text.php:116, dist/khaki-shortcodes/shortcodes/nk-text.php:122
+msgid "Dropcap"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-title.php:73
+msgid "nK Title"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-title.php:131
+msgid "Sub Title"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-title.php:132
+msgid "Title Back"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-title.php:133
+msgid "Portfolio Title"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-twitter.php:64
+msgid "nK Twitter"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-twitter.php:74
+msgid "Before use, you need to configure access to Twitter here - "
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-video-icon.php:38
+msgid "nK Video Icon"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-video-icon.php:59
+msgid "Black 2"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-video-icon.php:60
+msgid "Light"
+msgstr ""
+
+#: dist/khaki-shortcodes/shortcodes/nk-video-icon.php:61
+msgid "Light 2"
+msgstr ""
