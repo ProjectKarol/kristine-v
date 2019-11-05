@@ -72,7 +72,7 @@ gulp.task( 'clean:mobile', function() {
 
 		// here we use a globbing pattern to match everything inside the `mobile` folder
 		'./disc/css/',
-		'./disc/js/',
+		'!./disc/js/',
 
 		// we don't want to clean this file though so we negate the pattern
 		'!dist/mobile/deploy.json'
@@ -136,7 +136,7 @@ gulp.task( 'styles', () => {
 
 		// here we use a globbing pattern to match everything inside the `mobile` folder
 		'./disc/css/',
-		'./disc/js/',
+		'!./disc/js/',
 
 		// we don't want to clean this file though so we negate the pattern
 		'!dist/mobile/deploy.json'
